@@ -192,7 +192,8 @@ Especialista en **carruseles estructurados** con jerarquía visual + open loops 
 - Contenido muy corto (<3 ideas · no merece carrusel)
 
 ## Coste
-~$0.12 por carrusel completo
+**Incluido en plan Claude (Pro $20 · Max $100 · Max $200).**
+_Referencia API pay-per-use: ~$0.12 por carrusel completo_
 
 ---
 

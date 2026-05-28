@@ -171,7 +171,8 @@ Especialista en **planning de día de grabación batch**. Optimizo el orden · v
 - Si tu estilo es 100% spontáneo
 
 ## Coste
-~$0.05-0.08 por plan
+**Incluido en plan Claude (Pro $20 · Max $100 · Max $200).**
+_Referencia API pay-per-use: ~$0.05-0.08 por plan_
 
 ---
 

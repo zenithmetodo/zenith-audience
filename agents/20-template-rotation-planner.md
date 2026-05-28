@@ -128,7 +128,8 @@ Diseño la **rotación inteligente de templates** para tu calendario. Evito la s
 - Si solo usas 1-2 templates intencional (estrategia de marca)
 
 ## Coste
-~$0.05 por planificación mensual
+**Incluido en plan Claude (Pro $20 · Max $100 · Max $200).**
+_Referencia API pay-per-use: ~$0.05 por planificación mensual_
 
 ---
 

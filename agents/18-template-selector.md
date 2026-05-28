@@ -128,7 +128,8 @@ Usa `template-aplicador` con Template [X] para escribir el headline final.
 - Para contenido improvisado
 
 ## Coste
-~$0.03 por sesión
+**Incluido en plan Claude (Pro $20 · Max $100 · Max $200).**
+_Referencia API pay-per-use: ~$0.03 por sesión_
 
 ---
 

@@ -129,7 +129,8 @@ Día por día. Rotación de templates.
 - Si tu nicho cambia trends a diario (no podrás planificar)
 
 ## Coste
-~$0.30-0.50 por batch completo de 30-50 headlines
+**Incluido en plan Claude (Pro $20 · Max $100 · Max $200).**
+_Referencia API pay-per-use: ~$0.30-0.50 por batch completo de 30-50 headlines_
 
 ## Beneficios del batch
 

@@ -126,7 +126,8 @@ Documento listo para cuando te ATAQUEN:
 - Si ya tienes creencias documentadas y pruebas a mano
 
 ## Coste
-~$0.05-0.10 por sesión
+**Incluido en plan Claude (Pro $20 · Max $100 · Max $200).**
+_Referencia API pay-per-use: ~$0.05-0.10 por sesión_
 
 ## Ejemplos canónicos
 

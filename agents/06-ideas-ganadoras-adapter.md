@@ -126,7 +126,7 @@ PASO 4 · OUTPUT ESTRUCTURADO
 - Apify trending (opcional): ~$0.30
 - Engenharia reversa de 1-3 vídeos: ~$0.30
 - Adaptación Opus: ~$0.30
-- **Total: ~$0.60 por sesión completa**
+- **Incluido en plan Claude flat.** _Ref API: ~$0.60 por sesión completa_
 
 ## La filosofía detrás
 

@@ -117,7 +117,7 @@ Soy especialista en **ingeniería reversa de contenido viral**. Tomo cualquier v
 
 - Transcripción: gratis (faster-whisper local)
 - Análisis Opus profundo: ~$0.40
-- **Total: ~$0.40 por análisis**
+- **Incluido en plan Claude flat.** _Ref API: ~$0.40 por análisis_
 
 ## Cómo ejecuto
 

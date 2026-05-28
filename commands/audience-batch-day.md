@@ -28,7 +28,8 @@ HTML estético con:
 ~5 min
 
 ## Coste
-~$0.20
+**Incluido en plan Claude (Pro $20 · Max $100 · Max $200).**
+_Referencia API pay-per-use: ~$0.20_
 
 ## Cuándo invocar
 - ANTES de día de grabación batch

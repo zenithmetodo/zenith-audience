@@ -85,7 +85,7 @@ Soy especialista en **detección temprana de trends en foros y comunidades**. Re
 - PRAW: **gratis** (API oficial Reddit)
 - YouTube API: **gratis** (10K cuota/día)
 - Análisis Sonnet: ~$0.05
-- **Total: ~$0.05 por reporte**
+- **Incluido en plan Claude flat.** _Ref API: ~$0.05 por reporte_
 
 ## Setup requerido
 

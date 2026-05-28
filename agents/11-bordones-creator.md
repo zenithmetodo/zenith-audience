@@ -139,7 +139,8 @@ Mi trabajo: AYUDARTE a encontrar lo que YA emerge de ti. NO inventar para ti.
 Mi rol: acelerar este proceso · ayudarte a IDENTIFICAR lo que ya tienes.
 
 ## Coste
-~$0.05-0.10 por sesión
+**Incluido en plan Claude (Pro $20 · Max $100 · Max $200).**
+_Referencia API pay-per-use: ~$0.05-0.10 por sesión_
 
 ---
 

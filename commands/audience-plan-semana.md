@@ -28,7 +28,8 @@ HTML estético con:
 ~2-3 min
 
 ## Coste
-~$0.15
+**Incluido en plan Claude (Pro $20 · Max $100 · Max $200).**
+_Referencia API pay-per-use: ~$0.15_
 
 ## Cuándo invocar
 - DOMINGO (rutina · planificar semana)

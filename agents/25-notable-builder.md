@@ -106,7 +106,8 @@ X/100 → Y/100 (mejora de Z puntos)
 - Para contenido que debe ser minimalista intencional
 
 ## Coste
-~$0.05-0.08 por construcción
+**Incluido en plan Claude (Pro $20 · Max $100 · Max $200).**
+_Referencia API pay-per-use: ~$0.05-0.08 por construcción_
 
 ---
 

@@ -115,7 +115,8 @@ Especialista en **auditoría de contenido notable**. Reviso guion/contenido cont
 - Para contenido ultra-improvisado (stories spontáneas)
 
 ## Coste
-~$0.03 por auditoría
+**Incluido en plan Claude (Pro $20 · Max $100 · Max $200).**
+_Referencia API pay-per-use: ~$0.03 por auditoría_
 
 ---
 

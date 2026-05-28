@@ -33,7 +33,8 @@ HTML estético con:
 ~3 min
 
 ## Coste
-~$0.12
+**Incluido en plan Claude (Pro $20 · Max $100 · Max $200).**
+_Referencia API pay-per-use: ~$0.12_
 
 ## Cuándo invocar
 - Contenido educativo profundo

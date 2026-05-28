@@ -110,7 +110,8 @@ Soy especialista en **pre-validación de ideas de contenido**. Antes de invertir
 - Para contenido evergreen donde viralidad no es objetivo
 
 ## Coste
-~$0.03 por validación
+**Incluido en plan Claude (Pro $20 · Max $100 · Max $200).**
+_Referencia API pay-per-use: ~$0.03 por validación_
 
 ## Filosofía
 

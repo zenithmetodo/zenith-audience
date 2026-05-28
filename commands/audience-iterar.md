@@ -37,7 +37,8 @@ Invoco:
 ~2-3 min
 
 ## Coste
-~$0.50 (incluye engenharia reversa)
+**Incluido en plan Claude (Pro $20 · Max $100 · Max $200).**
+_Referencia API pay-per-use: ~$0.50 (incluye engenharia reversa)_
 
 ## Cuándo invocar
 - SIEMPRE que un contenido pasa 3x+ tu media

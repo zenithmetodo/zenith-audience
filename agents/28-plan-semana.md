@@ -127,7 +127,8 @@ Especialista en **planificación semanal**. Combino:
 - Si tu publicación es muy improvisada
 
 ## Coste
-~$0.10 por plan semanal
+**Incluido en plan Claude (Pro $20 · Max $100 · Max $200).**
+_Referencia API pay-per-use: ~$0.10 por plan semanal_
 
 ---
 

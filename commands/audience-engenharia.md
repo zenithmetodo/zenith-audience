@@ -34,7 +34,8 @@ HTML estético con:
 ~3-4 min
 
 ## Coste
-~$0.40
+**Incluido en plan Claude (Pro $20 · Max $100 · Max $200).**
+_Referencia API pay-per-use: ~$0.40_
 
 ## Cuándo invocar
 - Post-mortem de TUS virales

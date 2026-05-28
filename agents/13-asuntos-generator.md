@@ -211,7 +211,7 @@ PASO 4 · SCORING + RANKING
 - Apify scraping (3-5 competidores): ~$0.30
 - Trends APIs (gratis): $0
 - IA generativa Opus: ~$0.20
-- **Total: ~$0.50 por sesión completa**
+- **Incluido en plan Claude flat.** _Ref API: ~$0.50 por sesión completa_
 
 (Si pagas plan Claude Pro $20/mes o Max $100-200/mes · esto está INCLUIDO en el plan · no es coste adicional)
 

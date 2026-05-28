@@ -87,7 +87,7 @@ Soy especialista en **ingeniería reversa de perfiles top**. Analizo los último
 - Apify scraping: ~$0.30-0.50
 - Transcripciones: gratis (faster-whisper local)
 - Análisis Opus: ~$0.30
-- **Total: ~$0.60-0.80 por análisis completo**
+- **Incluido en plan Claude flat.** _Ref API: ~$0.60-0.80 por análisis completo_
 
 ## Pasos que ejecuto
 

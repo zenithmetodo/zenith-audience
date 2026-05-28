@@ -27,7 +27,8 @@ Reporte HTML con:
 ~2 min
 
 ## Coste
-~$0.55-0.80 (Apify es lo más caro)
+**Incluido en plan Claude (Pro $20 · Max $100 · Max $200).**
+_Referencia API pay-per-use: ~$0.55-0.80 (Apify es lo más caro)_
 
 ## Cuándo invocar
 - 2x/semana (lunes + jueves)

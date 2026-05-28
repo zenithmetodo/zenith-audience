@@ -133,7 +133,8 @@ Especialista en **lateralización de virales**. Tomo un contenido ganador y gene
 - Para virales accidentales sin patrón replicable
 
 ## Coste
-~$0.08 por iteración de 10 variantes
+**Incluido en plan Claude (Pro $20 · Max $100 · Max $200).**
+_Referencia API pay-per-use: ~$0.08 por iteración de 10 variantes_
 
 ## Por qué importa
 

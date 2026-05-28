@@ -39,7 +39,8 @@ SCORE GLOBAL: X/100
 ~30 segundos
 
 ## Coste
-~$0.03
+**Incluido en plan Claude (Pro $20 · Max $100 · Max $200).**
+_Referencia API pay-per-use: ~$0.03_
 
 ## Cuándo invocar
 - ANTES de cada publicación (filtro de calidad)

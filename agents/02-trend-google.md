@@ -74,7 +74,7 @@ Soy especialista en **Google Trends análisis para creadores**. Detecto qué est
 
 - pytrends: **$0** (gratis · sin API key)
 - Análisis Sonnet: ~$0.05
-- **Total: ~$0.05 por análisis**
+- **Incluido en plan Claude flat.** _Ref API: ~$0.05 por análisis_
 
 ## Cómo ejecuto
 

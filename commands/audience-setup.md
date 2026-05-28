@@ -23,7 +23,8 @@ Orquesto en orden:
 Documento maestro en `output/nucleo/[tu-nombre]-nucleo.md` + HTML estético
 
 ## Coste
-~$0.40-0.60
+**Incluido en plan Claude (Pro $20 · Max $100 · Max $200).**
+_Referencia API pay-per-use: ~$0.40-0.60_
 
 ## Cuándo invocar
 - Al empezar con Zenith Audience por primera vez

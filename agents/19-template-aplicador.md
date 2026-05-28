@@ -147,7 +147,8 @@ Usa `headline-3-tipos` para generar los 3 tipos de headline · luego `reel-archi
 - Si no has elegido template aún (usa template-selector)
 
 ## Coste
-~$0.05 por aplicación
+**Incluido en plan Claude (Pro $20 · Max $100 · Max $200).**
+_Referencia API pay-per-use: ~$0.05 por aplicación_
 
 ---
 

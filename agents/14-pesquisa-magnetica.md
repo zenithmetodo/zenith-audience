@@ -122,7 +122,8 @@ Filtrados y rankeados · listos para alimentar batch mensual.
 - Para ideación diaria (eso es asuntos-generator)
 
 ## Coste
-~$0.10-0.15 por sesión profunda
+**Incluido en plan Claude (Pro $20 · Max $100 · Max $200).**
+_Referencia API pay-per-use: ~$0.10-0.15 por sesión profunda_
 
 ## Diferencia con la pesquisa genérica
 

@@ -115,7 +115,8 @@ Soy especialista en **aplicación de los 7 gatillos de atención**. Tomo tu idea
 - Para contenido que NO premia hooks fuertes (tutoriales largos)
 
 ## Coste
-~$0.05 por sesión
+**Incluido en plan Claude (Pro $20 · Max $100 · Max $200).**
+_Referencia API pay-per-use: ~$0.05 por sesión_
 
 ---
 

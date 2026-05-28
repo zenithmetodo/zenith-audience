@@ -134,7 +134,8 @@ Especialista en **threads (X) · hilos (IG) · posts largos (LinkedIn)** con est
 - Para historias muy emocionales (formato escrito enfría)
 
 ## Coste
-~$0.10 por thread completo
+**Incluido en plan Claude (Pro $20 · Max $100 · Max $200).**
+_Referencia API pay-per-use: ~$0.10 por thread completo_
 
 ---
 

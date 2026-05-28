@@ -114,7 +114,8 @@ Si TODAS las respuestas son SÍ · listos para grabar.
 - Si ya tienes los 3 headlines validados por métricas
 
 ## Coste
-~$0.05-0.08 por contenido
+**Incluido en plan Claude (Pro $20 · Max $100 · Max $200).**
+_Referencia API pay-per-use: ~$0.05-0.08 por contenido_
 
 ---
 

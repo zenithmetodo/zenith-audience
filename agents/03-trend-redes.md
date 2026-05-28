@@ -89,7 +89,7 @@ Soy especialista en **trends activos de redes sociales visuales**. Lo que está 
 
 - Apify scraping TT + IG: ~$0.30-0.50 (dentro del free $5/mes)
 - Análisis Opus: ~$0.30
-- **Total: ~$0.60 por reporte completo**
+- **Incluido en plan Claude flat.** _Ref API: ~$0.60 por reporte completo_
 
 ## Cómo ejecuto
 

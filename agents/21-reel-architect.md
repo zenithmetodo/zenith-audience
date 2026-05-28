@@ -199,7 +199,8 @@ Especialista en **diseño completo de reels 15-60s**. Tomo tu idea + template + 
 - Si ya tienes el guion completo escrito
 
 ## Coste
-~$0.12-0.15 por reel completo
+**Incluido en plan Claude (Pro $20 · Max $100 · Max $200).**
+_Referencia API pay-per-use: ~$0.12-0.15 por reel completo_
 
 ## Mi promesa
 

@@ -112,8 +112,8 @@ Soy especialista en **construcción guiada del Núcleo de Influencia**. Te llevo
 - Para retoque puntual (mejor usar agentes individuales: enemigo-namer · etc.)
 
 ## Coste
-
-- ~$0.30-0.40 por sesión completa (Opus profundo)
+**Incluido en plan Claude (Pro $20 · Max $100 · Max $200).**
+_Referencia API pay-per-use: ~$0.30-0.40 por sesión completa (Opus profundo)_
 
 ## Lo que hago diferente
 

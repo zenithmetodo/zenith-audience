@@ -35,7 +35,8 @@ Thread completo:
 ~2-3 min
 
 ## Coste
-~$0.10
+**Incluido en plan Claude (Pro $20 · Max $100 · Max $200).**
+_Referencia API pay-per-use: ~$0.10_
 
 ## Cuándo invocar
 - Audiencia principal en X/LinkedIn

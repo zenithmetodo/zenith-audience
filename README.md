@@ -397,19 +397,29 @@ Te guía las 10 preguntas del núcleo de influencia.
 
 ## Coste Total Mensual
 
-### Si pagas plan Claude flat (Pro · Max)
+### 🎯 Recomendado · Plan Claude flat (Pro · Max)
 
-| Concepto | Coste |
+| Plan Claude | Coste mensual | Uso del plugin |
+|---|---|---|
+| **Pro** | $20/mes | Incluido · creador individual · ideal para empezar |
+| **Max** | $100/mes | Incluido · uso intenso diario · creator full-time |
+| **Max** | $200/mes | Incluido · agencia · multi-cliente |
+
+✅ **Sin coste adicional por uso del plugin** · todo dentro de tu plan flat
+✅ **Sin sorpresas a fin de mes** · sabes exactamente lo que pagas
+✅ **Sin contar tokens** · usa el plugin tranquilo todo el día
+
+### Servicios externos (todos gratis)
+
+| Servicio | Coste |
 |---|---|
-| Plan Claude (Pro $20 · Max $100 · Max $200) | Tu plan habitual |
 | Metricool plan Free | **$0** |
 | Apify Free $5/mes credit | **$0** (dentro del free tier) |
 | Whisper local · pytrends · PRAW · YT API | **$0** (todo open source) |
 | **TOTAL adicional al plugin** | **$0** |
 
-### Si pagas API pay-per-use
-- ~$20-25/mes uso intenso diario
-- Resto de servicios externos: $0
+### Alternativa · API pay-per-use (solo referencia)
+Si prefieres no pagar plan flat: ~$20-25/mes uso intenso diario.
 
 vs **1 hora de creative agency = $100+** o **agency mensual = $2000+**. ROI brutal.
 

@@ -36,7 +36,8 @@ Invoco en orden:
 ~1-2 min
 
 ## Coste
-~$0.08
+**Incluido en plan Claude (Pro $20 · Max $100 · Max $200).**
+_Referencia API pay-per-use: ~$0.08_
 
 ## Cuándo invocar
 - Antes de grabar reel/carrusel

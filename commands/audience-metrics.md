@@ -39,7 +39,7 @@ HTML estético con:
 ## Coste
 - Metricool Free: $0
 - Análisis: ~$0.04
-- **Total: $0.04**
+- **Incluido en plan Claude flat.** _Ref API: ~$0.04_
 
 ## Cuándo invocar
 - Viernes (cierre semana)

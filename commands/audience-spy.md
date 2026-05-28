@@ -32,7 +32,8 @@ Reporte HTML con:
 ~3-5 min
 
 ## Coste
-~$0.60-0.80
+**Incluido en plan Claude (Pro $20 · Max $100 · Max $200).**
+_Referencia API pay-per-use: ~$0.60-0.80_
 
 ## Cuándo invocar
 - Semanal (1 competidor top)
