@@ -1,0 +1,39 @@
+{
+  "mcpServers": {
+    "metricool": {
+      "transport": "http",
+      "url": "https://ai.metricool.com/mcp",
+      "description": "Metricool MCP oficial · acceso a métricas IG/TT/YT/FB/Pinterest/Threads/Bluesky · plan Free incluido",
+      "authentication": {
+        "type": "oauth",
+        "note": "Al primer uso · te abrirá browser para autenticar. Después · token guardado automáticamente."
+      },
+      "env": {
+        "METRICOOL_USER_TOKEN": "OPCIONAL · si prefieres token manual",
+        "METRICOOL_USER_ID": "OPCIONAL · obtenido tras OAuth"
+      },
+      "setup_instructions": [
+        "1. Crear cuenta Metricool Free en https://metricool.com (plan Free permanente)",
+        "2. Conectar tus cuentas IG/TT/YT vía OAuth dentro de Metricool",
+        "3. Instalar MCP:",
+        "   claude mcp add --transport http metricool https://ai.metricool.com/mcp",
+        "4. Reiniciar Claude Code",
+        "5. Al primer uso del agente metrics-analyst · te pedirá autenticar"
+      ],
+      "plan_free_limits": {
+        "marcas": 1,
+        "redes_incluidas": ["IG", "TT", "YT", "FB", "Pinterest", "Threads", "Bluesky", "Twitch"],
+        "redes_excluidas": ["LinkedIn", "Twitter/X"],
+        "historico_dias": 30,
+        "competidores": 5,
+        "contenidos_planificados_mes": 20,
+        "mcp_acceso": true,
+        "asistente_ia": true
+      },
+      "upgrade_path": {
+        "starter": "16€/mes · 5 marcas · 90 días histórico",
+        "advanced": "43€/mes · 15 marcas · histórico ilimitado · todas las redes"
+      }
+    }
+  }
+}

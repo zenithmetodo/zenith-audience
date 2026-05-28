@@ -1,0 +1,58 @@
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Editors
+.vscode/
+.idea/
+*.sublime-*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Secrets
+.env
+.env.local
+*.key
+*.pem
+secrets/
+credentials/
+
+# MCP runtime
+*.log
+mcp-servers/*.json
+!mcp-servers/*.json.example
+
+# Whisper models cache
+models/
+*.pt
+*.bin
+
+# Output cache
+output/
+.cache/

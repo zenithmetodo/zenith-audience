@@ -1,0 +1,42 @@
+{
+  "mcpServers": {
+    "apify": {
+      "transport": "http",
+      "url": "https://mcp.apify.com",
+      "description": "Apify MCP oficial · scrapers de Instagram · TikTok · YouTube · y +5000 más. Plan Free $5/mes incluido (suficiente para uso normal)",
+      "authentication": {
+        "type": "bearer",
+        "env_var": "APIFY_TOKEN"
+      },
+      "env": {
+        "APIFY_TOKEN": "TU_TOKEN_AQUI"
+      },
+      "setup_instructions": [
+        "1. Crear cuenta Apify Free en https://apify.com",
+        "2. Obtener token en https://console.apify.com/account/integrations",
+        "3. Añadir token a tu .env (NUNCA al repo)",
+        "4. Renombrar este archivo a apify.json (sin .example)",
+        "5. Instalar MCP:",
+        "   claude mcp add --transport http apify https://mcp.apify.com --header Authorization=Bearer $APIFY_TOKEN",
+        "6. Reiniciar Claude Code"
+      ],
+      "plan_free_limits": {
+        "credit_mensual_usd": 5,
+        "uso_estimado": "~2000 scrapes/mes (suficiente para uso individual)",
+        "actores_disponibles": "5000+",
+        "rate_limit": "Generoso para uso normal"
+      },
+      "scrapers_recomendados": {
+        "instagram_profile": "apify/instagram-profile-scraper · ~$2.30/1000 posts",
+        "tiktok": "apidojo/tiktok-scraper-api · views/likes/comments/shares",
+        "instagram_hashtag": "apify/instagram-hashtag-scraper",
+        "youtube": "epctex/youtube-channel-scraper"
+      },
+      "agentes_que_lo_usan": [
+        "spy-competidor",
+        "trend-redes",
+        "ideas-ganadoras-adapter (opcional)"
+      ]
+    }
+  }
+}

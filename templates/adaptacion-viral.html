@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Adaptación de Viral · Zenith Audience™</title>
+<style>
+  @page { size: A4; margin: 1.5cm; }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Inter', sans-serif;
+    background: #050510;
+    color: #e6e8ee;
+    line-height: 1.6;
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+  .page { max-width: 850px; margin: 0 auto; padding: 60px 50px; }
+  .brand {
+    display: flex; align-items: center; gap: 18px;
+    border-bottom: 1px solid rgba(0,229,207,.18);
+    padding-bottom: 28px; margin-bottom: 40px;
+  }
+  .logo {
+    width: 56px; height: 56px;
+    background: linear-gradient(135deg, #00E5CF, #B845FF);
+    border-radius: 16px; display: flex; align-items: center; justify-content: center;
+    font-family: 'Fraunces', Georgia, serif; font-weight: 800; color: #050510; font-size: 26px;
+  }
+  .brand-text h1 {
+    font-family: 'Fraunces', Georgia, serif; font-size: 28px;
+    background: linear-gradient(90deg, #00E5CF, #B845FF);
+    -webkit-background-clip: text; background-clip: text; color: transparent;
+  }
+  .brand-text p { color: #8089a0; font-size: 13px; letter-spacing: 1.5px; text-transform: uppercase; margin-top: 4px; }
+  h2.section {
+    font-family: 'Fraunces', Georgia, serif; font-size: 26px; color: #00E5CF;
+    margin: 40px 0 18px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,229,207,.25);
+  }
+  h3 { font-size: 18px; color: #B845FF; margin: 22px 0 10px; }
+  p { margin-bottom: 12px; color: #cfd4e3; }
+  .original-box {
+    background: rgba(255,255,255,.04);
+    border-left: 3px solid #8089a0;
+    padding: 18px 24px;
+    border-radius: 0 12px 12px 0;
+    margin: 20px 0;
+  }
+  .original-box h3 { color: #8089a0; margin-top: 0; }
+  .adaptation-card {
+    background: linear-gradient(135deg, rgba(0,229,207,.08), rgba(184,69,255,.08));
+    border: 2px solid rgba(0,229,207,.3);
+    border-radius: 16px;
+    padding: 28px 30px;
+    margin: 24px 0;
+    page-break-inside: avoid;
+  }
+  .adaptation-card .number {
+    display: inline-block;
+    background: linear-gradient(135deg, #00E5CF, #B845FF);
+    color: #050510;
+    padding: 6px 14px;
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 14px;
+  }
+  .adaptation-card .headline {
+    font-family: 'Fraunces', Georgia, serif;
+    font-size: 22px;
+    color: #fff;
+    margin-bottom: 14px;
+    line-height: 1.4;
+  }
+  .info-row {
+    display: grid;
+    grid-template-columns: 130px 1fr;
+    gap: 12px;
+    margin: 8px 0;
+    font-size: 14px;
+  }
+  .info-label {
+    color: #00E5CF;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 1px;
+  }
+  .info-value { color: #cfd4e3; }
+  .insight-box {
+    background: linear-gradient(135deg, rgba(184,69,255,.1), rgba(0,229,207,.05));
+    border: 1px solid rgba(184,69,255,.3);
+    border-radius: 12px;
+    padding: 20px 24px;
+    margin: 20px 0;
+  }
+  .insight-box h3 { color: #B845FF; margin-top: 0; }
+  .insight-quote {
+    font-family: 'Fraunces', Georgia, serif;
+    font-size: 19px;
+    color: #fff;
+    font-style: italic;
+    margin: 14px 0;
+    padding-left: 20px;
+    border-left: 3px solid #B845FF;
+  }
+  .footer {
+    margin-top: 60px; padding-top: 24px;
+    border-top: 1px solid rgba(0,229,207,.15);
+    color: #6b7588; font-size: 12px; text-align: center;
+  }
+  @media print {
+    body { background: white; color: #1a1a2e; }
+    .brand-text h1 { color: #050510; -webkit-text-fill-color: #050510; }
+    h2.section, h3, .adaptation-card .headline { color: #050510; }
+    .original-box, .adaptation-card, .insight-box { background: #f5f6f8; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="brand">
+    <div class="logo">Z</div>
+    <div class="brand-text">
+      <h1>Adaptación de Viral · Zenith Audience™</h1>
+      <p>Generado · {{FECHA}}</p>
+    </div>
+  </div>
+
+  <h2 class="section">Viral Original Analizado</h2>
+  <div class="original-box">
+    <h3>Fuente</h3>
+    <p><strong>URL:</strong> {{ORIGINAL_URL}}</p>
+    <p><strong>Plataforma:</strong> {{PLATAFORMA}}</p>
+    <p><strong>Métricas:</strong> {{METRICAS_ORIGINAL}}</p>
+    <p><strong>Por qué viralizó:</strong> {{POR_QUE_VIRALIZO}}</p>
+  </div>
+
+  <div class="insight-box">
+    <h3>⭐ Idea Ganadora Extraída</h3>
+    <div class="insight-quote">"{{IDEA_GANADORA}}"</div>
+    <p><strong>Por qué resuena:</strong> {{POR_QUE_RESUENA}}</p>
+  </div>
+
+  <h2 class="section">3 Adaptaciones a tu Núcleo</h2>
+
+  <div class="adaptation-card">
+    <div class="number">Variante 1 · REEL</div>
+    <div class="headline">{{VARIANTE_1_HEADLINE}}</div>
+    <div class="info-row"><div class="info-label">Template</div><div class="info-value">{{V1_TEMPLATE}}</div></div>
+    <div class="info-row"><div class="info-label">Gatilhos</div><div class="info-value">{{V1_GATILHOS}}</div></div>
+    <div class="info-row"><div class="info-label">Por qué funcionará</div><div class="info-value">{{V1_POR_QUE}}</div></div>
+    <div class="info-row"><div class="info-label">En qué se basa</div><div class="info-value">{{V1_BASE}}</div></div>
+    <div class="info-row"><div class="info-label">CTA recomendado</div><div class="info-value">{{V1_CTA}}</div></div>
+  </div>
+
+  <div class="adaptation-card">
+    <div class="number">Variante 2 · CARRUSEL</div>
+    <div class="headline">{{VARIANTE_2_HEADLINE}}</div>
+    <div class="info-row"><div class="info-label">Template</div><div class="info-value">{{V2_TEMPLATE}}</div></div>
+    <div class="info-row"><div class="info-label">Gatilhos</div><div class="info-value">{{V2_GATILHOS}}</div></div>
+    <div class="info-row"><div class="info-label">Por qué funcionará</div><div class="info-value">{{V2_POR_QUE}}</div></div>
+    <div class="info-row"><div class="info-label">En qué se basa</div><div class="info-value">{{V2_BASE}}</div></div>
+    <div class="info-row"><div class="info-label">CTA recomendado</div><div class="info-value">{{V2_CTA}}</div></div>
+  </div>
+
+  <div class="adaptation-card">
+    <div class="number">Variante 3 · HILO</div>
+    <div class="headline">{{VARIANTE_3_HEADLINE}}</div>
+    <div class="info-row"><div class="info-label">Template</div><div class="info-value">{{V3_TEMPLATE}}</div></div>
+    <div class="info-row"><div class="info-label">Gatilhos</div><div class="info-value">{{V3_GATILHOS}}</div></div>
+    <div class="info-row"><div class="info-label">Por qué funcionará</div><div class="info-value">{{V3_POR_QUE}}</div></div>
+    <div class="info-row"><div class="info-label">En qué se basa</div><div class="info-value">{{V3_BASE}}</div></div>
+    <div class="info-row"><div class="info-label">CTA recomendado</div><div class="info-value">{{V3_CTA}}</div></div>
+  </div>
+
+  <div class="footer">
+    Generado por <strong>Zenith Audience™</strong> · Joseph Moreno<br>
+    Sistema basado en el Método Audience de Elias Mamã
+  </div>
+</div>
+</body>
+</html>

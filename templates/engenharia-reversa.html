@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Engenharia Reversa · Zenith Audience™</title>
+<style>
+  @page { size: A4; margin: 1.5cm; }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Inter', sans-serif; background: #050510; color: #e6e8ee; line-height: 1.6; print-color-adjust: exact; -webkit-print-color-adjust: exact; }
+  .page { max-width: 850px; margin: 0 auto; padding: 60px 50px; }
+  .brand { display: flex; align-items: center; gap: 18px; border-bottom: 1px solid rgba(0,229,207,.18); padding-bottom: 28px; margin-bottom: 40px; }
+  .logo { width: 56px; height: 56px; background: linear-gradient(135deg, #00E5CF, #B845FF); border-radius: 16px; display: flex; align-items: center; justify-content: center; font-family: 'Fraunces', Georgia, serif; font-weight: 800; color: #050510; font-size: 26px; }
+  .brand-text h1 { font-family: 'Fraunces', Georgia, serif; font-size: 28px; background: linear-gradient(90deg, #00E5CF, #B845FF); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .brand-text p { color: #8089a0; font-size: 13px; letter-spacing: 1.5px; text-transform: uppercase; margin-top: 4px; }
+  h2.section { font-family: 'Fraunces', Georgia, serif; font-size: 26px; color: #00E5CF; margin: 40px 0 18px; padding-bottom: 10px; border-bottom: 1px dashed rgba(0,229,207,.25); }
+  h3 { font-size: 18px; color: #B845FF; margin: 22px 0 10px; }
+  p { color: #cfd4e3; margin-bottom: 12px; }
+  .video-info { background: rgba(255,255,255,.04); border-radius: 12px; padding: 20px 24px; margin: 20px 0; }
+  .video-info dt { color: #00E5CF; font-size: 12px; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 4px; }
+  .video-info dd { color: #fff; font-size: 15px; margin-bottom: 12px; }
+  .capa-card { background: linear-gradient(135deg, rgba(0,229,207,.04), rgba(184,69,255,.04)); border: 1px solid rgba(0,229,207,.2); border-radius: 14px; padding: 24px 28px; margin: 22px 0; }
+  .capa-number { display: inline-block; background: linear-gradient(135deg, #00E5CF, #B845FF); color: #050510; padding: 4px 12px; border-radius: 999px; font-size: 11px; font-weight: 700; margin-bottom: 12px; text-transform: uppercase; letter-spacing: 1px; }
+  .capa-title { font-family: 'Fraunces', Georgia, serif; font-size: 22px; color: #fff; font-weight: 700; margin-bottom: 14px; }
+  .receta-box { background: linear-gradient(135deg, rgba(184,69,255,.1), rgba(0,229,207,.05)); border: 2px solid rgba(184,69,255,.4); border-radius: 16px; padding: 28px 32px; margin: 32px 0; }
+  .receta-box h2 { color: #B845FF; font-family: 'Fraunces', Georgia, serif; font-size: 28px; margin-bottom: 16px; }
+  .receta-step { background: rgba(255,255,255,.04); border-left: 3px solid #B845FF; padding: 12px 18px; margin: 10px 0; border-radius: 0 8px 8px 0; }
+  .transcripcion { background: #0a0a14; border: 1px solid rgba(0,229,207,.1); border-radius: 8px; padding: 18px 22px; font-family: 'JetBrains Mono', monospace; font-size: 13px; line-height: 1.7; color: #cfd4e3; max-height: 400px; overflow-y: auto; margin: 16px 0; }
+  .footer { margin-top: 60px; padding-top: 24px; border-top: 1px solid rgba(0,229,207,.15); color: #6b7588; font-size: 12px; text-align: center; }
+  @media print { body { background: white; color: #1a1a2e; } .brand-text h1 { color: #050510; -webkit-text-fill-color: #050510; } h2.section, h3, .capa-title { color: #050510; } .receta-box h2 { color: #050510; } .capa-card, .receta-box, .video-info, .transcripcion { background: #f5f6f8; } }
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="brand">
+    <div class="logo">Z</div>
+    <div class="brand-text">
+      <h1>Engenharia Reversa · Zenith Audience™</h1>
+      <p>Análisis profundo de viral · {{FECHA}}</p>
+    </div>
+  </div>
+
+  <h2 class="section">Vídeo Analizado</h2>
+  <dl class="video-info">
+    <dt>URL</dt><dd>{{VIDEO_URL}}</dd>
+    <dt>Creador</dt><dd>{{CREADOR}}</dd>
+    <dt>Plataforma</dt><dd>{{PLATAFORMA}}</dd>
+    <dt>Vistas</dt><dd>{{VIEWS}}</dd>
+    <dt>Engagement</dt><dd>{{ENGAGEMENT}}</dd>
+    <dt>Fecha publicación</dt><dd>{{FECHA_PUBLICACION}}</dd>
+  </dl>
+
+  <h2 class="section">Transcripción Completa</h2>
+  <div class="transcripcion">{{TRANSCRIPCION}}</div>
+
+  <h2 class="section">Análisis por Capas</h2>
+
+  <div class="capa-card">
+    <div class="capa-number">Capa 1 · Hook</div>
+    <div class="capa-title">Los primeros 3 segundos</div>
+    <p><strong>Verbal:</strong> "{{HOOK_VERBAL}}"</p>
+    <p><strong>Visual:</strong> {{HOOK_VISUAL}}</p>
+    <p><strong>Audio:</strong> {{HOOK_AUDIO}}</p>
+    <p><strong>Gatilhos activos:</strong> {{HOOK_GATILHOS}}</p>
+    <p><strong>Por qué funciona:</strong> {{HOOK_ANALISIS}}</p>
+  </div>
+
+  <div class="capa-card">
+    <div class="capa-number">Capa 2 · Desarrollo</div>
+    <div class="capa-title">Estructura y pacing</div>
+    <p><strong>Estructura aplicada:</strong> {{ESTRUCTURA}}</p>
+    <p><strong>Fórmula identificada:</strong> {{FORMULA}}</p>
+    <p><strong>Pacing:</strong> {{PACING}}</p>
+    <p><strong>Open loops usados:</strong> {{OPEN_LOOPS}}</p>
+  </div>
+
+  <div class="capa-card">
+    <div class="capa-number">Capa 3 · Notable</div>
+    <div class="capa-title">Los 8 elementos</div>
+    <p>{{ELEMENTOS_NOTABLE}}</p>
+    <p><strong>Moeda social:</strong> {{MOEDA_SOCIAL}}</p>
+  </div>
+
+  <div class="capa-card">
+    <div class="capa-number">Capa 4 · Núcleo</div>
+    <div class="capa-title">Verdadero yo aplicado</div>
+    <p>{{NUCLEO_APLICADO}}</p>
+    <p><strong>Lenguaje propio detectado:</strong> {{LENGUAJE}}</p>
+  </div>
+
+  <div class="capa-card">
+    <div class="capa-number">Capa 5 · Viralidad</div>
+    <div class="capa-title">Razón del éxito</div>
+    <p>{{RAZON_VIRALIDAD}}</p>
+  </div>
+
+  <div class="receta-box">
+    <h2>Receta Replicable</h2>
+    {{RECETA_PASOS}}
+  </div>
+
+  <h2 class="section">Cómo Aplicar a TU Núcleo</h2>
+  <p>{{COMO_APLICAR}}</p>
+
+  <div class="footer">
+    Generado por <strong>Zenith Audience™</strong> · Método "Engenharia Reversa" · Clase 23 Elias Mamã
+  </div>
+</div>
+</body>
+</html>

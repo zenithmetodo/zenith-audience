@@ -1,0 +1,82 @@
+name: Validate Zenith Audience
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate plugin.json
+        run: |
+          if [ ! -f ".claude-plugin/plugin.json" ]; then
+            echo "❌ Missing .claude-plugin/plugin.json"
+            exit 1
+          fi
+          python3 -c "import json; json.load(open('.claude-plugin/plugin.json'))"
+          echo "✅ plugin.json válido"
+
+      - name: Count agents
+        run: |
+          count=$(ls agents/*.md | wc -l)
+          echo "📊 Agentes: $count"
+          if [ "$count" -lt 29 ]; then
+            echo "❌ Faltan agentes (esperados: 29)"
+            exit 1
+          fi
+
+      - name: Count commands
+        run: |
+          count=$(ls commands/*.md | wc -l)
+          echo "📊 Commands: $count"
+          if [ "$count" -lt 15 ]; then
+            echo "❌ Faltan commands (esperados: 15)"
+            exit 1
+          fi
+
+      - name: Count knowledge files
+        run: |
+          count=$(find knowledge/ -name "*.md" | wc -l)
+          echo "📊 Knowledge files: $count"
+          if [ "$count" -lt 32 ]; then
+            echo "❌ Faltan knowledge files (esperados: 32)"
+            exit 1
+          fi
+
+      - name: Validate HTML templates
+        run: |
+          for f in templates/*.html; do
+            if ! grep -q "Zenith Audience" "$f"; then
+              echo "❌ $f no contiene branding Zenith"
+              exit 1
+            fi
+          done
+          echo "✅ HTML templates con branding correcto"
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Validate Python scripts syntax
+        run: |
+          for f in scripts/*.py; do
+            python3 -m py_compile "$f"
+          done
+          echo "✅ Scripts Python con sintaxis válida"
+
+      - name: Verify all SVGs exist
+        run: |
+          required=("assets/zenith-audience-logo.svg" "assets/zenith-audience-banner.svg" "assets/arquitectura-modular.svg" "assets/pipeline-diario.svg")
+          for f in "${required[@]}"; do
+            if [ ! -f "$f" ]; then
+              echo "❌ Falta: $f"
+              exit 1
+            fi
+          done
+          echo "✅ Todos los SVGs presentes"

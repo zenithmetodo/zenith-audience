@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Plan Semanal {{SEMANA}} · Zenith Audience™</title>
+<style>
+  @page { size: A4 landscape; margin: 1cm; }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body {
+    font-family: 'Inter', sans-serif;
+    background: #050510;
+    color: #e6e8ee;
+    line-height: 1.5;
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+  .page { max-width: 1100px; margin: 0 auto; padding: 40px; }
+  .brand {
+    display: flex; align-items: center; gap: 16px;
+    border-bottom: 1px solid rgba(0,229,207,.18);
+    padding-bottom: 20px; margin-bottom: 30px;
+  }
+  .logo {
+    width: 48px; height: 48px;
+    background: linear-gradient(135deg, #00E5CF, #B845FF);
+    border-radius: 14px;
+    display: flex; align-items: center; justify-content: center;
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 800; color: #050510; font-size: 22px;
+  }
+  .brand-text h1 {
+    font-family: 'Fraunces', Georgia, serif; font-size: 26px;
+    background: linear-gradient(90deg, #00E5CF, #B845FF);
+    -webkit-background-clip: text; background-clip: text; color: transparent;
+  }
+  .brand-text p { color: #8089a0; font-size: 12px; text-transform: uppercase; letter-spacing: 1.5px; }
+  h2 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-size: 22px; color: #00E5CF;
+    margin: 24px 0 12px;
+  }
+  .week-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+    margin: 20px 0;
+  }
+  .day-card {
+    background: rgba(0,229,207,.04);
+    border: 1px solid rgba(0,229,207,.15);
+    border-radius: 10px;
+    padding: 12px;
+    min-height: 200px;
+    font-size: 12px;
+  }
+  .day-card.weekend {
+    background: rgba(184,69,255,.04);
+    border-color: rgba(184,69,255,.18);
+  }
+  .day-header {
+    font-weight: 700;
+    color: #00E5CF;
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+    padding-bottom: 6px;
+    border-bottom: 1px dashed rgba(0,229,207,.2);
+  }
+  .day-card.weekend .day-header { color: #B845FF; }
+  .day-date {
+    color: #8089a0;
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+  .post-block {
+    background: rgba(255,255,255,.03);
+    border-left: 2px solid #00E5CF;
+    padding: 8px 10px;
+    margin: 6px 0;
+    border-radius: 0 6px 6px 0;
+  }
+  .post-time {
+    color: #00E5CF;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+  }
+  .post-type {
+    color: #B845FF;
+    font-size: 9px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 2px;
+  }
+  .post-title {
+    color: #fff;
+    font-size: 11px;
+    font-weight: 600;
+    margin-top: 4px;
+  }
+  .post-template {
+    color: #8089a0;
+    font-size: 10px;
+    margin-top: 4px;
+    font-style: italic;
+  }
+  .summary-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    margin: 20px 0;
+  }
+  .summary-item {
+    background: rgba(0,229,207,.06);
+    border: 1px solid rgba(0,229,207,.18);
+    border-radius: 8px;
+    padding: 14px;
+    text-align: center;
+  }
+  .summary-item .number {
+    font-family: 'Fraunces', Georgia, serif;
+    font-size: 28px;
+    color: #00E5CF;
+    font-weight: 700;
+  }
+  .summary-item .label {
+    color: #8089a0;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 4px;
+  }
+  .tasks {
+    background: rgba(184,69,255,.06);
+    border: 1px solid rgba(184,69,255,.2);
+    border-radius: 10px;
+    padding: 18px 22px;
+    margin: 20px 0;
+  }
+  .tasks ul { list-style: none; padding: 0; }
+  .tasks li {
+    padding-left: 24px;
+    position: relative;
+    margin: 6px 0;
+    font-size: 13px;
+    color: #cfd4e3;
+  }
+  .tasks li::before {
+    content: "☐";
+    position: absolute;
+    left: 0;
+    color: #00E5CF;
+    font-size: 16px;
+  }
+  .footer {
+    margin-top: 40px;
+    padding-top: 16px;
+    border-top: 1px solid rgba(0,229,207,.15);
+    color: #6b7588;
+    font-size: 11px;
+    text-align: center;
+  }
+  @media print {
+    body { background: white; color: #1a1a2e; }
+    .brand-text h1 { color: #050510; -webkit-text-fill-color: #050510; }
+    h2, .day-header, .summary-item .number { color: #050510; }
+    .day-card, .post-block, .summary-item, .tasks { background: #f8f9fb; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="brand">
+    <div class="logo">Z</div>
+    <div class="brand-text">
+      <h1>Plan Semanal · Zenith Audience™</h1>
+      <p>Semana del {{SEMANA_FECHA}}</p>
+    </div>
+  </div>
+
+  <h2>Resumen</h2>
+  <div class="summary-grid">
+    <div class="summary-item">
+      <div class="number">{{TOTAL_REELS}}</div>
+      <div class="label">Reels</div>
+    </div>
+    <div class="summary-item">
+      <div class="number">{{TOTAL_CARRUSELES}}</div>
+      <div class="label">Carruseles</div>
+    </div>
+    <div class="summary-item">
+      <div class="number">{{TOTAL_STORIES}}</div>
+      <div class="label">Stories</div>
+    </div>
+    <div class="summary-item">
+      <div class="number">{{TOTAL_HILOS}}</div>
+      <div class="label">Hilos</div>
+    </div>
+  </div>
+
+  <h2>Calendario Día por Día</h2>
+  <div class="week-grid">
+    <div class="day-card">
+      <div class="day-header">Lunes</div>
+      <div class="day-date">{{LUN_FECHA}}</div>
+      {{LUN_CONTENT}}
+    </div>
+    <div class="day-card">
+      <div class="day-header">Martes</div>
+      <div class="day-date">{{MAR_FECHA}}</div>
+      {{MAR_CONTENT}}
+    </div>
+    <div class="day-card">
+      <div class="day-header">Miércoles</div>
+      <div class="day-date">{{MIE_FECHA}}</div>
+      {{MIE_CONTENT}}
+    </div>
+    <div class="day-card">
+      <div class="day-header">Jueves</div>
+      <div class="day-date">{{JUE_FECHA}}</div>
+      {{JUE_CONTENT}}
+    </div>
+    <div class="day-card">
+      <div class="day-header">Viernes</div>
+      <div class="day-date">{{VIE_FECHA}}</div>
+      {{VIE_CONTENT}}
+    </div>
+    <div class="day-card weekend">
+      <div class="day-header">Sábado</div>
+      <div class="day-date">{{SAB_FECHA}}</div>
+      {{SAB_CONTENT}}
+    </div>
+    <div class="day-card weekend">
+      <div class="day-header">Domingo</div>
+      <div class="day-date">{{DOM_FECHA}}</div>
+      {{DOM_CONTENT}}
+    </div>
+  </div>
+
+  <div class="tasks">
+    <h2 style="margin-top:0; color:#B845FF;">Tareas de la Semana</h2>
+    <ul>
+      <li>Domingo PM: revisar plan</li>
+      <li>Lunes AM: grabar reels lun-mié</li>
+      <li>Miércoles AM: grabar reels jue-dom</li>
+      <li>Viernes: analytics + iterar ganadores</li>
+      <li>Domingo: plan próxima semana</li>
+    </ul>
+  </div>
+
+  <div class="footer">
+    Generado por <strong>Zenith Audience™</strong> · Joseph Moreno
+  </div>
+</div>
+</body>
+</html>
