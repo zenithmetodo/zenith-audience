@@ -1,7 +1,7 @@
 {
   "name": "zenith-audience",
-  "version": "1.0.0",
-  "description": "Sistema diario para crear contenido viral aplicando el Método Audience (3 pilares · 7 gatillos · 12 estructuras virales · 8 elementos notables · núcleo de influencia). Adaptado y compilado por Joseph Moreno · Marca Zenith.",
+  "version": "1.2.0",
+  "description": "Sistema diario para crear contenido viral aplicando el Método Audience (3 pilares · 7 gatillos · 12 estructuras virales · 8 elementos notables · núcleo de influencia · 60+ formatos visuales · matriz 4×4 ganchos). Adaptado y compilado por Joseph Moreno · Marca Zenith.",
   "author": {
     "name": "Joseph Moreno",
     "url": "https://github.com/zenithmetodo",
@@ -25,7 +25,9 @@
     "marconi-romulo",
     "elias-mama",
     "joseph-moreno",
-    "method-audience"
+    "method-audience",
+    "formato-master",
+    "ab-testing"
   ],
   "categories": [
     "content-creation",

@@ -48,44 +48,96 @@ Especialista en los **3 tipos de headline** (Clase 14 · Método Audience). Para
 
 ---
 
-## HEADLINE VERBAL
-**Texto:** "[5-10 palabras]"
-- Posición: copy del post + texto superpuesto en vídeo
-- Caracteres: X (≤ Y permitido)
-- Funciona sin sonido: ✓
+## HEADLINE VERBAL · SIEMPRE 4 VARIACIONES
 
-### Variaciones (A/B testing)
-- Variación A: "[...]"
-- Variación B: "[...]"
+**Texto base:** "[5-10 palabras]"
+
+### 4 variaciones obligatorias (A/B/C/D testing)
+
+**V1 · Directa** → "Si X · entonces Y"
+"[versión directa]"
+
+**V2 · Pregunta** → "¿Sabías que X?" o "¿Eres de los que Y?"
+"[versión pregunta]"
+
+**V3 · Estadística/dato** → "El X% de [grupo] hace Y mal"
+"[versión estadística]"
+
+**V4 · Negación múltiple** → "No es X · no es Y · no es Z · es W"
+"[versión negación]"
 
 ---
 
-## HEADLINE VISUAL
-**Descripción para diseñar/IA:**
-[Descripción detallada · 3-5 líneas]
+## HEADLINE VISUAL · SIEMPRE 4 VARIACIONES
 
-### Elementos clave
-- **Plano:** [primer plano · plano medio · etc.]
-- **Expresión facial:** [sorpresa · enfado · alegría intensa]
-- **Texto en pantalla:** "[qué texto + tamaño + color]"
-- **Contraste:** [colores · brillo]
-- **Objeto/prop:** [si aplica]
+**Descripción base:** [Descripción detallada · 3-5 líneas]
+
+### 4 variaciones del PLANO
+
+**V1 · Plano cerrado · expresión intensa**
+[Descripción]
+
+**V2 · Plano medio · gesto invitador**
+[Descripción]
+
+**V3 · Plano amplio · contexto incluido**
+[Descripción]
+
+**V4 · Plano POV / cenital**
+[Descripción]
+
+### 4 variaciones del TEXTO en pantalla (overlay)
+
+**T1 · Pregunta directa** → "¿USAS LA IA EQUIVOCADA?"
+**T2 · Afirmación shock** → "CHATGPT NO ES LA MEJOR"
+**T3 · Promesa** → "LA MEJOR IA DEL 2026"
+**T4 · Curiosidad** → "¿CUÁL VENCE A TODAS?"
 
 ### Prompt para Midjourney/DALL-E (opcional)
 "[prompt completo para generar visual de IA]"
 
 ---
 
-## HEADLINE LO QUE MUESTRA (primer 0.5s)
-**Acción visual:** [qué pasa visualmente en el primer momento]
-**Sonido inicial:** [música · efecto · silencio · audio trending]
-**Primera palabra dicha:** "[palabra · frase]"
+## HEADLINE LO QUE MUESTRA / AUDIO · SIEMPRE 4 VARIACIONES
 
-### Script de los primeros 3 segundos
+### V1 · Acción inesperada
+**Acción visual:** [acción rara · gesto exagerado]
+**Sonido:** [efecto · pico de volumen]
+**Primera palabra:** "[palabra impactante]"
+
+### V2 · Pregunta directa
+**Acción visual:** [mirada a cámara · gesto interrogante]
+**Sonido:** [voz directa · sin música]
+**Primera palabra:** "¿[pregunta]?"
+
+### V3 · Dato impactante
+**Acción visual:** [dato grande aparece · zoom in]
+**Sonido:** [efecto sonoro de impacto]
+**Primera palabra:** "[número · porcentaje]"
+
+### V4 · Frase que viola expectativa
+**Acción visual:** [gesto firme · contraataque]
+**Sonido:** [pausa dramática · silencio]
+**Primera palabra:** "[negación o disrupción]"
+
+---
+
+## ⭐ MATRIZ 4×4 TOTAL POR REEL
+
+Para CADA reel debes generar:
+- **4 variaciones VERBAL** (V1-V4)
+- **4 variaciones VISUAL** (plano V1-V4 + texto T1-T4)
+- **4 variaciones AUDIO/LO QUE MUESTRA** (V1-V4)
+
+= **16 elementos de testing** solo en headlines.
+
+Combinados con los 4 ganchos psicológicos de `formato-master` (DOLOR · DESEO · MISTERIO · DISRUPCIÓN) generan arsenal masivo para A/B testing.
+
+### Script de los primeros 3 segundos (por combo)
 ```
-[0.0s] [Acción visual] + [sonido]
-[0.5s] [Primera palabra]
-[1.5s] [Segunda frase]
+[0.0s] [Visual del gancho elegido + variación]
+[0.5s] [Primera palabra del verbal elegido]
+[1.5s] [Texto overlay aparece]
 [2.5s] [Transición al desarrollo]
 ```
 

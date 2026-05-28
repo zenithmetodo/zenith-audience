@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 900" width="1400" height="900">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1000" width="1400" height="1000">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" style="stop-color:#050510;stop-opacity:1"/>
@@ -11,14 +11,14 @@
     <filter id="cardShadow"><feGaussianBlur stdDeviation="4"/></filter>
   </defs>
 
-  <rect width="1400" height="900" fill="url(#bg)"/>
+  <rect width="1400" height="1000" fill="url(#bg)"/>
 
   <!-- Title -->
-  <text x="700" y="50" font-family="Georgia, serif" font-size="34" font-weight="700" fill="url(#brandG)" text-anchor="middle">Arquitectura Modular · Zenith Audience™</text>
-  <text x="700" y="80" font-family="Inter, sans-serif" font-size="14" fill="#8089a0" text-anchor="middle">29 agentes organizados en 9 bloques · todos coordinados por 15 slash commands</text>
+  <text x="700" y="50" font-family="Georgia, serif" font-size="34" font-weight="700" fill="url(#brandG)" text-anchor="middle">Arquitectura Modular · Zenith Audience™ v1.2</text>
+  <text x="700" y="80" font-family="Inter, sans-serif" font-size="14" fill="#8089a0" text-anchor="middle">30 agentes en 10 bloques · 60+ formatos · matriz 4×4 ganchos · coordinados por 16 slash commands</text>
 
   <!-- Bloque A · Investigación -->
-  <g transform="translate(80,130)">
+  <g transform="translate(80,120)">
     <rect width="280" height="200" rx="14" fill="rgba(0,229,207,0.06)" stroke="#00E5CF" stroke-width="2"/>
     <text x="140" y="32" font-family="Inter, sans-serif" font-size="11" fill="#00E5CF" text-anchor="middle" font-weight="700" letter-spacing="1.5">BLOQUE A</text>
     <text x="140" y="58" font-family="Georgia, serif" font-size="20" fill="#fff" text-anchor="middle" font-weight="700">🔍 Investigación</text>
@@ -31,7 +31,7 @@
   </g>
 
   <!-- Bloque B · Núcleo Influencia -->
-  <g transform="translate(390,130)">
+  <g transform="translate(390,120)">
     <rect width="280" height="200" rx="14" fill="rgba(184,69,255,0.06)" stroke="#B845FF" stroke-width="2"/>
     <text x="140" y="32" font-family="Inter, sans-serif" font-size="11" fill="#B845FF" text-anchor="middle" font-weight="700" letter-spacing="1.5">BLOQUE B</text>
     <text x="140" y="58" font-family="Georgia, serif" font-size="20" fill="#fff" text-anchor="middle" font-weight="700">🧬 Núcleo Influencia</text>
@@ -44,29 +44,31 @@
   </g>
 
   <!-- Bloque C · Asuntos -->
-  <g transform="translate(700,130)">
+  <g transform="translate(700,120)">
     <rect width="280" height="200" rx="14" fill="rgba(0,229,207,0.06)" stroke="#00E5CF" stroke-width="2"/>
     <text x="140" y="32" font-family="Inter, sans-serif" font-size="11" fill="#00E5CF" text-anchor="middle" font-weight="700" letter-spacing="1.5">BLOQUE C</text>
     <text x="140" y="58" font-family="Georgia, serif" font-size="20" fill="#fff" text-anchor="middle" font-weight="700">💡 Asuntos Virales</text>
     <text x="140" y="82" font-family="Inter, sans-serif" font-size="11" fill="#8089a0" text-anchor="middle">3 agentes</text>
     <text x="20" y="110" font-family="Inter, sans-serif" font-size="11" fill="#cfd4e3">• asunto-detector (5 criterios)</text>
-    <text x="20" y="128" font-family="Inter, sans-serif" font-size="11" fill="#cfd4e3">• asuntos-generator (20/día)</text>
+    <text x="20" y="128" font-family="Inter, sans-serif" font-size="11" fill="#B845FF" font-weight="700">⭐ asuntos-generator (15-20/día)</text>
     <text x="20" y="146" font-family="Inter, sans-serif" font-size="11" fill="#cfd4e3">• pesquisa-magnetica (mensual)</text>
+    <text x="20" y="168" font-family="Inter, sans-serif" font-size="10" fill="#00E5CF" font-style="italic">Multi-fuente: Apify+IA+trends</text>
   </g>
 
   <!-- Bloque D · Gatillos & Headlines -->
-  <g transform="translate(1010,130)">
+  <g transform="translate(1010,120)">
     <rect width="280" height="200" rx="14" fill="rgba(184,69,255,0.06)" stroke="#B845FF" stroke-width="2"/>
     <text x="140" y="32" font-family="Inter, sans-serif" font-size="11" fill="#B845FF" text-anchor="middle" font-weight="700" letter-spacing="1.5">BLOQUE D</text>
     <text x="140" y="58" font-family="Georgia, serif" font-size="20" fill="#fff" text-anchor="middle" font-weight="700">🎣 Gatillos & Headlines</text>
     <text x="140" y="82" font-family="Inter, sans-serif" font-size="11" fill="#8089a0" text-anchor="middle">3 agentes</text>
     <text x="20" y="110" font-family="Inter, sans-serif" font-size="11" fill="#cfd4e3">• gatillo-master (7 gatillos)</text>
-    <text x="20" y="128" font-family="Inter, sans-serif" font-size="11" fill="#cfd4e3">• headline-3-tipos</text>
+    <text x="20" y="128" font-family="Inter, sans-serif" font-size="11" fill="#cfd4e3">• headline-3-tipos (×4 var)</text>
     <text x="20" y="146" font-family="Inter, sans-serif" font-size="11" fill="#cfd4e3">• plan-headlines-mes (batch)</text>
+    <text x="20" y="168" font-family="Inter, sans-serif" font-size="10" fill="#B845FF" font-style="italic">4 verbal × 4 visual × 4 audio</text>
   </g>
 
   <!-- Bloque E · 12 Estructuras -->
-  <g transform="translate(80,360)">
+  <g transform="translate(80,340)">
     <rect width="280" height="200" rx="14" fill="rgba(0,229,207,0.06)" stroke="#00E5CF" stroke-width="2"/>
     <text x="140" y="32" font-family="Inter, sans-serif" font-size="11" fill="#00E5CF" text-anchor="middle" font-weight="700" letter-spacing="1.5">BLOQUE E</text>
     <text x="140" y="58" font-family="Georgia, serif" font-size="20" fill="#fff" text-anchor="middle" font-weight="700">📐 12 Estructuras</text>
@@ -77,19 +79,21 @@
     <text x="20" y="178" font-family="Inter, sans-serif" font-size="10" fill="#B845FF" font-style="italic">3 familias · 12 fórmulas</text>
   </g>
 
-  <!-- Bloque F · Creación -->
-  <g transform="translate(390,360)">
-    <rect width="280" height="200" rx="14" fill="rgba(184,69,255,0.06)" stroke="#B845FF" stroke-width="2"/>
-    <text x="140" y="32" font-family="Inter, sans-serif" font-size="11" fill="#B845FF" text-anchor="middle" font-weight="700" letter-spacing="1.5">BLOQUE F</text>
-    <text x="140" y="58" font-family="Georgia, serif" font-size="20" fill="#fff" text-anchor="middle" font-weight="700">🎬 Creación</text>
-    <text x="140" y="82" font-family="Inter, sans-serif" font-size="11" fill="#8089a0" text-anchor="middle">3 agentes · output HTML estético</text>
-    <text x="20" y="110" font-family="Inter, sans-serif" font-size="11" fill="#cfd4e3">• reel-architect (guion 15-60s)</text>
-    <text x="20" y="128" font-family="Inter, sans-serif" font-size="11" fill="#cfd4e3">• carrusel-architect (8-10 slides)</text>
-    <text x="20" y="146" font-family="Inter, sans-serif" font-size="11" fill="#cfd4e3">• hilo-architect (8-15 tweets)</text>
+  <!-- Bloque F · Creación + FORMATO MASTER (NEW) -->
+  <g transform="translate(390,340)">
+    <rect width="280" height="200" rx="14" fill="rgba(184,69,255,0.08)" stroke="#B845FF" stroke-width="3"/>
+    <text x="140" y="32" font-family="Inter, sans-serif" font-size="11" fill="#B845FF" text-anchor="middle" font-weight="700" letter-spacing="1.5">BLOQUE F · NUEVO ⭐</text>
+    <text x="140" y="58" font-family="Georgia, serif" font-size="20" fill="#fff" text-anchor="middle" font-weight="700">🎬 Creación + Formato</text>
+    <text x="140" y="82" font-family="Inter, sans-serif" font-size="11" fill="#8089a0" text-anchor="middle">4 agentes · HTML estético</text>
+    <text x="20" y="110" font-family="Inter, sans-serif" font-size="11" fill="#B845FF" font-weight="700">⭐ formato-master (60+ formatos)</text>
+    <text x="20" y="128" font-family="Inter, sans-serif" font-size="11" fill="#cfd4e3">• reel-architect (matriz 4×4)</text>
+    <text x="20" y="146" font-family="Inter, sans-serif" font-size="11" fill="#cfd4e3">• carrusel-architect (8-10 slides)</text>
+    <text x="20" y="164" font-family="Inter, sans-serif" font-size="11" fill="#cfd4e3">• hilo-architect (8-15 tweets)</text>
+    <text x="20" y="184" font-family="Inter, sans-serif" font-size="10" fill="#00E5CF" font-style="italic">+ GENERA formatos nuevos</text>
   </g>
 
   <!-- Bloque G · Notable -->
-  <g transform="translate(700,360)">
+  <g transform="translate(700,340)">
     <rect width="280" height="200" rx="14" fill="rgba(0,229,207,0.06)" stroke="#00E5CF" stroke-width="2"/>
     <text x="140" y="32" font-family="Inter, sans-serif" font-size="11" fill="#00E5CF" text-anchor="middle" font-weight="700" letter-spacing="1.5">BLOQUE G</text>
     <text x="140" y="58" font-family="Georgia, serif" font-size="20" fill="#fff" text-anchor="middle" font-weight="700">🎨 Notable</text>
@@ -99,17 +103,18 @@
   </g>
 
   <!-- Bloque H · Métricas -->
-  <g transform="translate(1010,360)">
+  <g transform="translate(1010,340)">
     <rect width="280" height="200" rx="14" fill="rgba(184,69,255,0.06)" stroke="#B845FF" stroke-width="2"/>
     <text x="140" y="32" font-family="Inter, sans-serif" font-size="11" fill="#B845FF" text-anchor="middle" font-weight="700" letter-spacing="1.5">BLOQUE H</text>
     <text x="140" y="58" font-family="Georgia, serif" font-size="20" fill="#fff" text-anchor="middle" font-weight="700">📊 Métricas</text>
-    <text x="140" y="82" font-family="Inter, sans-serif" font-size="11" fill="#8089a0" text-anchor="middle">2 agentes · Metricool MCP Free</text>
-    <text x="20" y="110" font-family="Inter, sans-serif" font-size="11" fill="#cfd4e3">• metrics-analyst (IG/TT/YT/etc.)</text>
+    <text x="140" y="82" font-family="Inter, sans-serif" font-size="11" fill="#8089a0" text-anchor="middle">2 agentes · Metricool Free</text>
+    <text x="20" y="110" font-family="Inter, sans-serif" font-size="11" fill="#B845FF" font-weight="700">⭐ metrics-analyst (decisión)</text>
     <text x="20" y="128" font-family="Inter, sans-serif" font-size="11" fill="#cfd4e3">• iteracion-ganador (10 variantes)</text>
+    <text x="20" y="148" font-family="Inter, sans-serif" font-size="10" fill="#00E5CF" font-style="italic">Replicar/Iterar/Descartar auto</text>
   </g>
 
   <!-- Bloque I · Planificación -->
-  <g transform="translate(545,590)">
+  <g transform="translate(545,560)">
     <rect width="310" height="120" rx="14" fill="rgba(0,229,207,0.06)" stroke="#00E5CF" stroke-width="2"/>
     <text x="155" y="32" font-family="Inter, sans-serif" font-size="11" fill="#00E5CF" text-anchor="middle" font-weight="700" letter-spacing="1.5">BLOQUE I</text>
     <text x="155" y="58" font-family="Georgia, serif" font-size="20" fill="#fff" text-anchor="middle" font-weight="700">🗓️ Planificación</text>
@@ -117,8 +122,17 @@
     <text x="20" y="106" font-family="Inter, sans-serif" font-size="11" fill="#cfd4e3">• plan-semana · • batch-content-day</text>
   </g>
 
+  <!-- Formato master highlight -->
+  <g transform="translate(80,720)">
+    <rect width="1240" height="100" rx="14" fill="rgba(184,69,255,0.08)" stroke="#B845FF" stroke-width="2" stroke-dasharray="6,4"/>
+    <text x="20" y="30" font-family="Georgia, serif" font-size="18" fill="url(#brandG)" font-weight="700">⭐ formato-master · El crack de los formatos (NUEVO v1.2)</text>
+    <text x="20" y="55" font-family="Inter, sans-serif" font-size="11" fill="#cfd4e3">Conoce 60+ formatos visuales: HAC · Selfie · Green Screen · Split · Miro · Tier list · Bracket · Ranking · Pizarra · POV ·</text>
+    <text x="20" y="73" font-family="Inter, sans-serif" font-size="11" fill="#cfd4e3">2 personas reales · Loop iterativo · Conversación errores · Mecanismo paso a paso · y muchos más. Y GENERA nuevos formatos cuando ninguno encaja.</text>
+    <text x="20" y="91" font-family="Inter, sans-serif" font-size="11" fill="#00E5CF" font-weight="700">+ Matriz 4×4: 4 ganchos psicológicos × 4 variaciones verbal × 4 variaciones textual = 32 elementos A/B testing por reel</text>
+  </g>
+
   <!-- Integraciones externas -->
-  <g transform="translate(100,750)">
+  <g transform="translate(100,840)">
     <text x="0" y="0" font-family="Georgia, serif" font-size="18" fill="url(#brandG)" font-weight="700">⚙️ Integraciones externas (todo GRATIS)</text>
     <g transform="translate(0,16)" font-family="Inter, sans-serif" font-size="11">
       <text x="0" y="24" fill="#cfd4e3">• Metricool MCP (Free) · métricas IG · TT · YT · FB · Pinterest · Threads · Bluesky</text>
@@ -129,5 +143,5 @@
     </g>
   </g>
 
-  <text x="700" y="880" font-family="Inter, sans-serif" font-size="11" fill="#6b7588" text-anchor="middle">JOSEPH MORENO · ZENITH · BASADO EN EL MÉTODO AUDIENCE DE ELIAS MAMÃ</text>
+  <text x="700" y="980" font-family="Inter, sans-serif" font-size="11" fill="#6b7588" text-anchor="middle">JOSEPH MORENO · ZENITH · BASADO EN EL MÉTODO AUDIENCE DE ELIAS MAMÃ · v1.2.0</text>
 </svg>
