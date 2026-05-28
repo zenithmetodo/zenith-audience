@@ -63,19 +63,44 @@ AUDIENCIA ORGÁNICA QUE TE RESPETA · CONFÍA · COMPRA
 
 ### 9 bloques de agentes
 
-| Bloque | Función | Agentes |
-|---|---|---|
-| **A · Investigación** | Spy competidor · trends · engenharia reversa · ideas ganadoras ⭐ | 6 |
-| **B · Núcleo Influencia** | Setup one-shot · 10 preguntas | 5 |
-| **C · Asuntos Virales** | Validación · ideación diaria · pesquisa magnética | 3 |
-| **D · Gatillos & Headlines** | 7 gatillos · 3 tipos headline · plan batch | 3 |
-| **E · 12 Estructuras** | Selector · aplicador · rotation planner | 3 |
-| **F · Creación** | Reel · carrusel · hilo | 3 |
-| **G · Notable** | Auditor + builder · 8 elementos + STEPPS | 2 |
-| **H · Métricas** | Metricool MCP + iteración de ganadores | 2 |
-| **I · Planificación** | Plan semana · batch day | 2 |
+| Bloque | Función | Agentes | Cuándo usar |
+|---|---|---|---|
+| **A · Investigación** | Spy + trends + engenharia + ideas ganadoras ⭐ | 6 | Lunes · sábados · ad-hoc |
+| **B · Núcleo Influencia** | Setup one-shot · 10 preguntas | 5 | 1 vez al inicio + refresh anual |
+| **C · Asuntos Virales** | 15-20 ideas diarias + validación + pesquisa | 3 | Diario AM |
+| **D · Gatillos & Headlines** | 7 gatillos + 3 tipos + batch mensual | 3 | Antes de grabar |
+| **E · 12 Estructuras** | Selector + aplicador + rotación | 3 | Por cada vídeo |
+| **F · Creación** | Reel + carrusel + hilo | 3 | 3-5x/semana |
+| **G · Notable** | Auditor + builder · 8 elementos + STEPPS | 2 | Antes de publicar |
+| **H · Métricas** | Metricool + iteración ganadores + decisión | 2 | Viernes + lunes |
+| **I · Planificación** | Plan semana + batch day | 2 | Domingo + día batch |
 
 **Total: 29 agentes coordinados por 15 slash commands.**
+
+### 🔍 Detalle Bloque A · Investigación (el más importante para ideas)
+
+| Agente | Qué hace | Modelo |
+|---|---|---|
+| `spy-competidor` | Disecciona últimos 30 posts del competidor · gatilhos · estructuras · GAPS | Opus |
+| `trend-google` | Tendencias Google Trends (gratis · pytrends) | Sonnet |
+| `trend-redes` | Trends TikTok/IG vía Apify (free $5/mes) | Opus |
+| `trend-foros` | Reddit threads + YouTube shorts (gratis) | Sonnet |
+| `engenharia-reversa` | Análisis profundo 5 capas de un viral · receta replicable | Opus |
+| `ideas-ganadoras-adapter` ⭐ | Multi-fuente · transcribe · adapta a TU núcleo · 3 variantes | Opus |
+
+### 📊 Detalle Bloque H · Métricas + Decisión
+
+| Agente | Qué hace |
+|---|---|
+| `metrics-analyst` ⭐ | Lee Metricool · aplica las 3 métricas · sistema de decisión REPLICAR/ITERAR/GUARDAR/APRENDER/DESCARTAR |
+| `iteracion-ganador` | Toma viral propio · genera 10 variantes (cambia gatilho/template/audiencia/formato/contexto) |
+
+**El método define solo 3 métricas (Clases 8-9):**
+1. **Pulados** (Skip Rate) — <40% = viral potencial · <30% = bomba
+2. **Retención** (Watch Time) — >30% bueno · >50% excelente · >70% viral masivo
+3. **Interacciones** (Engagement) — >10% objetivo · >15% muy bueno · >20% bomba
+
+Mira el [knowledge file completo de métricas](knowledge/metricas/00-las-3-metricas-del-metodo.md) y el [sistema de decisión](knowledge/metricas/01-decision-replicar-iterar-descartar.md).
 
 ---
 
@@ -85,16 +110,16 @@ AUDIENCIA ORGÁNICA QUE TE RESPETA · CONFÍA · COMPRA
 <img src="assets/pipeline-diario.svg" alt="Pipeline Diario" width="900"/>
 </div>
 
-### 🌅 Día tipo · 10 min · ~$0.20
+### 🌅 Día tipo · 10 min
 
 ```bash
-07:00 → /audience-ideas        → 20 ideas hoy ($0.05)
-07:05 → /audience-reel [idea]  → guion completo HTML ($0.12)
-07:08 → /audience-audit        → checklist final ($0.03)
+07:00 → /audience-ideas        → 15-20 ideas hoy (multi-fuente)
+07:05 → /audience-reel [idea]  → guion completo HTML
+07:08 → /audience-audit        → checklist final
 07:10 → Grabas y publicas
 ```
 
-### 📅 Semana tipo · ~$4.50
+### 📅 Semana tipo
 
 ```
 Lunes      → /audience-trend (multi-fuente)
@@ -104,13 +129,15 @@ Sábado     → /audience-spy @competidor
 Domingo    → /audience-plan-semana
 ```
 
-### ⭐ Adaptar viral · 10 min · ~$0.80
+### ⭐ Adaptar viral · 10 min
 
 ```bash
 /audience-adaptar https://instagram.com/reel/XXXXX/
 ```
 
 → Transcribe · analiza · extrae idea ganadora · adapta a TU núcleo · 3 variantes (reel + carrusel + hilo)
+
+📖 **Workflow completo paso a paso:** [GETTING_STARTED.md](GETTING_STARTED.md)
 
 ---
 
@@ -192,23 +219,23 @@ Setup ONE-SHOT al inicio (2-3h):
 
 ## Los 15 Slash Commands
 
-| Command | Función | Coste |
+| Command | Función | Frecuencia recomendada |
 |---|---|---|
-| `/audience-setup` | Setup núcleo influencia one-shot | ~$0.40 |
-| `/audience-ideas` | 20 ideas para hoy | $0.05 |
-| `/audience-trend` | Trends multi-fuente | $0.55 |
-| `/audience-spy [@handle]` | Análisis competidor | $0.80 |
-| `/audience-adaptar [url]` ⭐ | Adaptar viral a tu núcleo | $0.60 |
-| `/audience-headline [tema]` | 10 headlines (3 tipos) | $0.08 |
-| `/audience-reel [tema]` | Guion completo reel | $0.15 |
-| `/audience-carrusel [tema]` | Carrusel 8-10 slides | $0.12 |
-| `/audience-hilo [tema]` | Thread X/IG/LinkedIn | $0.10 |
-| `/audience-audit [guion]` | Audit notable + 5 criterios | $0.03 |
-| `/audience-iterar [post]` | 10 variantes de viral | $0.50 |
-| `/audience-metrics` | Reporte Metricool | $0.04 |
-| `/audience-plan-semana` | Calendario semanal | $0.10 |
-| `/audience-batch-day` | Plan grabación batch | $0.20 |
-| `/audience-engenharia [url]` | Engenharia reversa 5 capas | $0.40 |
+| `/audience-setup` | Setup núcleo influencia one-shot | 1x al inicio · refresh anual |
+| `/audience-ideas` | **15-20 ideas multi-fuente** (Apify + IA + trends) | Diario AM |
+| `/audience-trend` | Trends Google + Reddit + YT + Apify | 1-2x/semana |
+| `/audience-spy [@handle]` | Análisis competidor en profundidad | Semanal |
+| `/audience-adaptar [url]` ⭐ | Adaptar viral ajeno a tu núcleo | A demanda |
+| `/audience-headline [tema]` | 10 headlines (3 tipos · v/v/audio) | Antes de grabar |
+| `/audience-reel [tema]` | Guion completo reel HTML estético | 3-5x/semana |
+| `/audience-carrusel [tema]` | Carrusel 8-10 slides estético | 2-3x/semana |
+| `/audience-hilo [tema]` | Thread X/IG/LinkedIn | 1-2x/semana |
+| `/audience-audit [guion]` | Audit 8 notable + 5 criterios viral | Antes de publicar |
+| `/audience-iterar [post]` | 10 variantes de viral propio | Cuando >3x media |
+| `/audience-metrics` | Métricas + decisión (replicar/iterar/descartar) | Viernes + lunes |
+| `/audience-plan-semana` | Calendario 7 días con rotación 12 templates | Domingo |
+| `/audience-batch-day` | Plan grabación batch (5-10 reels en 1 día) | Día 15 mes |
+| `/audience-engenharia [url]` | Engenharia reversa profunda 5 capas | A demanda |
 
 ---
 
@@ -237,7 +264,14 @@ Setup ONE-SHOT al inicio (2-3h):
 - `youtube-transcript-api` (YouTube · instant)
 - `yt-dlp` + `faster-whisper` (IG/TT · local · ES+PT+EN)
 
-**Coste total mensual: $20-25 (solo API Claude) + Apify Free + Metricool Free**
+### 💰 Coste del plugin
+
+**Si pagas plan Claude (Pro $20 · Max $100 · Max $200/mes):**
+- ✅ Todo el uso del plugin está **INCLUIDO en tu plan flat**
+- ✅ Sin coste por token · sin sorpresas a fin de mes
+- ✅ Metricool Free + Apify Free + Whisper local · todo gratis
+
+**Total mensual:** solo tu plan Claude habitual.
 
 ---
 
@@ -363,15 +397,23 @@ Te guía las 10 preguntas del núcleo de influencia.
 
 ## Coste Total Mensual
 
+### Si pagas plan Claude flat (Pro · Max)
+
 | Concepto | Coste |
 |---|---|
-| Claude API (uso intenso diario) | ~$20-25 |
+| Plan Claude (Pro $20 · Max $100 · Max $200) | Tu plan habitual |
 | Metricool plan Free | **$0** |
-| Apify Free $5/mes | **$0** (dentro del free) |
-| Whisper · pytrends · PRAW · YT API | **$0** (todo gratis) |
-| **TOTAL** | **~$20-25/mes** |
+| Apify Free $5/mes credit | **$0** (dentro del free tier) |
+| Whisper local · pytrends · PRAW · YT API | **$0** (todo open source) |
+| **TOTAL adicional al plugin** | **$0** |
 
-vs **1 hora de creative agency = $100+**. ROI brutal.
+### Si pagas API pay-per-use
+- ~$20-25/mes uso intenso diario
+- Resto de servicios externos: $0
+
+vs **1 hora de creative agency = $100+** o **agency mensual = $2000+**. ROI brutal.
+
+📖 **Workflow detallado paso a paso:** [GETTING_STARTED.md](GETTING_STARTED.md)
 
 ---
 
