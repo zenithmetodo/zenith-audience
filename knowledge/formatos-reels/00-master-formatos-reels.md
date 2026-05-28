@@ -371,38 +371,49 @@ Texto/escena que cambia mientras pasa el tiempo.
 
 ---
 
-## 🎯 LA REGLA DE LOS 4 GANCHOS · MATRIZ 4×4
+## 🎯 LA REGLA DE LOS 4 GANCHOS POR REEL
 
-> Para CADA reel · NUNCA grabes con 1 solo gancho.
-> SIEMPRE prepara MATRIZ 4×4 = 4 ganchos psicológicos × 4 variaciones verbal × 4 variaciones textual = 32 elementos testing.
+> Para CADA reel · `formato-master` entrega **4 GANCHOS** · los **mejores posibles para ese reel concreto**.
+> Cada gancho tiene: 1 VERBAL (audio · lo que se dice) + 1 TEXTUAL (overlay · lo que aparece en pantalla).
+> **Total por reel: 4 ganchos = 4 verbales + 4 textuales = 8 elementos.**
 
-### Los 4 GANCHOS PSICOLÓGICOS
+### Los 4 ganchos NO son matriz exhaustiva
 
-1. **A · DOLOR/MIEDO** · aversión a pérdida (Kahneman)
-2. **B · DESEO/RECOMPENSA** · dopamina por promesa (Fogg)
-3. **C · MISTERIO/CURIOSIDAD** · Information Gap (Loewenstein)
-4. **D · DISRUPCIÓN/PROVOCACIÓN** · Expectation Violation
+Son los **4 ÓPTIMOS seleccionados específicamente** para tu reel.
 
-### Las 4 VARIACIONES VERBAL por gancho
+Pueden ser:
+- 4 de tipos psicológicos distintos (Dolor · Deseo · Misterio · Disrupción)
+- O 2-3 del mismo tipo si encajan mejor con el reel concreto
+- O combinaciones según el tema
 
-1. **V1 · Directa** ("Si X · entonces Y")
-2. **V2 · Pregunta** ("¿Sabías que X?")
-3. **V3 · Estadística** ("El 90% de [grupo] hace X mal")
-4. **V4 · Negación múltiple** ("No es X · no es Y · no es Z · es W")
+### Tipos psicológicos posibles
 
-### Las 4 VARIACIONES TEXTUAL/OVERLAY por gancho
+1. **DOLOR/MIEDO** · aversión a pérdida (Kahneman)
+2. **DESEO/RECOMPENSA** · dopamina por promesa (Fogg)
+3. **MISTERIO/CURIOSIDAD** · Information Gap (Loewenstein)
+4. **DISRUPCIÓN/PROVOCACIÓN** · Expectation Violation
 
-1. **T1 · Pregunta directa** ("¿USAS LA IA EQUIVOCADA?")
-2. **T2 · Afirmación shock** ("CHATGPT NO ES LA MEJOR")
-3. **T3 · Promesa** ("LA MEJOR IA DEL 2026")
-4. **T4 · Curiosidad** ("¿CUÁL VENCE A TODAS?")
+### Formas posibles del VERBAL (audio)
 
-### Cómo se usan
+- Directa ("Si X · entonces Y")
+- Pregunta ("¿Sabías que X?")
+- Estadística ("El 90% de [grupo] hace X mal")
+- Negación múltiple ("No es X · no es Y · es Z")
+- Híbrida
+
+### Formas posibles del TEXTUAL (overlay)
+
+- Pregunta directa ("¿USAS LA IA EQUIVOCADA?")
+- Afirmación shock ("CHATGPT NO ES LA MEJOR")
+- Promesa ("LA MEJOR IA DEL 2026")
+- Curiosidad ("¿CUÁL VENCE A TODAS?")
+- Híbrida
+
+### Cómo se usan los 4 ganchos
 - Cuerpo del reel: 1 sola grabación
-- 16 ganchos verbales: ~30-45 min grabación extra
-- 16 textuales: aplican en post-edición
-- Test secuencial: combo 1 → 48h → si <0.5x → combo 2 → etc.
-- Si combo >3x media → `/audience-iterar`
+- 4 ganchos: ~15-20 min grabación extra (cambias solo primeros 3s)
+- Test secuencial: Gancho A → 48h → si <0.5x → Gancho B → etc.
+- Si >3x media → `/audience-iterar`
 
 ---
 
@@ -411,7 +422,7 @@ Texto/escena que cambia mientras pasa el tiempo.
 - [ ] ¿Qué formato uso? (de los 60+ · o nuevo generado)
 - [ ] ¿Qué template viral? (de los 12)
 - [ ] ¿Qué 2-3 gatillos en stacking? (de los 7)
-- [ ] ¿Matriz 4×4 ganchos lista? (16 verbales + 16 textuales)
+- [ ] ¿Los 4 ganchos óptimos listos? (cada uno con verbal + textual)
 - [ ] ¿B-roll necesario?
 - [ ] ¿Audio · iluminación · vestuario OK?
 
@@ -426,9 +437,7 @@ TEMPLATE viral (de los 12)
     +
 GATILLOS stacking (2-3 de los 7)
     +
-3 HEADLINES (verbal · visual · audio)
-    +
-MATRIZ 4×4 GANCHOS (32 elementos testing)
+4 GANCHOS ÓPTIMOS (cada uno con verbal + textual)
     +
 8 ELEMENTOS notable integrados (2-3 mínimo)
     +
