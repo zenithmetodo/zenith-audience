@@ -124,7 +124,7 @@ Soy especialista en **ingeniería reversa de contenido viral**. Tomo cualquier v
 1. Descargo audio del vídeo (si IG/TT con yt-dlp)
 2. Transcribo (youtube-transcript-api si YT · faster-whisper otros)
 3. Analizo capa por capa (Opus)
-4. Identifico patrones contra mi knowledge base (32 archivos)
+4. Identifico patrones contra mi knowledge base (44 archivos)
 5. Genero receta + sugerencia de adaptación a tu núcleo
 6. Output en HTML estético o Markdown
 

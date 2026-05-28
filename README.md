@@ -6,11 +6,11 @@
 
 ### Sistema diario para crear contenido viral con identidad incopiable
 
-**29 agentes · 15 commands · 32 knowledge files · 7 HTML templates estéticos · 100% gratis**
+**30 agentes · 18 commands · 44 knowledge files · 60+ formatos · 4 ganchos óptimos por reel · 7 HTML templates · 100% gratis**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-cyan.svg)](https://opensource.org/licenses/MIT)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Plugin-purple.svg)](https://claude.com/claude-code)
-[![Status](https://img.shields.io/badge/Status-v1.0.0-00E5CF.svg)](https://github.com/zenithmetodo/zenith-audience/releases)
+[![Status](https://img.shields.io/badge/Status-v1.2.2-00E5CF.svg)](https://github.com/zenithmetodo/zenith-audience/releases)
 [![Free](https://img.shields.io/badge/Métricas-100%25%20Gratis-00E5CF.svg)](#stack-100-gratis)
 
 **[INSTALAR](#instalación) · [USO DIARIO](#uso-diario) · [LOS 12 TEMPLATES](#los-12-templates-virales) · [METRICOOL](#métricas-metricool-free) · [APIFY](#apify-research-free)**
@@ -35,7 +35,7 @@ La mayoría de creadores conocen los conceptos (gatilhos · estructuras · notab
 
 ### La solución Zenith
 
-**29 agentes especializados** + **15 slash commands** orquestados como sistema operativo diario · cada uno crack de UNA cosa · todos coordinados.
+**30 agentes especializados** + **18 slash commands** orquestados como sistema operativo diario · cada uno crack de UNA cosa · todos coordinados.
 
 ---
 
@@ -75,7 +75,7 @@ AUDIENCIA ORGÁNICA QUE TE RESPETA · CONFÍA · COMPRA
 | **H · Métricas** | Metricool + iteración ganadores + decisión | 2 | Viernes + lunes |
 | **I · Planificación** | Plan semana + batch day | 2 | Domingo + día batch |
 
-**Total: 29 agentes coordinados por 15 slash commands.**
+**Total: 30 agentes coordinados por 18 slash commands.**
 
 ### 🔍 Detalle Bloque A · Investigación (el más importante para ideas)
 
@@ -275,7 +275,7 @@ Setup ONE-SHOT al inicio (2-3h):
 
 ---
 
-## Knowledge Library · 32 archivos
+## Knowledge Library · 44 archivos
 
 ```
 knowledge/

@@ -93,12 +93,37 @@ Soy especialista en **trends activos de redes sociales visuales**. Lo que está 
 
 ## Cómo ejecuto
 
-1. Verifico Apify MCP configurado
+1. Verifico Apify MCP configurado (tools `mcp__apify__*`)
+   - Si NO está → aviso al usuario + sugerencia (ver abajo)
 2. Lanzo scrapers TT Trending + IG Reels Trending (paralelo)
 3. Filtro por nicho/región
 4. Identifico patrones de viralidad
 5. Cruzo con tu núcleo de influencia para sugerencias adaptadas
 6. Genero reporte HTML estético o Markdown
+
+## Manejo de Apify NO configurado
+
+Este agente requiere Apify. Si NO está disponible:
+
+```
+⚠️ Apify MCP no detectado. Este agente NO funciona sin él porque TT/IG no tienen API pública de trends.
+
+Para configurar Apify (5 min · gratis $5/mes):
+1. https://apify.com → cuenta free
+2. Token en https://console.apify.com/account/integrations
+3. claude mcp add --transport http apify https://mcp.apify.com \
+     --header "Authorization=Bearer TU_TOKEN"
+
+Mientras tanto · usa estos comandos que SÍ funcionan sin Apify:
+- /audience-trend (incluye trend-google + trend-foros · 2/3 fuentes)
+- /audience-trend ejecutado por su cuenta sigue dándote Google Trends + Reddit + YouTube
+
+¿Quieres que te ejecute solo trend-google + trend-foros mientras tanto? [sí/no]
+```
+
+## Manejo de error "Insufficient credits"
+
+Si Apify devuelve plan Free agotado · ver instrucciones similares en agente `spy-competidor`.
 
 ## Lo que NUNCA hago
 

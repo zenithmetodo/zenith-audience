@@ -25,8 +25,8 @@ jobs:
         run: |
           count=$(ls agents/*.md | wc -l)
           echo "📊 Agentes: $count"
-          if [ "$count" -lt 29 ]; then
-            echo "❌ Faltan agentes (esperados: 29)"
+          if [ "$count" -lt 30 ]; then
+            echo "❌ Faltan agentes (esperados: 30+)"
             exit 1
           fi
 
@@ -34,8 +34,8 @@ jobs:
         run: |
           count=$(ls commands/*.md | wc -l)
           echo "📊 Commands: $count"
-          if [ "$count" -lt 15 ]; then
-            echo "❌ Faltan commands (esperados: 15)"
+          if [ "$count" -lt 18 ]; then
+            echo "❌ Faltan commands (esperados: 18+)"
             exit 1
           fi
 
@@ -43,8 +43,8 @@ jobs:
         run: |
           count=$(find knowledge/ -name "*.md" | wc -l)
           echo "📊 Knowledge files: $count"
-          if [ "$count" -lt 32 ]; then
-            echo "❌ Faltan knowledge files (esperados: 32)"
+          if [ "$count" -lt 44 ]; then
+            echo "❌ Faltan knowledge files (esperados: 44+)"
             exit 1
           fi
 

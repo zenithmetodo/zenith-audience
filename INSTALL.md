@@ -153,9 +153,9 @@ Debes recibir 20 ideas en ~30 segundos.
 ```
 ~/.claude/plugins/zenith-audience/
 ├── .claude-plugin/plugin.json     ← Manifest del plugin
-├── agents/                         ← 29 agentes especializados
-├── commands/                       ← 15 slash commands
-├── knowledge/                      ← 32 archivos del método
+├── agents/                         ← 30 agentes especializados
+├── commands/                       ← 18 slash commands
+├── knowledge/                      ← 44 archivos del método + 60+ formatos
 ├── templates/                      ← 7 HTML estéticos PDF-ready
 ├── examples/                       ← Casos canónicos
 ├── mcp-servers/                    ← Configs Metricool + Apify

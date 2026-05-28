@@ -1,71 +1,126 @@
 # Changelog · Zenith Audience™
 
+## v1.2.2 · 2026-05-29
+
+### 🛠️ Bug fixes masivos (auditoría con agentes Opus)
+
+Tras auditoría profunda con 3 agentes Opus paralelos · correcciones de coherencia:
+
+#### Fallos críticos corregidos
+- ✅ Creado `/audience-headline-batch` (referenciado en docs · faltaba)
+- ✅ Creado `/audience-pesquisa` (para agente pesquisa-magnetica huérfano)
+- ✅ Reescrito `templates/reel-guion.html` con modelo "4 ganchos" (era "3 headlines")
+- ✅ Actualizado `/audience-reel` descripción + pipeline para invocar formato-master
+- ✅ Añadido modo manual a `/audience-metrics` (fallback sin Metricool)
+- ✅ Añadido manejo de error Apify en `spy-competidor` y `trend-redes` (con instrucciones de setup + modo degradado)
+- ✅ Eliminado rastro "4 verbal × 4 visual × 4 audio" del SVG arquitectura
+- ✅ Actualizado banner SVG (30 agentes · 18 commands · 44 knowledge)
+- ✅ Sincronizado counts en README · INSTALL · agentes (29→30 · 15→18 · 32→44)
+
+#### Stats actuales
+- **30 agentes** (Bloque F ahora con 4: reel-architect · carrusel-architect · hilo-architect · formato-master)
+- **18 commands** (incluye /audience-formato · /audience-headline-batch · /audience-pesquisa)
+- **44 knowledge files** (32 originales + 2 métricas + 8 formatos-reels + 2 más)
+- **60+ formatos visuales** con generador dinámico
+
+---
+
+## v1.2.1 · 2026-05-29
+
+### Corrección · 4 ganchos óptimos por reel (NO matriz 4×4)
+
+- Antes (mal): matriz 4×4×4 = 32 elementos testing por reel
+- Ahora (correcto): 4 ganchos óptimos por reel · cada uno con su VERBAL (audio) + TEXTUAL (overlay) = 8 elementos
+
+Los 4 ganchos son los **mejores posibles para ese reel concreto**, no una matriz exhaustiva.
+
+---
+
+## v1.2.0 · 2026-05-28
+
+### 🔥 NUEVO agente · formato-master (#30)
+
+- Crack de los 60+ formatos visuales
+- GENERA formatos nuevos dinámicamente cuando ninguno encaja
+- Estructura timestamps PRO (VISUAL + AUDIO + OVERLAY + ICONO)
+
+### 60+ formatos en 11 categorías
+
+1. Talking · 2. Visual overlay · 3. Split Screen · 4. Comparativas (incluye 2 personas reales mismo plano) · 5. Rankings (Tier list · Top 10 · Bracket) · 6. Narrativo (incluye Loop iterativo) · 7. Demostración · 8. Voiceover · 9. Estéticos · 10. Interactivos · 11. Emergentes 2026
+
+### 7 formatos con knowledge file completo
+- Competición/Bracket · Ranking ordenado · Tier list · Pizarra · Conversación errores · Pregunta-respuesta · Sirve/NoSirve
+
+### Otros cambios
+- Nuevo `/audience-formato`
+- `reel-architect` mejorado (Opus)
+- SVGs arquitectura + pipeline actualizados
+
+---
+
+## v1.1.0 · 2026-05-28
+
+### 🔥 asuntos-generator MULTI-FUENTE
+
+15-20 ideas/día en mix:
+- 6-7 de competidores validados (Apify)
+- 6-7 generadas por IA (núcleo)
+- 3-4 trending del momento
+- 2 contraintuitivas
+
+### Métricas profundas (Clases 8-9)
+
+- `knowledge/metricas/00-las-3-metricas-del-metodo.md`
+- `knowledge/metricas/01-decision-replicar-iterar-descartar.md`
+- Sistema decisión 5 acciones (REPLICAR/ITERAR/GUARDAR/APRENDER/DESCARTAR)
+- `metrics-analyst` mejorado (Sonnet → Opus)
+
+### GETTING_STARTED.md nuevo
+
+Workflow 7 días paso a paso · rutinas diaria/semanal/mensual.
+
+### Coste actualizado a plan Claude
+
+"Incluido en plan flat (Pro $20 · Max $100 · Max $200)"
+
+---
+
 ## v1.0.0 · 2026-05-28
 
 ### Lanzamiento inicial
 
 Sistema diario para crear contenido viral basado en el Método Audience de Elias Mamã (Marconi Rômulo) · adaptado por Joseph Moreno · Zenith.
 
-#### Componentes
-
-- ✅ **29 agentes** especializados (cada uno crack de UNA cosa)
-- ✅ **15 slash commands** para uso diario · semanal · mensual
-- ✅ **32 knowledge files** con todo el método (3 pilares · 7 gatillos · 12 estructuras · 8 elementos notable · 10 preguntas núcleo)
-- ✅ **7 HTML templates** estéticos PDF-ready (reel · carrusel · hilo · plan-semana · audit · métricas · engenharia)
-- ✅ **6 scripts Python** (gratis · pytrends · PRAW · YT API · transcripción Whisper local)
-- ✅ **2 MCP configs** (Metricool Free · Apify Free $5/mes)
-- ✅ **4 SVGs** (logo · banner · arquitectura · pipeline)
-- ✅ **Examples canónicos** (12 templates · 7 gatillos · 6 categorías · 1 núcleo completo · 1 engenharia reversa)
-
-#### Features destacadas
-
-- ⭐ **Agente `ideas-ganadoras-adapter`** · multi-fuente (web · Apify · IA generativa) · adapta virales a TU núcleo
-- ✅ **Metricool MCP** integrado (plan Free permanente · 1 marca · 8 redes)
-- ✅ **Stack transcripción 100% gratis local** (youtube-transcript-api + yt-dlp + faster-whisper)
-- ✅ **3 tipos de headline** generados siempre (verbal + visual + audio)
-- ✅ **Stacking de gatillos** (mezcla de 2-3 por contenido · no 1 solo)
-- ✅ **Output HTML estético** PDF-ready con análisis "por qué funcionará" + "en qué se basa"
-
-#### Estructura
-
-```
-zenith-audience/
-├── .claude-plugin/plugin.json
-├── agents/          (29)
-├── commands/        (15)
-├── knowledge/       (32)
-├── templates/       (7 HTMLs)
-├── examples/        (~15 archivos)
-├── mcp-servers/     (2 configs)
-├── scripts/         (6 Python)
-├── assets/          (4 SVGs)
-├── .github/
-└── docs/            (README · INSTALL · setup guides)
-```
+#### Componentes iniciales
+- 29 agentes especializados
+- 15 slash commands
+- 32 knowledge files
+- 7 HTML templates estéticos
+- 6 scripts Python (gratis · pytrends · PRAW · YT API · Whisper local)
+- 2 MCP configs (Metricool Free · Apify Free $5/mes)
+- 4 SVGs
+- Examples canónicos
+- Docs profesionales
 
 #### Coste mensual estimado
-- Claude API uso intenso: ~$20-25
+- Plan Claude (Pro $20 · Max $100 · Max $200): incluye todo
 - Metricool Free: $0
-- Apify Free: $0 (dentro de $5/mes)
-- APIs (Reddit · YouTube · pytrends): $0
-- Whisper local: $0
-- **TOTAL: ~$20-25/mes**
+- Apify Free $5/mes: $0
+- Total adicional: **$0**
 
 ---
 
 ## Roadmap
 
-### v1.1.0 (próximo)
-- Más examples canónicos por nicho
-- Agente `voice-cloning-adapter` (opcional · ElevenLabs)
-- Dashboard Next.js opcional (Vercel · separado del plugin)
+### v1.3 (próximo)
+- Tests E2E mínimos en CI (valida que agentes referenciados en commands existen)
+- Más knowledge files de formatos (de 7 a 15-20 con guion-tipo)
+- HTML template para `formato-recomendaciones.html`
 
-### v1.2.0
-- Soporte LinkedIn (cuando Metricool lo incluya en Free)
-- Integración con CapCut / Descript (edición automática)
-- Agente `cover-designer` (diseño visual con IA)
+### v1.4
+- Avatar IA / Sintético opcional (ElevenLabs)
+- Dashboard Next.js opcional (Vercel · separado)
 
-### v2.0.0
-- Multi-marca (cuando user actualice Metricool a Starter)
-- Análisis sentiment vía Brand24 (opcional)
-- Reportes ejecutivos automatizados mensuales
+### v2.0
+- Multi-marca (Metricool Starter)
+- LinkedIn/Twitter cuando Metricool lo añada al Free
