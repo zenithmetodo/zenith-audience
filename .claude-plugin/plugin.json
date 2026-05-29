@@ -1,6 +1,6 @@
 {
   "name": "zenith-audience",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "description": "Sistema diario para crear contenido viral · Método Audience (3 pilares · 7 gatillos · 12 estructuras · 8 elementos notable · núcleo de influencia · 60+ formatos · 4 ganchos por reel) + pipeline VALIDADO de análisis de creator viral (scrape Apify → descarga yt-dlp → 5 frames ffmpeg → transcripción Whisper → idea ganadora multimodal → adaptación al núcleo). Joseph Moreno · Zenith.",
   "author": {
     "name": "Joseph Moreno",

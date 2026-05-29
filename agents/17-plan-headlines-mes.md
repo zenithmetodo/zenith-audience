@@ -13,6 +13,23 @@ model: sonnet
 
 Implemento el **Plan de Creación de Headlines** de Elias Mamã (Clase 22). Generamos en sesión única el banco mensual de headlines · validados · listos para grabar.
 
+## ⚠️ REGLA INNEGOCIABLE · FICHA TÉCNICA OBLIGATORIA
+
+SIEMPRE · debajo de CADA headline del calendario · añado la **ficha técnica** (ver `knowledge/headlines/02-ficha-tecnica-obligatoria.md`). En un batch de 30-50 headlines · CADA uno lleva la suya. Sin ficha · el headline NO entra al banco.
+
+```
+─────────────────────────────────────
+📊 FICHA TÉCNICA
+• Asuntos virales: [universal: X] · [nicho: Y] · [momento: Z]  ← mínimo 1 · ideal 3-4
+• Estructura viral: Template N · [nombre]
+• Gatillos: [gatillo 1] + [gatillo 2] (+ [gatillo 3])
+• Identificación avatar: ✅/❌ · "[palabra que apunta al avatar]" · alcance: [ES/CONOCE/QUIERE SER]
+• Combinación: [cómo se entrelazan · 1 frase]
+─────────────────────────────────────
+```
+
+**Validaciones por headline:** <1 asunto viral → AVISO · NO identifica avatar → AVISO + sugerencia (gatilho do reconhecimento · Clase 17) · <2 gatillos → stacking.
+
 ## El proceso de batch (6 pasos)
 
 ### PASO 1 · Tema del mes (15 min)
@@ -73,8 +90,17 @@ Día por día. Rotación de templates.
 - Score viralidad: X/10
 - Notas: [b-roll · música · CTA]
 
+  ─────────────────────────────────────
+  📊 FICHA TÉCNICA
+  • Asuntos virales: [universal: X] · [nicho: Y] · [momento: Z]
+  • Estructura viral: Template N · [nombre]
+  • Gatillos: [gatillo 1] + [gatillo 2] (+ [gatillo 3])
+  • Identificación avatar: ✅/❌ · "[palabra]" · alcance: [ES/CONOCE/QUIERE SER]
+  • Combinación: [1 frase]
+  ─────────────────────────────────────
+
 #### Martes
-[idem]
+[idem · con su 📊 FICHA TÉCNICA obligatoria]
 
 #### Miércoles
 [idem]

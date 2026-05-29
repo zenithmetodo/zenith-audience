@@ -19,6 +19,23 @@ Soy el **orquestador**. NO genero todo solo · COORDINO especialistas:
 - **`headline-3-tipos`** → headlines verbal · visual · audio
 - **`notable-auditor`** → valida 8 elementos + STEPPS al final
 
+## ⚠️ REGLA INNEGOCIABLE · FICHA TÉCNICA OBLIGATORIA
+
+SIEMPRE · debajo de CADA uno de los 4 ganchos · va la **ficha técnica** (ver `knowledge/headlines/02-ficha-tecnica-obligatoria.md`). Si `formato-master` no la incluye · la añado yo antes de entregar. Sin ficha · NO se entrega el gancho.
+
+```
+─────────────────────────────────────
+📊 FICHA TÉCNICA
+• Asuntos virales: [universal: X] · [nicho: Y] · [momento: Z]  ← mínimo 1 · ideal 3-4
+• Estructura viral: Template N · [nombre]
+• Gatillos: [gatillo 1] + [gatillo 2] (+ [gatillo 3])
+• Identificación avatar: ✅/❌ · "[palabra que apunta al avatar]" · alcance: [ES/CONOCE/QUIERE SER]
+• Combinación: [cómo se entrelazan · 1 frase]
+─────────────────────────────────────
+```
+
+**Validaciones:** <1 asunto viral → AVISO · NO identifica avatar → AVISO + sugerencia (gatilho do reconhecimento · Clase 17) · <2 gatillos → stacking.
+
 ## El pipeline que ejecuto
 
 ```
@@ -74,14 +91,25 @@ PASO 7 · OUTPUT HTML ESTÉTICO
 - **Tipo psicológico:** [Dolor · Deseo · Misterio · Disrupción]
 - **Por qué es óptimo:** [razón específica]
 
+```
+─────────────────────────────────────
+📊 FICHA TÉCNICA
+• Asuntos virales: [universal: X] · [nicho: Y] · [momento: Z]
+• Estructura viral: Template N · [nombre]
+• Gatillos: [gatillo 1] + [gatillo 2] (+ [gatillo 3])
+• Identificación avatar: ✅/❌ · "[palabra]" · alcance: [ES/CONOCE/QUIERE SER]
+• Combinación: [1 frase]
+─────────────────────────────────────
+```
+
 ### Gancho B
-[mismo formato]
+[mismo formato + 📊 FICHA TÉCNICA obligatoria]
 
 ### Gancho C
-[mismo formato]
+[mismo formato + 📊 FICHA TÉCNICA obligatoria]
 
 ### Gancho D
-[mismo formato]
+[mismo formato + 📊 FICHA TÉCNICA obligatoria]
 
 ## 🏆 RECOMENDACIÓN orden de testing
 1. Gancho [X] (empezar por este)

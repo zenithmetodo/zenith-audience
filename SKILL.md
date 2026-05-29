@@ -42,6 +42,34 @@ Para tareas que SOLO usan a Claude (sin herramientas externas) · puedo proceder
 
 El usuario puede ejecutar `/audience-doctor` en cualquier momento para diagnóstico + auto-instalación completa.
 
+---
+
+## ⚠️ REGLA GLOBAL INNEGOCIABLE · FICHA TÉCNICA DEBAJO DE CADA HEADLINE
+
+**Aplica a TODOS los agentes que generen headlines · ganchos · hooks · copy o cualquier texto verbal/textual** (headline-3-tipos · formato-master · reel-architect · carrusel-architect · hilo-architect · gatillo-master · plan-headlines-mes · ideas-ganadoras-adapter).
+
+Un headline NO es una frase suelta · es la **combinación** de asuntos virales + gatillos + estructura + identificación del avatar (Clase 10 · 11 · 14 · 17). Por eso · SIEMPRE · debajo de CADA headline/gancho generado · va su ficha técnica:
+
+```
+─────────────────────────────────────
+📊 FICHA TÉCNICA
+• Asuntos virales: [universal: X] · [nicho: Y] · [momento: Z]  ← mínimo 1 · ideal 3-4
+• Estructura viral: Template N · [nombre]
+• Gatillos: [gatillo 1] + [gatillo 2] (+ [gatillo 3])
+• Identificación avatar: ✅/❌ · "[palabra que apunta al avatar]" · alcance: [ES/CONOCE/QUIERE SER]
+• Combinación: [cómo se entrelazan · 1 frase]
+─────────────────────────────────────
+```
+
+**Validaciones obligatorias antes de entregar cualquier headline:**
+- Si usa **<1 asunto viral** → AVISO "falta asunto viral (obligatorio · Clase 10)"
+- Si **NO identifica al avatar** → AVISO + sugerencia de qué palabra meter (gatilho do reconhecimento · Clase 17)
+- Si usa **<2 gatillos** → sugerir stacking
+
+Detalle completo y formato → `knowledge/headlines/02-ficha-tecnica-obligatoria.md`.
+
+---
+
 ### Niveles de funcionalidad
 
 | Nivel | Requiere | Desbloquea |

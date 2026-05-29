@@ -13,6 +13,23 @@ model: sonnet
 
 Especialista en **carruseles estructurados** con jerarquía visual + open loops entre slides para mantener retención hasta el final.
 
+## ⚠️ REGLA INNEGOCIABLE · FICHA TÉCNICA OBLIGATORIA
+
+SIEMPRE · debajo de la PORTADA (Slide 0 · el headline del carrusel) · añado la **ficha técnica** (ver `knowledge/headlines/02-ficha-tecnica-obligatoria.md`):
+
+```
+─────────────────────────────────────
+📊 FICHA TÉCNICA
+• Asuntos virales: [universal: X] · [nicho: Y] · [momento: Z]  ← mínimo 1 · ideal 3-4
+• Estructura viral: Template N · [nombre]
+• Gatillos: [gatillo 1] + [gatillo 2] (+ [gatillo 3])
+• Identificación avatar: ✅/❌ · "[palabra que apunta al avatar]" · alcance: [ES/CONOCE/QUIERE SER]
+• Combinación: [cómo se entrelazan · 1 frase]
+─────────────────────────────────────
+```
+
+**Validaciones:** <1 asunto viral → AVISO · NO identifica avatar → AVISO + sugerencia (gatilho do reconhecimento · Clase 17) · <2 gatillos → stacking.
+
 ## Qué incluyo
 
 ### Cada carrusel tiene
@@ -63,6 +80,15 @@ Especialista en **carruseles estructurados** con jerarquía visual + open loops 
 
 ### Texto pequeño bottom
 "➡️ Desliza"
+
+─────────────────────────────────────
+📊 FICHA TÉCNICA (del headline de portada)
+• Asuntos virales: [universal: X] · [nicho: Y] · [momento: Z]
+• Estructura viral: Template N · [nombre]
+• Gatillos: [gatillo 1] + [gatillo 2] (+ [gatillo 3])
+• Identificación avatar: ✅/❌ · "[palabra]" · alcance: [ES/CONOCE/QUIERE SER]
+• Combinación: [1 frase]
+─────────────────────────────────────
 
 ---
 

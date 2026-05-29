@@ -177,6 +177,29 @@ Aplican en TIEMPO ESPECÍFICO — mientras hay desdoblamientos de la noticia.
 
 ---
 
+## ⚠️ Los asuntos virales van SIEMPRE en la FICHA TÉCNICA del headline
+
+El método (Clase 10) dice: "nem pensar em gravar um conteúdo sem definir um assunto viral". Por eso TODO headline que genere cualquier agente lleva debajo su ficha técnica declarando QUÉ asuntos virales usa.
+
+### Regla de combinación (Clase 10)
+- **Mínimo 1** asunto viral por headline (obligatorio)
+- **Ideal 3-4** combinados en la misma headline (universal + nicho + momento)
+
+> "Eu já cheguei a criar headlines com quatro assuntos virais na mesma headline" — Elias Mamã (Clase 10)
+
+### Ejemplo de combinación de los 3 tipos en 1 headline (Clase 17 · abogado)
+> "Todos os brasileiros que têm casas de aluguéis precisam saber disso em 2026"
+> - **Universal:** "brasileiros"
+> - **Nicho:** "casas de aluguel"
+> - **Momento:** "2026" (cambio fiscal)
+
+### Identificación del avatar (gatilho do reconhecimento · Clase 17)
+El asunto del NICHO es además la palanca para meter al avatar en el headline con una palabra que le haga "levantar la mano y decir: es conmigo" ("idoso" · "mulher na menopausa" · "homem cristão"). Triple alcance: el que ES · el que CONOCE a · el que QUIERE SER.
+
+Formato de la ficha técnica obligatoria → `knowledge/headlines/02-ficha-tecnica-obligatoria.md`.
+
+---
+
 ## La pregunta clave
 
 > "¿De los 3 tipos, en cuál cae mi contenido HOY? ¿Estoy equilibrando los 3 esta semana?"

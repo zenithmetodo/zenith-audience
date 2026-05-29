@@ -215,8 +215,40 @@ Los 3 alineados al mismo gatillo (Misterio + Disrupción) = scroll detenido gara
 2. ¿El **VISUAL** funciona en miniatura sin sonido?
 3. ¿En el primer 0.5s pasa ALGO impactante?
 4. ¿Los 3 están alineados al mismo gatillo dominante?
+5. ¿Cada headline lleva su **FICHA TÉCNICA** debajo? (ver `02-ficha-tecnica-obligatoria.md`)
+6. ¿El headline **identifica al avatar** con una palabra (gatilho do reconhecimento · Clase 17)?
 
 Si alguna respuesta es NO → reescribe ese tipo de headline.
+
+---
+
+## ⚠️ FICHA TÉCNICA OBLIGATORIA debajo de cada headline
+
+Un headline NO es una frase suelta. Es la **combinación** de asuntos virales + gatillos + estructura + identificación del avatar. Por eso CADA headline (verbal · visual · lo que muestra) que genere cualquier agente DEBE llevar debajo su ficha técnica:
+
+```
+─────────────────────────────────────
+📊 FICHA TÉCNICA
+• Asuntos virales: [universal: X] · [nicho: Y] · [momento: Z]  ← mínimo 1 · ideal 3-4
+• Estructura viral: Template N · [nombre]
+• Gatillos: [gatillo 1] + [gatillo 2] (+ [gatillo 3])
+• Identificación avatar: ✅/❌ · "[palabra que apunta al avatar]" · alcance: [ES/CONOCE/QUIERE SER]
+• Combinación: [cómo se entrelazan · 1 frase]
+─────────────────────────────────────
+```
+
+Detalle completo y reglas de validación → `knowledge/headlines/02-ficha-tecnica-obligatoria.md`.
+
+### El gatilho do reconhecimento (identificación del avatar · Clase 17)
+
+> "às vezes é uma palavra que você vai encaixar na sua headline que vai determinar se um vídeo vai bater 100.000 views ou 1 milhão de views" — Elias Mamã (Clase 17)
+
+Hay que METER al avatar en el headline con una palabra/característica que le haga "levantar la mano y decir: es conmigo". Triple alcance:
+1. El que **ES** (avatar directo)
+2. El que **CONOCE** a alguien así (lo comparte)
+3. El que **QUIERE SER** así (aspiracional)
+
+Cuanto más específica la palabra · más target ("nenhum homem" → "nenhum homem cristão"). En la ficha · indica con QUÉ palabra identificas al avatar · o avisa si falta.
 
 ---
 
