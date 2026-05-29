@@ -32,6 +32,15 @@ else
 fi
 echo -e "${GREEN}✓ Skill instalada en $TARGET${NC}"
 
+# ── 2b. Slash commands (para que aparezcan /zenith-audience:*) ──
+echo ""
+echo -e "${CYAN}▶ Instalando slash commands...${NC}"
+CMD_DIR="$HOME/.claude/commands/zenith-audience"
+mkdir -p "$CMD_DIR"
+cp "$TARGET"/commands/*.md "$CMD_DIR/" 2>/dev/null
+echo -e "${GREEN}✓ $(ls "$CMD_DIR"/*.md 2>/dev/null | wc -l | xargs) slash commands instalados${NC}"
+echo -e "  (aparecen como /zenith-audience:audience-ideas · etc.)"
+
 # ── 3. CLIs del pipeline (ffmpeg + yt-dlp) ──
 echo ""
 echo -e "${CYAN}▶ Instalando CLIs del pipeline...${NC}"
