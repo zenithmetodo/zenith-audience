@@ -9,9 +9,47 @@ description: Zenith Audience™ · Mega-skill TOP 1% para crear CONTENIDO VIRAL 
 
 ## QUÉ ES ESTA SKILL
 
-Es la skill PADRE de un sistema de **30 sub-agentes especializados** (cada uno crack de UNA sola cosa) y **19 slash commands** para crear contenido viral diario.
+Es la skill PADRE de un sistema de **30 sub-agentes especializados** (cada uno crack de UNA sola cosa) y **20 slash commands** para crear contenido viral diario.
 
 Implementa el **Método Audience completo** de Elias Mamã (Marconi Rômulo) · adaptado y operacionalizado por **Joseph Moreno · Zenith** para uso diario en Claude Code.
+
+---
+
+## ⚠️ VERIFICACIÓN OBLIGATORIA AL PRIMER USO
+
+**ANTES de ejecutar cualquier pipeline que requiera herramientas externas** (análisis viral · trends · métricas · scraping), DEBO verificar que el entorno está listo.
+
+### Regla de auto-verificación
+
+Si es la primera vez que el usuario usa la skill en esta sesión · o si un comando va a usar ffmpeg/yt-dlp/Apify/Metricool · PRIMERO ejecuto:
+
+```bash
+bash scripts/setup-check.sh
+```
+
+Y según el resultado:
+1. **Instalo automáticamente** lo que falte que pueda instalar (deps Python · ffmpeg · yt-dlp)
+2. **Guío al usuario** para configurar MCPs (Apify · Metricool) con comandos copy-paste
+3. **Confirmo** qué funcionalidades quedan activas
+
+### Cuándo NO necesito verificar
+
+Para tareas que SOLO usan a Claude (sin herramientas externas) · puedo proceder directo:
+- Crear reels · carruseles · hilos · headlines
+- Núcleo de influencia · templates · gatillos · formatos
+
+### El comando del usuario
+
+El usuario puede ejecutar `/audience-doctor` en cualquier momento para diagnóstico + auto-instalación completa.
+
+### Niveles de funcionalidad
+
+| Nivel | Requiere | Desbloquea |
+|---|---|---|
+| 0 | Solo Claude | Crear todo el contenido (reels · carruseles · hilos · headlines · núcleo) |
+| 1 | + deps Python (gratis) | Trends Google · Reddit · YouTube |
+| 2 | + ffmpeg + yt-dlp (gratis) | Pipeline análisis viral (9 pasos) |
+| 3 | + MCPs (Metricool Free + Apify Free $5) | Métricas + scraping · TODO al 100% |
 
 ---
 
