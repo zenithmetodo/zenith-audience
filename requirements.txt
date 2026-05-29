@@ -17,6 +17,12 @@ youtube-transcript-api>=0.6.2
 yt-dlp>=2025.1.15
 faster-whisper>=1.0.3
 
+# Apify client (para análisis de creator viral pipeline)
+apify-client>=1.7.0
+
+# Whisper alternativo (OpenAI · más calidad pero más lento)
+# openai-whisper>=20231117  # Descomenta si quieres usar whisper CLI clásico
+
 # Utilities
 requests>=2.31.0
 rich>=13.7.0
