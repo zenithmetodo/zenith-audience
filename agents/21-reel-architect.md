@@ -50,7 +50,9 @@ PASO 2 · TEMPLATE VIRAL
   → `template-aplicador` aplica la fórmula literal
 
 PASO 3 · FORMATO VISUAL ⭐
-  → `formato-master` recomienda 3 formatos
+  → `formato-master` hace Apify OBLIGATORIO (engenharia reversa ganadores)
+  → recomienda MENÚ AMPLIO de formatos (8-15+ · de los 70+, incl. save-bait #70-76)
+  → CADA formato adaptado por NIVEL DE CONSCIENCIA (BAJO/MEDIO/ALTO · Schwartz)
   → Si ninguno encaja perfectamente · GENERA ideas de formato nuevas
   → Aplica estructura timestamps PRO
 
@@ -66,8 +68,13 @@ PASO 6 · NOTABLE AUDITADO
   → `notable-auditor` 8 elementos + STEPPS
   → Si <70/100 · `notable-builder` mejora
 
-PASO 7 · OUTPUT HTML ESTÉTICO
-  → `output/reels/[fecha]-[título].html` (PDF-ready · branding Zenith)
+PASO 7 · OUTPUT HTML ESTÉTICO · EDITABLE
+  → `output/reels/[fecha]-[título].html` (parte de `templates/reel-guion.html`)
+  → ⚠️ OBLIGATORIO: HTML autocontenido (1 archivo · sin CDNs) · EDITABLE al clic
+    (todo el contenido en `<div id="contenido" contenteditable>`) · autoguardado
+    localStorage · barra con "Guardar PDF" (window.print) + "Descargar copia" + "Restablecer"
+  → Colores de fondo desde CSS (no imágenes) + print-color-adjust:exact → PDF idéntico
+  → break-inside:avoid en tarjetas · #barra oculta en impresión
 ```
 
 ## Output que entrego
@@ -78,7 +85,8 @@ PASO 7 · OUTPUT HTML ESTÉTICO
 ## SETUP
 - Idea base · Score validación
 - Template viral · fórmula aplicada
-- Formato visual elegido (o generado nuevo)
+- Formato visual elegido (o generado nuevo) · inspirado en [@ganador] · twist
+- **Nivel de consciencia:** BAJO/MEDIO/ALTO (1-5) · por qué este nivel para este avatar
 - Gatilhos dominantes · Categorías virales · Notable elements
 - Núcleo aplicado · Duración
 

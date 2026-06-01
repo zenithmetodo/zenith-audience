@@ -31,10 +31,45 @@
   td { padding: 12px; border-bottom: 1px solid rgba(0,229,207,.08); color: #cfd4e3; font-size: 14px; }
   .footer { margin-top: 60px; padding-top: 24px; border-top: 1px solid rgba(0,229,207,.15); color: #6b7588; font-size: 12px; text-align: center; }
   @media print { body { background: white; color: #1a1a2e; } .brand-text h1, .stat-number { color: #050510; -webkit-text-fill-color: #050510; } h2.section { color: #050510; } .stat-card, .top-post { background: #f5f6f8; } }
+
+  /* ── Editor Zenith · barra no imprimible + edición al clic ── */
+  * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  @page { size: A4; margin: 12mm; }
+  #barra {
+    position: fixed; top: 14px; right: 14px; z-index: 99999;
+    display: flex; gap: 8px; align-items: center;
+    background: rgba(5,5,16,.92); border: 1px solid rgba(0,229,207,.35);
+    backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
+    padding: 9px 12px; border-radius: 14px; box-shadow: 0 8px 30px rgba(0,0,0,.5);
+    font-family: 'Inter', -apple-system, sans-serif;
+  }
+  #barra #estado { font-size: 12px; color: #00E5CF; margin-right: 4px; min-width: 92px; }
+  #barra button {
+    font-family: inherit; font-size: 13px; font-weight: 600; color: #e6e8ee;
+    background: rgba(255,255,255,.06); border: 1px solid rgba(255,255,255,.14);
+    border-radius: 9px; padding: 8px 12px; cursor: pointer; transition: .15s;
+  }
+  #barra button:hover { background: rgba(0,229,207,.15); border-color: #00E5CF; }
+  #barra button.primary { background: linear-gradient(135deg,#00E5CF,#B845FF); color: #050510; border: none; }
+  #contenido[contenteditable="true"]:focus { outline: none; }
+  #contenido[contenteditable="true"] :hover { outline: 1px dashed rgba(0,229,207,.18); outline-offset: 2px; }
+  @media print {
+    #barra { display: none !important; }
+    .page { max-width: 100%; }
+    .card, .tarjeta, .bloque, .cabecera, .meta-item, .why-box, .checklist, .brand, .script-block, .headline-card, .slide, .day, .row, .metric, .block { break-inside: avoid; page-break-inside: avoid; }
+  }
 </style>
 </head>
 <body>
-<div class="page">
+
+<div id="barra">
+  <span id="estado">Listo para editar</span>
+  <button class="primary" onclick="window.print()">📄 Guardar PDF</button>
+  <button onclick="descargar()">⬇️ Descargar copia</button>
+  <button onclick="restablecer()">↺ Restablecer</button>
+</div>
+
+<div class="page" id="contenido" contenteditable="true" spellcheck="false">
   <div class="brand">
     <div class="logo">Z</div>
     <div class="brand-text">
@@ -88,5 +123,25 @@
     Generado por <strong>Zenith Audience™</strong> · Datos vía Metricool MCP
   </div>
 </div>
+
+<script>
+(function(){
+  var cont = document.getElementById('contenido');
+  var estado = document.getElementById('estado');
+  var KEY = 'zenith_doc_' + location.pathname;
+  var ORIGINAL = cont.innerHTML;
+  try { if (localStorage.getItem(KEY)) { cont.innerHTML = localStorage.getItem(KEY); estado.textContent = 'Cambios guardados ✓'; } } catch(e){}
+  var t;
+  cont.addEventListener('input', function(){
+    estado.textContent = 'Guardando…'; clearTimeout(t);
+    t = setTimeout(function(){
+      try { localStorage.setItem(KEY, cont.innerHTML); estado.textContent = 'Guardado ✓'; }
+      catch(e){ estado.textContent = 'Ábrelo en el navegador para guardar'; }
+    }, 500);
+  });
+  window.restablecer = function(){ if(!confirm('¿Volver al original?')) return; try{ localStorage.removeItem(KEY); }catch(e){} cont.innerHTML = ORIGINAL; estado.textContent = 'Restablecido'; };
+  window.descargar = function(){ var h = '<!DOCTYPE html>\n' + document.documentElement.outerHTML; var b = new Blob([h], {type:'text/html'}); var a = document.createElement('a'); a.href = URL.createObjectURL(b); a.download = (document.title || 'documento-zenith') + '.html'; a.click(); };
+})();
+</script>
 </body>
 </html>

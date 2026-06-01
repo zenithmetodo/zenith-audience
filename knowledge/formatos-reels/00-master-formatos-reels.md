@@ -6,6 +6,14 @@
 
 ---
 
+## ⚠️ 3 REGLAS INNEGOCIABLES de `formato-master`
+
+1. **MUCHOS formatos, no 3.** En cada petición entrega un MENÚ AMPLIO (8-15+ formatos candidatos), no solo el top 3. Variedad real para que el usuario elija.
+2. **Niveles de consciencia OBLIGATORIO.** CADA formato se trabaja con creatividad por NIVEL DE CONSCIENCIA (ver `08-niveles-consciencia.md`): hook, overlay, cuerpo y CTA cambian según BAJO (1-2) / MEDIO (3) / ALTO (4-5). Etiqueta siempre el nivel. Sin nivel → entregable incompleto.
+3. **Apify OBLIGATORIO y detallado.** Antes de proponer, hace engenharia reversa vía Apify de ganadores del nicho (formatos en explosión, hooks que funcionan) e indica de qué GANADOR se inspira cada formato + su twist propio (ver familia save-bait en `09-formatos-jerarquicos-savebait.md`).
+
+---
+
 ## La regla de oro
 
 > "Mismo mensaje + Mismo gatilho + Formato DISTINTO = resultados radicalmente distintos."
@@ -20,10 +28,11 @@ Los algoritmos premian:
 ## Cómo usa este archivo `formato-master`
 
 1. **Recibe tema + núcleo** del usuario
-2. **Identifica formatos candidatos** de este archivo (60+)
-3. **Si ninguno encaja perfectamente** → GENERA formato nuevo combinando elementos
-4. **Recomienda top 3 formatos** (existentes + nuevos)
-5. **Aplica el elegido** con estructura timestamps PRO
+2. **Apify OBLIGATORIO** → engenharia reversa de ganadores del nicho (formatos en explosión + hooks)
+3. **Identifica MUCHOS formatos candidatos** de este archivo (70+) · menú amplio (8-15+)
+4. **Si ninguno encaja perfectamente** → GENERA formato nuevo combinando elementos
+5. **Adapta cada formato por NIVEL DE CONSCIENCIA** (BAJO/MEDIO/ALTO · ver `08`)
+6. **Aplica el elegido** con estructura timestamps PRO + 4 ganchos + ficha técnica
 
 ---
 
@@ -280,6 +289,33 @@ Texto/escena que cambia mientras pasa el tiempo.
 
 ---
 
+### CATEGORÍA 12 · JERÁRQUICOS / SAVE-BAIT (inspirados en ganadores) ⭐
+
+> Familia completa con knowledge file propio · ejemplos + adaptación por nivel de consciencia → `09-formatos-jerarquicos-savebait.md`. Nacen casi siempre de engenharia reversa (Apify) + un twist save-bait (%, nota, countdown, autodiagnóstico). **El avatar cambia en cada caso.**
+
+#### 70. **Pirámide de prioridades con %** ⭐ (save-bait · base = lo más importante)
+Pirámide donde la BASE pesa más (mayor %) y la cima menos. Insight: "trabajas la cima e ignoras la base, que es lo que vende".
+
+#### 71. **Lista jerárquica con barras de %** ⭐ (save-bait · "reglas en orden")
+Lista 1→N · cada regla con barra que se rellena con su % de peso. "La nº1 es el 30% y nadie la prioriza".
+
+#### 72. **Checklist marcable + % salvado** ⭐ (save-bait · autoevaluación)
+N casillas que se marcan ✅ + contador del % de recurso que salvas. "X/N = 100%". Activa comentarios.
+
+#### 73. **Top 5 · Countdown (reveal 5→1)** ⭐
+Tarjetas que entran del 5 al 1 con "tick" · suspense por llegar al nº1 (el más grave/común).
+
+#### 74. **Ranking notas del cole (suspenso → sobresaliente)** ⭐
+Clasifica con notas lo que el avatar YA intentó · enemigo común en suspenso · tu solución en sobresaliente.
+
+#### 75. **Pirámide de escalones (problema=base → solución=cima)** ⭐
+4-5 escalones · base = donde vive atrapado · cima = resultado · sensación de GPS/camino claro.
+
+#### 76. **5 niveles / escalera (autodiagnóstico · "¿en cuál estás?")** ⭐
+5 cards de gravedad creciente · el avatar se ubica (Zeigarnik) · genera comentarios.
+
+---
+
 ## ⭐ GENERADOR DINÁMICO DE FORMATOS NUEVOS
 
 > Cuando ninguno de los 60+ encaja perfectamente · `formato-master` GENERA formato nuevo combinando elementos.
@@ -459,8 +495,10 @@ Los siguientes 7 formatos tienen documentación EXHAUSTIVA con estructura timest
 5. `05-conversacion-errores-nivel.md` → Formato #39 (N expone · J clasifica)
 6. `06-pregunta-respuesta-experto.md` → Formato #38 (cliente preocupado · razones)
 7. `07-sirve-no-sirve.md` → Formato #21 (verde vs rojo)
+8. `08-niveles-consciencia.md` → ⚠️ OBLIGATORIO · cada formato × 5 niveles de consciencia (Schwartz)
+9. `09-formatos-jerarquicos-savebait.md` → Formatos #70-76 (pirámide %, barras %, checklist %, countdown, notas, escalones, autodiagnóstico)
 
-Los demás 60+ formatos siguen las reglas de este master file. El agente `formato-master` aplica estructura PRO a cualquiera y GENERA NUEVOS cuando aplique.
+Los demás 70+ formatos siguen las reglas de este master file. El agente `formato-master` aplica estructura PRO a cualquiera y GENERA NUEVOS cuando aplique.
 
 ---
 

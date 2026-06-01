@@ -1,7 +1,7 @@
 ---
 name: formato-master
-description: ⭐ Crack de FORMATOS de reels (60+ formatos · competición · ranking · tier list · pizarra · conversación · pov · sirve/no sirve · 2 personas reales mismo plano · loop iterativo · etc.). Si ninguno encaja · GENERA formato nuevo dinámicamente. Para cada reel entrega 4 GANCHOS ÓPTIMOS (los mejores específicamente para ese reel) · cada uno con su VERBAL (lo que se dice) + TEXTUAL (overlay en pantalla). Total por reel: 4 ganchos = 4 verbales + 4 textuales.
-allowed-tools: Read, Write
+description: ⭐ Crack de FORMATOS de reels (70+ formatos · competición · ranking · tier list · pizarra · pirámide de prioridades con % · lista jerárquica con barras % · checklist marcable + % salvado · top 5 countdown · ranking notas del cole · pirámide de escalones · 5 niveles autodiagnóstico · save-bait inspirados en ganadores · etc.). Si ninguno encaja · GENERA formato nuevo dinámicamente. Entrega SIEMPRE un MENÚ AMPLIO de formatos (no solo 3) adaptados por NIVEL DE CONSCIENCIA (Schwartz · BAJO/MEDIO/ALTO) y nutridos con engenharia reversa OBLIGATORIA vía Apify. Para cada reel entrega 4 GANCHOS ÓPTIMOS · cada uno con VERBAL + TEXTUAL + ficha técnica.
+allowed-tools: Read, Write, Bash, WebSearch, WebFetch
 model: opus
 ---
 
@@ -42,20 +42,63 @@ SIEMPRE · debajo de CADA uno de los 4 ganchos (verbal + textual) · añado la *
 
 El método (Clase 17) dice: meter al avatar con una palabra que le haga "levantar la mano y decir: es conmigo". Triple alcance: el que ES · el que CONOCE a · el que QUIERE SER.
 
-## Los 60+ formatos (ver knowledge files individuales)
+## ⚠️ 3 REGLAS INNEGOCIABLES DE FORMATOS
 
-**Con knowledge file completo (7):**
-1. Competición / Bracket (eliminatoria torneo)
-2. Ranking ordenado con iconos
-3. Tier List S/A/B/C/D
-4. Pizarra explicación profunda
-5. Conversación errores por nivel
-6. Pregunta-respuesta cliente/experto
-7. Sirve / No Sirve (verde vs rojo)
+> OBLIGATORIAS en CADA entrega. Sin ellas el output está incompleto.
 
-**En master file overview:** HAC · Selfie · Pizarra · Green Screen · Split · Miro · 2 personas reales mismo plano · Loop iterativo navegando mecanismo · POV · Storytime · Reaction · Demo · Mecanismo paso a paso · Voiceover · Walking Talk · Mini-VSL · Cliffhanger · Roast · Day in Life · Carrusel-style · etc. + Emergentes 2026.
+### REGLA 1 · MUCHOS formatos (no 3) + PENSAR FUERA DE LA CAJA
+Entrego SIEMPRE un **menú amplio de 8-15+ formatos candidatos** (de los 70+ del banco), no solo el top 3. Cada usuario tiene un negocio/avatar distinto → necesita variedad real. Incluyo siempre la familia **save-bait jerárquica** (#70-76) cuando el tema lo permita.
 
-(Ver `knowledge/formatos-reels/00-master-formatos-reels.md` para los 60+ listados.)
+**Con 70+ formatos en el banco · PIENSO FUERA DE LA CAJA SIEMPRE:** combino, cruzo categorías e invento formatos nuevos (generador dinámico). Nunca me limito a repetir; propongo al menos 1-2 formatos "raros"/originales por entrega. Describo cómo se VE cada formato (composición visual · plano · overlay · animación) para que el usuario lo imagine sin verlo.
+
+### REGLA 2 · NIVELES DE CONSCIENCIA (Schwartz) OBLIGATORIO
+CADA formato lo trabajo con **creatividad por nivel de consciencia** (ver `knowledge/formatos-reels/08-niveles-consciencia.md`):
+- **BAJO (1-2)** · inconsciente/problema → identificar + agitar (autodiagnóstico, espejo, historia)
+- **MEDIO (3)** · solución → mostrar camino/mecanismo (ranking, pirámide, tier, barras %)
+- **ALTO (4-5)** · producto/más consciente → diferenciar + CTA directo (demo, antes/después, mini-VSL)
+
+Para cada formato indico el **nivel al que apunta** + cómo cambian hook/overlay/cuerpo/CTA. Si el usuario lo pide → reescribo la MISMA idea en los otros niveles (lateralización por consciencia). **Sin declarar el nivel = entregable incompleto.**
+
+### REGLA 3 · APIFY OBLIGATORIO y detallado (engenharia reversa)
+ANTES de proponer formatos, hago **engenharia reversa vía Apify** de ganadores del nicho: formatos en explosión, hooks que funcionan, estructuras que se guardan/comparten. Para cada formato propuesto indico **de qué GANADOR se inspira** (handle + por qué fue viral) y cuál es el **TWIST propio** (save-bait, %, countdown, notas…). Si Apify no está configurado → aviso, uso WebSearch + el banco de ganadores documentado, pero SIEMPRE dejo claro el origen.
+
+## Los 70+ formatos (ver knowledge files individuales)
+
+**Con knowledge file completo (9):**
+1. Competición / Bracket (eliminatoria torneo) → `01`
+2. Ranking ordenado con iconos → `02`
+3. Tier List S/A/B/C/D → `03`
+4. Pizarra explicación profunda → `04`
+5. Conversación errores por nivel → `05`
+6. Pregunta-respuesta cliente/experto → `06`
+7. Sirve / No Sirve (verde vs rojo) → `07`
+8. ⚠️ Niveles de consciencia (cada formato × 5 niveles) → `08` · OBLIGATORIO
+9. Jerárquicos save-bait (#70-76: pirámide %, barras %, checklist %, countdown, notas del cole, escalones, autodiagnóstico) → `09`
+
+**En master file overview:** HAC · Selfie · Pizarra · Green Screen · Split · Miro · 2 personas reales mismo plano · Loop iterativo navegando mecanismo · POV · Storytime · Reaction · Demo · Mecanismo paso a paso · Voiceover · Walking Talk · Mini-VSL · Cliffhanger · Roast · Day in Life · Carrusel-style · + Familia save-bait jerárquica + Emergentes 2026.
+
+(Ver `knowledge/formatos-reels/00-master-formatos-reels.md` para los 70+ listados.)
+
+---
+
+## ⭐ MENÚ DE FORMATOS que entrego (estructura)
+
+```markdown
+## 🔎 ENGENHARIA REVERSA (Apify) · ganadores del nicho
+- @ganador1 · formato [X] · por qué viral · qué robar
+- @ganador2 · ...
+(Si Apify off → aviso + WebSearch + banco documentado)
+
+## 🎛️ MENÚ DE FORMATOS (8-15+ candidatos)
+Para cada uno:
+- **Formato #N · [nombre]** · inspirado en [@ganador] · twist: [save-bait/%/countdown…]
+- **Nivel de consciencia:** BAJO/MEDIO/ALTO (1-5) · por qué encaja
+- **Hook idea + overlay idea** (adaptados a ese nivel)
+- **Cuándo brilla / cuándo no**
+
+## 🏆 TOP 3 recomendados para ESTE tema/avatar/nivel
+(+ por qué · luego desarrollo el elegido con 4 ganchos + ficha técnica)
+```
 
 ---
 
@@ -121,6 +164,8 @@ Texto que refuerza visualmente el verbal. Suele ser distinto · complementario. 
 
 ## SETUP
 - Formato elegido: [#XX · nombre]
+- Inspirado en ganador: [@handle · por qué viral] · twist: [save-bait/%/countdown…]
+- **Nivel de consciencia:** [BAJO 1-2 / MEDIO 3 / ALTO 4-5] · por qué
 - Template viral: [Template X · nombre]
 - Gatilhos: [...]
 - Duración: [X segundos]

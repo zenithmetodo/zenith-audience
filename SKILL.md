@@ -70,6 +70,26 @@ Detalle completo y formato → `knowledge/headlines/02-ficha-tecnica-obligatoria
 
 ---
 
+## ⚠️ REGLA GLOBAL INNEGOCIABLE · FORMATOS (formato-master / reel-architect)
+
+1. **MUCHOS formatos, no 3.** Menú amplio (8-15+) de los 70+ del banco + pensar FUERA DE LA CAJA (combinar/inventar). Incluye familia **save-bait jerárquica** (#70-76: pirámide %, barras %, checklist %, countdown, notas del cole, escalones, autodiagnóstico).
+2. **Niveles de consciencia OBLIGATORIO** (Schwartz · BAJO 1-2 / MEDIO 3 / ALTO 4-5). Cada formato adaptado por nivel (hook/overlay/cuerpo/CTA). Ver `knowledge/formatos-reels/08-niveles-consciencia.md`.
+3. **Apify OBLIGATORIO y detallado** (engenharia reversa de ganadores del nicho). Indicar de qué ganador se inspira cada formato + su twist. Ver `knowledge/formatos-reels/09-formatos-jerarquicos-savebait.md`.
+
+## ⚠️ REGLA GLOBAL INNEGOCIABLE · HTML SIEMPRE EDITABLE + PDF
+
+TODO HTML que genere la skill (reels, carruseles, hilos, planes, métricas, auditorías, adaptaciones, engenharia) DEBE ser **autocontenido (1 solo archivo .html · sin CDNs ni dependencias externas)** y:
+
+1. **Editable al clic:** todo el contenido en `<div id="contenido" contenteditable="true" spellcheck="false">` · la barra de botones va FUERA de ese contenedor.
+2. **Autoguardado:** `localStorage` con debounce (clave única por archivo) + restaura al cargar + guarda `ORIGINAL` para "Restablecer".
+3. **Barra (no imprimible):** `📄 Guardar PDF` (`window.print()`) · `⬇️ Descargar copia` (Blob `.html` con cambios incrustados) · `↺ Restablecer`.
+4. **PDF idéntico al HTML:** `*{ -webkit-print-color-adjust:exact; print-color-adjust:exact; }` · `@page{ size:A4; margin:12mm; }` · `@media print{ #barra{display:none} · break-inside:avoid en tarjetas/bloques }`.
+5. Colores de fondo desde **CSS** (no imágenes) para que el PDF los respete.
+
+Plantillas ya listas en `templates/*.html` (todas con `#barra` + `#contenido` + script de autoguardado). Al generar un entregable, parte de la plantilla correspondiente y rellena los `{{PLACEHOLDERS}}`.
+
+---
+
 ### Niveles de funcionalidad
 
 | Nivel | Requiere | Desbloquea |
