@@ -19,12 +19,12 @@ Recomienda el formato visual óptimo para tu reel y, si quieres, lo CONSTRUYE (H
 Invoco `formato-master` que ejecuta:
 
 1. **Analiza tu tema** + núcleo de influencia
-2. **Identifica formatos candidatos** entre los 60+
+2. **Identifica formatos candidatos** entre los 70+
 3. **Si ninguno encaja perfectamente** → GENERA formato nuevo combinando elementos
 4. **Recomienda top 3 formatos** (existentes o generados)
 5. **Para cada uno entrega** estructura timestamps PRO + 4 ganchos óptimos
 
-## Los 60+ formatos categorizados
+## Los 70+ formatos categorizados
 
 - **Talking** (HAC · Selfie · Pizarra · Walking · Car POV · podcast solo · etc.)
 - **Visual overlay** (Green Screen · Miro · Split · Cards · monitor con dato)

@@ -24,7 +24,7 @@ Si aplica · adjunta screenshots o logs.
 ## Entorno
 - OS: [macOS / Windows / Linux]
 - Versión Claude Code: [ej. 1.5.0]
-- Versión Zenith Audience: [v1.2.2]
+- Versión Zenith Audience: [v1.7.0]
 - MCPs configurados: [Metricool · Apify · ninguno]
 
 ## Contexto adicional

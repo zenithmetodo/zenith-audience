@@ -46,7 +46,7 @@ Te digo exactamente qué funciona y qué no:
 ```
 • Crear reels/carruseles/hilos: ✅ siempre
 • Trends Google/Reddit/YT: ✅/⚠
-• Análisis viral (pipeline 9 pasos): ✅/⚠
+• Análisis viral (pipeline 10 pasos): ✅/⚠
 • Métricas reels: ✅/⚠
 • Scraping competidores: ✅/⚠
 ```

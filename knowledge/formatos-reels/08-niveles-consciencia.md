@@ -50,7 +50,7 @@ Por eso cada formato se piensa **por nivel** y se etiqueta visualmente (como en 
 
 ## Cada formato, los 5 niveles (ejemplos canónicos)
 
-> `formato-master` debe ser capaz de coger CUALQUIER formato del banco (60+) y escribirlo creativamente en los 5 niveles. Ejemplos:
+> `formato-master` debe ser capaz de coger CUALQUIER formato del banco (70+) y escribirlo creativamente en los 5 niveles. Ejemplos:
 
 ### RANKING (suspenso → sobresaliente)
 - **BAJO:** "Le pongo nota a cómo te sientes cada lunes" (identificación emocional).
@@ -94,4 +94,4 @@ Si `formato-master` entrega un formato SIN declarar el nivel de consciencia y su
 ---
 
 ## Atribución
-Niveles de consciencia: Eugene Schwartz · *Breakthrough Advertising*. Mapeo a contenido orgánico/reels y a los 60+ formatos: Joseph Moreno · Zenith. Integrado con el Método Audience de Elias Mamã.
+Niveles de consciencia: Eugene Schwartz · *Breakthrough Advertising*. Mapeo a contenido orgánico/reels y a los 70+ formatos: Joseph Moreno · Zenith. Integrado con el Método Audience de Elias Mamã.

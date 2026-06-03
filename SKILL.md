@@ -97,7 +97,7 @@ Plantillas ya listas en `templates/*.html` (todas con `#barra` + `#contenido` + 
 |---|---|---|
 | 0 | Solo Claude | Crear todo el contenido (reels · carruseles · hilos · headlines · núcleo) |
 | 1 | + deps Python (gratis) | Trends Google · Reddit · YouTube |
-| 2 | + ffmpeg + yt-dlp (gratis) | Pipeline análisis viral (9 pasos) |
+| 2 | + ffmpeg + yt-dlp (gratis) | Pipeline análisis viral (10 pasos) |
 | 3 | + MCPs (Metricool Free + Apify Free $5) | Métricas + scraping · TODO al 100% |
 
 ---
@@ -146,7 +146,7 @@ AUDIENCIA ORGÁNICA QUE TE RESPETA · CONFÍA · COMPRA
 - `trend-google` (Sonnet) · Google Trends vía pytrends
 - `trend-redes` (Opus) · TikTok/IG trending vía Apify
 - `trend-foros` (Sonnet) · Reddit + YouTube
-- `engenharia-reversa` (Opus) ⭐ · pipeline 9 pasos de análisis viral
+- `engenharia-reversa` (Opus) ⭐ · pipeline 10 pasos de análisis viral
 - `ideas-ganadoras-adapter` (Opus) ⭐ · multi-fuente · adapta virales a tu núcleo
 
 ### 🧬 BLOQUE B · Núcleo de Influencia (5 agentes · setup one-shot)
@@ -220,7 +220,7 @@ AUDIENCIA ORGÁNICA QUE TE RESPETA · CONFÍA · COMPRA
 
 ---
 
-## ⭐ EL PIPELINE DE APRENDIZAJE · Análisis de Creator Viral (9 pasos)
+## ⭐ EL PIPELINE DE APRENDIZAJE · Análisis de Creator Viral (10 pasos)
 
 > Lo más potente de la skill. Validado en producción.
 
@@ -307,20 +307,20 @@ Día 30  → /audience-engenharia × 3 (top virales del mes)
 
 ---
 
-## KNOWLEDGE LIBRARY · 45 archivos
+## KNOWLEDGE LIBRARY · 49 archivos
 
 ```
 knowledge/
 ├── core/                  (5) · pilares · algoritmos · misión · niveles atención
 ├── gatillos/              (8) · 7 gatillos + overview
 ├── asuntos-virales/       (3) · 6 categorías + 3 tipos + 5 criterios
-├── headlines/             (2) · 3 tipos + plan creación
+├── headlines/             (3) · 3 tipos + plan creación
 ├── templates/             (12) · las 12 estructuras virales (1 por archivo)
 ├── formatos-reels/       (11) · 70+ formatos + banco ZENITH (10-formatos-zenith-html)
 ├── notable/               (2) · 8 elementos + Berger STEPPS
 ├── nucleo-influencia/     (2) · 10 preguntas + verdadero yo
 ├── metricas/              (2) · 3 métricas + decisión
-└── pipelines/             (1) · análisis creator viral 9 pasos ⭐
+└── pipelines/             (1) · análisis creator viral 10 pasos ⭐
 ```
 
 ---

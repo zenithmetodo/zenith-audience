@@ -10,7 +10,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-cyan.svg)](https://opensource.org/licenses/MIT)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Plugin-purple.svg)](https://claude.com/claude-code)
-[![Status](https://img.shields.io/badge/Status-v1.2.2-00E5CF.svg)](https://github.com/zenithmetodo/zenith-audience/releases)
+[![Status](https://img.shields.io/badge/Status-v1.7.0-00E5CF.svg)](https://github.com/zenithmetodo/zenith-audience/releases)
 [![Free](https://img.shields.io/badge/Métricas-100%25%20Gratis-00E5CF.svg)](#stack-100-gratis)
 
 **[INSTALAR](#instalación) · [USO DIARIO](#uso-diario) · [LOS 12 TEMPLATES](#los-12-templates-virales) · [METRICOOL](#métricas-metricool-free) · [APIFY](#apify-research-free)**
@@ -281,17 +281,20 @@ Setup ONE-SHOT al inicio (2-3h):
 
 ---
 
-## Knowledge Library · 44 archivos
+## Knowledge Library · 49 archivos
 
 ```
 knowledge/
 ├── core/                           (5) · pilares · algoritmos · misión
 ├── gatillos/                       (8) · 7 gatillos + overview
 ├── asuntos-virales/                (3) · 6 categorías + 3 tipos + 5 criterios
-├── headlines/                      (2) · 3 tipos + plan creación
+├── headlines/                      (3) · 3 tipos + plan creación
 ├── templates/                      (12) · 1 archivo por estructura
+├── formatos-reels/                 (11) · 70+ formatos + banco ZENITH
 ├── notable/                        (2) · 8 elementos + Berger STEPPS
-└── nucleo-influencia/              (2) · 10 preguntas + verdadero yo
+├── nucleo-influencia/              (2) · 10 preguntas + verdadero yo
+├── metricas/                       (2) · 3 métricas + decisión
+└── pipelines/                      (1) · análisis creator viral ⭐
 ```
 
 Cada knowledge internalizado en system prompt de los agentes (estilo Custom GPT). Cero re-lectura en runtime = cero tokens desperdiciados.

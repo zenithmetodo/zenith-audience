@@ -1,4 +1,4 @@
-# Master · Formatos de Reels · 60+ formatos + GENERADOR DINÁMICO
+# Master · Formatos de Reels · 70+ formatos + GENERADOR DINÁMICO
 
 > El FORMATO es CÓMO se ve el reel. Distinto del template viral (estructura del mensaje) y los gatillos (psicología). Combina los 3 para máximo impacto.
 
@@ -36,7 +36,7 @@ Los algoritmos premian:
 
 ---
 
-## 📋 LOS 60+ FORMATOS
+## 📋 LOS 70+ FORMATOS
 
 ### CATEGORÍA 1 · TALKING (tú frente a cámara · sin overlay)
 
@@ -318,7 +318,7 @@ Clasifica con notas lo que el avatar YA intentó · enemigo común en suspenso �
 
 ## ⭐ GENERADOR DINÁMICO DE FORMATOS NUEVOS
 
-> Cuando ninguno de los 60+ encaja perfectamente · `formato-master` GENERA formato nuevo combinando elementos.
+> Cuando ninguno de los 70+ encaja perfectamente · `formato-master` GENERA formato nuevo combinando elementos.
 
 ### Cómo se genera un formato nuevo
 
@@ -332,7 +332,7 @@ Clasifica con notas lo que el avatar YA intentó · enemigo común en suspenso �
    - Texto overlay (sí · no · cuánto)
    - Estructura temporal (lineal · loop · bracket · ranking · narrativo)
 
-2. **Combina componentes** que NO están en los 60+:
+2. **Combina componentes** que NO están en los 70+:
    - Ej: HAC + Pizarra física + Loop iterativo de preguntas = NUEVO formato (#40 del usuario)
    - Ej: 2 personas reales + Mismo plano + Comparativa con texto overlay = NUEVO formato (#19 del usuario)
 
@@ -455,7 +455,7 @@ Pueden ser:
 
 ## CHECKLIST FINAL antes de grabar
 
-- [ ] ¿Qué formato uso? (de los 60+ · o nuevo generado)
+- [ ] ¿Qué formato uso? (de los 70+ · o nuevo generado)
 - [ ] ¿Qué template viral? (de los 12)
 - [ ] ¿Qué 2-3 gatillos en stacking? (de los 7)
 - [ ] ¿Los 4 ganchos óptimos listos? (cada uno con verbal + textual)
@@ -467,7 +467,7 @@ Pueden ser:
 ## La fórmula completa de un reel viral
 
 ```
-FORMATO óptimo (de los 60+ o generado nuevo)
+FORMATO óptimo (de los 70+ o generado nuevo)
     +
 TEMPLATE viral (de los 12)
     +

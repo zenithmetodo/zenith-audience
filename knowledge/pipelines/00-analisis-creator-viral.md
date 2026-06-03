@@ -1,4 +1,4 @@
-# Pipeline · Análisis de Creator Viral (9 pasos validados)
+# Pipeline · Análisis de Creator Viral (10 pasos validados)
 
 > Pipeline VALIDADO en producción para análisis completo de un perfil de Instagram: scraping → filtrado por viralidad → descarga → extracción de frames visuales → transcripción → idea ganadora → guion adaptado al núcleo del usuario.
 
@@ -34,7 +34,7 @@ Este pipeline extrae **ambos**:
 
 ---
 
-## LOS 9 PASOS DEL PIPELINE
+## LOS 10 PASOS DEL PIPELINE
 
 ### PASO 1 · INPUT del usuario
 
@@ -277,7 +277,7 @@ Plantilla obligatoria en cada carpeta `🆕<N>_<ID>/TRANSCRIPCION.md`:
 
 **Templates Zenith aplicables:**
 - Template X · [nombre] (de las 12 estructuras virales)
-- Formato Y · [nombre] (de los 60+ formatos visuales)
+- Formato Y · [nombre] (de los 70+ formatos visuales)
 - Gatilhos dominantes: [2-3 de los 7]
 ```
 

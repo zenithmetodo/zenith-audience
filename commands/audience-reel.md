@@ -18,7 +18,7 @@ Invoco `reel-architect` que orquesta el pipeline completo:
 
 1. **`asunto-detector`** valida la idea (5 criterios)
 2. **`template-selector`** + **`template-aplicador`** eligen y aplican estructura (1 de las 12)
-3. **`formato-master`** ⭐ recomienda formato visual (de 60+ · o genera nuevo si ninguno encaja) + entrega los 4 ganchos óptimos
+3. **`formato-master`** ⭐ recomienda formato visual (de 70+ · o genera nuevo si ninguno encaja) + entrega los 4 ganchos óptimos
 4. **`gatillo-master`** aplica gatilhos stacking (2-3 de los 7)
 5. **`notable-auditor`** audita contra 8 elementos + STEPPS
 

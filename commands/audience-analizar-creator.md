@@ -4,7 +4,7 @@ description: ⭐ Pipeline COMPLETO de análisis de creator viral · scrape perfi
 
 # /audience-analizar-creator ⭐
 
-Pipeline completo de análisis de creator viral · 9 pasos · multimodal.
+Pipeline completo de análisis de creator viral · 10 pasos · multimodal.
 
 ## Uso
 
@@ -30,7 +30,7 @@ Invoco `engenharia-reversa` que ejecuta el pipeline completo:
 - **Whisper** (faster-whisper) · transcripción
 - **Análisis multimodal** · leo frames con Read tool
 
-### Los 9 pasos del pipeline
+### Los 10 pasos del pipeline
 
 1. Input del usuario (@user o URLs)
 2. Scrape perfil con `apify/instagram-post-scraper`
@@ -120,4 +120,4 @@ Después del análisis:
 
 ## Atribución
 
-Pipeline validado en producción · 9 pasos · Joseph Moreno · Zenith.
+Pipeline validado en producción · 10 pasos · Joseph Moreno · Zenith.

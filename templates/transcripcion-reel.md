@@ -98,7 +98,7 @@
 - Familia: {{FAMILIA_TEMPLATE}}
 - Fórmula literal: `{{FORMULA_LITERAL}}`
 
-### Formato visual aplicado (de los 60+)
+### Formato visual aplicado (de los 70+)
 **Formato #{{N_FORMATO}} · {{NOMBRE_FORMATO}}**
 - Categoría: {{CATEGORIA_FORMATO}}
 - Knowledge file: `knowledge/formatos-reels/{{KNOWLEDGE_FORMATO}}`
