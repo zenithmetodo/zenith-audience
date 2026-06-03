@@ -70,11 +70,12 @@ Detalle completo y formato → `knowledge/headlines/02-ficha-tecnica-obligatoria
 
 ---
 
-## ⚠️ REGLA GLOBAL INNEGOCIABLE · FORMATOS (formato-master / reel-architect)
+## ⚠️ REGLA GLOBAL INNEGOCIABLE · FORMATOS (formato-master) + MAQUETADO (reel-html-builder)
 
-1. **MUCHOS formatos, no 3.** Menú amplio (8-15+) de los 70+ del banco + pensar FUERA DE LA CAJA (combinar/inventar). Incluye familia **save-bait jerárquica** (#70-76: pirámide %, barras %, checklist %, countdown, notas del cole, escalones, autodiagnóstico).
-2. **Niveles de consciencia OBLIGATORIO** (Schwartz · BAJO 1-2 / MEDIO 3 / ALTO 4-5). Cada formato adaptado por nivel (hook/overlay/cuerpo/CTA). Ver `knowledge/formatos-reels/08-niveles-consciencia.md`.
-3. **Apify OBLIGATORIO y detallado** (engenharia reversa de ganadores del nicho). Indicar de qué ganador se inspira cada formato + su twist. Ver `knowledge/formatos-reels/09-formatos-jerarquicos-savebait.md`.
+1. **MUCHOS formatos, no 3.** Menú amplio (8-15+) de los 70+ del banco **+ el banco ZENITH de ~24 formatos disruptivos** (`knowledge/formatos-reels/10-formatos-zenith-html.md`: alineación de fútbol titular/suplente, escalera 5 niveles, ticket/factura, etiqueta nutricional, monitor de hospital, mapa de metro, organigrama, cerebro Claude.md, ecuaciones, debate, cinematográfico, demo dual-cam, verdad/mentira, no-hagas/haz-esto, antes/después, versus split, ranking irónico, frecuencias, tier list con lógica, roast, herramienta interactiva drag-and-drop con mascota Zenón-cursor) + **PENSAR SIEMPRE FUERA DE LA CAJA** (combinar/inventar ≥1-2 formatos nuevos por reel con objetos cotidianos como metáfora). Incluye familia **save-bait jerárquica** (#70-76).
+2. **Niveles de consciencia OBLIGATORIO** (Schwartz · BAJO 1-2 / MEDIO 3 / ALTO 4-5). Cada formato adaptado por nivel (hook/overlay/cuerpo/CTA). Ver `08-niveles-consciencia.md`.
+3. **Apify OBLIGATORIO y detallado** (engenharia reversa de ganadores del nicho). Indicar de qué ganador se inspira cada formato + su twist. Ver `09-formatos-jerarquicos-savebait.md`.
+4. **SEPARACIÓN DE ROLES:** `formato-master` decide QUÉ formato + ideas de ganchos. **`reel-html-builder`** MAQUETA el reel terminado → el `.html` doc-guion (con EL DIBUJO del formato + 6 ganchos-hook + ⭐ CUERPO palabra por palabra + overlays + CTA) **+ un `GUION.md` legible** + la herramienta interactiva si es clasificatorio. Ganchos = HOOKS (nunca CTA), call-out al entrenador repartido audio/textual, "comenta LIGA" solo en CTA/último beat. Ver `10-formatos-zenith-html.md` y el agente `31-reel-html-builder.md`.
 
 ## ⚠️ REGLA GLOBAL INNEGOCIABLE · HTML SIEMPRE EDITABLE + PDF
 
@@ -170,8 +171,9 @@ AUDIENCIA ORGÁNICA QUE TE RESPETA · CONFÍA · COMPRA
 - `template-aplicador` · aplica fórmula literal
 - `template-rotation-planner` · calendario rotación
 
-### 🎬 BLOQUE F · Creación + Formato (4 agentes)
-- `formato-master` ⭐ · 60+ formatos + genera nuevos + 4 ganchos
+### 🎬 BLOQUE F · Creación + Formato (5 agentes)
+- `formato-master` ⭐ · 70+ formatos + banco ZENITH (~24) + PIENSA FUERA DE LA CAJA → decide FORMATO + ideas de ganchos
+- `reel-html-builder` ⭐ NUEVO · MAQUETA el reel terminado → `.html` doc-guion + `GUION.md` legible (+ interactivo con Zenón si es clasificatorio)
 - `reel-architect` ⭐ · guion completo orquestado
 - `carrusel-architect` · 8-10 slides
 - `hilo-architect` · threads X/IG/LinkedIn
@@ -190,7 +192,7 @@ AUDIENCIA ORGÁNICA QUE TE RESPETA · CONFÍA · COMPRA
 
 ---
 
-## LOS 19 SLASH COMMANDS
+## LOS 20 SLASH COMMANDS
 
 | Command | Función |
 |---|---|
@@ -201,7 +203,8 @@ AUDIENCIA ORGÁNICA QUE TE RESPETA · CONFÍA · COMPRA
 | `/audience-spy [@handle]` | Análisis de competidor |
 | `/audience-analizar-creator [@handle]` ⭐ | Pipeline 9 pasos · scrape + frames + transcripción |
 | `/audience-adaptar [url]` ⭐ | Adapta viral a tu núcleo |
-| `/audience-formato [tema]` ⭐ | Recomienda formato visual (60+) |
+| `/audience-formato [tema]` ⭐ | Recomienda formato (70+ + banco ZENITH ~24) · piensa FUERA DE LA CAJA |
+| `/audience-reel-html [tema]` ⭐ NUEVO | Maqueta el reel terminado: HTML doc-guion + GUION.md legible (+ interactivo si es clasificatorio) |
 | `/audience-headline [tema]` | 3 headlines |
 | `/audience-headline-batch` | Batch mensual 30-50 headlines |
 | `/audience-reel [tema]` ⭐ | Guion completo + 4 ganchos |
@@ -252,10 +255,12 @@ Define tu núcleo de influencia (10 preguntas) · guía toda la skill.
 ### 🌅 DIARIO (10-15 min)
 ```
 1. /audience-ideas              → 15-20 ideas multi-fuente
-2. /audience-reel [idea]        → guion + 4 ganchos óptimos
-3. /audience-audit [guion]      → filtro de calidad
-4. Grabas (cuerpo 1× + 4 ganchos)
+2. /audience-formato [idea]     → formato FUERA DE LA CAJA (70+ + banco ZENITH) + 6 ganchos-hook
+3. /audience-reel-html [idea]   → HTML doc-guion + GUION.md legible (+ interactivo si clasificatorio)
+4. /audience-audit [guion]      → filtro de calidad
+5. Grabas leyendo del DIBUJO (cuerpo 1× + 6 ganchos)
 ```
+> Alternativa rápida: `/audience-reel [idea]` orquesta guion + 4 ganchos en un solo paso.
 
 ### 📅 SEMANAL
 ```
