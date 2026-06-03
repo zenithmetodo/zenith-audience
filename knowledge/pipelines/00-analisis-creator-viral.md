@@ -353,6 +353,23 @@ Tras analizar el reel original · adaptar a tu núcleo:
 
 ---
 
+### PASO 10 · (OPCIONAL) MAQUETAR el reel terminado con `reel-html-builder` ⭐ NUEVO
+
+Una vez tienes el `GUION_ADAPTADO.md` (formato elegido + ganchos + cuerpo), **delega en el agente `reel-html-builder`** para dejarlo **listo para grabar**. Este agente NO elige el formato (eso ya lo hizo `formato-master` en el paso 9) — solo lo PRESENTA bonito.
+
+```
+/audience-reel-html "tema + formato elegido (del GUION_ADAPTADO.md)"
+```
+
+Entrega 2 archivos en la misma carpeta del reel:
+- `🎯 [NOMBRE]-FORMATO.html` · documento-guion oscuro Zenith (cabecera + srcbox + EL DIBUJO del formato en HTML/SVG + 6 ganchos + ⭐ CUERPO palabra por palabra + overlays + CTA + `@media print`).
+- `GUION.md` · versión legible en texto plano para leer cómodo sin abrir el HTML.
+- (opcional) `🎮 [NOMBRE]-INTERACTIVO.html` · si el formato es clasificatorio (tier list · titular/suplente · ordenar), drag-and-drop con la mascota Zenón de cursor.
+
+**Reglas que respeta:** ganchos = HOOKS (nunca CTA) · "comenta LIGA" solo en CTA + último beat · call-out al entrenador a nivel headline · voz Zenith · "DI →" embebido en el dibujo si es lista/escalera/ranking/tier. Detalle completo en `agents/31-reel-html-builder.md` + `knowledge/formatos-reels/10-formatos-zenith-html.md`.
+
+---
+
 ## OUTPUT FINAL del pipeline
 
 Estructura completa tras ejecutar:
@@ -361,14 +378,16 @@ Estructura completa tras ejecutar:
 /Users/[usuario]/TRANSCRIPCION REELS/
 ├── 🆕16_CzXqW8Lpdh/
 │   ├── video.mp4
-│   ├── video.txt           (Whisper)
+│   ├── video.txt                  (Whisper)
 │   ├── frame_5.jpg
 │   ├── frame_25.jpg
 │   ├── frame_50.jpg
 │   ├── frame_75.jpg
 │   ├── frame_95.jpg
-│   ├── TRANSCRIPCION.md   ⭐ análisis del original
-│   └── GUION_ADAPTADO.md  ⭐ tu versión adaptada
+│   ├── TRANSCRIPCION.md          ⭐ análisis del original
+│   ├── GUION_ADAPTADO.md         ⭐ tu versión adaptada (paso 9)
+│   ├── 🎯 <NOMBRE>-FORMATO.html  ⭐ doc-guion listo para grabar (paso 10 · opcional)
+│   └── GUION.md                   ⭐ versión legible (paso 10 · opcional)
 ├── 🆕17_<ID>/
 │   └── [misma estructura]
 └── 🆕18_<ID>/
