@@ -6,7 +6,7 @@
 
 ### Sistema diario para crear contenido viral con identidad incopiable
 
-**30 agentes · 18 commands · 44 knowledge files · 60+ formatos · 4 ganchos óptimos por reel · 7 HTML templates · 100% gratis**
+**31 agentes · 21 commands · 49 knowledge files · 70+ formatos + banco ZENITH (~24) · 6 ganchos-hook por reel · 7 HTML templates · 100% gratis**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-cyan.svg)](https://opensource.org/licenses/MIT)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Plugin-purple.svg)](https://claude.com/claude-code)
@@ -35,7 +35,7 @@ La mayoría de creadores conocen los conceptos (gatilhos · estructuras · notab
 
 ### La solución Zenith
 
-**30 agentes especializados** + **18 slash commands** orquestados como sistema operativo diario · cada uno crack de UNA cosa · todos coordinados.
+**31 agentes especializados** + **21 slash commands** orquestados como sistema operativo diario · cada uno crack de UNA cosa · todos coordinados.
 
 ---
 
@@ -70,12 +70,12 @@ AUDIENCIA ORGÁNICA QUE TE RESPETA · CONFÍA · COMPRA
 | **C · Asuntos Virales** | 15-20 ideas diarias + validación + pesquisa | 3 | Diario AM |
 | **D · Gatillos & Headlines** | 7 gatillos + 3 tipos + batch mensual | 3 | Antes de grabar |
 | **E · 12 Estructuras** | Selector + aplicador + rotación | 3 | Por cada vídeo |
-| **F · Creación** | Reel + carrusel + hilo | 3 | 3-5x/semana |
+| **F · Creación + Formato** | Formato-master (70+ + banco ZENITH) + reel-html-builder + reel + carrusel + hilo | 5 | 3-5x/semana |
 | **G · Notable** | Auditor + builder · 8 elementos + STEPPS | 2 | Antes de publicar |
 | **H · Métricas** | Metricool + iteración ganadores + decisión | 2 | Viernes + lunes |
 | **I · Planificación** | Plan semana + batch day | 2 | Domingo + día batch |
 
-**Total: 30 agentes coordinados por 18 slash commands.**
+**Total: 31 agentes coordinados por 21 slash commands.**
 
 ### 🔍 Detalle Bloque A · Investigación (el más importante para ideas)
 
@@ -217,17 +217,23 @@ Setup ONE-SHOT al inicio (2-3h):
 
 ---
 
-## Los 15 Slash Commands
+## Los 21 Slash Commands
 
 | Command | Función | Frecuencia recomendada |
 |---|---|---|
 | `/audience-setup` | Setup núcleo influencia one-shot | 1x al inicio · refresh anual |
+| `/audience-doctor` | Diagnostica + instala todo (CLIs · deps · MCPs) | 1ª vez · si algo falla |
 | `/audience-ideas` | **15-20 ideas multi-fuente** (Apify + IA + trends) | Diario AM |
+| `/audience-pesquisa` | Pesquisa magnética profunda · 30+ asuntos pilares | Mensual |
 | `/audience-trend` | Trends Google + Reddit + YT + Apify | 1-2x/semana |
 | `/audience-spy [@handle]` | Análisis competidor en profundidad | Semanal |
+| `/audience-analizar-creator [@handle]` ⭐ | Pipeline 10 pasos · scrape + frames + transcripción + adaptación | A demanda |
 | `/audience-adaptar [url]` ⭐ | Adaptar viral ajeno a tu núcleo | A demanda |
+| `/audience-formato [tema]` ⭐ | Formato óptimo (70+ + banco ZENITH ~24) · piensa FUERA DE LA CAJA + 6 ganchos | Antes de grabar |
+| `/audience-reel-html [tema]` ⭐ | Maqueta el reel terminado: HTML doc-guion + GUION.md (+ interactivo si clasificatorio) | Tras elegir formato |
 | `/audience-headline [tema]` | 10 headlines (3 tipos · v/v/audio) | Antes de grabar |
-| `/audience-reel [tema]` | Guion completo reel HTML estético | 3-5x/semana |
+| `/audience-headline-batch` | Batch mensual 30-50 headlines | Día 1 mes |
+| `/audience-reel [tema]` | Guion completo reel HTML estético + 4 ganchos | 3-5x/semana |
 | `/audience-carrusel [tema]` | Carrusel 8-10 slides estético | 2-3x/semana |
 | `/audience-hilo [tema]` | Thread X/IG/LinkedIn | 1-2x/semana |
 | `/audience-audit [guion]` | Audit 8 notable + 5 criterios viral | Antes de publicar |

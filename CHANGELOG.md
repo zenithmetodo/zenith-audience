@@ -1,5 +1,26 @@
 # Changelog · Zenith Audience™
 
+## v1.7.0 · 2026-06-04
+
+### 🎬 Nuevo agente de maquetado + banco de formatos ZENITH
+
+- ✅ Nuevo agente `reel-html-builder` (`agents/31-reel-html-builder.md`) — MAQUETA el reel terminado: `.html` doc-guion (con EL DIBUJO del formato + 6 ganchos-hook + CUERPO palabra por palabra + overlays + CTA) **+ un `GUION.md` legible** + herramienta interactiva con mascota Zenón-cursor si es clasificatorio.
+- ✅ Nuevo comando `/audience-reel-html` (`commands/audience-reel-html.md`).
+- ✅ `formato-master` ampliado con el **banco ZENITH de ~24 formatos disruptivos** (`knowledge/formatos-reels/10-formatos-zenith-html.md`) + directiva **PENSAR SIEMPRE FUERA DE LA CAJA**.
+- ✅ Separación de roles: `formato-master` decide QUÉ formato + ideas de ganchos · `reel-html-builder` lo PRESENTA (HTML + GUION.md).
+- ✅ Pipeline de análisis de creator: añadido **PASO 10** (maquetar con `reel-html-builder`).
+- ✅ Pipeline diario reescrito: ideas → formato → reel-html → audit → grabar.
+
+#### Stats actuales
+- **31 agentes** (Bloque F ahora con 5: formato-master + reel-html-builder + reel-architect + carrusel-architect + hilo-architect)
+- **21 commands** (añade `/audience-reel-html`)
+- **49 knowledge files** (+ banco de formatos ZENITH)
+- **70+ formatos visuales + banco ZENITH ~24** disruptivos
+- **6 ganchos-hook por reel** (estándar nuevo del reel-html-builder)
+- Sincronizados todos los counts en README · INSTALL · SKILL · plugin.json (v1.7.0) · SVG banner/pipeline/arquitectura.
+
+---
+
 ## v1.2.2 · 2026-05-29
 
 ### 🛠️ Bug fixes masivos (auditoría con agentes Opus)

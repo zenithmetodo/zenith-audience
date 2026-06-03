@@ -15,7 +15,7 @@
 
   <!-- Title -->
   <text x="700" y="50" font-family="Georgia, serif" font-size="34" font-weight="700" fill="url(#brandG)" text-anchor="middle">Arquitectura Modular · Zenith Audience™ v1.2</text>
-  <text x="700" y="80" font-family="Inter, sans-serif" font-size="14" fill="#8089a0" text-anchor="middle">30 agentes en 10 bloques · 60+ formatos · 4 ganchos óptimos por reel · coordinados por 16 slash commands</text>
+  <text x="700" y="80" font-family="Inter, sans-serif" font-size="14" fill="#8089a0" text-anchor="middle">31 agentes en 10 bloques · 70+ formatos · 6 ganchos óptimos por reel · coordinados por 16 slash commands</text>
 
   <!-- Bloque A · Investigación -->
   <g transform="translate(80,120)">
@@ -85,8 +85,8 @@
     <text x="140" y="32" font-family="Inter, sans-serif" font-size="11" fill="#B845FF" text-anchor="middle" font-weight="700" letter-spacing="1.5">BLOQUE F · NUEVO ⭐</text>
     <text x="140" y="58" font-family="Georgia, serif" font-size="20" fill="#fff" text-anchor="middle" font-weight="700">🎬 Creación + Formato</text>
     <text x="140" y="82" font-family="Inter, sans-serif" font-size="11" fill="#8089a0" text-anchor="middle">4 agentes · HTML estético</text>
-    <text x="20" y="110" font-family="Inter, sans-serif" font-size="11" fill="#B845FF" font-weight="700">⭐ formato-master (60+ formatos)</text>
-    <text x="20" y="128" font-family="Inter, sans-serif" font-size="11" fill="#cfd4e3">• reel-architect (4 ganchos)</text>
+    <text x="20" y="110" font-family="Inter, sans-serif" font-size="11" fill="#B845FF" font-weight="700">⭐ formato-master (70+ formatos)</text>
+    <text x="20" y="128" font-family="Inter, sans-serif" font-size="11" fill="#cfd4e3">• reel-architect (6 ganchos)</text>
     <text x="20" y="146" font-family="Inter, sans-serif" font-size="11" fill="#cfd4e3">• carrusel-architect (8-10 slides)</text>
     <text x="20" y="164" font-family="Inter, sans-serif" font-size="11" fill="#cfd4e3">• hilo-architect (8-15 tweets)</text>
     <text x="20" y="184" font-family="Inter, sans-serif" font-size="10" fill="#00E5CF" font-style="italic">+ GENERA formatos nuevos</text>
@@ -126,7 +126,7 @@
   <g transform="translate(80,720)">
     <rect width="1240" height="100" rx="14" fill="rgba(184,69,255,0.08)" stroke="#B845FF" stroke-width="2" stroke-dasharray="6,4"/>
     <text x="20" y="30" font-family="Georgia, serif" font-size="18" fill="url(#brandG)" font-weight="700">⭐ formato-master · El crack de los formatos (NUEVO v1.2)</text>
-    <text x="20" y="55" font-family="Inter, sans-serif" font-size="11" fill="#cfd4e3">Conoce 60+ formatos visuales: HAC · Selfie · Green Screen · Split · Miro · Tier list · Bracket · Ranking · Pizarra · POV ·</text>
+    <text x="20" y="55" font-family="Inter, sans-serif" font-size="11" fill="#cfd4e3">Conoce 70+ formatos visuales: HAC · Selfie · Green Screen · Split · Miro · Tier list · Bracket · Ranking · Pizarra · POV ·</text>
     <text x="20" y="73" font-family="Inter, sans-serif" font-size="11" fill="#cfd4e3">2 personas reales · Loop iterativo · Conversación errores · Mecanismo paso a paso · y muchos más. Y GENERA nuevos formatos cuando ninguno encaja.</text>
     <text x="20" y="91" font-family="Inter, sans-serif" font-size="11" fill="#00E5CF" font-weight="700">+ Para cada reel: 4 GANCHOS óptimos (cada uno con verbal + textual) = 4 versiones A/B/C/D listas para testing</text>
   </g>
