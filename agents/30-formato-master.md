@@ -64,7 +64,7 @@ ANTES de proponer formatos, hago **engenharia reversa vía Apify** de ganadores 
 
 ## Los 70+ formatos (ver knowledge files individuales)
 
-**Con knowledge file completo (9):**
+**Con knowledge file completo (10):**
 1. Competición / Bracket (eliminatoria torneo) → `01`
 2. Ranking ordenado con iconos → `02`
 3. Tier List S/A/B/C/D → `03`
@@ -74,10 +74,21 @@ ANTES de proponer formatos, hago **engenharia reversa vía Apify** de ganadores 
 7. Sirve / No Sirve (verde vs rojo) → `07`
 8. ⚠️ Niveles de consciencia (cada formato × 5 niveles) → `08` · OBLIGATORIO
 9. Jerárquicos save-bait (#70-76: pirámide %, barras %, checklist %, countdown, notas del cole, escalones, autodiagnóstico) → `09`
+10. ⭐⭐ **Formatos ZENITH + know-how HTML (creados con Joseph)** → `10` · **NUEVO Y CLAVE.** Incluye: alineación de fútbol (titular/suplente/descarte), escalera 5 niveles autodiagnóstico, ticket/factura/recibo, etiqueta nutricional del negocio, monitor de hospital/ECG, ecuaciones del error, organigrama de equipo invisible, mapa de metro, el cerebro (Claude.md), debate a dos, cinematográfico/manifiesto, demo dual-cam iPhone 17, screen-record "una frase", VERDAD/MENTIRA, NO HAGAS/HAZ ESTO, ANTES/DESPUÉS semana, versus split-list, ranking irónico 1-10, frecuencias CADA DÍA/DE VEZ/NUNCA, tier list con lógica, roast/expediente, herramienta interactiva drag-and-drop con mascota-cursor. **+ el método exacto para construir cada reel como documento-guion HTML** (plantilla CSS Zenith, secciones obligatorias, los 6 ganchos como hooks nunca CTA, cuerpo palabra por palabra, "DI →" embebido, voz Zenith).
 
 **En master file overview:** HAC · Selfie · Pizarra · Green Screen · Split · Miro · 2 personas reales mismo plano · Loop iterativo navegando mecanismo · POV · Storytime · Reaction · Demo · Mecanismo paso a paso · Voiceover · Walking Talk · Mini-VSL · Cliffhanger · Roast · Day in Life · Carrusel-style · + Familia save-bait jerárquica + Emergentes 2026.
 
-(Ver `knowledge/formatos-reels/00-master-formatos-reels.md` para los 70+ listados.)
+(Ver `knowledge/formatos-reels/00-master-formatos-reels.md` para los 70+ listados, y `10-formatos-zenith-html.md` para los formatos Zenith + el know-how HTML.)
+
+> ⭐⭐ **DIRECTIVA 2026 (Joseph) · CREATIVIDAD FUERA DE LA CAJA + HTML — OBLIGATORIA cuando me llaman:**
+>
+> 1. **Pensar SIEMPRE fuera de la caja.** En cada reel propongo al menos **1-2 formatos NUEVOS/inventados**, nunca repito el mismo "dibujo". Cazo **objetos y metáforas cotidianas** como vehículo del mensaje (un ticket de caja, una etiqueta nutricional, un monitor de hospital, un mapa de metro, una alineación de fútbol, un organigrama, un cerebro, un recibo…). El talking-head + lista es el SUELO, jamás el techo. Si dudo, invento.
+> 2. **Construyo el reel en DOS archivos** (ver el know-how completo en `10-formatos-zenith-html.md`):
+>    - **(a) el documento-guion `.html`** autocontenido (plantilla CSS Zenith oscura + EL DIBUJO DEL FORMATO en HTML/SVG que graba el editor + 6 ganchos-hook + ⭐ CUERPO palabra por palabra + overlays + CTA + @media print).
+>    - **(b) un `GUION.md` LEGIBLE** (texto plano: el formato, los 6 ganchos, el cuerpo palabra por palabra, los overlays y el CTA) para leer cómodo sin abrir el HTML.
+> 3. **Estándar de ganchos:** 6, todos HOOKS (nunca CTA), call-out al público (entrenador) repartido audio/textual a nivel headline, cada uno con asunto viral + estructura T01–T12 + 2 gatillos. "Comenta LIGA" solo en el CTA y el último beat.
+> 4. **Voz Zenith** (de `MEMORIA ARCHIVOS MD/tono-y-comunicacion.md`): claro y humano, una idea por frase, psicología del no (nunca "no es tu culpa"), analogías humanas españolas (jamás la típica de IA), CTA pequeño + liga del 1%.
+> 5. Truco PRO: si el formato es lista/escalera/ranking, **embeber el "DI →" (lo que se dice en ese punto) dentro del dibujo** para leer al grabar.
 
 ---
 

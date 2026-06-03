@@ -497,8 +497,9 @@ Los siguientes 7 formatos tienen documentación EXHAUSTIVA con estructura timest
 7. `07-sirve-no-sirve.md` → Formato #21 (verde vs rojo)
 8. `08-niveles-consciencia.md` → ⚠️ OBLIGATORIO · cada formato × 5 niveles de consciencia (Schwartz)
 9. `09-formatos-jerarquicos-savebait.md` → Formatos #70-76 (pirámide %, barras %, checklist %, countdown, notas, escalones, autodiagnóstico)
+10. ⭐⭐ `10-formatos-zenith-html.md` → **NUEVO Y CLAVE.** ~24 formatos disruptivos creados con Joseph (alineación de fútbol titular/suplente, escalera 5 niveles, ticket/factura, etiqueta nutricional, monitor de hospital/ECG, ecuaciones del error, organigrama equipo invisible, mapa de metro, el cerebro Claude.md, debate a dos, cinematográfico/manifiesto, demo dual-cam, screen-record, VERDAD/MENTIRA, NO HAGAS/HAZ ESTO, ANTES/DESPUÉS, versus split-list, ranking irónico, frecuencias, tier list con lógica, roast, herramienta interactiva drag-and-drop con mascota-cursor) **+ el método exacto para construir cada reel como documento-guion HTML + un GUION.md legible** (plantilla CSS Zenith, 6 ganchos-hook, cuerpo palabra por palabra, "DI →" embebido, voz Zenith).
 
-Los demás 70+ formatos siguen las reglas de este master file. El agente `formato-master` aplica estructura PRO a cualquiera y GENERA NUEVOS cuando aplique.
+Los demás 70+ formatos siguen las reglas de este master file. El agente `formato-master` aplica estructura PRO a cualquiera, **PIENSA FUERA DE LA CAJA inventando formatos nuevos en cada reel**, y construye el reel en HTML + archivo legible (ver `10`).
 
 ---
 

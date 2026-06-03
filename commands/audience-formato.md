@@ -1,10 +1,12 @@
 ---
-description: ⭐ Recomienda 3 formatos óptimos para tu tema (de 60+ disponibles · o GENERA formato nuevo si ninguno encaja). Para cada uno · estructura timestamps PRO + 4 ganchos óptimos (verbal + textual cada uno). Invocar cuando tienes idea + template y necesitas decidir el FORMATO visual.
+description: ⭐ Recomienda formatos óptimos para tu tema (de 70+ disponibles + el banco ZENITH de ~24 formatos disruptivos creados con Joseph · o INVENTA formato nuevo pensando fuera de la caja). PIENSA SIEMPRE FUERA DE LA CAJA. Para el elegido · estructura PRO + 6 ganchos-hook (call-out al entrenador) + cuerpo palabra por palabra, y lo construye en HTML + un GUION.md legible.
 ---
 
 # /audience-formato ⭐
 
-Recomienda el formato visual óptimo para tu reel.
+Recomienda el formato visual óptimo para tu reel y, si quieres, lo CONSTRUYE (HTML doc-guion + GUION.md legible).
+
+> ⭐ **ACTUALIZADO 2026:** `formato-master` ahora incluye el banco **`10-formatos-zenith-html.md`** (alineación de fútbol, escalera 5 niveles, ticket/factura, etiqueta nutricional, monitor de hospital, mapa de metro, organigrama, cerebro Claude.md, ecuaciones, debate, cinematográfico, demo dual-cam, verdad/mentira, no-hagas/haz-esto, antes/después, versus split, ranking irónico, frecuencias, herramienta interactiva con mascota-cursor…) + el método para montar el reel en HTML como Joseph. **Siempre piensa fuera de la caja e inventa al menos 1-2 formatos nuevos.**
 
 ## Uso
 
