@@ -73,7 +73,7 @@ Detalle completo y formato → `knowledge/headlines/02-ficha-tecnica-obligatoria
 ## ⚠️ REGLA GLOBAL INNEGOCIABLE · FORMATOS (formato-master) + MAQUETADO (reel-html-builder)
 
 1. **MUCHOS formatos, no 3.** Menú amplio (8-15+) de los 70+ del banco **+ el banco ZENITH de ~24 formatos disruptivos** (`knowledge/formatos-reels/10-formatos-zenith-html.md`: alineación de fútbol titular/suplente, escalera 5 niveles, ticket/factura, etiqueta nutricional, monitor de hospital, mapa de metro, organigrama, cerebro Claude.md, ecuaciones, debate, cinematográfico, demo dual-cam, verdad/mentira, no-hagas/haz-esto, antes/después, versus split, ranking irónico, frecuencias, tier list con lógica, roast, herramienta interactiva drag-and-drop con mascota Zenón-cursor) + **PENSAR SIEMPRE FUERA DE LA CAJA** (combinar/inventar ≥1-2 formatos nuevos por reel con objetos cotidianos como metáfora). Incluye familia **save-bait jerárquica** (#70-76).
-2. **Niveles de consciencia OBLIGATORIO** (Schwartz · BAJO 1-2 / MEDIO 3 / ALTO 4-5). Cada formato adaptado por nivel (hook/overlay/cuerpo/CTA). Ver `08-niveles-consciencia.md`.
+2. **Niveles de consciencia OBLIGATORIO** (Schwartz · BAJO 1-2 / MEDIO 3-4 / ALTO 5). Cada formato adaptado por nivel en **hook y cuerpo** (el CTA lo dirige Joseph, no el nivel). **Los niveles se mezclan** (abre en BAJO, sube a MEDIO/ALTO) y **cualquier formato sirve en cualquier nivel**. Ver `08-niveles-consciencia.md` + agente `consciencia-master`.
 3. **Apify OBLIGATORIO y detallado** (engenharia reversa de ganadores del nicho). Indicar de qué ganador se inspira cada formato + su twist. Ver `09-formatos-jerarquicos-savebait.md`.
 4. **SEPARACIÓN DE ROLES:** `formato-master` decide QUÉ formato + ideas de ganchos. **`reel-html-builder`** MAQUETA el reel terminado → el `.html` doc-guion (con EL DIBUJO del formato + 6 ganchos-hook + ⭐ CUERPO palabra por palabra + overlays + CTA) **+ un `GUION.md` legible** + la herramienta interactiva si es clasificatorio. Ganchos = HOOKS (nunca CTA), call-out al entrenador repartido audio/textual, "comenta LIGA" solo en CTA/último beat. Ver `10-formatos-zenith-html.md` y el agente `31-reel-html-builder.md`.
 
@@ -266,7 +266,7 @@ Define tu núcleo de influencia (10 preguntas) · guía toda la skill.
 4. /audience-audit [guion]      → filtro de calidad
 5. Grabas leyendo del DIBUJO (cuerpo 1× + 6 ganchos)
 ```
-> **Cómo encaja el nivel de consciencia:** entre el paso 2 y el 3, `consciencia-master` dice a qué nivel apunta el reel y QUÉ conecta ahí (BAJO=síntomas/creencias · MEDIO=mecanismo/con-vs-sin · ALTO=romper objeciones), incluida la **mezcla** (lo normal: abrir en BAJO y cerrar en MEDIO/ALTO). `reel-html-builder` lo plasma en el badge y ajusta el cuerpo. El **CTA siempre existe** y lleva al destino que tú decidas (cambia la agresividad por nivel, no si vende).
+> **Cómo encaja el nivel de consciencia:** entre el paso 2 y el 3, `consciencia-master` dice a qué nivel apunta el reel y QUÉ conecta ahí (BAJO=síntomas/creencias · MEDIO=mecanismo/con-vs-sin · ALTO=romper objeciones), incluida la **mezcla** (lo normal: abrir en BAJO y cerrar en MEDIO/ALTO). `reel-html-builder` lo plasma en el badge y ajusta el cuerpo. El **CTA lo diriges TÚ** (no depende del nivel; no hay reglas de CTA por nivel).
 > Alternativa rápida: `/audience-reel [idea]` orquesta guion + 4 ganchos en un solo paso.
 
 ### 📅 SEMANAL

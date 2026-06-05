@@ -148,15 +148,15 @@ Domingo    → /audience-plan-semana
 
 ## 🧠 Niveles de Consciencia (agente `consciencia-master`)
 
-Cada reel se trabaja por **nivel de consciencia** (Schwartz) — depende de lo consciente que esté el avatar de su problema y de tu solución. El agente `consciencia-master` lo diagnostica y dicta QUÉ conecta en cada nivel; `reel-html-builder` lo plasma en un **badge** arriba del doc-guion.
+Cada reel se trabaja por **nivel de consciencia** (Schwartz) — depende de lo consciente que esté el avatar de su problema y de tu solución. El agente `consciencia-master` lo diagnostica y dicta QUÉ conecta en cada nivel (el **hook** y el **cuerpo**); `reel-html-builder` lo plasma en un **badge** arriba del doc-guion.
 
-| Nivel | Qué CONECTA (lo que se habla) | CTA |
-|---|---|---|
-| **BAJO (1-2)** | **síntomas · creencias erróneas · dolor** — despertar/identificar | suave, pero SIEMPRE presente |
-| **MEDIO (3-4)** | **mecanismo · comparación CON vs SIN · demostración** | con empuje (VSL/landing) |
-| **ALTO (5)** | **romper objeciones (precio/tiempo/miedo) · prueba social · mecanismo** | directo (compra/agendar) |
+| Nivel | Qué CONECTA (lo que se habla) |
+|---|---|
+| **BAJO (1-2)** | **síntomas · creencias erróneas · dolor** + **"no hagas esto / haz esto"** (principalmente bajo). Despertar/identificar. |
+| **MEDIO (3-4)** | **el mecanismo · TODAS las comparaciones (sobre todo CON vs SIN) · demostración.** Aquí cabe MUCHÍSIMO: casi cualquier formato funciona en medio. |
+| **ALTO (5)** | **romper objeciones (precio/tiempo/miedo) · prueba social · mecanismo** — también con formatos (ej. ranking de "las excusas que más se dicen para no [resultado]"). |
 
-> ⚠️ **Los niveles se mezclan** (lo normal): el reel abre en BAJO (para no perder a nadie) y cierra en MEDIO/ALTO antes del CTA — el badge puede declarar la mezcla (`BAJO → MEDIO`). El **CTA siempre existe** y lleva al destino que tú decidas; lo que cambia por nivel es la agresividad, no si se vende. Detalle: `knowledge/formatos-reels/08-niveles-consciencia.md`.
+> ⚠️ **Los niveles se MEZCLAN** (lo normal): el reel abre en BAJO (para no perder a nadie) y sube a MEDIO/ALTO — el badge puede declarar la mezcla (`BAJO → MEDIO`). **Los formatos NO están atados a un nivel**: cualquiera (alineación, escalera, ranking, tier…) se escribe en BAJO/MEDIO/ALTO cambiando el ángulo — lo decide el experto en formatos. **El CTA lo diriges TÚ** (no depende del nivel). Detalle: `knowledge/formatos-reels/08-niveles-consciencia.md`.
 
 ---
 

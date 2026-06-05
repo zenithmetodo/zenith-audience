@@ -23,11 +23,12 @@ Por eso cada formato se piensa **por nivel** y se etiqueta visualmente (como en 
 | 5 | **El más consciente** (Most Aware) | ALTO | Listo · solo falta el empujón | CTA directo + oferta + urgencia |
 
 ### Mapa rápido BAJO / MEDIO / ALTO
-- **BAJO (1-2):** inconsciente + problema. Hook de identificación pura. CTA suave pero SIEMPRE presente (lleva al destino que tú quieras).
-- **MEDIO (3):** solución. Hook que muestra el camino/mecanismo. Venta blanda.
-- **ALTO (4-5):** producto + más consciente. Hook diferenciador / oferta. CTA fuerte.
+- **BAJO (1-2):** inconsciente + problema. Identificación / síntomas / creencias. Aquí caben MUCHOS formatos potentes: **alineación titular/suplente**, escalera de autodiagnóstico, ranking emocional, **"NO HAGAS ESTO / HAZ ESTO"** (principalmente bajo, con algo de medio), POV/espejo…
+- **MEDIO (3-4):** solución + producto. Mecanismo + **comparaciones** (sobre todo **CON vs SIN**, vieja/nueva forma, tú vs competencia), demostración. **En MEDIO sirve MUCHÍSIMO**: casi todos los formatos y todas las comparativas funcionan aquí.
+- **ALTO (5):** muy consciente. Diferenciación + romper objeciones + prueba.
 
-> ⚠️ **LOS NIVELES SE MEZCLAN — es lo NORMAL, no la excepción.** Casi ningún reel es 100% de un solo nivel. Lo habitual: **abre en BAJO** (síntoma/identificación para parar a cualquiera) y **cierra en MEDIO/ALTO** (mecanismo/comparación → CTA). El **badge** puede declarar la mezcla (`BAJO → MEDIO`, `MEDIO-ALTO`…). Regla: **engancha por el nivel más bajo del público** (no perder a nadie) y **cierra/lleva al CTA por el nivel al que quieres subirlo**.
+> ⚠️ **LOS NIVELES SE MEZCLAN — es lo NORMAL, no la excepción.** Casi ningún reel es 100% de un solo nivel. Lo habitual: **abre en BAJO** (síntoma/identificación para parar a cualquiera) y **sube a MEDIO/ALTO** (mecanismo/comparación). El **badge** puede declarar la mezcla (`BAJO → MEDIO`, `MEDIO-ALTO`…). Regla: **engancha por el nivel más bajo del público** y **sube al nivel al que quieres llevarlo**.
+> **Los formatos NO están atados a un nivel:** un mismo formato (alineación, escalera, ranking, tier…) se puede escribir en BAJO, MEDIO o ALTO cambiando el ángulo. Ej.: la **alineación** funcionó muy bien en BAJO.
 
 ---
 
@@ -43,10 +44,8 @@ Por eso cada formato se piensa **por nivel** y se etiqueta visualmente (como en 
 - **MEDIO:** ranking/pirámide/tier que ordena lo que YA intentó y revela el techo. (Ej. *ranking suspenso→sobresaliente*, *pirámide de 4 escalones*.)
 - **ALTO:** demo del mecanismo, antes/después, casos reales, sirve/no-sirve, mini-VSL.
 
-### CTA — SIEMPRE hay CTA al destino que TÚ decidas (comenta X → lead magnet/formación + beneficio + liga del 1%). Lo que cambia por nivel es la AGRESIVIDAD del CTA, NO si hay venta o no.
-- **BAJO:** CTA suave pero presente: "comenta X y te paso [lead magnet]" o "sígueme". Poca fricción.
-- **MEDIO:** CTA con más empuje: "comenta X y te mando [formación / VSL / masterclass]".
-- **ALTO:** CTA directo: "comenta X · haz clic · agenda · entra".
+### CTA — lo DIRIGE JOSEPH (NO depende del nivel)
+El nivel de consciencia **NO decide el CTA**. El destino y la fuerza del CTA los pone Joseph en cada reel. El nivel solo manda el **hook** y el **cuerpo**, no el cierre.
 
 ---
 
@@ -86,25 +85,25 @@ Por eso cada formato se piensa **por nivel** y se etiqueta visualmente (como en 
 
 ## ⭐ TÁCTICAS CANÓNICAS POR NIVEL (del experto `neurocopy-ads-master`)
 
-> Esto es lo que SE HABLA en cada nivel. `formato-master` y `reel-html-builder` lo usan para decidir el contenido del cuerpo y del CTA según el nivel detectado. Fuente: skill `neurocopy-ads-master` (Schwartz aplicado a ads/reels).
+> Esto es lo que SE HABLA en cada nivel. `formato-master` / `consciencia-master` lo usan para decidir el **hook y el cuerpo** según el nivel (el CTA lo dirige Joseph). Fuente: skill `neurocopy-ads-master`. **Cualquier formato sirve en cualquier nivel** — lo decide el experto en formatos.
 
-### NIVEL BAJO (1-2) → DESPERTAR + NOMBRAR (nunca vender)
-- **De qué se habla:** **SÍNTOMAS** ("si te pasa ESTO cuando…"), **CREENCIAS erróneas** (romper algo que da por hecho, sin confrontar), **DOLOR universal**, **rotura de patrón** (romper la lógica común).
-- **Estructuras:** A Rotura de patrón · B Dolor universal · C Creencia errónea · D Síntomas (pregunta experiencial → lista corta de síntomas) · E Micro-alivio.
-- **CTA:** SIEMPRE lleva al destino que Joseph decida (comenta X → lead magnet/formación + beneficio + liga del 1%). En BAJO el tono es más suave, pero el CTA está presente — no se "deja sin vender".
+### NIVEL BAJO (1-2) → DESPERTAR + IDENTIFICAR
+- **De qué se habla:** **SÍNTOMAS** ("si te pasa ESTO cuando…"), **CREENCIAS erróneas** (sin confrontar), **DOLOR universal**, **rotura de patrón**. También **"NO HAGAS ESTO / HAZ ESTO"** vive aquí principalmente (con algo de medio).
+- **Formatos que pegan (entre muchos):** alineación titular/suplente, escalera de autodiagnóstico, ranking emocional, no-hagas/haz, POV/espejo.
+- **Estructuras:** Rotura de patrón · Dolor universal · Creencia errónea · Síntomas · Micro-alivio.
 
-### NIVEL MEDIO (3-4) → MECANISMO + COMPARACIÓN + DEMOSTRAR
-- **De qué se habla:** **EL MECANISMO** (diferenciar tu forma de hacerlo y ponerle nombre), **COMPARATIVA** — sobre todo **CON vs SIN** (misma persona, dos realidades, se ven dos personas), vieja forma vs nueva forma, tú vs competencia, enemigo común; **DEMOSTRACIÓN** (transformación visible / uso real / mecanismo); **prueba social**.
-- **Estructuras:** Hard-sell **PCMISUC** (Problema · Consecuencias+Motivos · Invalidación · Social proof · Urgencia · CTA) · Demostrativa · **Comparativa (con/sin, vs)** · Nueva forma (nueva causa/palanca/orden/sistema) · Loop pregunta-respuesta · Polarizador (2 arquetipos).
-- **CTA:** sí vende blando, nombra producto, lleva a VSL / landing / WhatsApp / masterclass gratis.
+### NIVEL MEDIO (3-4) → MECANISMO + COMPARACIONES + DEMOSTRAR (aquí cabe MUCHO)
+- **De qué se habla:** **EL MECANISMO** (diferenciar tu forma y ponerle nombre) y, sobre todo, **TODAS las COMPARACIONES** — **CON vs SIN** (muy de MEDIO: misma persona, dos realidades), vieja/nueva forma, tú vs competencia, enemigo común, antes/después; **DEMOSTRACIÓN**; **prueba social**.
+- **Aquí sirve MUCHÍSIMO:** casi cualquier formato del banco encaja en medio (rankings de soluciones, tier de métodos, pirámide GPS, versus split, demo dual-cam, mapa de metro, organigrama, etiqueta nutricional…).
+- **Estructuras:** **PCMISUC** · Demostrativa · **Comparativa (con/sin, vs)** · Nueva forma · Loop pregunta-respuesta · Polarizador (2 arquetipos).
 
 ### NIVEL ALTO (5) → ROMPER OBJECIONES + PRUEBA + EMPUJÓN
-- **De qué se habla:** **ROMPER OBJECIONES** (precio, tiempo, miedo a equivocarse otra vez), **PRUEBA SOCIAL definitiva** (casos reales, prueba del mecanismo, evidencia), y **el MECANISMO usado para romper la objeción**.
-- **Estructuras:** Prueba social definitiva (el validador final) · Desmontador del precio ("no es caro; caro es seguir igual" · coste de inacción) · Desmontador del tiempo ("no te falta tiempo, te sobra inercia") · sesgos cognitivos.
-- **CTA:** directo a compra / agendar / WhatsApp / VSL. Beneficio explícito, cierra el bucle mental, sin desesperación.
+- **De qué se habla:** **ROMPER OBJECIONES** (precio, tiempo, miedo a equivocarse otra vez), **PRUEBA SOCIAL definitiva**, y **el MECANISMO usado para romper la objeción**.
+- **También con FORMATOS potentes** (no solo demos): ej. un **ranking** de *"las excusas que más se dicen para no [resultado] — y por qué cada una es mentira"*, o un tier de objeciones que vas tumbando, demo del mecanismo, antes/después con casos, monitor ECG, sirve/no-sirve. Se rompe la objeción **de mil maneras** — lo decide el experto en formatos.
+- **Estructuras:** Prueba social definitiva · Desmontador del precio ("no es caro; caro es seguir igual") · Desmontador del tiempo · sesgos cognitivos.
 
 ### 🔑 Dónde vive EL MECANISMO
-El **mecanismo único** (nombre chicle incluido) es la palanca de **NIVEL MEDIO** (diferenciarte) **y de NIVEL ALTO** (romperle la última objeción demostrando POR QUÉ funciona). En BAJO casi no aparece (ahí se despierta, no se explica). Y se puede vehicular con **formatos muy potentes** (demo dual-cam, mapa de metro, organigrama, etiqueta nutricional, monitor de hospital…).
+El **mecanismo único** es palanca de **MEDIO** (diferenciarte) **y de ALTO** (romper la última objeción demostrando POR QUÉ funciona). En BAJO casi no aparece (se despierta, no se explica). Se vehicula con formatos potentes.
 
 ---
 
@@ -112,7 +111,7 @@ El **mecanismo único** (nombre chicle incluido) es la palanca de **NIVEL MEDIO*
 
 Para CADA formato propuesto, indicar SIEMPRE:
 1. **Nivel(es) de consciencia** al que apunta · etiqueta BAJO/MEDIO/ALTO + número (1-5).
-2. **Hook + overlay + cuerpo + CTA adaptados a ese nivel.**
+2. **Hook + overlay + cuerpo adaptados a ese nivel** (el CTA lo dirige Joseph, no el nivel).
 3. Si el usuario lo pide, la **misma idea reescrita en los otros niveles** (lateralización por consciencia).
 
 Si `formato-master` entrega un formato SIN declarar el nivel de consciencia y su adaptación → es un entregable INCOMPLETO. Aviso obligatorio.

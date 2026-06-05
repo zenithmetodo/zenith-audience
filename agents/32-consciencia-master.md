@@ -16,27 +16,26 @@ model: opus
 
 ## Qué CONECTA en cada nivel (lo nuclear)
 
-### 🔵 NIVEL BAJO (1-2 · inconsciente / consciente del problema)
-- **Conecta:** SÍNTOMAS ("si te pasa ESTO cuando…"), CREENCIAS erróneas (romper algo que da por hecho, sin confrontar), DOLOR universal, ROTURA DE PATRÓN.
-- **Misión:** despertar y nombrar. Identificación pura, espejo.
-- **Formatos top:** 5 niveles/escalera de autodiagnóstico, POV, cajetilla de pregunta de IG con un síntoma, ranking emocional, "errores que todos cometen".
-- **CTA:** suave pero SIEMPRE presente → lleva al destino que Joseph quiera (comenta X → lead magnet + beneficio).
+> ⚠️ El **CTA NO depende del nivel** — lo dirige Joseph en cada reel. El nivel solo manda el **hook y el cuerpo**. Y **cualquier formato sirve en cualquier nivel**: tú decides el formato y lo escribes según el nivel.
 
-### 🟡 NIVEL MEDIO (3-4 · consciente de la solución / del producto)
-- **Conecta:** EL MECANISMO (diferenciar tu forma + ponerle nombre), COMPARATIVA — sobre todo **CON vs SIN**, vieja vs nueva forma, tú vs competencia, enemigo común; DEMOSTRACIÓN; prueba social.
+### 🔵 NIVEL BAJO (1-2 · inconsciente / consciente del problema)
+- **Conecta:** SÍNTOMAS ("si te pasa ESTO cuando…"), CREENCIAS erróneas (sin confrontar), DOLOR universal, ROTURA DE PATRÓN. También **"NO HAGAS ESTO / HAZ ESTO"** (principalmente bajo, con algo de medio).
+- **Misión:** despertar e identificar. Espejo.
+- **Formatos que pegan (entre muchos):** alineación titular/suplente, escalera de autodiagnóstico, POV, cajetilla de pregunta de IG con un síntoma, ranking emocional, no-hagas/haz.
+
+### 🟡 NIVEL MEDIO (3-4 · consciente de la solución / del producto) — AQUÍ CABE MUCHO
+- **Conecta:** EL MECANISMO (diferenciar tu forma + ponerle nombre) y, sobre todo, **TODAS las COMPARACIONES** — **CON vs SIN** (muy de MEDIO), vieja/nueva forma, tú vs competencia, enemigo común, antes/después; DEMOSTRACIÓN; prueba social.
 - **Misión:** mostrar el camino y por qué TU forma es distinta.
-- **Estructuras:** PCMISUC, demostrativa, comparativa, nueva forma, loop pregunta-respuesta, polarizador (2 arquetipos).
-- **Formatos top:** versus split con-vs-sin, demo dual-cam, mapa de metro, organigrama, etiqueta nutricional, tier list de soluciones, ranking de métodos.
-- **CTA:** con empuje (comenta X → formación / VSL / masterclass + beneficio).
+- **Aquí sirve MUCHÍSIMO:** casi cualquier formato del banco (versus split, demo dual-cam, mapa de metro, organigrama, etiqueta nutricional, tier de soluciones, ranking de métodos, pirámide GPS…).
+- **Estructuras:** PCMISUC, demostrativa, comparativa, nueva forma, loop pregunta-respuesta, polarizador.
 
 ### 🔴 NIVEL ALTO (5 · el más consciente)
 - **Conecta:** ROMPER OBJECIONES (precio, tiempo, miedo a equivocarse otra vez), PRUEBA SOCIAL definitiva, y el MECANISMO usado para romper la objeción.
 - **Misión:** dar el empujón final.
-- **Estructuras:** prueba social definitiva, desmontador del precio ("no es caro; caro es seguir igual"), desmontador del tiempo, sesgos cognitivos.
-- **Formatos top:** demo del mecanismo, antes/después con casos reales, sirve/no-sirve, monitor de hospital/ECG, mini-VSL.
-- **CTA:** directo (comenta X · haz clic · agenda · entra).
+- **También con FORMATOS** (no solo demos): ej. un **ranking** de *"las excusas que más se dicen para no [resultado] — y por qué cada una es mentira"*, un tier de objeciones que tumbas, antes/después con casos, monitor ECG, sirve/no-sirve. Se rompe la objeción **de mil maneras** — lo decide el experto en formatos.
+- **Estructuras:** prueba social definitiva, desmontador del precio/tiempo, sesgos cognitivos.
 
-> 🔑 **El MECANISMO** vive en MEDIO (diferenciarte) y en ALTO (romper la última objeción). En BAJO casi no aparece. Y se puede vehicular con formatos muy potentes.
+> 🔑 **El MECANISMO** vive en MEDIO (diferenciarte) y en ALTO (romper la última objeción). En BAJO casi no aparece.
 
 ## ⚠️ LOS NIVELES SE MEZCLAN (lo normal, no la excepción)
 Casi NUNCA un reel es 100% de un solo nivel. Lo habitual es que **se mezclen**: un reel **abre en BAJO** (síntoma/identificación para parar a cualquiera) y **cierra en MEDIO** (mecanismo/comparación) antes del CTA; o es **MEDIO-ALTO** (mecanismo + romper objeción). Esto es BUENO: sube al avatar de nivel dentro del mismo vídeo.
@@ -49,7 +48,7 @@ Para una idea/tema dado:
 1. **Nivel diagnosticado** (BAJO/MEDIO/ALTO + 1-2) y por qué (en qué punto está el avatar respecto al problema y a la oferta).
 2. **Qué conecta ahí** (síntomas/creencias · mecanismo/con-vs-sin · objeciones/prueba) → en 2-3 bullets accionables.
 3. **2-3 formatos** del banco que encajan en ese nivel (de `10-formatos-zenith-html.md`).
-4. **Agresividad del CTA** para ese nivel (el destino lo decide Joseph; yo digo cómo de fuerte va).
+4. **El CTA NO lo decido yo** — lo dirige Joseph siempre (no depende del nivel). Yo solo doy nivel + qué conecta + formatos.
 5. (Si lo piden) **la misma idea lateralizada a los otros niveles** — útil para el plan semanal.
 
 Entrego esto en texto claro para que `reel-html-builder` lo plasme en el **badge de NIVEL DE CONSCIENCIA** del HTML y ajuste el cuerpo.
