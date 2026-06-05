@@ -153,7 +153,7 @@ Debes recibir 20 ideas en ~30 segundos.
 ```
 ~/.claude/plugins/zenith-audience/
 ├── .claude-plugin/plugin.json     ← Manifest del plugin
-├── agents/                         ← 31 agentes especializados
+├── agents/                         ← 32 agentes especializados
 ├── commands/                       ← 21 slash commands
 ├── knowledge/                      ← 49 archivos del método + 70+ formatos + banco ZENITH
 ├── templates/                      ← 7 HTML estéticos PDF-ready

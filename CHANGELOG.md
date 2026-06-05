@@ -1,5 +1,21 @@
 # Changelog · Zenith Audience™
 
+## v1.8.0 · 2026-06-05
+
+### 🧠 Niveles de consciencia + entrega HTML obligatoria
+
+- ✅ Nuevo agente `consciencia-master` (`agents/32-consciencia-master.md`) — experto en NIVELES DE CONSCIENCIA (Schwartz). Diagnostica el nivel (y las **MEZCLAS** bajo-medio-alto, que son lo normal) y dicta QUÉ conecta en cada uno: BAJO=síntomas/creencias/dolor · MEDIO=mecanismo + comparación con-vs-sin · ALTO=romper objeciones + prueba + mecanismo. Importado de `neurocopy-ads-master`.
+- ✅ `08-niveles-consciencia.md` ampliado con las tácticas canónicas por nivel + nota de **mezcla de niveles** + el CTA SIEMPRE existe (cambia la agresividad, no si "se vende").
+- ✅ `reel-html-builder` (y la entrega de neurocopy ads-master/viral-reels): **estructura HTML OBLIGATORIA** con badge de NIVEL DE CONSCIENCIA + título + dibujo del formato + 6 ganchos + GUION palabra por palabra + overlays + CTA exacto.
+- ✅ Nuevo formato #25: **cajetilla de pregunta de Instagram**.
+
+#### Stats actuales
+- **32 agentes** (Bloque F ahora con 6: formato-master + consciencia-master + reel-html-builder + reel + carrusel + hilo)
+- **21 commands** · **49 knowledge files** · **70+ formatos + banco ZENITH**
+- Counts sincronizados en README · INSTALL · SKILL · plugin.json (v1.8.0) · SVG.
+
+---
+
 ## v1.7.0 · 2026-06-04
 
 ### 🎬 Nuevo agente de maquetado + banco de formatos ZENITH

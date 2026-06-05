@@ -6,11 +6,11 @@
 
 ### Sistema diario para crear contenido viral con identidad incopiable
 
-**31 agentes · 21 commands · 49 knowledge files · 70+ formatos + banco ZENITH (~24) · 6 ganchos-hook por reel · 7 HTML templates · 100% gratis**
+**32 agentes · 21 commands · 49 knowledge files · 70+ formatos + banco ZENITH (~24) · 6 ganchos-hook por reel · 7 HTML templates · 100% gratis**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-cyan.svg)](https://opensource.org/licenses/MIT)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Plugin-purple.svg)](https://claude.com/claude-code)
-[![Status](https://img.shields.io/badge/Status-v1.7.0-00E5CF.svg)](https://github.com/zenithmetodo/zenith-audience/releases)
+[![Status](https://img.shields.io/badge/Status-v1.8.0-00E5CF.svg)](https://github.com/zenithmetodo/zenith-audience/releases)
 [![Free](https://img.shields.io/badge/Métricas-100%25%20Gratis-00E5CF.svg)](#stack-100-gratis)
 
 **[INSTALAR](#instalación) · [USO DIARIO](#uso-diario) · [LOS 12 TEMPLATES](#los-12-templates-virales) · [METRICOOL](#métricas-metricool-free) · [APIFY](#apify-research-free)**
@@ -35,7 +35,7 @@ La mayoría de creadores conocen los conceptos (gatilhos · estructuras · notab
 
 ### La solución Zenith
 
-**31 agentes especializados** + **21 slash commands** orquestados como sistema operativo diario · cada uno crack de UNA cosa · todos coordinados.
+**32 agentes especializados** + **21 slash commands** orquestados como sistema operativo diario · cada uno crack de UNA cosa · todos coordinados.
 
 ---
 
@@ -70,12 +70,12 @@ AUDIENCIA ORGÁNICA QUE TE RESPETA · CONFÍA · COMPRA
 | **C · Asuntos Virales** | 15-20 ideas diarias + validación + pesquisa | 3 | Diario AM |
 | **D · Gatillos & Headlines** | 7 gatillos + 3 tipos + batch mensual | 3 | Antes de grabar |
 | **E · 12 Estructuras** | Selector + aplicador + rotación | 3 | Por cada vídeo |
-| **F · Creación + Formato** | Formato-master (70+ + banco ZENITH) + reel-html-builder + reel + carrusel + hilo | 5 | 3-5x/semana |
+| **F · Creación + Formato** | Formato-master (70+ + banco ZENITH) + consciencia-master + reel-html-builder + reel + carrusel + hilo | 6 | 3-5x/semana |
 | **G · Notable** | Auditor + builder · 8 elementos + STEPPS | 2 | Antes de publicar |
 | **H · Métricas** | Metricool + iteración ganadores + decisión | 2 | Viernes + lunes |
 | **I · Planificación** | Plan semana + batch day | 2 | Domingo + día batch |
 
-**Total: 31 agentes coordinados por 21 slash commands.**
+**Total: 32 agentes coordinados por 21 slash commands.**
 
 ### 🔍 Detalle Bloque A · Investigación (el más importante para ideas)
 

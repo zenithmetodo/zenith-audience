@@ -23,9 +23,11 @@ Por eso cada formato se piensa **por nivel** y se etiqueta visualmente (como en 
 | 5 | **El más consciente** (Most Aware) | ALTO | Listo · solo falta el empujón | CTA directo + oferta + urgencia |
 
 ### Mapa rápido BAJO / MEDIO / ALTO
-- **BAJO (1-2):** inconsciente + problema. Hook de identificación pura. Cero venta.
+- **BAJO (1-2):** inconsciente + problema. Hook de identificación pura. CTA suave pero SIEMPRE presente (lleva al destino que tú quieras).
 - **MEDIO (3):** solución. Hook que muestra el camino/mecanismo. Venta blanda.
 - **ALTO (4-5):** producto + más consciente. Hook diferenciador / oferta. CTA fuerte.
+
+> ⚠️ **LOS NIVELES SE MEZCLAN — es lo NORMAL, no la excepción.** Casi ningún reel es 100% de un solo nivel. Lo habitual: **abre en BAJO** (síntoma/identificación para parar a cualquiera) y **cierra en MEDIO/ALTO** (mecanismo/comparación → CTA). El **badge** puede declarar la mezcla (`BAJO → MEDIO`, `MEDIO-ALTO`…). Regla: **engancha por el nivel más bajo del público** (no perder a nadie) y **cierra/lleva al CTA por el nivel al que quieres subirlo**.
 
 ---
 
@@ -41,10 +43,10 @@ Por eso cada formato se piensa **por nivel** y se etiqueta visualmente (como en 
 - **MEDIO:** ranking/pirámide/tier que ordena lo que YA intentó y revela el techo. (Ej. *ranking suspenso→sobresaliente*, *pirámide de 4 escalones*.)
 - **ALTO:** demo del mecanismo, antes/después, casos reales, sirve/no-sirve, mini-VSL.
 
-### CTA
-- **BAJO:** "sígueme / guarda" (cero fricción).
-- **MEDIO:** "te lo explico en un vídeo gratis / masterclass" (CTA disimulado).
-- **ALTO:** "haz clic, agenda, entra" (CTA directo + sin compromiso/urgencia).
+### CTA — SIEMPRE hay CTA al destino que TÚ decidas (comenta X → lead magnet/formación + beneficio + liga del 1%). Lo que cambia por nivel es la AGRESIVIDAD del CTA, NO si hay venta o no.
+- **BAJO:** CTA suave pero presente: "comenta X y te paso [lead magnet]" o "sígueme". Poca fricción.
+- **MEDIO:** CTA con más empuje: "comenta X y te mando [formación / VSL / masterclass]".
+- **ALTO:** CTA directo: "comenta X · haz clic · agenda · entra".
 
 ---
 
@@ -89,7 +91,7 @@ Por eso cada formato se piensa **por nivel** y se etiqueta visualmente (como en 
 ### NIVEL BAJO (1-2) → DESPERTAR + NOMBRAR (nunca vender)
 - **De qué se habla:** **SÍNTOMAS** ("si te pasa ESTO cuando…"), **CREENCIAS erróneas** (romper algo que da por hecho, sin confrontar), **DOLOR universal**, **rotura de patrón** (romper la lógica común).
 - **Estructuras:** A Rotura de patrón · B Dolor universal · C Creencia errónea · D Síntomas (pregunta experiencial → lista corta de síntomas) · E Micro-alivio.
-- **CTA:** NUNCA vende directo. Lleva a una pieza que sube consciencia (lead magnet, otro vídeo, seguir). Siempre con beneficio claro.
+- **CTA:** SIEMPRE lleva al destino que Joseph decida (comenta X → lead magnet/formación + beneficio + liga del 1%). En BAJO el tono es más suave, pero el CTA está presente — no se "deja sin vender".
 
 ### NIVEL MEDIO (3-4) → MECANISMO + COMPARACIÓN + DEMOSTRAR
 - **De qué se habla:** **EL MECANISMO** (diferenciar tu forma de hacerlo y ponerle nombre), **COMPARATIVA** — sobre todo **CON vs SIN** (misma persona, dos realidades, se ven dos personas), vieja forma vs nueva forma, tú vs competencia, enemigo común; **DEMOSTRACIÓN** (transformación visible / uso real / mecanismo); **prueba social**.

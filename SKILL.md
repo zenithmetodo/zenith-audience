@@ -1,6 +1,6 @@
 ---
 name: zenith-audience
-description: Zenith Audience™ · Mega-skill TOP 1% para crear CONTENIDO VIRAL diario aplicando el Método Audience de Elias Mamã (Marconi Rômulo) adaptado por Joseph Moreno. Orquesta 31 sub-agentes especializados (Opus/Sonnet optimizado) que cubren los 3 pilares (gatillos de atención · contenido notable · verdadero yo), los 7 gatillos psicológicos, las 12 estructuras virales, los 8 elementos del contenido notable, las 10 preguntas del núcleo de influencia, los 70+ formatos visuales + banco ZENITH de reels, y el pipeline VALIDADO de análisis de creator viral (scrape Apify → descarga yt-dlp → 5 frames ffmpeg → transcripción Whisper → idea ganadora multimodal → guion adaptado al núcleo). Para cada reel entrega 4 ganchos óptimos (verbal + textual). Mide métricas con Metricool MCP (Free) y aplica sistema de decisión REPLICAR/ITERAR/GUARDAR/APRENDER/DESCARTAR. Entrega guiones en HTML estético imprimible a PDF con branding Zenith (cian #00E5CF + purple #B845FF). Triggers: "dame ideas de reels", "analiza este perfil de instagram", "sácame los virales de @X", "crea un reel sobre", "adapta este viral", "guion de reel", "carrusel", "hilo", "mis métricas de reels", "qué reel replicar", "spy competidor", "trends de mi nicho", "plan de contenido semanal", "núcleo de influencia", "zenith audience", "método audience", "análisis creator viral".
+description: Zenith Audience™ · Mega-skill TOP 1% para crear CONTENIDO VIRAL diario aplicando el Método Audience de Elias Mamã (Marconi Rômulo) adaptado por Joseph Moreno. Orquesta 32 sub-agentes especializados (Opus/Sonnet optimizado) que cubren los 3 pilares (gatillos de atención · contenido notable · verdadero yo), los 7 gatillos psicológicos, las 12 estructuras virales, los 8 elementos del contenido notable, las 10 preguntas del núcleo de influencia, los 70+ formatos visuales + banco ZENITH de reels, y el pipeline VALIDADO de análisis de creator viral (scrape Apify → descarga yt-dlp → 5 frames ffmpeg → transcripción Whisper → idea ganadora multimodal → guion adaptado al núcleo). Para cada reel entrega 4 ganchos óptimos (verbal + textual). Mide métricas con Metricool MCP (Free) y aplica sistema de decisión REPLICAR/ITERAR/GUARDAR/APRENDER/DESCARTAR. Entrega guiones en HTML estético imprimible a PDF con branding Zenith (cian #00E5CF + purple #B845FF). Triggers: "dame ideas de reels", "analiza este perfil de instagram", "sácame los virales de @X", "crea un reel sobre", "adapta este viral", "guion de reel", "carrusel", "hilo", "mis métricas de reels", "qué reel replicar", "spy competidor", "trends de mi nicho", "plan de contenido semanal", "núcleo de influencia", "zenith audience", "método audience", "análisis creator viral".
 ---
 
 # ZENITH AUDIENCE™ · Orquestador Maestro de Contenido Viral
@@ -9,7 +9,7 @@ description: Zenith Audience™ · Mega-skill TOP 1% para crear CONTENIDO VIRAL 
 
 ## QUÉ ES ESTA SKILL
 
-Es la skill PADRE de un sistema de **31 sub-agentes especializados** (cada uno crack de UNA sola cosa) y **21 slash commands** para crear contenido viral diario.
+Es la skill PADRE de un sistema de **32 sub-agentes especializados** (cada uno crack de UNA sola cosa) y **21 slash commands** para crear contenido viral diario.
 
 Implementa el **Método Audience completo** de Elias Mamã (Marconi Rômulo) · adaptado y operacionalizado por **Joseph Moreno · Zenith** para uso diario en Claude Code.
 
@@ -171,9 +171,10 @@ AUDIENCIA ORGÁNICA QUE TE RESPETA · CONFÍA · COMPRA
 - `template-aplicador` · aplica fórmula literal
 - `template-rotation-planner` · calendario rotación
 
-### 🎬 BLOQUE F · Creación + Formato (5 agentes)
+### 🎬 BLOQUE F · Creación + Formato (6 agentes)
 - `formato-master` ⭐ · 70+ formatos + banco ZENITH (~24) + PIENSA FUERA DE LA CAJA → decide FORMATO + ideas de ganchos
-- `reel-html-builder` ⭐ NUEVO · MAQUETA el reel terminado → `.html` doc-guion + `GUION.md` legible (+ interactivo con Zenón si es clasificatorio)
+- `consciencia-master` 🧠 NUEVO · experto en NIVELES DE CONSCIENCIA (Schwartz) → diagnostica nivel (y MEZCLAS bajo-medio-alto) + qué conecta en cada uno (síntomas/creencias · mecanismo/con-vs-sin · romper objeciones). Lo consultan formato-master y reel-html-builder.
+- `reel-html-builder` ⭐ · MAQUETA el reel terminado → `.html` doc-guion (badge nivel consciencia + dibujo + 6 ganchos + GUION palabra por palabra + overlays + CTA) + `GUION.md` legible (+ interactivo con Zenón si es clasificatorio)
 - `reel-architect` ⭐ · guion completo orquestado
 - `carrusel-architect` · 8-10 slides
 - `hilo-architect` · threads X/IG/LinkedIn

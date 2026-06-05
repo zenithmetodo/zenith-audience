@@ -15,7 +15,7 @@
 
   <!-- Title -->
   <text x="700" y="50" font-family="Georgia, serif" font-size="34" font-weight="700" fill="url(#brandG)" text-anchor="middle">Arquitectura Modular · Zenith Audience™ v1.7.0</text>
-  <text x="700" y="80" font-family="Inter, sans-serif" font-size="14" fill="#8089a0" text-anchor="middle">31 agentes en 10 bloques · 70+ formatos · 6 ganchos óptimos por reel · coordinados por 21 slash commands</text>
+  <text x="700" y="80" font-family="Inter, sans-serif" font-size="14" fill="#8089a0" text-anchor="middle">32 agentes en 10 bloques · 70+ formatos · 6 ganchos óptimos por reel · coordinados por 21 slash commands</text>
 
   <!-- Bloque A · Investigación -->
   <g transform="translate(80,120)">
