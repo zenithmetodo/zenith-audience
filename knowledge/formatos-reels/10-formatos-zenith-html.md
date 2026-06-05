@@ -102,6 +102,9 @@ Claro y humano, **una idea por frase**, disruptivo ≠ chulería. **Psicología 
 23. **Roast / expediente clasificado** — tono dosier/roast del sector (sellos, tachones). BAJO. Reels 29, 45.
 24. **Lead magnet / mini-SaaS / videojuego-funnel** — activos interactivos completos (8 mini-apps, juego retro) que se entregan como experiencia-embudo. ALTO. Reels 56, 57.
 
+### G · NATIVOS DE INSTAGRAM (se sienten parte de la app)
+25. **Cajetilla de pregunta de Instagram (respondiendo a un seguidor)** — EL DIBUJO es la **cajetilla nativa de pregunta de IG** (la cajita "Hazme una pregunta" con el texto del seguidor dentro + su @ y mini-avatar) flotando arriba de la pantalla, y tú respondes a cámara como si fuera un Q&A real. Súper nativo, frena el scroll porque parece contenido orgánico de stories. **Cómo se monta (editor):** recrea la cajita gris/blanca de IG en HTML/CSS (bordes redondeados, sombra, gradiente del sticker de pregunta, @handle + avatar circular) con la pregunta dentro; aparece con pop + micro-vibración; tú respondes en dual-cam o talking head. La pregunta puede ser real (de tus DMs) o una que TÚ plantas para abrir el tema. **Niveles:** BAJO → la pregunta nombra un síntoma ("¿por qué subo reels y no me entra nadie?"). MEDIO → pregunta de comparación/mecanismo ("¿ads o orgánico para captar?"). ALTO → pregunta-objeción ("¿merece la pena pagar una agencia?") y la rompes. Gatillos: Reconocimiento + Autoridad. Encaja con call-out al entrenador en la propia pregunta.
+
 ---
 
 ## 5 · CHECKLIST de entrega (formato-master, antes de dar el reel)

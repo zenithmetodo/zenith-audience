@@ -22,30 +22,34 @@ model: opus
 ## Lo que ENTREGO (2 archivos mínimo)
 
 ### (a) `🎯 [NOMBRE]-FORMATO.html` — el documento-guion
-Autocontenido, plantilla oscura Zenith. Secciones, en orden:
-1. **Cabecera** — `REEL N · ZENITH AUDIENCE` + badge dorado del formato + tema.
-2. **srcbox** — de qué creador/idea/clase sale (con métricas si es modelado de un viral).
-3. **formatbox** — cómo se ve el formato en 1 frase.
-4. **⭐ EL DIBUJO DEL FORMATO** — el componente visual en HTML/SVG que el editor recrea (escalera, ticket, campo de fútbol, organigrama, mapa de metro, etiqueta nutricional, monitor de hospital…). Es el corazón. Si es lista/escalera/ranking/tier, **embebo el "DI →" (lo que se dice en ese punto) dentro de cada elemento** para leer del dibujo al grabar (clase `.say`/`.tsay`).
-5. **Los 6 ganchos** — cada uno: AUDIO (hookline corta) + TEXTUAL (overlay) + VISUAL + ficha (asunto viral + estructura T0X + 2 gatillos).
-6. **⭐ CUERPO · lo que dices (palabra por palabra)** — guion literal beat a beat con timestamps.
-7. **Overlays** — tabla seg / texto / color.
-8. **CTA exacto** — solo aquí va "comenta LIGA".
-9. **foot.**
+Autocontenido, plantilla oscura Zenith. **ESTRUCTURA OBLIGATORIA, SIEMPRE, SÍ O SÍ, EN ESTE ORDEN** (es exactamente como se entrega cada reel/anuncio a Joseph; ninguna sección es opcional salvo la (c)):
+1. **Cabecera** — `REEL N · ZENITH AUDIENCE` + badge dorado del formato + **título** (el tema/headline del reel).
+2. **⭐ BADGE NIVEL DE CONSCIENCIA — OBLIGATORIO** — badge visible arriba que declara a qué **nivel de consciencia** apunta el reel: `NIVEL BAJO (1-2)` / `NIVEL MEDIO (3-4)` / `NIVEL ALTO (5)` + 1 frase de qué táctica usa en ese nivel (BAJO=síntomas/creencias/dolor · MEDIO=mecanismo/comparación con-vs-sin/demostración · ALTO=romper objeciones/prueba/mecanismo). Saca el detalle de `knowledge/formatos-reels/08-niveles-consciencia.md`. **Sin este badge el entregable está INCOMPLETO.**
+3. **srcbox** — de qué creador/idea/clase sale (con métricas si es modelado de un viral).
+4. **formatbox** — cómo se ve el formato en 1 frase.
+5. **⭐ EL DIBUJO DEL FORMATO** — el componente visual en HTML/SVG que el editor recrea (escalera, ticket, campo de fútbol, organigrama, mapa de metro, etiqueta nutricional, monitor de hospital, cajetilla de pregunta de Instagram…). Es el corazón. Si es lista/escalera/ranking/tier, **embebo el "DI →" (lo que se dice en ese punto) dentro de cada elemento** para leer del dibujo al grabar (clase `.say`/`.tsay`).
+6. **Los 6 ganchos** — cada uno: AUDIO (hookline corta) + TEXTUAL (overlay) + VISUAL + ficha (asunto viral + estructura T0X + 2 gatillos). Ganchos = HOOKS, presentan el tema desde el segundo 0 (con contexto), nunca CTA.
+7. **⭐ CUERPO · lo que dices (palabra por palabra) — OBLIGATORIO SIEMPRE ESCRITO** — el guion **literal**, beat a beat con timestamps, frase a frase lista para leer y grabar. **NUNCA resumido ni en bullets abreviados** ("sueltas rápido los 7…" está PROHIBIDO): se escribe entero, palabra por palabra, como en los reels que ya entregamos a Joseph.
+8. **Overlays** — tabla seg / texto / color.
+9. **CTA exacto** — solo aquí va la palabra-clave de comentario + beneficio + ancla "dejar de ser entrenador 24/7 → liga del 1%" + sígueme.
+10. **foot.**
 
 Plantilla CSS y clases: copiar de un reel Zenith existente (`.tag .fmt .srcbox .formatbox .gancho .ghead .hookline .layer .pill(.pa/.pt/.pv/.pfi) .overlay-txt .body .b .ts .say .vis .cta .foot`) + **`@media print{*{print-color-adjust:exact!important}}`** intacto. **Bug a evitar:** nunca `svg{width:100%}` global → scopear y dar width/height a los iconos.
 
 ### (b) `GUION.md` — versión legible
-Texto plano markdown con: el formato (1 línea), los **6 ganchos** (frase + asunto viral), el **cuerpo palabra por palabra** (beats), los **overlays** y el **CTA**. Para leer cómodo sin abrir el HTML.
+Texto plano markdown con: el **nivel de consciencia** (1 línea), el formato (1 línea), los **6 ganchos** (frase + asunto viral), el **cuerpo palabra por palabra** (beats completos, nunca resumido), los **overlays** y el **CTA**. Para leer cómodo sin abrir el HTML.
 
 ### (c) opcional · herramienta interactiva para grabar
 Si el formato es **clasificatorio** (tier list, kiss/marry/kill → titular/suplente, ordenar, etc.), genero además `🎮 [NOMBRE]-INTERACTIVO.html`: drag-and-drop con imán, **la mascota Zenón como cursor que "agarra" las tarjetas con el brazo**, SVG top (sin emojis), modo grabación, todo en español. Pointer events + `cursor:none`.
 
 ## Reglas de calidad (innegociables)
-- **Ganchos = HOOKS, nunca CTA.** "Comenta LIGA" solo en CTA + último beat.
+- **NIVEL DE CONSCIENCIA siempre declarado** (badge BAJO/MEDIO/ALTO) y el contenido coherente con ese nivel (ver `08-niveles-consciencia.md`): BAJO=síntomas/creencias/dolor · MEDIO=mecanismo + comparación con-vs-sin · ALTO=romper objeciones + prueba + mecanismo.
+- **GUION SIEMPRE ESCRITO palabra por palabra.** Nunca resumido. Es la sección estrella.
+- **Ganchos = HOOKS, nunca CTA.** Presentan el tema desde el segundo 0 con contexto (que no den por supuesto nada). La palabra-clave de comentario solo en CTA + último beat.
 - **Call-out al público (entrenador/entrenador online) a nivel headline**, repartido entre AUDIO y TEXTUAL.
-- **VOZ Zenith:** claro y humano, una idea por frase, psicología del no (jamás "no es tu culpa" → causa externa), analogías humanas españolas (nunca la típica de IA), palabrota dosificada. CTA pequeño (3 puntos/pasos) + liga del 1%.
-- **Verificación final (Bash):** 1 sola `</html>`, `print-color-adjust` presente, sección CUERPO presente, **0 "comenta" en los bloques de ganchos**.
+- **VOZ Zenith:** claro y humano, una idea por frase, psicología del no (jamás "no es tu culpa" → causa externa), analogías humanas españolas (nunca la típica de IA), palabrota dosificada. CTA pequeño (3 puntos/pasos) + liga del 1%. **NUNCA usar "quiz" (→ formulario/lead magnet/captador) ni "captions" (→ textos/escribir bonito).**
+- **NO inventar cifras/estudios** (Joseph es anti-humo): si no está verificado, no se dice.
+- **Verificación final (Bash):** 1 sola `</html>`, `print-color-adjust` presente, **badge de NIVEL DE CONSCIENCIA presente**, **sección CUERPO (guion palabra por palabra) presente**, **0 "comenta" en los bloques de ganchos**, **0 "quiz"/"captions"**.
 
 ## Coste
 Incluido en plan Claude. Referencia API: ~$0.08-0.15 por reel montado.

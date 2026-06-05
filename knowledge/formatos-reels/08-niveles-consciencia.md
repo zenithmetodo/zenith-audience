@@ -82,6 +82,30 @@ Por eso cada formato se piensa **por nivel** y se etiqueta visualmente (como en 
 
 ---
 
+## ⭐ TÁCTICAS CANÓNICAS POR NIVEL (del experto `neurocopy-ads-master`)
+
+> Esto es lo que SE HABLA en cada nivel. `formato-master` y `reel-html-builder` lo usan para decidir el contenido del cuerpo y del CTA según el nivel detectado. Fuente: skill `neurocopy-ads-master` (Schwartz aplicado a ads/reels).
+
+### NIVEL BAJO (1-2) → DESPERTAR + NOMBRAR (nunca vender)
+- **De qué se habla:** **SÍNTOMAS** ("si te pasa ESTO cuando…"), **CREENCIAS erróneas** (romper algo que da por hecho, sin confrontar), **DOLOR universal**, **rotura de patrón** (romper la lógica común).
+- **Estructuras:** A Rotura de patrón · B Dolor universal · C Creencia errónea · D Síntomas (pregunta experiencial → lista corta de síntomas) · E Micro-alivio.
+- **CTA:** NUNCA vende directo. Lleva a una pieza que sube consciencia (lead magnet, otro vídeo, seguir). Siempre con beneficio claro.
+
+### NIVEL MEDIO (3-4) → MECANISMO + COMPARACIÓN + DEMOSTRAR
+- **De qué se habla:** **EL MECANISMO** (diferenciar tu forma de hacerlo y ponerle nombre), **COMPARATIVA** — sobre todo **CON vs SIN** (misma persona, dos realidades, se ven dos personas), vieja forma vs nueva forma, tú vs competencia, enemigo común; **DEMOSTRACIÓN** (transformación visible / uso real / mecanismo); **prueba social**.
+- **Estructuras:** Hard-sell **PCMISUC** (Problema · Consecuencias+Motivos · Invalidación · Social proof · Urgencia · CTA) · Demostrativa · **Comparativa (con/sin, vs)** · Nueva forma (nueva causa/palanca/orden/sistema) · Loop pregunta-respuesta · Polarizador (2 arquetipos).
+- **CTA:** sí vende blando, nombra producto, lleva a VSL / landing / WhatsApp / masterclass gratis.
+
+### NIVEL ALTO (5) → ROMPER OBJECIONES + PRUEBA + EMPUJÓN
+- **De qué se habla:** **ROMPER OBJECIONES** (precio, tiempo, miedo a equivocarse otra vez), **PRUEBA SOCIAL definitiva** (casos reales, prueba del mecanismo, evidencia), y **el MECANISMO usado para romper la objeción**.
+- **Estructuras:** Prueba social definitiva (el validador final) · Desmontador del precio ("no es caro; caro es seguir igual" · coste de inacción) · Desmontador del tiempo ("no te falta tiempo, te sobra inercia") · sesgos cognitivos.
+- **CTA:** directo a compra / agendar / WhatsApp / VSL. Beneficio explícito, cierra el bucle mental, sin desesperación.
+
+### 🔑 Dónde vive EL MECANISMO
+El **mecanismo único** (nombre chicle incluido) es la palanca de **NIVEL MEDIO** (diferenciarte) **y de NIVEL ALTO** (romperle la última objeción demostrando POR QUÉ funciona). En BAJO casi no aparece (ahí se despierta, no se explica). Y se puede vehicular con **formatos muy potentes** (demo dual-cam, mapa de metro, organigrama, etiqueta nutricional, monitor de hospital…).
+
+---
+
 ## Output obligatorio de `formato-master` respecto a niveles
 
 Para CADA formato propuesto, indicar SIEMPRE:
