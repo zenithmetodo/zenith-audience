@@ -353,9 +353,16 @@ Tras analizar el reel original · adaptar a tu núcleo:
 
 ---
 
-### PASO 10 · (OPCIONAL) MAQUETAR el reel terminado con `reel-html-builder` ⭐ NUEVO
+### PASO 10 · NIVEL DE CONSCIENCIA + MAQUETAR el reel terminado ⭐
 
-Una vez tienes el `GUION_ADAPTADO.md` (formato elegido + ganchos + cuerpo), **delega en el agente `reel-html-builder`** para dejarlo **listo para grabar**. Este agente NO elige el formato (eso ya lo hizo `formato-master` en el paso 9) — solo lo PRESENTA bonito.
+**10a · Diagnóstico de NIVEL DE CONSCIENCIA (`consciencia-master`).** Antes de maquetar, el agente `consciencia-master` mira la idea + el avatar y dice a qué nivel apunta el reel y QUÉ conecta ahí:
+- **BAJO (1-2):** síntomas · creencias erróneas · dolor. (Despertar/identificar.)
+- **MEDIO (3-4):** mecanismo · comparación **con vs sin** · demostración.
+- **ALTO (5):** romper objeciones (precio/tiempo/miedo) · prueba social · mecanismo.
+
+⚠️ **Los niveles SE MEZCLAN** (lo normal): el reel suele **abrir en BAJO** (no perder a nadie) y **cerrar en MEDIO/ALTO** antes del CTA. El badge puede declarar la mezcla (`BAJO → MEDIO`). El **CTA siempre existe** y lleva al destino que decida Joseph (cambia la agresividad por nivel). Detalle en `knowledge/formatos-reels/08-niveles-consciencia.md` + `agents/32-consciencia-master.md`.
+
+**10b · MAQUETAR con `reel-html-builder`.** Con el `GUION_ADAPTADO.md` (formato + nivel + ganchos + cuerpo), **delega en `reel-html-builder`** para dejarlo **listo para grabar**. Este agente NO elige el formato (lo hizo `formato-master`) ni el nivel (lo hizo `consciencia-master`) — solo lo PRESENTA bonito con el **badge de nivel** arriba.
 
 ```
 /audience-reel-html "tema + formato elegido (del GUION_ADAPTADO.md)"

@@ -257,11 +257,16 @@ Define tu núcleo de influencia (10 preguntas) · guía toda la skill.
 ### 🌅 DIARIO (10-15 min)
 ```
 1. /audience-ideas              → 15-20 ideas multi-fuente
-2. /audience-formato [idea]     → formato FUERA DE LA CAJA (70+ + banco ZENITH) + 6 ganchos-hook
-3. /audience-reel-html [idea]   → HTML doc-guion + GUION.md legible (+ interactivo si clasificatorio)
+2. /audience-formato [idea]     → formato FUERA DE LA CAJA (70+ + banco ZENITH)
+                                  + NIVEL DE CONSCIENCIA (consciencia-master diagnostica
+                                    BAJO/MEDIO/ALTO y MEZCLAS) + 6 ganchos-hook
+3. /audience-reel-html [idea]   → HTML doc-guion: badge NIVEL + dibujo del formato +
+                                  6 ganchos + GUION palabra por palabra + overlays + CTA
+                                  exacto · + GUION.md legible (+ interactivo si clasificatorio)
 4. /audience-audit [guion]      → filtro de calidad
 5. Grabas leyendo del DIBUJO (cuerpo 1× + 6 ganchos)
 ```
+> **Cómo encaja el nivel de consciencia:** entre el paso 2 y el 3, `consciencia-master` dice a qué nivel apunta el reel y QUÉ conecta ahí (BAJO=síntomas/creencias · MEDIO=mecanismo/con-vs-sin · ALTO=romper objeciones), incluida la **mezcla** (lo normal: abrir en BAJO y cerrar en MEDIO/ALTO). `reel-html-builder` lo plasma en el badge y ajusta el cuerpo. El **CTA siempre existe** y lleva al destino que tú decidas (cambia la agresividad por nivel, no si vende).
 > Alternativa rápida: `/audience-reel [idea]` orquesta guion + 4 ganchos en un solo paso.
 
 ### 📅 SEMANAL
