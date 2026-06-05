@@ -110,14 +110,19 @@ Mira el [knowledge file completo de métricas](knowledge/metricas/00-las-3-metri
 <img src="assets/pipeline-diario.svg" alt="Pipeline Diario" width="900"/>
 </div>
 
-### 🌅 Día tipo · 10 min
+### 🌅 Día tipo · 10-15 min
 
 ```bash
-07:00 → /audience-ideas        → 15-20 ideas hoy (multi-fuente)
-07:05 → /audience-reel [idea]  → guion completo HTML
-07:08 → /audience-audit        → checklist final
-07:10 → Grabas y publicas
+07:00 → /audience-ideas         → 15-20 ideas hoy (multi-fuente)
+07:04 → /audience-formato [idea] → formato fuera de la caja (70+ + banco ZENITH)
+                                   + NIVEL DE CONSCIENCIA (consciencia-master) + 6 ganchos
+07:08 → /audience-reel-html [idea] → HTML doc-guion: badge NIVEL + dibujo del formato +
+                                   6 ganchos + GUION palabra por palabra + overlays + CTA
+07:11 → /audience-audit         → checklist final
+07:13 → Grabas leyendo del DIBUJO y publicas
 ```
+> **El nivel de consciencia manda el contenido:** BAJO=síntomas/creencias · MEDIO=mecanismo/con-vs-sin · ALTO=romper objeciones. Los niveles **se mezclan** (abre en BAJO, cierra en MEDIO/ALTO). El **CTA siempre existe** y lleva al destino que tú decidas.
+> ⚡ Atajo: `/audience-reel [idea]` orquesta guion + ganchos en un solo paso.
 
 ### 📅 Semana tipo
 
@@ -138,6 +143,20 @@ Domingo    → /audience-plan-semana
 → Transcribe · analiza · extrae idea ganadora · adapta a TU núcleo · 3 variantes (reel + carrusel + hilo)
 
 📖 **Workflow completo paso a paso:** [GETTING_STARTED.md](GETTING_STARTED.md)
+
+---
+
+## 🧠 Niveles de Consciencia (agente `consciencia-master`)
+
+Cada reel se trabaja por **nivel de consciencia** (Schwartz) — depende de lo consciente que esté el avatar de su problema y de tu solución. El agente `consciencia-master` lo diagnostica y dicta QUÉ conecta en cada nivel; `reel-html-builder` lo plasma en un **badge** arriba del doc-guion.
+
+| Nivel | Qué CONECTA (lo que se habla) | CTA |
+|---|---|---|
+| **BAJO (1-2)** | **síntomas · creencias erróneas · dolor** — despertar/identificar | suave, pero SIEMPRE presente |
+| **MEDIO (3-4)** | **mecanismo · comparación CON vs SIN · demostración** | con empuje (VSL/landing) |
+| **ALTO (5)** | **romper objeciones (precio/tiempo/miedo) · prueba social · mecanismo** | directo (compra/agendar) |
+
+> ⚠️ **Los niveles se mezclan** (lo normal): el reel abre en BAJO (para no perder a nadie) y cierra en MEDIO/ALTO antes del CTA — el badge puede declarar la mezcla (`BAJO → MEDIO`). El **CTA siempre existe** y lleva al destino que tú decidas; lo que cambia por nivel es la agresividad, no si se vende. Detalle: `knowledge/formatos-reels/08-niveles-consciencia.md`.
 
 ---
 
@@ -362,12 +381,13 @@ Setup detallado: ver [INSTALL.md](INSTALL.md) · [METRICOOL_SETUP.md](METRICOOL_
 
 Te guía las 10 preguntas del núcleo de influencia.
 
-### Rutina diaria (10 min)
+### Rutina diaria (10-15 min)
 
 ```bash
-/audience-ideas
-/audience-reel [idea elegida]
-/audience-audit [guion]
+/audience-ideas                  # 15-20 ideas
+/audience-formato [idea]         # formato + NIVEL DE CONSCIENCIA + 6 ganchos
+/audience-reel-html [idea]       # HTML doc-guion (badge nivel + dibujo + guion + CTA) + GUION.md
+/audience-audit [guion]          # filtro de calidad
 ```
 
 ### Rutina semanal
