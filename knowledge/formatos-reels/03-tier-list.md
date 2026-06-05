@@ -1,4 +1,4 @@
-# Formato 03 · TIER LIST (S/A/B/C/D/E/F)
+# Formato 03 · TIER LIST (S/A/B testing/E/F)
 
 > Clasificas items en tiers · vas arrastrando uno por uno. Genera debate · saves altos · compartible.
 
@@ -29,7 +29,7 @@
 ```
 TEXTO OVERLAY INICIAL: TIER LIST · [TEMA]
 
-[SEGUNDO 0-3] · HOOK (4 ganchos posibles)
+[SEGUNDO 0-3] · HOOK (6 ganchos posibles)
 [VISUAL]: Plano medio · tier list visible vacío detrás
 [AUDIO]: gancho elegido
 [OVERLAY]: gancho textual

@@ -14,7 +14,7 @@
   <rect width="1400" height="1000" fill="url(#bg)"/>
 
   <!-- Title -->
-  <text x="700" y="50" font-family="Georgia, serif" font-size="34" font-weight="700" fill="url(#brandG)" text-anchor="middle">Arquitectura Modular · Zenith Audience™ v1.7.0</text>
+  <text x="700" y="50" font-family="Georgia, serif" font-size="34" font-weight="700" fill="url(#brandG)" text-anchor="middle">Arquitectura Modular · Zenith Audience™ v1.8.0</text>
   <text x="700" y="80" font-family="Inter, sans-serif" font-size="14" fill="#8089a0" text-anchor="middle">32 agentes en 10 bloques · 70+ formatos · 6 ganchos óptimos por reel · coordinados por 21 slash commands</text>
 
   <!-- Bloque A · Investigación -->
@@ -128,7 +128,7 @@
     <text x="20" y="30" font-family="Georgia, serif" font-size="18" fill="url(#brandG)" font-weight="700">⭐ formato-master · El crack de los formatos (NUEVO v1.2)</text>
     <text x="20" y="55" font-family="Inter, sans-serif" font-size="11" fill="#cfd4e3">Conoce 70+ formatos visuales: HAC · Selfie · Green Screen · Split · Miro · Tier list · Bracket · Ranking · Pizarra · POV ·</text>
     <text x="20" y="73" font-family="Inter, sans-serif" font-size="11" fill="#cfd4e3">2 personas reales · Loop iterativo · Conversación errores · Mecanismo paso a paso · y muchos más. Y GENERA nuevos formatos cuando ninguno encaja.</text>
-    <text x="20" y="91" font-family="Inter, sans-serif" font-size="11" fill="#00E5CF" font-weight="700">+ Para cada reel: 4 GANCHOS óptimos (cada uno con verbal + textual) = 4 versiones A/B/C/D listas para testing</text>
+    <text x="20" y="91" font-family="Inter, sans-serif" font-size="11" fill="#00E5CF" font-weight="700">+ Para cada reel: 6 GANCHOS óptimos (cada uno con verbal + textual) = 6 versiones A/B testing/E/F listas para testing</text>
   </g>
 
   <!-- Integraciones externas -->
@@ -143,5 +143,5 @@
     </g>
   </g>
 
-  <text x="700" y="980" font-family="Inter, sans-serif" font-size="11" fill="#6b7588" text-anchor="middle">JOSEPH MORENO · ZENITH · BASADO EN EL MÉTODO AUDIENCE DE ELIAS MAMÃ · v1.7.0</text>
+  <text x="700" y="980" font-family="Inter, sans-serif" font-size="11" fill="#6b7588" text-anchor="middle">JOSEPH MORENO · ZENITH · BASADO EN EL MÉTODO AUDIENCE DE ELIAS MAMÃ · v1.8.0</text>
 </svg>

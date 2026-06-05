@@ -115,7 +115,7 @@ Para cada reel analizado:
 1. **Cruzo idea ganadora × tu núcleo:**
    - Tu enemigo · tu promesa · tus bordones · tu avatar
 2. **Genero `GUION_ADAPTADO.md` con:**
-   - Los 4 ganchos óptimos (verbal + textual)
+   - Los 6 ganchos óptimos (verbal + textual)
    - Cuerpo del reel adaptado a TU voz
    - Formato visual recomendado
    - Notas de producción

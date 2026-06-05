@@ -15,7 +15,7 @@
 
   <rect width="1400" height="1000" fill="url(#bgD)"/>
 
-  <text x="700" y="50" font-family="Georgia, serif" font-size="34" font-weight="700" fill="url(#brandD)" text-anchor="middle">Pipeline de Uso Diario · Zenith Audience™ v1.7.0</text>
+  <text x="700" y="50" font-family="Georgia, serif" font-size="34" font-weight="700" fill="url(#brandD)" text-anchor="middle">Pipeline de Uso Diario · Zenith Audience™ v1.8.0</text>
   <text x="700" y="80" font-family="Inter, sans-serif" font-size="14" fill="#8089a0" text-anchor="middle">Workflows reales · 6 ganchos óptimos por reel · 70+ formatos visuales</text>
 
   <g transform="translate(80,120)">
@@ -76,31 +76,34 @@
     <line x1="940" y1="80" x2="980" y2="80" stroke="#00E5CF" stroke-width="2" marker-end="url(#arrowD)"/>
     <g transform="translate(990,30)">
       <rect width="280" height="100" rx="12" fill="rgba(184,69,255,0.1)" stroke="#B845FF" stroke-width="2.5"/>
-      <text x="140" y="28" font-family="Inter, sans-serif" font-size="11" fill="#B845FF" text-anchor="middle" font-weight="700">PASO 4 ⭐ 4 GANCHOS</text>
+      <text x="140" y="28" font-family="Inter, sans-serif" font-size="11" fill="#B845FF" text-anchor="middle" font-weight="700">PASO 4 ⭐ 6 GANCHOS</text>
       <text x="140" y="52" font-family="Georgia, serif" font-size="13" fill="#fff" text-anchor="middle">los mejores para el reel</text>
       <text x="140" y="72" font-family="Inter, sans-serif" font-size="10" fill="#8089a0" text-anchor="middle">cada uno: verbal + textual</text>
-      <text x="140" y="88" font-family="Inter, sans-serif" font-size="10" fill="#cfd4e3" text-anchor="middle">A/B/C/D testing secuencial</text>
+      <text x="140" y="88" font-family="Inter, sans-serif" font-size="10" fill="#cfd4e3" text-anchor="middle">A/B testing secuencial · 6 hooks</text>
     </g>
   </g>
 
   <g transform="translate(80,400)">
     <rect width="1240" height="120" rx="14" fill="rgba(184,69,255,0.05)" stroke="#B845FF" stroke-width="1.5" stroke-dasharray="6,4"/>
-    <text x="20" y="30" font-family="Georgia, serif" font-size="18" fill="url(#brandD)" font-weight="700">⭐ LOS 4 GANCHOS · Los mejores para tu reel concreto (cada uno: verbal + textual)</text>
-    <text x="40" y="58" font-family="Inter, sans-serif" font-size="13" fill="#00E5CF" font-weight="700">Gancho A</text>
-    <text x="40" y="76" font-family="Inter, sans-serif" font-size="10" fill="#cfd4e3">1 verbal (audio) + 1 textual (overlay)</text>
-    <text x="40" y="92" font-family="Inter, sans-serif" font-size="10" fill="#8089a0">Día 1-2 · publicas · 48h</text>
-    <text x="320" y="58" font-family="Inter, sans-serif" font-size="13" fill="#B845FF" font-weight="700">Gancho B</text>
-    <text x="320" y="76" font-family="Inter, sans-serif" font-size="10" fill="#cfd4e3">1 verbal + 1 textual</text>
-    <text x="320" y="92" font-family="Inter, sans-serif" font-size="10" fill="#8089a0">Día 3-4 · si A no funcionó</text>
-    <text x="600" y="58" font-family="Inter, sans-serif" font-size="13" fill="#00E5CF" font-weight="700">Gancho C</text>
-    <text x="600" y="76" font-family="Inter, sans-serif" font-size="10" fill="#cfd4e3">1 verbal + 1 textual</text>
-    <text x="600" y="92" font-family="Inter, sans-serif" font-size="10" fill="#8089a0">Día 5-7 · si B no funcionó</text>
-    <text x="880" y="58" font-family="Inter, sans-serif" font-size="13" fill="#B845FF" font-weight="700">Gancho D</text>
-    <text x="880" y="76" font-family="Inter, sans-serif" font-size="10" fill="#cfd4e3">1 verbal + 1 textual</text>
-    <text x="880" y="92" font-family="Inter, sans-serif" font-size="10" fill="#8089a0">Día 8-10 · último intento</text>
-    <text x="1110" y="58" font-family="Georgia, serif" font-size="20" fill="url(#brandD)" font-weight="800">= 4 versiones</text>
-    <text x="1110" y="80" font-family="Inter, sans-serif" font-size="10" fill="#cfd4e3">A/B/C/D testing</text>
-    <text x="1110" y="96" font-family="Inter, sans-serif" font-size="10" fill="#00E5CF" font-style="italic">Cuerpo 1× + 4 hooks</text>
+    <text x="20" y="30" font-family="Georgia, serif" font-size="18" fill="url(#brandD)" font-weight="700">⭐ LOS 6 GANCHOS · Los mejores para tu reel concreto (cada uno: verbal + textual) · A/B testing = 6 versiones</text>
+    <text x="20" y="62" font-family="Inter, sans-serif" font-size="13" fill="#00E5CF" font-weight="700">Gancho A</text>
+    <text x="20" y="80" font-family="Inter, sans-serif" font-size="10" fill="#cfd4e3">verbal + textual</text>
+    <text x="20" y="96" font-family="Inter, sans-serif" font-size="10" fill="#8089a0">publicas · 48h</text>
+    <text x="220" y="62" font-family="Inter, sans-serif" font-size="13" fill="#B845FF" font-weight="700">Gancho B</text>
+    <text x="220" y="80" font-family="Inter, sans-serif" font-size="10" fill="#cfd4e3">verbal + textual</text>
+    <text x="220" y="96" font-family="Inter, sans-serif" font-size="10" fill="#8089a0">si A no funcionó</text>
+    <text x="420" y="62" font-family="Inter, sans-serif" font-size="13" fill="#00E5CF" font-weight="700">Gancho C</text>
+    <text x="420" y="80" font-family="Inter, sans-serif" font-size="10" fill="#cfd4e3">verbal + textual</text>
+    <text x="420" y="96" font-family="Inter, sans-serif" font-size="10" fill="#8089a0">si B no funcionó</text>
+    <text x="620" y="62" font-family="Inter, sans-serif" font-size="13" fill="#B845FF" font-weight="700">Gancho D</text>
+    <text x="620" y="80" font-family="Inter, sans-serif" font-size="10" fill="#cfd4e3">verbal + textual</text>
+    <text x="620" y="96" font-family="Inter, sans-serif" font-size="10" fill="#8089a0">si C no funcionó</text>
+    <text x="820" y="62" font-family="Inter, sans-serif" font-size="13" fill="#00E5CF" font-weight="700">Gancho E</text>
+    <text x="820" y="80" font-family="Inter, sans-serif" font-size="10" fill="#cfd4e3">verbal + textual</text>
+    <text x="820" y="96" font-family="Inter, sans-serif" font-size="10" fill="#8089a0">si D no funcionó</text>
+    <text x="1020" y="62" font-family="Inter, sans-serif" font-size="13" fill="#B845FF" font-weight="700">Gancho F</text>
+    <text x="1020" y="80" font-family="Inter, sans-serif" font-size="10" fill="#cfd4e3">verbal + textual</text>
+    <text x="1020" y="96" font-family="Inter, sans-serif" font-size="10" fill="#8089a0">último intento</text>
   </g>
 
   <g transform="translate(80,560)">
@@ -197,5 +200,5 @@
     </g>
   </g>
 
-  <text x="700" y="980" font-family="Inter, sans-serif" font-size="11" fill="#6b7588" text-anchor="middle">JOSEPH MORENO · ZENITH · v1.7.0 · 31 AGENTES · 70+ FORMATOS · 6 GANCHOS-HOOK POR REEL</text>
+  <text x="700" y="980" font-family="Inter, sans-serif" font-size="11" fill="#6b7588" text-anchor="middle">JOSEPH MORENO · ZENITH · v1.8.0 · 32 AGENTES · 70+ FORMATOS · 6 GANCHOS-HOOK POR REEL</text>
 </svg>

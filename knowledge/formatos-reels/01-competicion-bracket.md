@@ -27,7 +27,7 @@
 ```
 TEXTO OVERLAY INICIAL: TORNEO [TEMA] — ¿Cuál es la MEJOR/PEOR/etc.?
 
-[SEGUNDO 0-3] · HOOK (4 ganchos posibles)
+[SEGUNDO 0-3] · HOOK (6 ganchos posibles)
 [VISUAL]: Plano medio · gesto invitador
 [AUDIO]: gancho elegido
 [TEXTO OVERLAY]: gancho textual elegido
@@ -86,7 +86,7 @@ CTA [final]:
 - **Edición:** cortes secos (no transiciones) · texto overlay aparece junto con audio
 - **Música:** sin música o muy suave (tono conversacional)
 - **Duración óptima:** 60-90 segundos
-- **Tiempo grabación:** 30-45 min (con 4 ganchos)
+- **Tiempo grabación:** 30-45 min (con 6 ganchos)
 
 ## Ejemplo canónico (real · usuario)
 

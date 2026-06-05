@@ -1,10 +1,10 @@
 ---
-description: Genera guion COMPLETO de reel 15-90s con FORMATO visual elegido + 4 GANCHOS óptimos (cada uno con verbal + textual) + análisis "por qué funcionará". Output HTML estético PDF-ready listo para grabar.
+description: Genera guion COMPLETO de reel 15-90s con FORMATO visual elegido + 6 GANCHOS óptimos (cada uno con verbal + textual) + análisis "por qué funcionará". Output HTML estético PDF-ready listo para grabar.
 ---
 
 # /audience-reel ⭐
 
-Guion completo de reel · todo en uno · con los 4 ganchos óptimos.
+Guion completo de reel · todo en uno · con los 6 ganchos óptimos.
 
 ## Uso
 
@@ -18,7 +18,7 @@ Invoco `reel-architect` que orquesta el pipeline completo:
 
 1. **`asunto-detector`** valida la idea (5 criterios)
 2. **`template-selector`** + **`template-aplicador`** eligen y aplican estructura (1 de las 12)
-3. **`formato-master`** ⭐ recomienda formato visual (de 70+ · o genera nuevo si ninguno encaja) + entrega los 4 ganchos óptimos
+3. **`formato-master`** ⭐ recomienda formato visual (de 70+ · o genera nuevo si ninguno encaja) + entrega los 6 ganchos óptimos
 4. **`gatillo-master`** aplica gatilhos stacking (2-3 de los 7)
 5. **`notable-auditor`** audita contra 8 elementos + STEPPS
 
@@ -27,13 +27,13 @@ Invoco `reel-architect` que orquesta el pipeline completo:
 HTML estético PDF-ready en `output/reels/[fecha]-[título].html`:
 
 - **Setup** (formato · template · gatillos · categorías · notable)
-- **⭐ 4 ganchos óptimos** (cada uno con VERBAL + TEXTUAL + visual del primer frame + tipo psicológico + por qué es óptimo)
-- **🏆 Recomendación de orden** para testing A/B/C/D secuencial
+- **⭐ 6 ganchos óptimos** (cada uno con VERBAL + TEXTUAL + visual del primer frame + tipo psicológico + por qué es óptimo)
+- **🏆 Recomendación de orden** para testing A/B secuencial secuencial
 - **Cuerpo del reel** completo (timestamps segundo a segundo · VISUAL · AUDIO · OVERLAY · ICONO)
 - **CTA final** palabra a palabra
 - **Producción** (b-roll · música · iluminación · vestuario · tiempo grabación)
 - **Distribución** (copy · hashtags · timing)
-- **Plan A/B/C/D testing** (calendario de 10 días)
+- **Plan A/B testing secuencial** (calendario de 10 días)
 - **Análisis** · POR QUÉ funcionará + EN QUÉ se basa (knowledge files · clases · estudios)
 - **Checklist final** antes de grabar
 
@@ -48,13 +48,13 @@ HTML estético PDF-ready en `output/reels/[fecha]-[título].html`:
 - Para CADA reel que vas a grabar (3-5/semana)
 - En batch de grabación (prepara varios juntos con `/audience-batch-day`)
 
-## Cómo se usan los 4 ganchos en producción
+## Cómo se usan los 6 ganchos en producción
 
 1. Grabas el CUERPO del reel UNA sola vez
-2. Grabas los 4 ganchos por separado (cambias solo primeros 3s)
+2. Grabas los 6 ganchos por separado (cambias solo primeros 3s)
 3. Tiempo extra: ~15-20 min
 4. En edición: combinas cada VERBAL con su TEXTUAL correspondiente
-5. Tienes 4 versiones del mismo reel · listas para A/B/C/D testing
+5. Tienes 6 versiones del mismo reel · listas para A/B testing secuencial
 6. Publicas versión Gancho A · esperas 48h
 7. Si <0.5x tu media → publicas versión Gancho B
 8. Si >3x media → ITERAS esa versión con `/audience-iterar`

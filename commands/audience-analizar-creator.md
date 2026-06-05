@@ -113,7 +113,7 @@ Salto pasos 1-3 (scraping perfil) y procedo directamente desde paso 4 con tus UR
 
 Después del análisis:
 - Eliges el TRANSCRIPCION.md más útil
-- Usas su `GUION_ADAPTADO.md` con `/audience-reel` para guion completo + 4 ganchos
+- Usas su `GUION_ADAPTADO.md` con `/audience-reel` para guion completo + 6 ganchos
 - O usas `/audience-iterar` para variantes
 
 ---

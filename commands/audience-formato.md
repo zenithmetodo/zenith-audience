@@ -22,14 +22,14 @@ Invoco `formato-master` que ejecuta:
 2. **Identifica formatos candidatos** entre los 70+
 3. **Si ninguno encaja perfectamente** → GENERA formato nuevo combinando elementos
 4. **Recomienda top 3 formatos** (existentes o generados)
-5. **Para cada uno entrega** estructura timestamps PRO + 4 ganchos óptimos
+5. **Para cada uno entrega** estructura timestamps PRO + 6 ganchos óptimos
 
 ## Los 70+ formatos categorizados
 
 - **Talking** (HAC · Selfie · Pizarra · Walking · Car POV · podcast solo · etc.)
 - **Visual overlay** (Green Screen · Miro · Split · Cards · monitor con dato)
 - **Comparativas** (2 identidades · 2 personas reales mismo plano · Sirve/NoSirve · Antes/Después · 3-5 niveles)
-- **Rankings** (Tier List S/A/B/C/D · Top 10 · Ranking con iconos · Bracket torneo)
+- **Rankings** (Tier List S/A/B testing · Top 10 · Ranking con iconos · Bracket torneo)
 - **Narrativo** (POV · Storytime · Reaction · Entrevista · Pregunta-respuesta experto · Conversación errores · Loop iterativo · Diálogo interno)
 - **Demostración** (Demo · Mecanismo paso a paso · Tutorial · Time-lapse · Screen recording)
 - **Voiceover/B-roll** (Voiceover · B-roll heavy · Walking Talk · Talking + b-roll)
@@ -48,7 +48,7 @@ Top 3 formatos recomendados:
 Para el ELEGIDO entrega:
 - Estructura timestamps PRO (segundo a segundo)
 - VISUAL · AUDIO · TEXTO OVERLAY · ICONOS
-- 4 ganchos ÓPTIMOS para ese reel (cada uno con verbal + textual)
+- 6 ganchos ÓPTIMOS para ese reel (cada uno con verbal + textual)
 - Notas de producción (b-roll · música · iluminación)
 - Tiempo estimado de grabación
 ```
@@ -68,4 +68,4 @@ Para el ELEGIDO entrega:
 
 ## Siguiente paso
 
-Tras elegir formato → invoca `/audience-reel [tema]` para guion completo con ese formato + 4 ganchos completos.
+Tras elegir formato → invoca `/audience-reel [tema]` para guion completo con ese formato + 6 ganchos completos.

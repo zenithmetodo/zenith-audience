@@ -27,7 +27,7 @@
 ```
 TEXTO OVERLAY INICIAL: COSAS QUE FUNCIONAN PARA TU [NICHO/CATEGORÍA]
 
-[SEGUNDO 0-3] · HOOK (4 ganchos posibles)
+[SEGUNDO 0-3] · HOOK (6 ganchos posibles)
 [VISUAL]: Plano medio · pantalla dividida visible al fondo
 [AUDIO]: gancho elegido
 [OVERLAY]: gancho textual

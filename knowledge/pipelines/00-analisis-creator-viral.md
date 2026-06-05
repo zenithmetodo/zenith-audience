@@ -296,7 +296,7 @@ Tras analizar el reel original · adaptar a tu núcleo:
 
 ---
 
-## ⭐ Los 4 Ganchos Óptimos (cada uno con VERBAL + TEXTUAL)
+## ⭐ Los 6 Ganchos Óptimos (cada uno con VERBAL + TEXTUAL)
 
 ### 🔴 Gancho A · Dolor
 - **VERBAL (audio):** "<frase>"
@@ -340,7 +340,7 @@ Tras analizar el reel original · adaptar a tu núcleo:
 - Música: <...>
 - Iluminación: <...>
 - Vestuario: <...>
-- Tiempo grabación: ~15-20 min (cuerpo + 4 ganchos)
+- Tiempo grabación: ~15-20 min (cuerpo + 6 ganchos)
 
 ---
 

@@ -252,7 +252,7 @@ Setup ONE-SHOT al inicio (2-3h):
 | `/audience-reel-html [tema]` ⭐ | Maqueta el reel terminado: HTML doc-guion + GUION.md (+ interactivo si clasificatorio) | Tras elegir formato |
 | `/audience-headline [tema]` | 10 headlines (3 tipos · v/v/audio) | Antes de grabar |
 | `/audience-headline-batch` | Batch mensual 30-50 headlines | Día 1 mes |
-| `/audience-reel [tema]` | Guion completo reel HTML estético + 4 ganchos | 3-5x/semana |
+| `/audience-reel [tema]` | Guion completo reel HTML estético + 6 ganchos | 3-5x/semana |
 | `/audience-carrusel [tema]` | Carrusel 8-10 slides estético | 2-3x/semana |
 | `/audience-hilo [tema]` | Thread X/IG/LinkedIn | 1-2x/semana |
 | `/audience-audit [guion]` | Audit 8 notable + 5 criterios viral | Antes de publicar |

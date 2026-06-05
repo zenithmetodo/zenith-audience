@@ -32,7 +32,7 @@ Los algoritmos premian:
 3. **Identifica MUCHOS formatos candidatos** de este archivo (70+) · menú amplio (8-15+)
 4. **Si ninguno encaja perfectamente** → GENERA formato nuevo combinando elementos
 5. **Adapta cada formato por NIVEL DE CONSCIENCIA** (BAJO/MEDIO/ALTO · ver `08`)
-6. **Aplica el elegido** con estructura timestamps PRO + 4 ganchos + ficha técnica
+6. **Aplica el elegido** con estructura timestamps PRO + 6 ganchos + ficha técnica
 
 ---
 
@@ -131,7 +131,7 @@ De nivel 1 a 5 · cada uno con overlay numérico.
 
 ### CATEGORÍA 5 · RANKINGS / TIERS / BRACKETS
 
-#### 26. **Tier List (S/A/B/C/D/E/F)** ⭐
+#### 26. **Tier List (S/A/B testing/E/F)** ⭐
 Clasificas items por tiers · arrastras uno por uno · genera debate.
 
 #### 27. Ranking Ordenado (top 10 · top 5)
@@ -407,13 +407,13 @@ Clasifica con notas lo que el avatar YA intentó · enemigo común en suspenso �
 
 ---
 
-## 🎯 LA REGLA DE LOS 4 GANCHOS POR REEL
+## 🎯 LA REGLA DE LOS 6 GANCHOS POR REEL
 
-> Para CADA reel · `formato-master` entrega **4 GANCHOS** · los **mejores posibles para ese reel concreto**.
+> Para CADA reel · `formato-master` entrega **6 GANCHOS** · los **mejores posibles para ese reel concreto**.
 > Cada gancho tiene: 1 VERBAL (audio · lo que se dice) + 1 TEXTUAL (overlay · lo que aparece en pantalla).
-> **Total por reel: 4 ganchos = 4 verbales + 4 textuales = 8 elementos.**
+> **Total por reel: 6 ganchos = 6 verbales + 6 textuales = 12 elementos.**
 
-### Los 4 ganchos NO son matriz exhaustiva
+### Los 6 ganchos NO son matriz exhaustiva
 
 Son los **4 ÓPTIMOS seleccionados específicamente** para tu reel.
 
@@ -445,9 +445,9 @@ Pueden ser:
 - Curiosidad ("¿CUÁL VENCE A TODAS?")
 - Híbrida
 
-### Cómo se usan los 4 ganchos
+### Cómo se usan los 6 ganchos
 - Cuerpo del reel: 1 sola grabación
-- 4 ganchos: ~15-20 min grabación extra (cambias solo primeros 3s)
+- 6 ganchos: ~15-20 min grabación extra (cambias solo primeros 3s)
 - Test secuencial: Gancho A → 48h → si <0.5x → Gancho B → etc.
 - Si >3x media → `/audience-iterar`
 
@@ -458,7 +458,7 @@ Pueden ser:
 - [ ] ¿Qué formato uso? (de los 70+ · o nuevo generado)
 - [ ] ¿Qué template viral? (de los 12)
 - [ ] ¿Qué 2-3 gatillos en stacking? (de los 7)
-- [ ] ¿Los 4 ganchos óptimos listos? (cada uno con verbal + textual)
+- [ ] ¿Los 6 ganchos óptimos listos? (cada uno con verbal + textual)
 - [ ] ¿B-roll necesario?
 - [ ] ¿Audio · iluminación · vestuario OK?
 
@@ -473,7 +473,7 @@ TEMPLATE viral (de los 12)
     +
 GATILLOS stacking (2-3 de los 7)
     +
-4 GANCHOS ÓPTIMOS (cada uno con verbal + textual)
+6 GANCHOS ÓPTIMOS (cada uno con verbal + textual)
     +
 8 ELEMENTOS notable integrados (2-3 mínimo)
     +
@@ -490,7 +490,7 @@ Los siguientes 7 formatos tienen documentación EXHAUSTIVA con estructura timest
 
 1. `01-competicion-bracket.md` → Formato #29 (torneo eliminatoria)
 2. `02-ranking-ordenado.md` → Formato #28 (ranking sistema con iconos)
-3. `03-tier-list.md` → Formato #26 (tier list S/A/B/C/D)
+3. `03-tier-list.md` → Formato #26 (tier list S/A/B testing)
 4. `04-pizarra.md` → Formato #59 (pizarra + argumentación profunda)
 5. `05-conversacion-errores-nivel.md` → Formato #39 (N expone · J clasifica)
 6. `06-pregunta-respuesta-experto.md` → Formato #38 (cliente preocupado · razones)

@@ -29,7 +29,7 @@
 ```
 TEXTO OVERLAY INICIAL: [NÚMERO] SEÑALES DE QUE [CONSECUENCIA] (Y [GRUPO AUTORIDAD AJENA] NI LO SABE)
 
-[SEGUNDO 0-3] · HOOK (4 ganchos posibles)
+[SEGUNDO 0-3] · HOOK (6 ganchos posibles)
 [VISUAL]: Plano medio · dos personas
 [AUDIO]: gancho elegido
 [OVERLAY]: gancho textual

@@ -31,7 +31,7 @@
 TEXTO OVERLAY INICIAL: [DECLARACIÓN FUERTE EN MAYÚSCULAS]
 SUBTÍTULO: [VARIACIÓN SHOCK DEL MENSAJE]
 
-[SEGUNDO 0-3] · HOOK (4 ganchos posibles)
+[SEGUNDO 0-3] · HOOK (6 ganchos posibles)
 [VISUAL]: Plano medio · pizarra detrás · gesto firme
 [AUDIO]: gancho elegido
 [OVERLAY]: gancho textual
@@ -82,7 +82,7 @@ CTA [final]:
 - **Música:** sin música o muy suave de fondo
 - **Subtítulos OBLIGATORIOS:** texto denso sin sonido es ilegible
 - **Duración óptima:** 70-90 segundos
-- **Tiempo grabación:** 30-45 min con 4 ganchos
+- **Tiempo grabación:** 30-45 min con 6 ganchos
 
 ## Ejemplo canónico (real · usuario)
 

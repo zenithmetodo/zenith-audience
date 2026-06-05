@@ -1,6 +1,6 @@
 ---
 name: zenith-audience
-description: Zenith Audience™ · Mega-skill TOP 1% para crear CONTENIDO VIRAL diario aplicando el Método Audience de Elias Mamã (Marconi Rômulo) adaptado por Joseph Moreno. Orquesta 32 sub-agentes especializados (Opus/Sonnet optimizado) que cubren los 3 pilares (gatillos de atención · contenido notable · verdadero yo), los 7 gatillos psicológicos, las 12 estructuras virales, los 8 elementos del contenido notable, las 10 preguntas del núcleo de influencia, los 70+ formatos visuales + banco ZENITH de reels, y el pipeline VALIDADO de análisis de creator viral (scrape Apify → descarga yt-dlp → 5 frames ffmpeg → transcripción Whisper → idea ganadora multimodal → guion adaptado al núcleo). Para cada reel entrega 4 ganchos óptimos (verbal + textual). Mide métricas con Metricool MCP (Free) y aplica sistema de decisión REPLICAR/ITERAR/GUARDAR/APRENDER/DESCARTAR. Entrega guiones en HTML estético imprimible a PDF con branding Zenith (cian #00E5CF + purple #B845FF). Triggers: "dame ideas de reels", "analiza este perfil de instagram", "sácame los virales de @X", "crea un reel sobre", "adapta este viral", "guion de reel", "carrusel", "hilo", "mis métricas de reels", "qué reel replicar", "spy competidor", "trends de mi nicho", "plan de contenido semanal", "núcleo de influencia", "zenith audience", "método audience", "análisis creator viral".
+description: Zenith Audience™ · Mega-skill TOP 1% para crear CONTENIDO VIRAL diario aplicando el Método Audience de Elias Mamã (Marconi Rômulo) adaptado por Joseph Moreno. Orquesta 32 sub-agentes especializados (Opus/Sonnet optimizado) que cubren los 3 pilares (gatillos de atención · contenido notable · verdadero yo), los 7 gatillos psicológicos, las 12 estructuras virales, los 8 elementos del contenido notable, las 10 preguntas del núcleo de influencia, los 70+ formatos visuales + banco ZENITH de reels, y el pipeline VALIDADO de análisis de creator viral (scrape Apify → descarga yt-dlp → 5 frames ffmpeg → transcripción Whisper → idea ganadora multimodal → guion adaptado al núcleo). Para cada reel entrega 6 ganchos óptimos (verbal + textual). Mide métricas con Metricool MCP (Free) y aplica sistema de decisión REPLICAR/ITERAR/GUARDAR/APRENDER/DESCARTAR. Entrega guiones en HTML estético imprimible a PDF con branding Zenith (cian #00E5CF + purple #B845FF). Triggers: "dame ideas de reels", "analiza este perfil de instagram", "sácame los virales de @X", "crea un reel sobre", "adapta este viral", "guion de reel", "carrusel", "hilo", "mis métricas de reels", "qué reel replicar", "spy competidor", "trends de mi nicho", "plan de contenido semanal", "núcleo de influencia", "zenith audience", "método audience", "análisis creator viral".
 ---
 
 # ZENITH AUDIENCE™ · Orquestador Maestro de Contenido Viral
@@ -130,7 +130,7 @@ NÚCLEO DE INFLUENCIA (10 preguntas · Verdadero Yo)
         +
 FORMATO VISUAL (70+ formatos)
         +
-4 GANCHOS ÓPTIMOS por reel (verbal + textual)
+6 GANCHOS ÓPTIMOS por reel (verbal + textual)
         +
 CONSISTENCIA (sistema diario Zenith)
         =
@@ -209,7 +209,7 @@ AUDIENCIA ORGÁNICA QUE TE RESPETA · CONFÍA · COMPRA
 | `/audience-reel-html [tema]` ⭐ NUEVO | Maqueta el reel terminado: HTML doc-guion + GUION.md legible (+ interactivo si es clasificatorio) |
 | `/audience-headline [tema]` | 3 headlines |
 | `/audience-headline-batch` | Batch mensual 30-50 headlines |
-| `/audience-reel [tema]` ⭐ | Guion completo + 4 ganchos |
+| `/audience-reel [tema]` ⭐ | Guion completo + 6 ganchos |
 | `/audience-carrusel [tema]` | Carrusel 8-10 slides |
 | `/audience-hilo [tema]` | Thread X/IG/LinkedIn |
 | `/audience-audit [guion]` | Audita 8 elementos + 5 criterios |
@@ -237,7 +237,7 @@ AUDIENCIA ORGÁNICA QUE TE RESPETA · CONFÍA · COMPRA
    → identifico formato visual + idea ganadora
    → genero TRANSCRIPCION.md
 9. ADAPTAR · cruzo idea ganadora × tu núcleo
-   → genero GUION_ADAPTADO.md con 4 ganchos
+   → genero GUION_ADAPTADO.md con 6 ganchos
 ```
 
 **Comando:** `/audience-analizar-creator @nathan_perdriau --top 5`
@@ -267,7 +267,7 @@ Define tu núcleo de influencia (10 preguntas) · guía toda la skill.
 5. Grabas leyendo del DIBUJO (cuerpo 1× + 6 ganchos)
 ```
 > **Cómo encaja el nivel de consciencia:** entre el paso 2 y el 3, `consciencia-master` dice a qué nivel apunta el reel y QUÉ conecta ahí (BAJO=síntomas/creencias · MEDIO=mecanismo/con-vs-sin · ALTO=romper objeciones), incluida la **mezcla** (lo normal: abrir en BAJO y cerrar en MEDIO/ALTO). `reel-html-builder` lo plasma en el badge y ajusta el cuerpo. El **CTA lo diriges TÚ** (no depende del nivel; no hay reglas de CTA por nivel).
-> Alternativa rápida: `/audience-reel [idea]` orquesta guion + 4 ganchos en un solo paso.
+> Alternativa rápida: `/audience-reel [idea]` orquesta guion + 6 ganchos en un solo paso.
 
 ### 📅 SEMANAL
 ```
@@ -361,12 +361,12 @@ Cuando recibo una petición:
 2. **Verifico el núcleo de influencia** (si no existe · sugiero `/audience-setup` primero)
 3. **Lanzo el agente/pipeline adecuado** (ver tabla de commands)
 4. **Aplico el knowledge relevante** (templates · gatillos · formatos · etc.)
-5. **Entrego output ejecutable** (guion + 4 ganchos · o HTML estético)
+5. **Entrego output ejecutable** (guion + 6 ganchos · o HTML estético)
 6. **Sugiero el siguiente paso** (audit · iterar · grabar)
 
 ### Reglas de oro
 - **NUNCA copies · siempre ADAPTA** al núcleo del usuario
-- **Cada reel = 4 ganchos óptimos** (verbal + textual)
+- **Cada reel = 6 ganchos óptimos** (verbal + textual)
 - **Mínimo 2-3 gatillos** por contenido (stacking)
 - **Mínimo 2-3 elementos notable** por vídeo
 - **El formato visual importa** tanto como el mensaje

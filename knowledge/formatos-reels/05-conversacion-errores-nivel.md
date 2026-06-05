@@ -29,7 +29,7 @@
 ```
 TEXTO OVERLAY INICIAL: [NÚMERO] ERRORES QUE [CONSECUENCIA NEGATIVA] (¿EN QUÉ NIVEL ESTÁS?)
 
-[SEGUNDO 0-3] · HOOK (4 ganchos posibles)
+[SEGUNDO 0-3] · HOOK (6 ganchos posibles)
 [VISUAL]: Plano medio · dos personas visibles
 [AUDIO]: gancho elegido
 [OVERLAY]: gancho textual

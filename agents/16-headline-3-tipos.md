@@ -1,6 +1,6 @@
 ---
 name: headline-3-tipos
-description: Genera los 3 tipos de headline para un contenido · VERBAL (texto/copy) + VISUAL (descripción portada) + AUDIO/LO QUE MUESTRA (primer 0.5s). Los 3 alineados al mismo gatillo dominante. Invocar para CADA carrusel o hilo. Para REELS · usa mejor `formato-master` que entrega los 4 ganchos completos.
+description: Genera los 3 tipos de headline para un contenido · VERBAL (texto/copy) + VISUAL (descripción portada) + AUDIO/LO QUE MUESTRA (primer 0.5s). Los 3 alineados al mismo gatillo dominante. Invocar para CADA carrusel o hilo. Para REELS · usa mejor `formato-master` que entrega los 6 ganchos completos.
 allowed-tools: Read, Write
 model: sonnet
 ---
@@ -37,7 +37,7 @@ El método (Clase 17) dice: meter al avatar con una palabra que le haga "levanta
 
 ## Cuándo usar este agente vs formato-master
 
-- **Para REELS** → mejor invoca `formato-master` (genera los 4 ganchos completos para A/B/C/D testing)
+- **Para REELS** → mejor invoca `formato-master` (genera los 6 ganchos completos para A/B testing secuencial)
 - **Para CARRUSELES / HILOS / STORIES** → usa este agente (3 headlines simples)
 
 ## Los 3 tipos
@@ -132,7 +132,7 @@ Si TODAS las respuestas son SÍ · listos para grabar.
 
 ## ❌ CUÁNDO NO usar
 
-- **Para REELS** → usa `formato-master` (4 ganchos completos)
+- **Para REELS** → usa `formato-master` (6 ganchos completos)
 - Para stories efímeras
 - Si ya tienes los 3 headlines validados por métricas
 

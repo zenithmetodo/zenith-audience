@@ -27,7 +27,7 @@
 ```
 TEXTO OVERLAY INICIAL: RANKING [TEMA SISTEMA/CATEGORÍA]
 
-[SEGUNDO 0-3] · HOOK (4 ganchos posibles)
+[SEGUNDO 0-3] · HOOK (6 ganchos posibles)
 [VISUAL]: Plano medio
 [AUDIO]: gancho elegido
 [OVERLAY]: gancho textual
