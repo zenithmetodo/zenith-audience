@@ -1,4 +1,5 @@
 ---
+name: audience-headline
 description: Genera 10 headlines para un tema (verbal + visual + audio) aplicando los 7 gatillos. Para refinar idea antes de grabar.
 ---
 

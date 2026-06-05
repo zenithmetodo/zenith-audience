@@ -1,4 +1,5 @@
 ---
+name: audience-metrics
 description: Lee métricas vía Metricool MCP (Free · 1 marca · IG+TT+YT+FB+Pinterest+Threads+Bluesky) y aplica sistema de decisión REPLICAR/ITERAR/GUARDAR/APRENDER/DESCARTAR por cada vídeo. Si NO tienes Metricool · modo manual disponible (pegas screenshot/CSV/texto).
 ---
 

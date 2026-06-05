@@ -1,4 +1,5 @@
 ---
+name: audience-formato
 description: ⭐ Recomienda formatos óptimos para tu tema (de 70+ disponibles + el banco ZENITH de ~24 formatos disruptivos creados con Joseph · o INVENTA formato nuevo pensando fuera de la caja). PIENSA SIEMPRE FUERA DE LA CAJA. Para el elegido · estructura PRO + 6 ganchos-hook (call-out al entrenador) + cuerpo palabra por palabra, y lo construye en HTML + un GUION.md legible.
 ---
 

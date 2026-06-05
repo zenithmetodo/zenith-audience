@@ -1,4 +1,5 @@
 ---
+name: audience-consciencia
 description: 🧠 Diagnostica el NIVEL DE CONSCIENCIA (Schwartz · BAJO 1-2 / MEDIO 3-4 / ALTO 5) de una idea o reel y dicta QUÉ conecta en ese nivel (síntomas/creencias · mecanismo/comparaciones CON-vs-SIN · romper objeciones/prueba social), qué formatos encajan y cómo se mezclan los niveles. Invoca al agente consciencia-master. El CTA lo diriges TÚ (no depende del nivel).
 ---
 

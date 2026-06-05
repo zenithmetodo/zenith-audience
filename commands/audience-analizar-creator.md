@@ -1,4 +1,5 @@
 ---
+name: audience-analizar-creator
 description: ⭐ Pipeline COMPLETO de análisis de creator viral · scrape perfil IG (Apify) → top virales → descarga (yt-dlp) → 5 frames (ffmpeg) → transcripción (Whisper) → TRANSCRIPCION.md por reel + GUION_ADAPTADO.md al núcleo. Multimodal (texto + 5 frames + datos).
 ---
 

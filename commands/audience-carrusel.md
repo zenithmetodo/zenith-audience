@@ -1,4 +1,5 @@
 ---
+name: audience-carrusel
 description: Genera carrusel 8-10 slides · cada slide con título · texto · imagen sugerida · open loops · CTA. Output HTML estético. Para contenido educativo profundo.
 ---
 

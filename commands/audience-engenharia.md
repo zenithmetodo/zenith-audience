@@ -1,4 +1,5 @@
 ---
+name: audience-engenharia
 description: Engenharia reversa profunda de un vídeo viral (propio o ajeno) · disecciona los 7 gatillos · 12 estructuras · 8 elementos · genera receta replicable.
 ---
 

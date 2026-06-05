@@ -1,4 +1,5 @@
 ---
+name: audience-headline-batch
 description: Genera el BATCH MENSUAL de 30-50 headlines del mes en una sesión única. Cada uno con 3 tipos (verbal · visual · audio) + template viral + gatillos asignados + día programado. Para llenar el banco de contenido del mes.
 ---
 

@@ -1,4 +1,5 @@
 ---
+name: audience-ideas
 description: Genera 15-20 ideas de contenido para HOY en MIX MULTI-FUENTE · 6-7 de competidores ya validados (Apify) + 6-7 generadas por IA según tu núcleo + 3-4 trending del momento + 2 contraintuitivas. Cada idea con respaldo de POR QUÉ funcionará. Rutina diaria AM.
 ---
 

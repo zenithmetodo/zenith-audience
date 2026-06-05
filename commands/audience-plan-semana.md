@@ -1,4 +1,5 @@
 ---
+name: audience-plan-semana
 description: Genera plan completo de la próxima semana · contenido por día · rotación 12 templates · trends incorporados · timing óptimo. Invocar los DOMINGOS.
 ---
 

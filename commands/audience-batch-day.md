@@ -1,4 +1,5 @@
 ---
+name: audience-batch-day
 description: Diseña plan completo de día de grabación BATCH · 5-10 reels + 2-3 carruseles en una sesión. Orden óptimo por vestuario · locación · materiales.
 ---
 

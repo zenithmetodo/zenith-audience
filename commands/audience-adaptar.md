@@ -1,4 +1,5 @@
 ---
+name: audience-adaptar
 description: ⭐ COMANDO CLAVE · Toma un viral (URL · competidor · o tema) y lo ADAPTA a tu núcleo. La idea ganadora se mantiene · la voz se vuelve TUYA. 3 variantes (reel + carrusel + hilo) con análisis.
 ---
 

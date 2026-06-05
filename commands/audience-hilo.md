@@ -1,4 +1,5 @@
 ---
+name: audience-hilo
 description: Genera thread X/IG/LinkedIn con 8-15 tweets · cliffhangers entre mensajes · CTA final. Para storytelling escrito largo.
 ---
 

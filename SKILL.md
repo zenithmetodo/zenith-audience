@@ -9,7 +9,7 @@ description: Zenith Audience™ · Mega-skill TOP 1% para crear CONTENIDO VIRAL 
 
 ## QUÉ ES ESTA SKILL
 
-Es la skill PADRE de un sistema de **32 sub-agentes especializados** (cada uno crack de UNA sola cosa) y **21 slash commands** para crear contenido viral diario.
+Es la skill PADRE de un sistema de **32 sub-agentes especializados** (cada uno crack de UNA sola cosa) y **22 slash commands** para crear contenido viral diario.
 
 Implementa el **Método Audience completo** de Elias Mamã (Marconi Rômulo) · adaptado y operacionalizado por **Joseph Moreno · Zenith** para uso diario en Claude Code.
 

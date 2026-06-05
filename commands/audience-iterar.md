@@ -1,4 +1,5 @@
 ---
+name: audience-iterar
 description: Toma un viral propio (>3x tu media) y genera 10 variantes para lateralizar el éxito. Cambia ángulo · gatillo · template · audiencia.
 ---
 

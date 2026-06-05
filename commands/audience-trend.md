@@ -1,4 +1,5 @@
 ---
+name: audience-trend
 description: Escanea trends activos multi-fuente · Google Trends + Reddit + YouTube + Apify (TT/IG). Detecta qué subiendo · qué cayendo · 10 ideas basadas en data fresca.
 ---
 

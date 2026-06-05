@@ -1,4 +1,5 @@
 ---
+name: audience-audit
 description: Audita un guion o contenido contra los 8 elementos notable + 5 criterios virales + STEPPS Berger. Devuelve score 0-100 + recomendaciones. Filtro de calidad antes de publicar.
 ---
 

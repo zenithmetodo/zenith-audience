@@ -1,4 +1,5 @@
 ---
+name: audience-pesquisa
 description: Pesquisa magnética profunda mensual · cruza tu avatar × 6 categorías virales × dolor para descubrir 30+ asuntos pilares con conexión emocional. Más profundo que asuntos-generator (que es diario). Invocar mensualmente.
 ---
 

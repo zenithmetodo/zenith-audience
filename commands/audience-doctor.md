@@ -1,4 +1,5 @@
 ---
+name: audience-doctor
 description: ⭐ Diagnostica e INSTALA automáticamente TODO lo necesario para Zenith Audience · CLIs (ffmpeg · yt-dlp) · deps Python (pytrends · praw · faster-whisper · apify-client) · verifica MCPs (Metricool · Apify) · variables de entorno. Claude lo ejecuta solo. Invocar al instalar la skill o si algo falla.
 ---
 

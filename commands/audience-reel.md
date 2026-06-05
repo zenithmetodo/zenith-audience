@@ -1,4 +1,5 @@
 ---
+name: audience-reel
 description: Genera guion COMPLETO de reel 15-90s con FORMATO visual elegido + 6 GANCHOS óptimos (cada uno con verbal + textual) + análisis "por qué funcionará". Output HTML estético PDF-ready listo para grabar.
 ---
 

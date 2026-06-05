@@ -1,4 +1,5 @@
 ---
+name: audience-setup
 description: Setup ONE-SHOT inicial del usuario · ejecuta el núcleo de influencia completo (10 preguntas) en sesión guiada de 2-3 horas. Genera documento maestro del creador.
 ---
 

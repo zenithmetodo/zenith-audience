@@ -1,4 +1,5 @@
 ---
+name: audience-reel-html
 description: 🎬 Maqueta el reel TERMINADO en HTML estético (documento-guion Zenith con EL DIBUJO del formato + 6 ganchos-hook + cuerpo palabra por palabra + overlays + CTA) + un GUION.md legible. Si el formato es clasificatorio, genera además la herramienta interactiva drag-and-drop con la mascota Zenón de cursor. Invoca al agente `reel-html-builder`. Úsalo DESPUÉS de tener el formato elegido (formato-master) y el guion.
 ---
 

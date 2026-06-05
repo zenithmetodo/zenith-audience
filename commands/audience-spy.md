@@ -1,4 +1,5 @@
 ---
+name: audience-spy
 description: Analiza un competidor en profundidad · scrape 30 últimos posts · identifica gatillos · estructuras · gaps no explotados. Para modelar lo que funciona sin copiar.
 ---
 
