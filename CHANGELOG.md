@@ -11,7 +11,7 @@
 
 #### Stats actuales
 - **32 agentes** (Bloque F ahora con 6: formato-master + consciencia-master + reel-html-builder + reel + carrusel + hilo)
-- **22 commands** · **51 knowledge files** · **70+ formatos + banco ZENITH**
+- **22 commands** · **53 knowledge files** · **70+ formatos + banco ZENITH**
 - Counts sincronizados en README · INSTALL · SKILL · plugin.json (v1.8.0) · SVG.
 
 ---

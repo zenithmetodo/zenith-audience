@@ -123,3 +123,13 @@ Si el usuario trae su **OFERTA ya construida** (de `zenith-crea-ofertas`: promes
 - Biblia completa (referencia de respaldo): [`knowledge/mecanismo/16-biblia-del-mecanismo.md`](../knowledge/mecanismo/16-biblia-del-mecanismo.md)
 - Cómo usar el mecanismo en Audience: [`knowledge/mecanismo/00-mecanismo-en-audience.md`](../knowledge/mecanismo/00-mecanismo-en-audience.md)
 - **Tu pieza aquí:** la **causa raíz** + el **mecanismo de la solución** (el cómo deseable) ligados al dolor/promesa.
+
+---
+
+## ✍️ El copy en tu pieza (voz del avatar SIEMPRE)
+
+Todo reel es copy: mueve una **creencia**, no solo informa. Usa la **pesquisa/voz del avatar** si la tienes; si no, escribe con normalidad apoyándote en la psicología de persuasión.
+
+- Biblia completa (referencia de respaldo): [`knowledge/copy/biblia-del-copy.md`](../knowledge/copy/biblia-del-copy.md)
+- Cómo usar el copy en Audience: [`knowledge/copy/00-copy-en-audience.md`](../knowledge/copy/00-copy-en-audience.md)
+- **Tu pieza aquí:** el **deseo oculto** (canaliza el que ya existe), **dolor vs deseo** y la **dimensionalización** (hacer sentir lo abstracto).

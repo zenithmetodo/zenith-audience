@@ -6,7 +6,7 @@
 
 ### Sistema diario para crear contenido viral con identidad incopiable
 
-**32 agentes · 22 commands · 51 knowledge files · 70+ formatos + banco ZENITH (~24) · 6 ganchos-hook por reel · 7 HTML templates · 100% gratis**
+**32 agentes · 22 commands · 53 knowledge files · 70+ formatos + banco ZENITH (~24) · 6 ganchos-hook por reel · 7 HTML templates · 100% gratis**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-cyan.svg)](https://opensource.org/licenses/MIT)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Plugin-purple.svg)](https://claude.com/claude-code)
@@ -300,7 +300,7 @@ Setup ONE-SHOT al inicio (2-3h):
 
 ---
 
-## Knowledge Library · 51 archivos
+## Knowledge Library · 53 archivos
 
 ```
 knowledge/
@@ -314,7 +314,8 @@ knowledge/
 ├── nucleo-influencia/              (2) · 10 preguntas + verdadero yo
 ├── metricas/                       (2) · 3 métricas + decisión
 ├── pipelines/                      (1) · análisis creator viral ⭐
-└── mecanismo/                      (2) · ⭐ Biblia del Mecanismo + cómo usarlo en Audience
+├── mecanismo/                      (2) · ⭐ Biblia del Mecanismo + cómo usarlo en Audience
+└── copy/                           (2) · ⭐ Biblia del Copy + cómo usarlo en Audience
 ```
 
 Cada knowledge internalizado en system prompt de los agentes (estilo Custom GPT). Cero re-lectura en runtime = cero tokens desperdiciados.
