@@ -126,3 +126,13 @@ _Referencia API pay-per-use: ~$0.30-0.40 por sesión completa (Opus profundo)_
 
 ## Atribución
 Basado en Clases 68-77 · Método Audience · Elias Mamã. Adaptado por Joseph Moreno · Zenith.
+
+---
+
+## 🧠 El mecanismo en tu pieza (oferta OPCIONAL)
+
+Si el usuario trae su **OFERTA ya construida** (de `zenith-crea-ofertas`: promesa, mecanismo del problema, mecanismo de la solución, nombre chicle, causa raíz, objeto brillante, mito de origen), úsala como materia prima. **Si no la tiene, trabaja con normalidad** (intake OPCIONAL).
+
+- Biblia completa (referencia de respaldo): [`knowledge/mecanismo/16-biblia-del-mecanismo.md`](../knowledge/mecanismo/16-biblia-del-mecanismo.md)
+- Cómo usar el mecanismo en Audience: [`knowledge/mecanismo/00-mecanismo-en-audience.md`](../knowledge/mecanismo/00-mecanismo-en-audience.md)
+- **Tu pieza aquí:** el **objeto brillante** y el mecanismo central de la marca (lo incopiable).

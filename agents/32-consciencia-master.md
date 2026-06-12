@@ -60,3 +60,13 @@ Entrego esto en texto claro para que `reel-html-builder` lo plasme en el **badge
 
 ## Atribución
 Niveles de consciencia: Eugene Schwartz · *Breakthrough Advertising*. Tácticas por nivel importadas de la skill `neurocopy-ads-master` (Joseph Moreno). Integrado en Zenith Audience · 2026.
+
+---
+
+## 🧠 El mecanismo en tu pieza (oferta OPCIONAL)
+
+Si el usuario trae su **OFERTA ya construida** (de `zenith-crea-ofertas`: promesa, mecanismo del problema, mecanismo de la solución, nombre chicle, causa raíz, objeto brillante, mito de origen), úsala como materia prima. **Si no la tiene, trabaja con normalidad** (intake OPCIONAL).
+
+- Biblia completa (referencia de respaldo): [`knowledge/mecanismo/16-biblia-del-mecanismo.md`](../knowledge/mecanismo/16-biblia-del-mecanismo.md)
+- Cómo usar el mecanismo en Audience: [`knowledge/mecanismo/00-mecanismo-en-audience.md`](../knowledge/mecanismo/00-mecanismo-en-audience.md)
+- **Tu pieza aquí:** subir el **nivel de consciencia** hacia la oferta usando las capas del mecanismo.

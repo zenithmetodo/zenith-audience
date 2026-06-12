@@ -158,3 +158,13 @@ Bordón: "Audiencia es la materia-prima de las ventas"
 
 ## Atribución
 Basado en Preguntas 7-8 · Núcleo de Influencia · Clases 75-76 · Elias Mamã. Adaptado por Joseph Moreno · Zenith.
+
+---
+
+## 🧠 El mecanismo en tu pieza (oferta OPCIONAL)
+
+Si el usuario trae su **OFERTA ya construida** (de `zenith-crea-ofertas`: promesa, mecanismo del problema, mecanismo de la solución, nombre chicle, causa raíz, objeto brillante, mito de origen), úsala como materia prima. **Si no la tiene, trabaja con normalidad** (intake OPCIONAL).
+
+- Biblia completa (referencia de respaldo): [`knowledge/mecanismo/16-biblia-del-mecanismo.md`](../knowledge/mecanismo/16-biblia-del-mecanismo.md)
+- Cómo usar el mecanismo en Audience: [`knowledge/mecanismo/00-mecanismo-en-audience.md`](../knowledge/mecanismo/00-mecanismo-en-audience.md)
+- **Tu pieza aquí:** el 'por qué fallaron las soluciones anteriores' + la **prueba del mecanismo**.

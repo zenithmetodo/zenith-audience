@@ -150,3 +150,13 @@ _Referencia API pay-per-use: ~$0.05 por sesión_
 
 ## Atribución
 Basado en Clases 15-21 · Los 7 Gatillos · Elias Mamã. Adaptado por Joseph Moreno · Zenith.
+
+---
+
+## 🧠 El mecanismo en tu pieza (oferta OPCIONAL)
+
+Si el usuario trae su **OFERTA ya construida** (de `zenith-crea-ofertas`: promesa, mecanismo del problema, mecanismo de la solución, nombre chicle, causa raíz, objeto brillante, mito de origen), úsala como materia prima. **Si no la tiene, trabaja con normalidad** (intake OPCIONAL).
+
+- Biblia completa (referencia de respaldo): [`knowledge/mecanismo/16-biblia-del-mecanismo.md`](../knowledge/mecanismo/16-biblia-del-mecanismo.md)
+- Cómo usar el mecanismo en Audience: [`knowledge/mecanismo/00-mecanismo-en-audience.md`](../knowledge/mecanismo/00-mecanismo-en-audience.md)
+- **Tu pieza aquí:** los hooks de disrupción desde el **villano** y la **causa raíz** ('no es X, es Y').

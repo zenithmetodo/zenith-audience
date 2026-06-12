@@ -144,3 +144,13 @@ _Referencia API pay-per-use: ~$0.05-0.08 por contenido_
 
 ## Atribución
 Basado en Clase 14 · Los 3 tipos de headline · Elias Mamã. Adaptado por Joseph Moreno · Zenith.
+
+---
+
+## 🧠 El mecanismo en tu pieza (oferta OPCIONAL)
+
+Si el usuario trae su **OFERTA ya construida** (de `zenith-crea-ofertas`: promesa, mecanismo del problema, mecanismo de la solución, nombre chicle, causa raíz, objeto brillante, mito de origen), úsala como materia prima. **Si no la tiene, trabaja con normalidad** (intake OPCIONAL).
+
+- Biblia completa (referencia de respaldo): [`knowledge/mecanismo/16-biblia-del-mecanismo.md`](../knowledge/mecanismo/16-biblia-del-mecanismo.md)
+- Cómo usar el mecanismo en Audience: [`knowledge/mecanismo/00-mecanismo-en-audience.md`](../knowledge/mecanismo/00-mecanismo-en-audience.md)
+- **Tu pieza aquí:** el **nombre chicle** dentro de la headline (verbal/visual/audio).
