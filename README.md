@@ -6,7 +6,7 @@
 
 ### Sistema diario para crear contenido viral con identidad incopiable
 
-**32 agentes · 21 commands · 51 knowledge files · 70+ formatos + banco ZENITH (~24) · 6 ganchos-hook por reel · 7 HTML templates · 100% gratis**
+**32 agentes · 22 commands · 51 knowledge files · 70+ formatos + banco ZENITH (~24) · 6 ganchos-hook por reel · 7 HTML templates · 100% gratis**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-cyan.svg)](https://opensource.org/licenses/MIT)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Plugin-purple.svg)](https://claude.com/claude-code)
@@ -35,7 +35,7 @@ La mayoría de creadores conocen los conceptos (gatilhos · estructuras · notab
 
 ### La solución Zenith
 
-**32 agentes especializados** + **21 slash commands** orquestados como sistema operativo diario · cada uno crack de UNA cosa · todos coordinados.
+**32 agentes especializados** + **22 slash commands** orquestados como sistema operativo diario · cada uno crack de UNA cosa · todos coordinados.
 
 ---
 
@@ -75,7 +75,7 @@ AUDIENCIA ORGÁNICA QUE TE RESPETA · CONFÍA · COMPRA
 | **H · Métricas** | Metricool + iteración ganadores + decisión | 2 | Viernes + lunes |
 | **I · Planificación** | Plan semana + batch day | 2 | Domingo + día batch |
 
-**Total: 32 agentes coordinados por 21 slash commands.**
+**Total: 32 agentes coordinados por 22 slash commands.**
 
 ### 🔍 Detalle Bloque A · Investigación (el más importante para ideas)
 

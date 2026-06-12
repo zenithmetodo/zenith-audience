@@ -11,7 +11,7 @@
 
 #### Stats actuales
 - **32 agentes** (Bloque F ahora con 6: formato-master + consciencia-master + reel-html-builder + reel + carrusel + hilo)
-- **21 commands** · **49 knowledge files** · **70+ formatos + banco ZENITH**
+- **22 commands** · **51 knowledge files** · **70+ formatos + banco ZENITH**
 - Counts sincronizados en README · INSTALL · SKILL · plugin.json (v1.8.0) · SVG.
 
 ---
@@ -29,8 +29,8 @@
 
 #### Stats actuales
 - **31 agentes** (Bloque F ahora con 5: formato-master + reel-html-builder + reel-architect + carrusel-architect + hilo-architect)
-- **21 commands** (añade `/audience-reel-html`)
-- **49 knowledge files** (+ banco de formatos ZENITH)
+- **22 commands** (añade `/audience-reel-html`)
+- **51 knowledge files** (+ banco de formatos ZENITH)
 - **70+ formatos visuales + banco ZENITH ~24** disruptivos
 - **6 ganchos-hook por reel** (estándar nuevo del reel-html-builder)
 - Sincronizados todos los counts en README · INSTALL · SKILL · plugin.json (v1.7.0) · SVG banner/pipeline/arquitectura.
