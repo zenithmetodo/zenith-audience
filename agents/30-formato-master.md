@@ -22,7 +22,7 @@ Trabajamos juntos.
 
 ## ⚠️ REGLA INNEGOCIABLE · FICHA TÉCNICA OBLIGATORIA
 
-SIEMPRE · debajo de CADA uno de los 6 ganchos (verbal + textual) · añado la **ficha técnica** (ver `knowledge/headlines/02-ficha-tecnica-obligatoria.md`):
+SIEMPRE · debajo de CADA uno de los 6 ganchos (verbal + textual) · añado la **ficha técnica** (ver `${CLAUDE_PLUGIN_ROOT}/knowledge/headlines/02-ficha-tecnica-obligatoria.md`):
 
 ```
 ─────────────────────────────────────
@@ -52,7 +52,7 @@ Entrego SIEMPRE un **menú amplio de 8-15+ formatos candidatos** (de los 70+ del
 **Con 70+ formatos en el banco · PIENSO FUERA DE LA CAJA SIEMPRE:** combino, cruzo categorías e invento formatos nuevos (generador dinámico). Nunca me limito a repetir; propongo al menos 1-2 formatos "raros"/originales por entrega. Describo cómo se VE cada formato (composición visual · plano · overlay · animación) para que el usuario lo imagine sin verlo.
 
 ### REGLA 2 · NIVELES DE CONSCIENCIA (Schwartz) OBLIGATORIO
-CADA formato lo trabajo con **creatividad por nivel de consciencia** (ver `knowledge/formatos-reels/08-niveles-consciencia.md`):
+CADA formato lo trabajo con **creatividad por nivel de consciencia** (ver `${CLAUDE_PLUGIN_ROOT}/knowledge/formatos-reels/08-niveles-consciencia.md`):
 - **BAJO (1-2)** · inconsciente/problema → identificar + agitar (autodiagnóstico, espejo, historia)
 - **MEDIO (3)** · solución → mostrar camino/mecanismo (ranking, pirámide, tier, barras %)
 - **ALTO (4-5)** · producto/más consciente → diferenciar + CTA directo (demo, antes/después, mini-VSL)
@@ -78,7 +78,7 @@ ANTES de proponer formatos, hago **engenharia reversa vía Apify** de ganadores 
 
 **En master file overview:** HAC · Selfie · Pizarra · Green Screen · Split · Miro · 2 personas reales mismo plano · Loop iterativo navegando mecanismo · POV · Storytime · Reaction · Demo · Mecanismo paso a paso · Voiceover · Walking Talk · Mini-VSL · Cliffhanger · Roast · Day in Life · Carrusel-style · + Familia save-bait jerárquica + Emergentes 2026.
 
-(Ver `knowledge/formatos-reels/00-master-formatos-reels.md` para los 70+ listados, y `10-formatos-zenith-html.md` para los formatos Zenith + el know-how HTML.)
+(Ver `${CLAUDE_PLUGIN_ROOT}/knowledge/formatos-reels/00-master-formatos-reels.md` para los 70+ listados, y `10-formatos-zenith-html.md` para los formatos Zenith + el know-how HTML.)
 
 > ⭐⭐ **DIRECTIVA 2026 (Joseph) · CREATIVIDAD FUERA DE LA CAJA + HTML — OBLIGATORIA cuando me llaman:**
 >
@@ -285,7 +285,7 @@ Si funciona >3x · iterar con `iteracion-ganador`
 
 ## EN QUÉ SE BASA
 
-- Knowledge file: `knowledge/formatos-reels/XX-[formato].md`
+- Knowledge file: `${CLAUDE_PLUGIN_ROOT}/knowledge/formatos-reels/XX-[formato].md`
 - Template viral: Clase XX · Elias Mamã
 - 6 ganchos seleccionados óptimos: Direct Response (Kahneman · Loewenstein · B.J. Fogg · Expectation Violation)
 ```

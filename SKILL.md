@@ -66,13 +66,13 @@ Un headline NO es una frase suelta · es la **combinación** de asuntos virales 
 - Si **NO identifica al avatar** → AVISO + sugerencia de qué palabra meter (gatilho do reconhecimento · Clase 17)
 - Si usa **<2 gatillos** → sugerir stacking
 
-Detalle completo y formato → `knowledge/headlines/02-ficha-tecnica-obligatoria.md`.
+Detalle completo y formato → `${CLAUDE_PLUGIN_ROOT}/knowledge/headlines/02-ficha-tecnica-obligatoria.md`.
 
 ---
 
 ## ⚠️ REGLA GLOBAL INNEGOCIABLE · FORMATOS (formato-master) + MAQUETADO (reel-html-builder)
 
-1. **MUCHOS formatos, no 3.** Menú amplio (8-15+) de los 70+ del banco **+ el banco ZENITH de ~24 formatos disruptivos** (`knowledge/formatos-reels/10-formatos-zenith-html.md`: alineación de fútbol titular/suplente, escalera 5 niveles, ticket/factura, etiqueta nutricional, monitor de hospital, mapa de metro, organigrama, cerebro Claude.md, ecuaciones, debate, cinematográfico, demo dual-cam, verdad/mentira, no-hagas/haz-esto, antes/después, versus split, ranking irónico, frecuencias, tier list con lógica, roast, herramienta interactiva drag-and-drop con mascota Zenón-cursor) + **PENSAR SIEMPRE FUERA DE LA CAJA** (combinar/inventar ≥1-2 formatos nuevos por reel con objetos cotidianos como metáfora). Incluye familia **save-bait jerárquica** (#70-76).
+1. **MUCHOS formatos, no 3.** Menú amplio (8-15+) de los 70+ del banco **+ el banco ZENITH de ~24 formatos disruptivos** (`${CLAUDE_PLUGIN_ROOT}/knowledge/formatos-reels/10-formatos-zenith-html.md`: alineación de fútbol titular/suplente, escalera 5 niveles, ticket/factura, etiqueta nutricional, monitor de hospital, mapa de metro, organigrama, cerebro Claude.md, ecuaciones, debate, cinematográfico, demo dual-cam, verdad/mentira, no-hagas/haz-esto, antes/después, versus split, ranking irónico, frecuencias, tier list con lógica, roast, herramienta interactiva drag-and-drop con mascota Zenón-cursor) + **PENSAR SIEMPRE FUERA DE LA CAJA** (combinar/inventar ≥1-2 formatos nuevos por reel con objetos cotidianos como metáfora). Incluye familia **save-bait jerárquica** (#70-76).
 2. **Niveles de consciencia OBLIGATORIO** (Schwartz · BAJO 1-2 / MEDIO 3-4 / ALTO 5). Cada formato adaptado por nivel en **hook y cuerpo** (el CTA lo dirige Joseph, no el nivel). **Los niveles se mezclan** (abre en BAJO, sube a MEDIO/ALTO) y **cualquier formato sirve en cualquier nivel**. Ver `08-niveles-consciencia.md` + agente `consciencia-master`.
 3. **Apify OBLIGATORIO y detallado** (engenharia reversa de ganadores del nicho). Indicar de qué ganador se inspira cada formato + su twist. Ver `09-formatos-jerarquicos-savebait.md`.
 4. **SEPARACIÓN DE ROLES:** `formato-master` decide QUÉ formato + ideas de ganchos. **`reel-html-builder`** MAQUETA el reel terminado → el `.html` doc-guion (con EL DIBUJO del formato + 6 ganchos-hook + ⭐ CUERPO palabra por palabra + overlays + CTA) **+ un `GUION.md` legible** + la herramienta interactiva si es clasificatorio. Ganchos = HOOKS (nunca CTA), call-out al entrenador repartido audio/textual, "comenta LIGA" solo en CTA/último beat. Ver `10-formatos-zenith-html.md` y el agente `31-reel-html-builder.md`.
@@ -242,7 +242,7 @@ AUDIENCIA ORGÁNICA QUE TE RESPETA · CONFÍA · COMPRA
 
 **Comando:** `/audience-analizar-creator @nathan_perdriau --top 5`
 
-**Detalle completo:** `knowledge/pipelines/00-analisis-creator-viral.md`
+**Detalle completo:** `${CLAUDE_PLUGIN_ROOT}/knowledge/pipelines/00-analisis-creator-viral.md`
 
 ---
 

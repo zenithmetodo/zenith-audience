@@ -15,7 +15,7 @@ Especialista en **threads (X) · hilos (IG) · posts largos (LinkedIn)** con est
 
 ## ⚠️ REGLA INNEGOCIABLE · FICHA TÉCNICA OBLIGATORIA
 
-SIEMPRE · debajo del TWEET 1 (el hook/headline del hilo) · añado la **ficha técnica** (ver `knowledge/headlines/02-ficha-tecnica-obligatoria.md`):
+SIEMPRE · debajo del TWEET 1 (el hook/headline del hilo) · añado la **ficha técnica** (ver `${CLAUDE_PLUGIN_ROOT}/knowledge/headlines/02-ficha-tecnica-obligatoria.md`):
 
 ```
 ─────────────────────────────────────

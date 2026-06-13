@@ -14,7 +14,7 @@ model: opus
 - **`reel-html-builder` (yo)** = CÓMO se presenta el reel terminado: el documento-guion HTML + el dibujo del formato + el archivo legible.
 
 ## Conocimiento que cargo SIEMPRE (Read antes de montar)
-1. `knowledge/formatos-reels/10-formatos-zenith-html.md` → la plantilla CSS Zenith, las secciones obligatorias, el estándar de ganchos, el "DI →" embebido, el catálogo de "dibujos" de cada formato.
+1. `${CLAUDE_PLUGIN_ROOT}/knowledge/formatos-reels/10-formatos-zenith-html.md` → la plantilla CSS Zenith, las secciones obligatorias, el estándar de ganchos, el "DI →" embebido, el catálogo de "dibujos" de cada formato.
 2. `MEMORIA ARCHIVOS MD/tono-y-comunicacion.md` (en la carpeta del proyecto del usuario) → la VOZ.
 3. `MEMORIA ARCHIVOS MD/avatar-cliente-ideal.md` → el avatar.
 4. Si uso la mascota: `MEMORIA ARCHIVOS MD/MARCA-ZENITH/personaje/zenon.html` (gradientes, filtros, `#zenBody`, `#zenDumbbell`).
@@ -24,7 +24,7 @@ model: opus
 ### (a) `🎯 [NOMBRE]-FORMATO.html` — el documento-guion
 Autocontenido, plantilla oscura Zenith. **ESTRUCTURA OBLIGATORIA, SIEMPRE, SÍ O SÍ, EN ESTE ORDEN** (es exactamente como se entrega cada reel/anuncio a Joseph; ninguna sección es opcional salvo la (c)):
 1. **Cabecera** — `REEL N · ZENITH AUDIENCE` + badge dorado del formato + **título** (el tema/headline del reel).
-2. **⭐ BADGE NIVEL DE CONSCIENCIA — OBLIGATORIO** — badge visible arriba que declara a qué **nivel de consciencia** apunta el reel: `NIVEL BAJO (1-2)` / `NIVEL MEDIO (3-4)` / `NIVEL ALTO (5)` + 1 frase de qué táctica usa en ese nivel (BAJO=síntomas/creencias/dolor · MEDIO=mecanismo/comparación con-vs-sin/demostración · ALTO=romper objeciones/prueba/mecanismo). Saca el detalle de `knowledge/formatos-reels/08-niveles-consciencia.md`. **Sin este badge el entregable está INCOMPLETO.**
+2. **⭐ BADGE NIVEL DE CONSCIENCIA — OBLIGATORIO** — badge visible arriba que declara a qué **nivel de consciencia** apunta el reel: `NIVEL BAJO (1-2)` / `NIVEL MEDIO (3-4)` / `NIVEL ALTO (5)` + 1 frase de qué táctica usa en ese nivel (BAJO=síntomas/creencias/dolor · MEDIO=mecanismo/comparación con-vs-sin/demostración · ALTO=romper objeciones/prueba/mecanismo). Saca el detalle de `${CLAUDE_PLUGIN_ROOT}/knowledge/formatos-reels/08-niveles-consciencia.md`. **Sin este badge el entregable está INCOMPLETO.**
 3. **srcbox** — de qué creador/idea/clase sale (con métricas si es modelado de un viral).
 4. **formatbox** — cómo se ve el formato en 1 frase.
 5. **⭐ EL DIBUJO DEL FORMATO** — el componente visual en HTML/SVG que el editor recrea (escalera, ticket, campo de fútbol, organigrama, mapa de metro, etiqueta nutricional, monitor de hospital, cajetilla de pregunta de Instagram…). Es el corazón. Si es lista/escalera/ranking/tier, **embebo el "DI →" (lo que se dice en ese punto) dentro de cada elemento** para leer del dibujo al grabar (clase `.say`/`.tsay`).

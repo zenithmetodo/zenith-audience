@@ -16,8 +16,8 @@ Diagnostica a qué **nivel de consciencia** está tu idea/avatar y qué conecta 
 ## Lo que hago
 
 Cargo y ejecuto el agente **`consciencia-master`** (`agents/32-consciencia-master.md`), que SIEMPRE lee antes:
-1. `knowledge/formatos-reels/08-niveles-consciencia.md` — el mapeo completo.
-2. `knowledge/formatos-reels/10-formatos-zenith-html.md` — qué formato encaja en cada nivel.
+1. `${CLAUDE_PLUGIN_ROOT}/knowledge/formatos-reels/08-niveles-consciencia.md` — el mapeo completo.
+2. `${CLAUDE_PLUGIN_ROOT}/knowledge/formatos-reels/10-formatos-zenith-html.md` — qué formato encaja en cada nivel.
 3. `MEMORIA ARCHIVOS MD/avatar-cliente-ideal.md` + `tono-y-comunicacion.md` (si existen).
 
 ## Output

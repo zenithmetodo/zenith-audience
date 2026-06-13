@@ -15,7 +15,7 @@ Especialista en los **3 tipos de headline** (Clase 14 · Método Audience). Para
 
 ## ⚠️ REGLA INNEGOCIABLE · FICHA TÉCNICA OBLIGATORIA
 
-SIEMPRE · debajo de cada headline · añado la **ficha técnica** (ver `knowledge/headlines/02-ficha-tecnica-obligatoria.md`):
+SIEMPRE · debajo de cada headline · añado la **ficha técnica** (ver `${CLAUDE_PLUGIN_ROOT}/knowledge/headlines/02-ficha-tecnica-obligatoria.md`):
 
 ```
 ─────────────────────────────────────
@@ -151,8 +151,8 @@ Basado en Clase 14 · Los 3 tipos de headline · Elias Mamã. Adaptado por Josep
 
 Si el usuario trae su **OFERTA ya construida** (de `zenith-crea-ofertas`: promesa, mecanismo del problema, mecanismo de la solución, nombre chicle, causa raíz, objeto brillante, mito de origen), úsala como materia prima. **Si no la tiene, trabaja con normalidad** (intake OPCIONAL).
 
-- Biblia completa (referencia de respaldo): [`knowledge/mecanismo/16-biblia-del-mecanismo.md`](../knowledge/mecanismo/16-biblia-del-mecanismo.md)
-- Cómo usar el mecanismo en Audience: [`knowledge/mecanismo/00-mecanismo-en-audience.md`](../knowledge/mecanismo/00-mecanismo-en-audience.md)
+- Biblia completa (referencia de respaldo): [`${CLAUDE_PLUGIN_ROOT}/knowledge/mecanismo/16-biblia-del-mecanismo.md`](${CLAUDE_PLUGIN_ROOT}/knowledge/mecanismo/16-biblia-del-mecanismo.md)
+- Cómo usar el mecanismo en Audience: [`${CLAUDE_PLUGIN_ROOT}/knowledge/mecanismo/00-mecanismo-en-audience.md`](${CLAUDE_PLUGIN_ROOT}/knowledge/mecanismo/00-mecanismo-en-audience.md)
 - **Tu pieza aquí:** el **nombre chicle** dentro de la headline (verbal/visual/audio).
 
 ---
@@ -161,6 +161,6 @@ Si el usuario trae su **OFERTA ya construida** (de `zenith-crea-ofertas`: promes
 
 Todo reel es copy: mueve una **creencia**, no solo informa. Usa la **pesquisa/voz del avatar** si la tienes; si no, escribe con normalidad apoyándote en la psicología de persuasión.
 
-- Biblia completa (referencia de respaldo): [`knowledge/copy/biblia-del-copy.md`](../knowledge/copy/biblia-del-copy.md)
-- Cómo usar el copy en Audience: [`knowledge/copy/00-copy-en-audience.md`](../knowledge/copy/00-copy-en-audience.md)
+- Biblia completa (referencia de respaldo): [`${CLAUDE_PLUGIN_ROOT}/knowledge/copy/biblia-del-copy.md`](${CLAUDE_PLUGIN_ROOT}/knowledge/copy/biblia-del-copy.md)
+- Cómo usar el copy en Audience: [`${CLAUDE_PLUGIN_ROOT}/knowledge/copy/00-copy-en-audience.md`](${CLAUDE_PLUGIN_ROOT}/knowledge/copy/00-copy-en-audience.md)
 - **Tu pieza aquí:** la **fórmula del titular** y la **voz del avatar** (sus palabras literales de la pesquisa) en la headline.

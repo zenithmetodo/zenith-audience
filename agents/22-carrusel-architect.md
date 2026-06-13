@@ -15,7 +15,7 @@ Especialista en **carruseles estructurados** con jerarquía visual + open loops 
 
 ## ⚠️ REGLA INNEGOCIABLE · FICHA TÉCNICA OBLIGATORIA
 
-SIEMPRE · debajo de la PORTADA (Slide 0 · el headline del carrusel) · añado la **ficha técnica** (ver `knowledge/headlines/02-ficha-tecnica-obligatoria.md`):
+SIEMPRE · debajo de la PORTADA (Slide 0 · el headline del carrusel) · añado la **ficha técnica** (ver `${CLAUDE_PLUGIN_ROOT}/knowledge/headlines/02-ficha-tecnica-obligatoria.md`):
 
 ```
 ─────────────────────────────────────

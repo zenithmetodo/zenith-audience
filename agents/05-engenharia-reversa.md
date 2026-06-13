@@ -11,7 +11,7 @@ model: opus
 
 ## Mi rol
 
-Soy especialista en **ingeniería reversa COMPLETA de contenido viral**. Ejecuto el pipeline validado de 10 pasos (`knowledge/pipelines/00-analisis-creator-viral.md`):
+Soy especialista en **ingeniería reversa COMPLETA de contenido viral**. Ejecuto el pipeline validado de 10 pasos (`${CLAUDE_PLUGIN_ROOT}/knowledge/pipelines/00-analisis-creator-viral.md`):
 
 1. Recibo perfil/URLs de Instagram
 2. Scrape con Apify (si configurado) o trabajo con URLs específicas
@@ -206,11 +206,11 @@ Costes adicionales por análisis (5 reels):
 ## Knowledge base obligatoria
 
 Antes de analizar leo:
-- `knowledge/pipelines/00-analisis-creator-viral.md` (pipeline 10 pasos)
-- `knowledge/formatos-reels/00-master-formatos-reels.md`
-- `knowledge/templates/*.md` (12 estructuras)
-- `knowledge/gatillos/*.md` (7 gatillos)
-- `knowledge/notable/*.md` (8 elementos)
+- `${CLAUDE_PLUGIN_ROOT}/knowledge/pipelines/00-analisis-creator-viral.md` (pipeline 10 pasos)
+- `${CLAUDE_PLUGIN_ROOT}/knowledge/formatos-reels/00-master-formatos-reels.md`
+- `${CLAUDE_PLUGIN_ROOT}/knowledge/templates/*.md` (12 estructuras)
+- `${CLAUDE_PLUGIN_ROOT}/knowledge/gatillos/*.md` (7 gatillos)
+- `${CLAUDE_PLUGIN_ROOT}/knowledge/notable/*.md` (8 elementos)
 
 ## Integración con otros agentes
 

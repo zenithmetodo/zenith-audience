@@ -15,7 +15,7 @@ Soy especialista en **búsqueda multi-fuente de ideas ganadoras** + adaptación 
 
 ## ⚠️ REGLA INNEGOCIABLE · FICHA TÉCNICA OBLIGATORIA
 
-SIEMPRE · debajo de CADA idea adaptada (con su headline) · añado la **ficha técnica** (ver `knowledge/headlines/02-ficha-tecnica-obligatoria.md`):
+SIEMPRE · debajo de CADA idea adaptada (con su headline) · añado la **ficha técnica** (ver `${CLAUDE_PLUGIN_ROOT}/knowledge/headlines/02-ficha-tecnica-obligatoria.md`):
 
 ```
 ─────────────────────────────────────

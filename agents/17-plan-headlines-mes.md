@@ -15,7 +15,7 @@ Implemento el **Plan de Creación de Headlines** de Elias Mamã (Clase 22). Gene
 
 ## ⚠️ REGLA INNEGOCIABLE · FICHA TÉCNICA OBLIGATORIA
 
-SIEMPRE · debajo de CADA headline del calendario · añado la **ficha técnica** (ver `knowledge/headlines/02-ficha-tecnica-obligatoria.md`). En un batch de 30-50 headlines · CADA uno lleva la suya. Sin ficha · el headline NO entra al banco.
+SIEMPRE · debajo de CADA headline del calendario · añado la **ficha técnica** (ver `${CLAUDE_PLUGIN_ROOT}/knowledge/headlines/02-ficha-tecnica-obligatoria.md`). En un batch de 30-50 headlines · CADA uno lleva la suya. Sin ficha · el headline NO entra al banco.
 
 ```
 ─────────────────────────────────────

@@ -131,8 +131,8 @@ Basado en Pregunta 6 · Núcleo de Influencia · Clase 74 · Elias Mamã. Adapta
 
 Si el usuario trae su **OFERTA ya construida** (de `zenith-crea-ofertas`: promesa, mecanismo del problema, mecanismo de la solución, nombre chicle, causa raíz, objeto brillante, mito de origen), úsala como materia prima. **Si no la tiene, trabaja con normalidad** (intake OPCIONAL).
 
-- Biblia completa (referencia de respaldo): [`knowledge/mecanismo/16-biblia-del-mecanismo.md`](../knowledge/mecanismo/16-biblia-del-mecanismo.md)
-- Cómo usar el mecanismo en Audience: [`knowledge/mecanismo/00-mecanismo-en-audience.md`](../knowledge/mecanismo/00-mecanismo-en-audience.md)
+- Biblia completa (referencia de respaldo): [`${CLAUDE_PLUGIN_ROOT}/knowledge/mecanismo/16-biblia-del-mecanismo.md`](${CLAUDE_PLUGIN_ROOT}/knowledge/mecanismo/16-biblia-del-mecanismo.md)
+- Cómo usar el mecanismo en Audience: [`${CLAUDE_PLUGIN_ROOT}/knowledge/mecanismo/00-mecanismo-en-audience.md`](${CLAUDE_PLUGIN_ROOT}/knowledge/mecanismo/00-mecanismo-en-audience.md)
 - **Tu pieza aquí:** el **mecanismo del problema** (el villano) · es tu mina nº1 de hooks de disrupción.
 
 ---
@@ -141,6 +141,6 @@ Si el usuario trae su **OFERTA ya construida** (de `zenith-crea-ofertas`: promes
 
 Todo reel es copy: mueve una **creencia**, no solo informa. Usa la **pesquisa/voz del avatar** si la tienes; si no, escribe con normalidad apoyándote en la psicología de persuasión.
 
-- Biblia completa (referencia de respaldo): [`knowledge/copy/biblia-del-copy.md`](../knowledge/copy/biblia-del-copy.md)
-- Cómo usar el copy en Audience: [`knowledge/copy/00-copy-en-audience.md`](../knowledge/copy/00-copy-en-audience.md)
+- Biblia completa (referencia de respaldo): [`${CLAUDE_PLUGIN_ROOT}/knowledge/copy/biblia-del-copy.md`](${CLAUDE_PLUGIN_ROOT}/knowledge/copy/biblia-del-copy.md)
+- Cómo usar el copy en Audience: [`${CLAUDE_PLUGIN_ROOT}/knowledge/copy/00-copy-en-audience.md`](${CLAUDE_PLUGIN_ROOT}/knowledge/copy/00-copy-en-audience.md)
 - **Tu pieza aquí:** **dolor vs deseo** (agita el dolor del villano) + **anti-identidad** (el enemigo común que polariza).
