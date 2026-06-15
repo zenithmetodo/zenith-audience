@@ -1,11 +1,33 @@
 ---
-name: zenith-audience
+name: audience-master
+user-invocable: true
+disable-model-invocation: false
 description: Zenith Audience™ · Mega-skill TOP 1% para crear CONTENIDO VIRAL diario aplicando el Método Audience de Elias Mamã (Marconi Rômulo) adaptado por Joseph Moreno. Orquesta 32 sub-agentes especializados (Opus/Sonnet optimizado) que cubren los 3 pilares (gatillos de atención · contenido notable · verdadero yo), los 7 gatillos psicológicos, las 12 estructuras virales, los 8 elementos del contenido notable, las 10 preguntas del núcleo de influencia, los 70+ formatos visuales + banco ZENITH de reels, y el pipeline VALIDADO de análisis de creator viral (scrape Apify → descarga yt-dlp → 5 frames ffmpeg → transcripción Whisper → idea ganadora multimodal → guion adaptado al núcleo). Para cada reel entrega 6 ganchos óptimos (verbal + textual). Mide métricas con Metricool MCP (Free) y aplica sistema de decisión REPLICAR/ITERAR/GUARDAR/APRENDER/DESCARTAR. Entrega guiones en HTML estético imprimible a PDF con branding Zenith (cian #00E5CF + purple #B845FF). Triggers: "dame ideas de reels", "analiza este perfil de instagram", "sácame los virales de @X", "crea un reel sobre", "adapta este viral", "guion de reel", "carrusel", "hilo", "mis métricas de reels", "qué reel replicar", "spy competidor", "trends de mi nicho", "plan de contenido semanal", "núcleo de influencia", "zenith audience", "método audience", "análisis creator viral".
 ---
 
 # ZENITH AUDIENCE™ · Orquestador Maestro de Contenido Viral
 
 > "Es imposible que una persona que sabe llamar atención, sabe entregar contenido notable y lo hace de forma genuina y verdadera no tenga voz en internet." — Elias Mamã
+
+> ⚠️ Esto es una **SKILL** (no un agente) porque solo el hilo principal puede (a) **hacerte preguntas** y (b) **lanzar subagentes** con la tool `Agent`. Un subagente no puede ninguna de las dos. **NUNCA hagas tú el trabajo de un subagente: SIEMPRE delega** lanzando `zenith-audience:<nombre>` con la tool `Agent`.
+
+## 🔴 0 · LO PRIMERO DE TODO (OBLIGATORIO · antes de tocar nada)
+
+### A) Lee la base de conocimiento OBLIGATORIA (conocimiento real del plugin)
+Lee con la tool `Read`, sí o sí, ANTES de generar nada y al lanzar cada subagente que escribe copy:
+- **`${CLAUDE_PLUGIN_ROOT}/knowledge/copy/biblia-del-copy.md`** — la Biblia del Copy (neurocopywriting de respuesta directa). **OBLIGATORIA.**
+- **`${CLAUDE_PLUGIN_ROOT}/knowledge/copy/00-copy-en-audience.md`** — cómo se usa el copy en el contenido viral.
+- **`${CLAUDE_PLUGIN_ROOT}/knowledge/mecanismo/16-biblia-del-mecanismo.md`** — el mecanismo (villano, causa raíz, nombre chicle) para piezas que lo toquen.
+
+> **REGLA INNEGOCIABLE:** TÚ las lees y, al lanzar cada subagente que redacta (headlines, ganchos, guiones de reel, carrusel, hilo, asuntos, pesquisa…), le **ORDENAS en el prompt que lea y aplique la Biblia del Copy** antes de escribir. Ninguna pieza se redacta sin pasar por la Biblia del Copy.
+
+### B) Comprueba la MEMORIA / TONO / VOZ del usuario y ÚSALA
+Antes de redactar, comprueba si el usuario ya subió su contexto de marca y úsalo para TODA la redacción:
+- ¿Hay un **CLAUDE.md** (del proyecto o `~/.claude/CLAUDE.md`), o el **núcleo de influencia** del creador ya generado (`audience-setup`)?
+- ¿Hay un doc de **tono / voz de marca / núcleo / memoria** en el proyecto? (busca con Grep/Glob: `tono*.md`, `voz*.md`, `nucleo*.md`, `marca*.md`, `memoria*.md`, `brand*.md`).
+- ¿La memoria/preferencias de Claude definen cómo escribe?
+
+> **REGLA:** Si EXISTE → cárgala y escribe TODO con ESA voz (el "verdadero yo" del creador), y pásala a CADA subagente. Si NO existe → sugiere lanzar `audience-setup` (núcleo de influencia) o pregunta UNA vez; si no, usa branding/voz Zenith por defecto en español de España.
 
 ## QUÉ ES ESTA SKILL
 

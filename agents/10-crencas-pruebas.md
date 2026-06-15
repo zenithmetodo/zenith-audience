@@ -165,8 +165,13 @@ Basado en Preguntas 7-8 · Núcleo de Influencia · Clases 75-76 · Elias Mamã.
 
 Si el usuario trae su **OFERTA ya construida** (de `zenith-crea-ofertas`: promesa, mecanismo del problema, mecanismo de la solución, nombre chicle, causa raíz, objeto brillante, mito de origen), úsala como materia prima. **Si no la tiene, trabaja con normalidad** (intake OPCIONAL).
 
-- Biblia completa (referencia de respaldo): [`${CLAUDE_PLUGIN_ROOT}/knowledge/mecanismo/16-biblia-del-mecanismo.md`](${CLAUDE_PLUGIN_ROOT}/knowledge/mecanismo/16-biblia-del-mecanismo.md)
+<<<<<<< HEAD
+- 🔴 Biblia del Copy · OBLIGATORIA — léela y aplícala ANTES de escribir (usa además la voz/tono del usuario si el orquestador te la pasó): [`${CLAUDE_PLUGIN_ROOT}/knowledge/mecanismo/16-biblia-del-mecanismo.md`](${CLAUDE_PLUGIN_ROOT}/knowledge/mecanismo/16-biblia-del-mecanismo.md)
 - Cómo usar el mecanismo en Audience: [`${CLAUDE_PLUGIN_ROOT}/knowledge/mecanismo/00-mecanismo-en-audience.md`](${CLAUDE_PLUGIN_ROOT}/knowledge/mecanismo/00-mecanismo-en-audience.md)
+=======
+- 🔴 Biblia del Copy · OBLIGATORIA — léela y aplícala ANTES de escribir (usa además la voz/tono del usuario si el orquestador te la pasó): [`knowledge/mecanismo/16-biblia-del-mecanismo.md`](../knowledge/mecanismo/16-biblia-del-mecanismo.md)
+- Cómo usar el mecanismo en Audience: [`knowledge/mecanismo/00-mecanismo-en-audience.md`](../knowledge/mecanismo/00-mecanismo-en-audience.md)
+>>>>>>> 84b0b72 (feat: convierte Zenith Audience en plugin de marketplace que orquesta de verdad)
 - **Tu pieza aquí:** el 'por qué fallaron las soluciones anteriores' + la **prueba del mecanismo**.
 
 ---
@@ -175,6 +180,11 @@ Si el usuario trae su **OFERTA ya construida** (de `zenith-crea-ofertas`: promes
 
 Todo reel es copy: mueve una **creencia**, no solo informa. Usa la **pesquisa/voz del avatar** si la tienes; si no, escribe con normalidad apoyándote en la psicología de persuasión.
 
-- Biblia completa (referencia de respaldo): [`${CLAUDE_PLUGIN_ROOT}/knowledge/copy/biblia-del-copy.md`](${CLAUDE_PLUGIN_ROOT}/knowledge/copy/biblia-del-copy.md)
+<<<<<<< HEAD
+- 🔴 Biblia del Copy · OBLIGATORIA — léela y aplícala ANTES de escribir (usa además la voz/tono del usuario si el orquestador te la pasó): [`${CLAUDE_PLUGIN_ROOT}/knowledge/copy/biblia-del-copy.md`](${CLAUDE_PLUGIN_ROOT}/knowledge/copy/biblia-del-copy.md)
 - Cómo usar el copy en Audience: [`${CLAUDE_PLUGIN_ROOT}/knowledge/copy/00-copy-en-audience.md`](${CLAUDE_PLUGIN_ROOT}/knowledge/copy/00-copy-en-audience.md)
+=======
+- 🔴 Biblia del Copy · OBLIGATORIA — léela y aplícala ANTES de escribir (usa además la voz/tono del usuario si el orquestador te la pasó): [`knowledge/copy/biblia-del-copy.md`](../knowledge/copy/biblia-del-copy.md)
+- Cómo usar el copy en Audience: [`knowledge/copy/00-copy-en-audience.md`](../knowledge/copy/00-copy-en-audience.md)
+>>>>>>> 84b0b72 (feat: convierte Zenith Audience en plugin de marketplace que orquesta de verdad)
 - **Tu pieza aquí:** la **prueba** (5 tipos + por negación) para instalar la creencia nueva, y la **dimensionalización** que la hace sentir.

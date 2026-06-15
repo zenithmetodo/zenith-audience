@@ -334,20 +334,26 @@ curl -fsSL https://raw.githubusercontent.com/zenithmetodo/zenith-audience/main/i
 iwr -useb https://raw.githubusercontent.com/zenithmetodo/zenith-audience/main/install.ps1 | iex
 ```
 
-### Opción 2 · Manual con Claude Code
+### Opción 2 · Plugin de marketplace (recomendado · orquesta los 32 sub-agentes)
 
-```bash
-# Marketplace
-/plugin marketplace add https://github.com/zenithmetodo/zenith-audience
-/plugin install zenith-audience
+Zenith Audience es un **plugin de marketplace**: sus 32 sub-agentes se **orquestan** de verdad (la skill `audience-master` los lanza con la tool Agent). Pégale esto a Claude:
+
+```
+/plugin marketplace add zenithmetodo/zenith-audience
+/plugin install zenith-audience@zenith-audience-mp
 ```
 
-### Opción 3 · Clone directo
-
+O por terminal:
 ```bash
-mkdir -p ~/.claude/plugins
-git clone https://github.com/zenithmetodo/zenith-audience.git ~/.claude/plugins/zenith-audience
+claude plugin marketplace add zenithmetodo/zenith-audience
+claude plugin install zenith-audience@zenith-audience-mp
 ```
+
+Luego **reinicia Claude Code**. Arranca con **"dame ideas de reels"** / **"método audience"** o un command (`/audience-ideas`, `/audience-reel`…).
+
+> **¿Por qué marketplace y no skill suelta?** Solo un plugin de marketplace registra sus `agents/` como **sub-agentes lanzables** (`zenith-audience:reel-architect`, `…:headline-3-tipos`, …). Instalado como skill, los 32 agentes quedan inertes y todo se hace "en uno". Como plugin, la skill `audience-master` **los llama, los orquesta y compone**.
+
+> **Memoria/tono + Biblia:** si subes tu CLAUDE.md, tu núcleo de influencia (`audience-setup`) o tu doc de tono/voz, el plugin los detecta y escribe TODO con TU voz. La **Biblia del Copy** (`knowledge/copy/biblia-del-copy.md`) es de lectura **obligatoria** para cada sub-agente.
 
 ### Setup post-instalación
 
