@@ -236,7 +236,7 @@ Setup ONE-SHOT al inicio (2-3h):
 
 ---
 
-## Los 21 Slash Commands
+## Los 22 Slash Commands
 
 | Command | Función | Frecuencia recomendada |
 |---|---|---|
