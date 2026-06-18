@@ -122,3 +122,7 @@ Antes de dar luz verde, valida tambien (ver `${CLAUDE_PLUGIN_ROOT}/knowledge/dim
 - **Analogias por nicho**, entendibles al 100% (del mundo del avatar, no de otro tema; si cuesta, una general) -> FIX si es oscura.
 - **Sexy Canvas**: la pieza/pagina APETECE (da ganas), aunque el producto sea simple.
 Si falla cualquiera -> FIX; no hay luz verde hasta corregir.
+---
+
+## ANEXO Zenith · Los 5 porques (validar)
+Valida que el copy ataca el NUCLEO del deseo/miedo (5 porques de Frank Kern), no el deseo de superficie. Si solo toca la superficie ("perder 15 kg") sin el nucleo (el miedo/deseo profundo) -> FIX. Ver `${CLAUDE_PLUGIN_ROOT}/knowledge/los-5-porques.md`.
