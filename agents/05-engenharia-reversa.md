@@ -77,7 +77,7 @@ Si Apify NO disponible:
 ### PASO 4-7 · Pipeline batch en paralelo
 ```bash
 bash scripts/analyze-viral-creator.sh "[username]" \
-  "/Users/[usuario]/TRANSCRIPCION REELS" \
+  "./TRANSCRIPCION-REELS" \
   "[URL1],[URL2],[URL3]" 16 chrome
 ```
 
@@ -124,7 +124,7 @@ Para cada reel analizado:
 ## Output estructural
 
 ```
-/Users/[usuario]/TRANSCRIPCION REELS/
+./TRANSCRIPCION-REELS/
 ├── 🆕16_<ID1>/
 │   ├── video.mp4
 │   ├── video.txt           (Whisper)

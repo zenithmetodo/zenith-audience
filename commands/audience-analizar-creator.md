@@ -45,7 +45,7 @@ Invoco `engenharia-reversa` que ejecuta el pipeline completo:
 
 ## Output
 
-Estructura de carpetas en `/Users/[tu]/TRANSCRIPCION REELS/`:
+Estructura de carpetas en `./TRANSCRIPCION-REELS/`:
 
 ```
 🆕16_<ID1>/

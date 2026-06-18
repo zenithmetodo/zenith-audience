@@ -13,7 +13,7 @@
 #   ./analyze-viral-creator.sh <USERNAME> <BASE_FOLDER> "<URL1>,<URL2>,<URL3>"
 #
 # Ejemplo:
-#   ./analyze-viral-creator.sh "nathan_perdriau" "/Users/josep/TRANSCRIPCION REELS" \
+#   ./analyze-viral-creator.sh "nathan_perdriau" "./TRANSCRIPCION-REELS" \
 #     "https://instagram.com/p/Cz1/,https://instagram.com/p/Cz2/,https://instagram.com/p/Cz3/"
 
 set -e
@@ -28,7 +28,7 @@ if [ -z "$USERNAME" ] || [ -z "$BASE_FOLDER" ] || [ -z "$URLS_CSV" ]; then
     echo "Uso: $0 <USERNAME> <BASE_FOLDER> <URLS_CSV> [START_N] [BROWSER]"
     echo ""
     echo "Ejemplo:"
-    echo "  $0 'nathan_perdriau' '/Users/josep/TRANSCRIPCION REELS' \\"
+    echo "  $0 'nathan_perdriau' './TRANSCRIPCION-REELS' \\"
     echo "    'https://instagram.com/p/CzA/,https://instagram.com/p/CzB/' 16 chrome"
     exit 1
 fi
