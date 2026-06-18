@@ -6,11 +6,11 @@
 
 ### Sistema diario para crear contenido viral con identidad incopiable
 
-**32 agentes · 22 commands · 53 knowledge files · 70+ formatos + banco ZENITH (~24) · 6 ganchos-hook por reel · 7 HTML templates · 100% gratis**
+**32 agentes · 22 commands · 55 knowledge files · 70+ formatos + banco ZENITH (~24) · 6 ganchos-hook por reel · 7 HTML templates · 100% gratis**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-cyan.svg)](https://opensource.org/licenses/MIT)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Plugin-purple.svg)](https://claude.com/claude-code)
-[![Status](https://img.shields.io/badge/Status-v1.8.0-00E5CF.svg)](https://github.com/zenithmetodo/zenith-audience/releases)
+[![Status](https://img.shields.io/badge/Status-v1.9.5-00E5CF.svg)](https://github.com/zenithmetodo/zenith-audience/releases)
 [![Free](https://img.shields.io/badge/Métricas-100%25%20Gratis-00E5CF.svg)](#stack-100-gratis)
 
 **[INSTALAR](#instalación) · [USO DIARIO](#uso-diario) · [LOS 12 TEMPLATES](#los-12-templates-virales) · [METRICOOL](#métricas-metricool-free) · [APIFY](#apify-research-free)**
@@ -300,7 +300,7 @@ Setup ONE-SHOT al inicio (2-3h):
 
 ---
 
-## Knowledge Library · 53 archivos
+## Knowledge Library · 55 archivos
 
 ```
 knowledge/
