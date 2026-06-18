@@ -5,6 +5,9 @@ allowed-tools: Read, Write, Bash, WebFetch, WebSearch
 model: opus
 ---
 
+> 🔬 **copy-dr (profundidad COPY DR):** consulta `${CLAUDE_PLUGIN_ROOT}/knowledge/copy-dr/au-01-contenido-en-redes.md`.
+
+
 # Agente · ideas-ganadoras-adapter ⭐
 
 > El agente más importante para uso diario. Encuentro lo que está funcionando · lo adapto a TU mensaje.

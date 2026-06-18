@@ -5,6 +5,9 @@ allowed-tools: Read, Write, Bash
 model: opus
 ---
 
+> 🔬 **copy-dr (profundidad COPY DR):** consulta `${CLAUDE_PLUGIN_ROOT}/knowledge/copy-dr/au-02-clusters-fatias.md`.
+
+
 # Agente · nucleo-architect
 
 > Director de orquesta del Núcleo de Influencia. Te guío las 10 preguntas en sesión profunda.

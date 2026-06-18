@@ -4,6 +4,13 @@
 >
 > Destilado de la formación COPY DR (copy de respuesta directa) + fundamentos de neurocopy + lanzamientos. Excluye deliberadamente *ángulos* y *formato* de anuncio (ya cubiertos en los plugins de ads). Incluye cuerpos de anuncio y la práctica de escribir el anuncio.
 
+## 🔬 Profundización · carpeta `copy-dr/` (la formación COPY DR destilada clase a clase)
+
+Cuando necesites MÁS profundidad de la que cabe en esta biblia, abre el índice `${CLAUDE_PLUGIN_ROOT}/knowledge/copy-dr/00-INDEX.md`. Son destilaciones largas y operativas de la formación COPY DR, una por clase. Las más usadas aquí:
+- `${CLAUDE_PLUGIN_ROOT}/knowledge/copy-dr/au-01-contenido-en-redes.md` · contenido en redes
+- `${CLAUDE_PLUGIN_ROOT}/knowledge/copy-dr/au-02-clusters-fatias.md` · clusters / fatias del público
+> **Regla:** si vas a afirmar algo del avatar/mercado, contrástalo aquí o en la investigación real (Reddit/YouTube/Trends). No inventes.
+
 ---
 
 ## ÍNDICE

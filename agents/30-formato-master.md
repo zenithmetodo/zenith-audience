@@ -5,6 +5,9 @@ allowed-tools: Read, Write, Bash, WebSearch, WebFetch
 model: opus
 ---
 
+> 🔬 **copy-dr (profundidad COPY DR):** consulta `${CLAUDE_PLUGIN_ROOT}/knowledge/copy-dr/au-01-contenido-en-redes.md`.
+
+
 # Agente · formato-master ⭐
 
 > Crack absoluto de los 70+ formatos de reels. Recibo tema + núcleo · entrego guion completo + 6 ganchos óptimos (verbal + textual) listos para A/B testing secuencial.

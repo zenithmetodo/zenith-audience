@@ -5,6 +5,9 @@ allowed-tools: Read, Write
 model: sonnet
 ---
 
+> 🔬 **copy-dr (profundidad COPY DR):** consulta `${CLAUDE_PLUGIN_ROOT}/knowledge/copy-dr/au-02-clusters-fatias.md`.
+
+
 # Agente · pesquisa-magnetica
 
 > Investigación profunda de tu avatar. Como dermatólogo en su paciente · veo lo que otros no ven.
