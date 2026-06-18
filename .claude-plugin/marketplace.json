@@ -9,7 +9,7 @@
       "name": "zenith-audience",
       "source": ".",
       "description": "Sistema TOP 1% para crear CONTENIDO VIRAL diario (Método Audience de Elias Mamã, adaptado por Joseph Moreno). Orquestador (skill audience-master) + 32 sub-agentes que se lanzan con la tool Agent: núcleo de influencia, ideas, análisis de creator viral (Apify→yt-dlp→ffmpeg→Whisper), reels, carruseles, hilos, headlines, gatillos, consciencia, pesquisa, métricas (Metricool). Lee OBLIGATORIamente la Biblia del Copy + la memoria/tono/voz (núcleo) del usuario. Entrega guiones en HTML estético + PDF con branding Zenith. Joseph Moreno.",
-      "version": "1.9.6"
+      "version": "1.9.7"
     }
   ]
 }
