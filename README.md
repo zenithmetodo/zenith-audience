@@ -261,6 +261,7 @@ Setup ONE-SHOT al inicio (2-3h):
 | `/audience-plan-semana` | Calendario 7 días con rotación 12 templates | Domingo |
 | `/audience-batch-day` | Plan grabación batch (5-10 reels en 1 día) | Día 15 mes |
 | `/audience-engenharia [url]` | Engenharia reversa profunda 5 capas | A demanda |
+| `/audience-consciencia [idea]` | Diagnostica nivel de consciencia (Schwartz · BAJO/MEDIO/ALTO) + qué conecta | Antes de grabar · al auditar nivel |
 
 ---
 
