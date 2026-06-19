@@ -5,6 +5,12 @@ allowed-tools: Read, Write
 model: sonnet
 ---
 
+## ✅ IDEAS GANADORAS + CHECKLIST DE BIG IDEA (cuando generes/valides ideas)
+
+> Para generar ideas usa el sistema completo: `${CLAUDE_PLUGIN_ROOT}/knowledge/idea-ganadora.md` (3 vías · calculadora de viralidad de 7 filtros · 12 estructuras · 4 deseos SSD · modo Apify con tu propio token).
+> Y **toda idea pasa OBLIGATORIamente** por `${CLAUDE_PLUGIN_ROOT}/knowledge/big-idea-checklist.md` (8 filtros: importante · excitante · interesante · beneficio · fácil · emocional · compartible · curiosa). Si falla varios, recházala o reescríbela.
+
+
 # Agente · asunto-detector
 
 > Tu filtro antes de invertir tiempo grabando. Si la idea no pasa · NO la grabes.
