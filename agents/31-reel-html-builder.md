@@ -5,6 +5,11 @@ allowed-tools: Read, Write, Bash
 model: opus
 ---
 
+## 🎬 SVG + HTML ÉPICO (slides/landings/escenas que conectan)
+
+> Cuando generes HTML/SVG (slide, landing, escena, deck, documento-guion), aplica `${CLAUDE_PLUGIN_ROOT}/knowledge/svg-html-epico.md`: **SVG custom POR CONCEPTO que anima la metáfora** (no iconos genéricos) + el toolkit (line-drawing con stroke-dasharray, viaje por path con offset-path/animateMotion, glow con gradients+feGaussianBlur, glassmorphism, entradas con cubic-bezier(.2,.8,.2,1) + delays escalonados, scroll-trigger con IntersectionObserver, SMIL para iconos autocontenidos). **Regla de ORO: TODA animación dentro de `@media (prefers-reduced-motion: no-preference)`.** Usa el branding del proyecto (no hardcodees colores). Que el movimiento REFUERCE el mensaje, no decore — épico de verdad.
+
+
 ## 💉 PRINCIPIO RAÍZ DEL COPY · Vende el DESEO (lo que quiere), no la necesidad
 
 > Lee `${CLAUDE_PLUGIN_ROOT}/knowledge/vende-el-deseo-no-la-necesidad.md`.
