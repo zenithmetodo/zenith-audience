@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 780" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="grad" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#00E5CF"/><stop offset="1" stop-color="#B845FF"/>
+    </linearGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#4DECDB"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="780" fill="#050510"/>
+  <path d="M20 66 L34 40 L42 53 L48 45 L60 66 Z" fill="url(#grad)"/>
+  <text x="74" y="52" fill="#F4F4FA" font-size="26" font-weight="bold" font-family="Georgia, serif">Tráfico frío · el blueprint de la infraestructura</text>
+  <text x="74" y="74" fill="#6A6A85" font-size="13" font-family="monospace">NO PUEDES METER A UN FRÍO POR UN EMBUDO DE CALIENTE · knowledge/17</text>
+  <rect x="20" y="88" width="220" height="3" fill="url(#grad)" rx="2"/>
+
+  <!-- LEFT: WARM FUNNEL ✗ -->
+  <rect x="40" y="118" width="520" height="300" rx="16" fill="#0B0B17" stroke="#7A2438"/>
+  <text x="66" y="150" fill="#FF7A95" font-size="15" font-weight="bold">✗ EMBUDO DE CALIENTE (lanzado al frío)</text>
+  <text x="66" y="172" fill="#8b8ba3" font-size="12" font-family="monospace">el error estructural nº1</text>
+  <!-- funnel -->
+  <path d="M150 200 L450 200 L390 250 L390 250 L360 300 L360 300 L330 350 L270 350 L240 300 L210 250 Z" fill="none" stroke="#7A2438" stroke-width="2"/>
+  <rect x="210" y="205" width="180" height="40" rx="6" fill="#10101F" stroke="#1C1C2E"/><text x="300" y="230" fill="#F4F4FA" font-size="14" text-anchor="middle">Anuncio</text>
+  <rect x="235" y="255" width="130" height="40" rx="6" fill="#10101F" stroke="#1C1C2E"/><text x="300" y="280" fill="#F4F4FA" font-size="14" text-anchor="middle">Oferta</text>
+  <rect x="255" y="305" width="90" height="40" rx="6" fill="#10101F" stroke="#1C1C2E"/><text x="300" y="330" fill="#F4F4FA" font-size="13" text-anchor="middle">Compra ya</text>
+  <text x="300" y="388" fill="#FF7A95" font-size="15" text-anchor="middle" font-weight="bold">cierre en frío: ~15%</text>
+  <text x="300" y="408" fill="#8b8ba3" font-size="11.5" text-anchor="middle">pides compromiso antes de ganar la atención</text>
+
+  <!-- SHIFT arrow -->
+  <line x1="575" y1="268" x2="635" y2="268" stroke="#4DECDB" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="605" y="255" fill="#4DECDB" font-size="11" font-family="monospace" text-anchor="middle">EL GIRO</text>
+
+  <!-- RIGHT: COLD INFRASTRUCTURE ✓ -->
+  <rect x="650" y="118" width="510" height="300" rx="16" fill="#0B0B17" stroke="url(#grad)" stroke-width="2"/>
+  <text x="676" y="150" fill="#00E5CF" font-size="15" font-weight="bold">✓ INFRAESTRUCTURA DE FRÍO</text>
+  <text x="676" y="172" fill="#8b8ba3" font-size="12" font-family="monospace">diseñada desde cero para desconocidos</text>
+  <g font-family="Inter, Helvetica">
+    <rect x="676" y="188" width="458" height="42" rx="9" fill="#10101F" stroke="#14554C"/><text x="690" y="207" fill="#4DECDB" font-size="13" font-weight="700">1 · AWARENESS ADS</text><text x="690" y="223" fill="#8b8ba3" font-size="11">campaña de vídeos · un vídeo por etapa de creencia</text>
+    <rect x="676" y="238" width="458" height="42" rx="9" fill="#10101F" stroke="#14554C"/><text x="690" y="257" fill="#4DECDB" font-size="13" font-weight="700">2 · ACTIVO DE AUTORIDAD</text><text x="690" y="273" fill="#8b8ba3" font-size="11">un libro/guía · de anuncio a experto en minutos</text>
+    <rect x="676" y="288" width="458" height="42" rx="9" fill="#10101F" stroke="#14554C"/><text x="690" y="307" fill="#4DECDB" font-size="13" font-weight="700">3 · TRANSICIÓN CÁLIDA</text><text x="690" y="323" fill="#8b8ba3" font-size="11">nota de voz · humana aunque automatizada</text>
+    <rect x="676" y="338" width="458" height="42" rx="9" fill="#10101F" stroke="#14554C"/><text x="690" y="357" fill="#4DECDB" font-size="13" font-weight="700">4 · ROMPE-OBJECIONES + BONUS</text><text x="690" y="373" fill="#8b8ba3" font-size="11">llega a la llamada preparado y CON GANAS</text>
+  </g>
+  <text x="905" y="404" fill="#00E5CF" font-size="15" text-anchor="middle" font-weight="bold">cierre en frío: 55%+ · "Cold in. Converted out."</text>
+
+  <!-- THE GAP -->
+  <rect x="40" y="440" width="1120" height="66" rx="14" fill="#1A1508" stroke="#7A5F24"/>
+  <text x="60" y="468" fill="#FFB845" font-size="13" font-family="monospace" font-weight="bold">EL HUECO · orgánico ~70% vs frío ~15%</text>
+  <text x="60" y="492" fill="#F4F4FA" font-size="15">El hueco NO es tu habilidad de venta. Es tu <tspan fill="#FFB845" font-weight="bold">infraestructura</tspan>. (cifras: benchmark de cierre de llamada de la fuente — no promesa propia)</text>
+
+  <!-- 4 PILLARS -->
+  <text x="40" y="545" fill="#C972FF" font-size="12" font-family="monospace" font-weight="bold">LOS 4 PILARES (reglas del frío)</text>
+  <g>
+    <rect x="40" y="558" width="272" height="150" rx="12" fill="#0B0B17" stroke="#6E1FB8"/>
+    <text x="58" y="584" fill="#C972FF" font-size="12" font-family="monospace" font-weight="bold">1 · COLD-FIRST</text>
+    <text x="58" y="608" fill="#F4F4FA" font-size="13">Diseña cada pieza</text>
+    <text x="58" y="626" fill="#F4F4FA" font-size="13">asumiendo cero</text>
+    <text x="58" y="644" fill="#F4F4FA" font-size="13">conocimiento previo.</text>
+    <text x="58" y="672" fill="#4DECDB" font-size="11.5" font-style="italic">Build for cold →</text>
+    <text x="58" y="690" fill="#4DECDB" font-size="11.5" font-style="italic">todo mejora gratis.</text>
+  </g>
+  <g>
+    <rect x="324" y="558" width="272" height="150" rx="12" fill="#0B0B17" stroke="#6E1FB8"/>
+    <text x="342" y="584" fill="#C972FF" font-size="12" font-family="monospace" font-weight="bold">2 · ADOCTRINAR</text>
+    <text x="342" y="608" fill="#F4F4FA" font-size="13">No info: CAMBIO</text>
+    <text x="342" y="626" fill="#F4F4FA" font-size="13">DE CREENCIA.</text>
+    <text x="342" y="650" fill="#8b8ba3" font-size="11.5">Campaña de vídeos,</text>
+    <text x="342" y="668" fill="#8b8ba3" font-size="11.5">uno por etapa =</text>
+    <text x="342" y="686" fill="#8b8ba3" font-size="11.5">cadena de creencias.</text>
+  </g>
+  <g>
+    <rect x="608" y="558" width="272" height="150" rx="12" fill="#0B0B17" stroke="#6E1FB8"/>
+    <text x="626" y="584" fill="#C972FF" font-size="12" font-family="monospace" font-weight="bold">3 · AUTORIDAD</text>
+    <text x="626" y="608" fill="#F4F4FA" font-size="13">El frío te ve como</text>
+    <text x="626" y="626" fill="#F4F4FA" font-size="13">un ANUNCIO.</text>
+    <text x="626" y="650" fill="#8b8ba3" font-size="11.5">Un activo de autoridad</text>
+    <text x="626" y="668" fill="#8b8ba3" font-size="11.5">(libro/guía) te hace</text>
+    <text x="626" y="686" fill="#8b8ba3" font-size="11.5">experto en minutos.</text>
+  </g>
+  <g>
+    <rect x="892" y="558" width="268" height="150" rx="12" fill="#0B0B17" stroke="#6E1FB8"/>
+    <text x="910" y="584" fill="#C972FF" font-size="12" font-family="monospace" font-weight="bold">4 · SIN FRICCIÓN</text>
+    <text x="910" y="608" fill="#F4F4FA" font-size="13">Los fríos se asustan.</text>
+    <text x="910" y="632" fill="#8b8ba3" font-size="11.5">Transición cálida y</text>
+    <text x="910" y="650" fill="#8b8ba3" font-size="11.5">humana: nota de voz,</text>
+    <text x="910" y="668" fill="#8b8ba3" font-size="11.5">rompe-objeciones, bonus.</text>
+    <text x="910" y="690" fill="#4DECDB" font-size="11.5" font-style="italic">Paso proporcional.</text>
+  </g>
+
+  <!-- BANNER -->
+  <rect x="330" y="726" width="540" height="38" rx="19" fill="none" stroke="url(#grad)" stroke-width="2"/>
+  <text x="600" y="751" fill="#F4F4FA" font-size="15" text-anchor="middle" font-family="Georgia, serif" font-style="italic">Construye para el frío. Todo lo demás mejora gratis.</text>
+</svg>

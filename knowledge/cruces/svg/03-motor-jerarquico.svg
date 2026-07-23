@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="grad" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#00E5CF"/><stop offset="1" stop-color="#B845FF"/>
+    </linearGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#4DECDB"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="700" fill="#050510"/>
+  <path d="M20 66 L34 40 L42 53 L48 45 L60 66 Z" fill="url(#grad)"/>
+  <text x="74" y="52" fill="#F4F4FA" font-size="26" font-weight="bold" font-family="Georgia, serif">El motor jerárquico de decisión</text>
+  <text x="74" y="74" fill="#6A6A85" font-size="13" font-family="monospace">QUÉ VARIABLE DECIDE QUÉ — Y EN QUÉ ORDEN</text>
+  <rect x="20" y="88" width="220" height="3" fill="url(#grad)" rx="2"/>
+
+  <!-- NIVEL 1 -->
+  <rect x="60" y="118" width="1080" height="96" rx="14" fill="#0B0B17" stroke="url(#grad)" stroke-width="2"/>
+  <text x="80" y="146" fill="#00E5CF" font-size="12" font-family="monospace" font-weight="bold">1 · EL NÚCLEO — TEMPERATURA × CONSCIENCIA (15 celdas)</text>
+  <text x="80" y="170" fill="#F4F4FA" font-size="14">Fija el CONTENIDO de apertura y la DOSIS de confianza (longitud, prueba, biografía, nº de piezas del embudo).</text>
+  <text x="80" y="192" fill="#A8A8C0" font-size="12.5">Regla: la consciencia NO compensa la temperatura — el frío de nivel alto sabe TODO del mercado y NADA de ti [sf-16].</text>
+
+  <line x1="600" y1="214" x2="600" y2="242" stroke="#4DECDB" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- NIVEL 2 -->
+  <rect x="110" y="246" width="980" height="88" rx="14" fill="#0B0B17" stroke="#6E1FB8"/>
+  <text x="130" y="274" fill="#C972FF" font-size="12" font-family="monospace" font-weight="bold">2 · LA PALANCA — SOFISTICACIÓN DEL MERCADO (S1–S5)</text>
+  <text x="130" y="298" fill="#F4F4FA" font-size="14">S1 declara el beneficio → S2 amplifica → S3 MECANISMO con nombre → S4 mecanismo nichado → S5 IDENTIDAD/rostro.</text>
+  <text x="130" y="320" fill="#A8A8C0" font-size="12.5">El stage VETA armas (no dicta contenido): la promesa desnuda muere en S3+; en S5 solo identidad/historia [clase-16].</text>
+
+  <line x1="600" y1="334" x2="600" y2="362" stroke="#4DECDB" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- NIVEL 3 -->
+  <rect x="160" y="366" width="880" height="88" rx="14" fill="#0B0B17" stroke="#14554C"/>
+  <text x="180" y="394" fill="#4DECDB" font-size="12" font-family="monospace" font-weight="bold">3 · EL AJUSTE FINO — LOS 4 MODIFICADORES</text>
+  <text x="180" y="418" fill="#F4F4FA" font-size="14">M1 intención/urgencia · M2 experiencias previas + escepticismo de categoría · M3 objeción dominante · M4 deseo dominante.</text>
+  <text x="180" y="440" fill="#A8A8C0" font-size="12.5">No cambian la celda: SUBEN o BAJAN dosis, prueba y fuerza del CTA. Todos con default inferible.</text>
+
+  <line x1="600" y1="454" x2="600" y2="482" stroke="#4DECDB" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- NIVEL 4 -->
+  <rect x="210" y="486" width="780" height="80" rx="14" fill="#170A10" stroke="#7A2438"/>
+  <text x="230" y="514" fill="#FF7A95" font-size="12" font-family="monospace" font-weight="bold">4 · LOS CONFLICTOS — ¿QUÉ MANDA CUANDO DOS CHOCAN?</text>
+  <text x="230" y="538" fill="#F4F4FA" font-size="13.5">4 reglas de precedencia: confianza → sofisticación → paso proporcional → doble nivel (persona ≠ producto).</text>
+  <text x="230" y="558" fill="#A8A8C0" font-size="12">Jurisprudencia C1–C8: la celda trampa · el carnet caducado · demanda reprimida sin confianza · cliente antiguo + oferta nueva…</text>
+
+  <line x1="600" y1="566" x2="600" y2="594" stroke="#4DECDB" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- OUTPUT -->
+  <rect x="260" y="598" width="680" height="76" rx="14" fill="#0B0B17" stroke="url(#grad)" stroke-width="2"/>
+  <text x="600" y="626" fill="#00E5CF" font-size="12" font-family="monospace" font-weight="bold" text-anchor="middle">→ SOLO ENTONCES SE DERIVAN LAS DECISIONES</text>
+  <text x="600" y="650" fill="#F4F4FA" font-size="14" text-anchor="middle" font-weight="bold">EL LEAD ES UN OUTPUT DEL DIAGNÓSTICO — NUNCA UN EJE DE ENTRADA</text>
+  <text x="600" y="668" fill="#A8A8C0" font-size="12" text-anchor="middle">lead (3 variantes de test) · estructura · dosis + prueba · cierre + prohibidos de la celda</text>
+</svg>

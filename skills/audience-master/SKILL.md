@@ -32,6 +32,8 @@ Antes de redactar, comprueba si el usuario ya subió su contexto de marca y úsa
 
 > **REGLA:** Si EXISTE → cárgala y escribe TODO con ESA voz (el "verdadero yo" del creador), y pásala a CADA subagente. Si NO existe → sugiere lanzar `audience-setup` (núcleo de influencia) o pregunta UNA vez; si no, usa branding/voz Zenith por defecto en español de España.
 
+> **DIAGNÓSTICO DE PÚBLICO (cruces):** antes de redactar para un público nuevo o no declarado, este plugin tiene su propio orquestador de cruces — la skill `cruce` (Temperatura × Consciencia × Sofisticación + tráfico frío, conocimiento local en `${CLAUDE_PLUGIN_ROOT}/knowledge/cruces/`) — invócala para clavar el público y no escribir a ciegas.
+
 ## QUÉ ES ESTA SKILL
 
 Es la skill PADRE de un sistema de **32 sub-agentes especializados** (cada uno crack de UNA sola cosa) y **22 slash commands** para crear contenido viral diario.
