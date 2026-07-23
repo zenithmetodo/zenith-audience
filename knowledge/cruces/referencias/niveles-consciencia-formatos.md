@@ -1,10 +1,12 @@
 # Niveles de Consciencia × Formatos · OBLIGATORIO en cada reel
 
+> Nota de autocontención: los nombres de agente (`formato-master`, `guion-body-master`, `consciencia-master`, `variantes-master`) y las rutas hermanas (`knowledge/consciencia/…`) que aparezcan abajo son NOTAS del material de origen; en este plugin NO existen como tales. El equivalente es el PASO correspondiente de la skill `cruce` (inline).
+
 > ⚠️ REGLA INNEGOCIABLE: `formato-master` SIEMPRE trabaja cada formato con CREATIVIDAD por NIVEL DE CONSCIENCIA. Un mismo formato (ranking, pirámide, tier list…) cambia de hook, de overlay, de cuerpo y de CTA según el nivel de consciencia del avatar. Nunca se entrega un formato "plano" sin decir a qué nivel apunta y cómo se adapta.
 
 > 🔴🔴 **REGLA DE ORO · FORMATOS = MENÚ ABIERTO, NUNCA UNO.** Cada vez que en este archivo (o en cualquier agente) leas "**Formatos que encajan**" / "**Formatos que pegan**", entiéndelo como **EJEMPLOS para inspirarte, JAMÁS como una lista cerrada**. La obligación es **explorar MUCHÍSIMOS formatos distintos** (los 70+ del master + el banco Zenith + **inventar nuevos** fuera de la caja) y **NUNCA ceñirse a uno**. Entre los 5 anuncios de un ángulo → **5 dibujos distintos** (no repetir). Para llenar el banco → lateraliza con `variantes-master` (`/ads-variantes`): mismo ángulo × estructura × formato × nivel = decenas de versiones. Quedarse con un solo formato es un ERROR de proceso.
 
-> 🟢 **ESTRUCTURAS DE GUION (el cuerpo).** Cada nivel tiene **estructuras de guion** desarrolladas beat a beat (incluido el **HARD SELL**) en **`knowledge/consciencia/estructuras-guion-por-nivel.md`**. El cuerpo de cada anuncio se escribe eligiendo una estructura de su nivel y **mejorándola**. Quien lo ejecuta: `guion-body-master` (`/ads-guion`).
+> 🟢 **ESTRUCTURAS DE GUION (el cuerpo).** Cada nivel tiene **estructuras de guion** desarrolladas beat a beat (incluido el **HARD SELL**) en **`referencias/estructuras-guion-por-nivel.md`** (en esta misma carpeta `knowledge/cruces/`). El cuerpo de cada anuncio se escribe eligiendo una estructura de su nivel y **mejorándola**.
 
 ---
 

@@ -10,8 +10,10 @@ Fuente: skill original NeuroCopy + Direct Response clásico (Schwartz, Halbert, 
 
 ## CÓMO SE USA ESTE ARCHIVO
 
-1. `consciencia-master` diagnostica el nivel del anuncio (BAJO / MEDIO / ALTO + mezcla).
-2. `guion-body-master` (o `anuncios-architect`) coge **1 estructura base del nivel dominante** de aquí, la escribe **palabra por palabra con timestamps**, y **mete el PUENTE** (gancho → cuerpo gradual, sin saltos bruscos · `knowledge/hooks/00-taxonomia-hooks.md §5`).
+> Nota de autocontención: los nombres de agente (`consciencia-master`, `guion-body-master`, `formato-master`, `variantes-master`, `anuncios-architect`) y las rutas hermanas (`knowledge/hooks/…`, `knowledge/consciencia/…`) que aparezcan más abajo son NOTAS del material de origen; en este plugin NO existen como tales. El equivalente funcional es el PASO correspondiente de la skill `cruce` (inline). No hay nada que lanzar ni ninguna ruta externa que abrir.
+
+1. El paso de diagnóstico de nivel (skill `cruce`) sitúa el anuncio (BAJO / MEDIO / ALTO + mezcla).
+2. El paso de estructura y cuerpo (skill `cruce`) coge **1 estructura base del nivel dominante** de aquí, la escribe **palabra por palabra con timestamps**, y **mete el PUENTE** (gancho → cuerpo gradual, sin saltos bruscos; la taxonomía de hooks y el puente se describen en el propio conocimiento local de cruces).
 3. Para los 5 anuncios de un ángulo → **5 estructuras distintas** (variedad obligatoria). Para lateralizar un ganador → ver la lateralización (paso fuera del alcance de este motor embebido).
 
 > Las estructuras NO están atadas a un único nivel: muchas (PAS, loop, comparativa) sirven en varios cambiando el ángulo. El nivel marca **qué se HABLA**; la estructura marca **el orden de los beats**.
