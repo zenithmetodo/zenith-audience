@@ -21,7 +21,7 @@ Raíz doctrinal — el **CLAIM EXHAUSTION** de Schwartz [clase-03]: "según tu c
 ## Cómo MEDIR el stage (dato, no opinión)
 
 1. Busca el término / promesa raíz en Google y en **Meta Ad Library**; cuenta anuncios activos con la misma promesa.
-2. **Regla rápida (LA OPERATIVA que aplica g3)** [schwartz-stages]: 0-3 competidores → S1-2 · 4-20 → S3 · 21-100 → S4 · +100 → S5.
+2. **Regla rápida (la operativa que aplica la skill `cruce` en su paso de sofisticación · G3)** [schwartz-stages]: 0-3 competidores → S1-2 · 4-20 → S3 · 21-100 → S4 · +100 → S5.
 3. Calibración del formador [clase-16], complementaria: 1-3 anuncios = etapa 1-2 · 5-10 = etapa 3 · 15+ con mecanismo único visible = etapa 4 · nicho lleno de VSLs = etapa 5. **Desempate en la zona 15-20**: manda la señal CUALITATIVA — si los anuncios ya exhiben mecanismo único nombrado, es S4 aunque el conteo diga S3; el conteo aproxima, el mecanismo visible confirma.
 4. Si la gente ya conoce los NOMBRES de los mecanismos del nicho (Ozempic, keto, ayuno, Noom…) = S4-5.
 5. TikTok/Reels: cuántas cuentas hablan del mismo mecanismo. YouTube: tutoriales del mecanismo con +100k views = S3-4.

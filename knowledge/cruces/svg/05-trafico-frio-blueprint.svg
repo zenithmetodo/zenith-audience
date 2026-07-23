@@ -11,7 +11,7 @@
   <rect width="1200" height="780" fill="#050510"/>
   <path d="M20 66 L34 40 L42 53 L48 45 L60 66 Z" fill="url(#grad)"/>
   <text x="74" y="52" fill="#F4F4FA" font-size="26" font-weight="bold" font-family="Georgia, serif">Tráfico frío · el blueprint de la infraestructura</text>
-  <text x="74" y="74" fill="#6A6A85" font-size="13" font-family="monospace">NO PUEDES METER A UN FRÍO POR UN EMBUDO DE CALIENTE · knowledge/17</text>
+  <text x="74" y="74" fill="#6A6A85" font-size="13" font-family="monospace">NO PUEDES METER A UN FRÍO POR UN EMBUDO DE CALIENTE · knowledge/cruces/17</text>
   <rect x="20" y="88" width="220" height="3" fill="url(#grad)" rx="2"/>
 
   <!-- LEFT: WARM FUNNEL ✗ -->
