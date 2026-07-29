@@ -1,5 +1,7 @@
 # 14 · EJEMPLOS POR NICHO · la matriz núcleo aplicada al mercado real de Zenith
 
+> Además de estas plantillas por celda, hay **tres diagnósticos RESUELTOS de punta a punta** (frío N1-2 S4-5 · templado N3 S3-4 · caliente N4-5 reimpacto), con su declaración, lo que se escribe y lo que NO se hace, en `20-estructuras-por-nivel.md` Parte F. [liga-mensaje]
+
 > Ejemplos de las celdas T×N para los 3 públicos habituales: **entrenadores personales online · nutricionistas online · negocios digitales/servicios**. Son plantillas de tono — el motor las reescribe con el avatar, el nombre chicle y los datos reales del proyecto. Sin cifra real → `[DATO A RELLENAR]`.
 
 ## NICHO A · Entrenador personal online (vende su programa a clientes finales)

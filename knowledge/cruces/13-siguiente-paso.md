@@ -1,5 +1,7 @@
 # 13 · EL SIGUIENTE PASO · objetivo de la pieza · creencia a instalar · acción proporcional
 
+> **CÓMO SE FORMULA lo que pides:** este archivo decide CUÁNTO pides (el paso proporcional); `21-cta-beneficio-llamada-con-nombre.md` decide CÓMO se dice — **el CTA siempre vende un BENEFICIO que la persona se lleva aunque no compre, nunca el trámite** ("agenda una llamada gratis" es veneno: encerrona + escudo + no-show). Si el paso es agendar → la LLAMADA CON NOMBRE (las 3 reglas). [liga-cta]
+
 > El principio nuclear: la pregunta completa no es "¿en qué nivel está?" sino **"¿qué sabe, qué ha vivido, qué cree, cuánto confía y QUÉ NECESITA CREER A CONTINUACIÓN para avanzar UN paso?"** Toda Ficha de Cruce declara estos 3 campos.
 
 ## 1 · El OBJETIVO de la pieza (no siempre es vender)

@@ -1,6 +1,8 @@
 # 01 · LOS 5 NIVELES DE CONSCIENCIA (Eugene Schwartz)
 
 > Fuente: *Breakthrough Advertising* cap. 5 + formación COPY DR [clase-16] + subformación [sf-19][sf-20] + knowledge Zenith. Decide QUÉ LE DICES y POR DÓNDE ABRES.
+>
+> **Preguntas antes que ojímetro:** las 7 preguntas operativas de esta puerta + el árbol de decisión (Ruta 2) viven en `19-marco-estrategico-preguntas.md` §3-4. Las estructuras que salen de cada nivel, con ejemplos: `20-estructuras-por-nivel.md`. **Ante la duda entre dos niveles, elige el DE ABAJO** — casi siempre está más abajo de lo que crees. [liga-mensaje]
 
 ## La regla maestra
 

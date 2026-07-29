@@ -1,5 +1,7 @@
 # 10 · DOSIS · ESTRUCTURAS · PRUEBA (el cuerpo por cruce)
 
+> **Este archivo es el banco B/M/A del corpus. Las estructuras de la doctrina Liga del 1%** — pregunta abierta · rotura de patrón (3 formas) · los 3 motores · las 9 puertas de historia · hard sell P·C+M·I·S·S·U·CTA · demostrativa · comparativa (6 variantes) · prueba del MECANISMO · rompe-objeciones una a una — **viven con ejemplos en `20-estructuras-por-nivel.md`. Se COMBINAN con este banco, no compiten: son dos menús del mismo nivel.** [liga-mensaje]
+
 > Fuente: biblia-copy (partes 9, 10, 12) + [clase-10][clase-11] + neurocopy-estructuras. El paso de estructura y dosis de la skill `cruce` decide con este archivo.
 
 ## La ecuación del cuerpo · DOLOR + DESEO + MECANISMO

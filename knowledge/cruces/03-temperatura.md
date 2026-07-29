@@ -1,10 +1,12 @@
 # 03 · LA TEMPERATURA DEL PÚBLICO (frío · templado · caliente)
 
 > Fuente: [sf-16][sf-13][sf-15][sf-19][sf-20][sf-23][sf-29] + [clase-02][clase-08][clase-10][clase-17][clase-19][clase-20][clase-21] + biblia-copy. Decide CUÁNTA CONFIANZA construyes antes de pedir.
+>
+> **Preguntas antes que ojímetro:** las 7 preguntas operativas de esta puerta ("¿me ha dado algo?" · "si le escribo hoy por privado, ¿le sorprendería?") + la tabla respuesta→acción (Ruta 1) viven en `19-marco-estrategico-preguntas.md` §3-4. **Ante la duda entre dos temperaturas, elige la MÁS FRÍA**: equivocarte hacia abajo cuesta una pieza de más; hacia arriba te quema el lead. [liga-mensaje]
 
 ## Definición operativa
 
-La temperatura mide UNA cosa: **cuánta relación y confianza tiene el lead CONTIGO** (no cuánto sabe del problema — eso es consciencia). Escala real de relación: nunca te vio → consumió algún contenido → te sigue hace meses → asistió a una formación → habló con ventas → compró antes.
+La temperatura mide UNA cosa: **cuánta relación y confianza tiene el lead CONTIGO** (no cuánto sabe del problema — eso es consciencia). Escala real de relación (los 8 peldaños [liga-mensaje]): nunca te vio → le saliste una vez → consume tu contenido → te sigue → se descargó algo tuyo → asistió a una formación tuya → habló con ventas → te compró. (El peldaño "se descargó algo tuyo" es el disparador de TEMPLADO ALTO en la Ruta 1 de `19-marco-estrategico-preguntas.md`.)
 
 > **La cita operativa clave** [sf-16]: "¿Ya me conoce? ¿Es la primera vez que ve al especialista? **Si es para público frío**: más prueba, más argumentación, hablar más del especialista, página más grande. **Si es público caliente**: no necesitas tanta persuasión ni tanto texto sobre el especialista."
 

@@ -40,8 +40,9 @@ Y su corolario operativo: **"Tu función es que el máximo de personas llegue co
 
 ## Las reglas de oro transversales
 
-- **Empieza donde ESTÁ el lector, no donde quieres que esté.** [biblia-copy] El error fatal nº1: lanzar oferta (N5) a público inconsciente (N1).
-- **Declaración obligatoria del cruce**: ninguna pieza se escribe sin declarar `T=X · N=Y · S=Z · Pieza=W`. "Si no lo declaras, el copy sale genérico." [schwartz-niveles]
+- **Empieza donde ESTÁ el lector, no donde quieres que esté.** [biblia-copy] El error fatal nº1: lanzar oferta (N5) a público inconsciente (N1). Y nadie salta: la gente cruza PUENTES — un paso por pieza [liga-mensaje].
+- **Declaración obligatoria del cruce (versión extendida)**: ninguna pieza se escribe sin declarar `T=X · N=Y · S=Z · Pieza=W` **+ Objetivo de ESTA pieza (la creencia que instala) + Paso que pide + Objeción que mata**. "Si no lo declaras, el copy sale genérico." [schwartz-niveles][liga-mensaje]
+- **El diagnóstico se hace con PREGUNTAS, no a ojo**: los bancos de preguntas por puerta (7 de temperatura · 7 de consciencia · 5 de sofisticación · 4 de modificadores), el marco de decisión respuesta→acción y el músculo de dudar del propio diagnóstico viven en `19-marco-estrategico-preguntas.md`. Las estructuras que salen de cada nivel, con ejemplos: `20-estructuras-por-nivel.md`. **Ante la duda entre dos niveles, el DE ABAJO; entre dos temperaturas, la MÁS FRÍA.** [liga-mensaje]
 - **Engancha por el nivel más bajo del público y sube al nivel al que quieres llevarlo.** Los niveles SE MEZCLAN — es lo normal: abre en BAJO (síntoma/identificación), sube a MEDIO/ALTO (mecanismo/comparación/cierre). [neurocopy-consciencia]
 - **La VSL es una máquina de subir niveles de consciencia**: recoge al lead donde aterriza y lo lleva hasta listo para comprar. [clase-16]
 - **Cero traición de mensaje**: nombre chicle, villano, promesa y lead type idénticos en anuncio → página → VSL → email. [clase-12][sf-16][masterclass]

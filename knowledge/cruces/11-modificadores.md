@@ -1,5 +1,7 @@
 # 11 · LOS 4 MODIFICADORES (el ajuste fino tras las 4 puertas)
 
+> **Preguntas antes que ojímetro:** las 4 preguntas operativas de esta puerta + la tabla de ajustes (Ruta 4: invalidación por delante · en categoría quemada sube la prueba y BAJA la promesa · restaurar > transformar en caliente) viven en `19-marco-estrategico-preguntas.md` §3-4. [liga-mensaje]
+
 > Los modificadores NO cambian la celda núcleo (T×N): SUBEN o BAJAN dosis, prueba y fuerza del CTA. Todos tienen DEFAULT INFERIBLE — el motor no interroga por ellos salvo señal contraria en el brief. Diagnostica: la puerta G4 (modificadores) de la skill `cruce`.
 
 ## M1 · INTENCIÓN / URGENCIA

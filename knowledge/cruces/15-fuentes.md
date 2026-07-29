@@ -4,7 +4,7 @@
 
 ## 📁 LAS FUENTES COMPLETAS VIVEN DENTRO DE ESTA CARPETA → `knowledge/cruces/referencias/`
 
-El plugin es AUTOCONTENIDO. Para profundizar más allá de los archivos operativos (00-17), abre:
+El plugin es AUTOCONTENIDO. Para profundizar más allá de los archivos operativos (00-17 y 19-21; el 18 es exclusivo del plugin de origen), abre:
 
 | Archivo en `referencias/` | Qué es |
 |---|---|
@@ -18,6 +18,8 @@ El plugin es AUTOCONTENIDO. Para profundizar más allá de los archivos operativ
 | `blair-warren-persuasion.md` | Las 5 palancas de Blair Warren desarrolladas |
 | `informe-copy-dr-destilado.md` | TODA la doctrina de las 24 clases COPY DR destilada — resuelve las citas [clase-XX] |
 | `informe-fundamentos-lanzamientos-destilado.md` | TODA la doctrina de las 29 clases sf + la masterclass de adquisición — resuelve [sf-XX] y [masterclass] |
+| `marco-estrategico-liga-del-1.md` | El MARCO ESTRATÉGICO Y ESTRUCTURAS de la Liga del 1% (EL MENSAJE, clases 11-14): la filosofía, los bancos de preguntas por puerta, el marco de decisión (rutas 1-6), el músculo crítico y las estructuras por nivel con ejemplos — resuelve [liga-mensaje] |
+| `llamada-con-nombre-liga-del-1.md` | LA LLAMADA CON NOMBRE (Liga del 1%): el CTA siempre vende un beneficio, nunca el trámite; el ascensor de consciencia; las 3 reglas para bautizar la llamada; el caso de la agencia USA (+42% agendas / +22% presentados — benchmark de esa fuente, no promesa) — resuelve [liga-cta] |
 
 ## Formación COPY DR (24 clases · [clase-XX])
 
@@ -79,5 +81,7 @@ Motor de adquisición con front-end auto-liquidante: VOCR (velocity of capital r
 | **[clase-XX]** | `informe-copy-dr-destilado.md` |
 | **[sf-XX] · [masterclass]** | `informe-fundamentos-lanzamientos-destilado.md` |
 | **[cold-blueprint]** | `17-trafico-frio-blueprint.md` — "The Cold Traffic Blueprint" que aportó Joseph (la infraestructura de frío, los 4 pilares, "no metas un frío por un embudo de caliente"). Las cifras que trae (orgánico ~70% · frío ~15%→55%+) son benchmarks ILUSTRATIVOS de esa fuente, tasa de cierre de llamada, no datos del formador ni promesa propia. |
+| **[liga-mensaje]** | `marco-estrategico-liga-del-1.md` — el MARCO ESTRATÉGICO Y ESTRUCTURAS de la Liga del 1% (EL MENSAJE, clases 11-14): filosofía, bancos de preguntas, rutas de decisión, músculo crítico, estructuras por nivel. El dato "~50% de los resultados dependen del creativo" es un reporte de Meta según esa fuente. |
+| **[liga-cta]** | `llamada-con-nombre-liga-del-1.md` — la LLAMADA CON NOMBRE (el CTA siempre vende beneficio). Las cifras del caso (+42% agendas / +22% presentados) son de la agencia citada por esa fuente — benchmark ilustrativo, no promesa. |
 
 > **Nota sobre las referencias importadas:** los archivos de `referencias/` conservan menciones internas a sus plugins de ORIGEN (agentes como `consciencia-master` o `formato-master`, rutas hermanas como `biblia-del-mecanismo.md` o `knowledge/hooks/…`). Son notas del contexto original, NO dependencias: el motor de ESTE plugin no las necesita. Cuando una regla de esas referencias nombre a un agente o ruta ajenos (`agents/…`, `consciencia-master`, `formato-master`, `biblia-del-mecanismo.md`, `knowledge/hooks/…`, `copy-dr/co-…`), son notas históricas INERTES del material de origen: NO existen aquí y NO hay que abrirlas. El equivalente funcional aquí es siempre la propia skill `cruce` (inline), que hace el diagnóstico y su chequeo de coherencia en el paso de entrega.

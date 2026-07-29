@@ -1,5 +1,7 @@
 # 16 · LA LÓGICA DEL OPERADOR · cómo PENSAR los cruces (léelo ANTES de ejecutar nada)
 
+> **Ampliación obligatoria:** la filosofía completa de esta lógica — la atención por defecto es CERO e indiferente · cuando te equivocas de mensaje NADIE te avisa · la gente no salta, cruza puentes · el mapa de proporción · y el MÚSCULO CRÍTICO de dudar del propio diagnóstico (las 5 preguntas de segundo orden + la escalera del anuncio que no funcionó) — está en `19-marco-estrategico-preguntas.md` §1 y §6. Se lee JUNTO a este archivo. [liga-mensaje]
+
 > Este archivo existe porque la lógica que hace funcionar este sistema **normalmente no se dice ni se piensa**. Joseph la piensa — y aquí está contada para que la skill y cada agente piensen ASÍ antes de ejecutar. No es teoría añadida: es el POR QUÉ detrás de todo el plugin, en la lógica del propio operador. Si un agente ejecuta sin esta forma de pensar, el output sale correcto en la forma y muerto en el fondo.
 
 ## 1 · El fallo que este sistema corrige (la observación de Joseph)

@@ -1,6 +1,8 @@
 # 02 · LOS 5 ESTADIOS DE SOFISTICACIÓN DEL MERCADO (Eugene Schwartz)
 
 > Fuente: *Breakthrough Advertising* cap. 4 + [clase-16][clase-10][clase-03][clase-23] + knowledge Zenith. Decide QUÉ PALANCA usas — cómo de fuerte y cómo de original tienes que hablar.
+>
+> **Preguntas antes que ojímetro:** las 5 preguntas operativas de esta puerta ("cuéntalos, no los estimes" · "¿qué es lo que nadie está diciendo?") viven en `19-marco-estrategico-preguntas.md` §3-4. Y el aviso del mercado quemado (si casi todo el mundo está ARRIBA, el reparto de creativos cambia): `20-estructuras-por-nivel.md` Parte E. [liga-mensaje]
 
 ## La regla maestra
 
