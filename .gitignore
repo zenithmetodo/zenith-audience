@@ -48,6 +48,9 @@ credentials/
 mcp-servers/*.json
 !mcp-servers/*.json.example
 
+# Runtime local (lock de sesión) · no va en el plugin distribuido
+.in_use/
+
 # Whisper models cache
 models/
 *.pt

@@ -8,7 +8,7 @@
 
 > **En CADA reel, `formato-master` propone al menos 1-2 formatos NUEVOS / inventados, nunca repite el mismo "dibujo".** Piensa fuera de la caja con **objetos y metáforas cotidianas** (un ticket de caja, una etiqueta nutricional, un monitor de hospital, un mapa de metro, una alineación de fútbol, un organigrama, un cerebro…). Lo aburrido (talking head + lista) es el suelo, no el techo. El formato es el 50% de que un reel pare el scroll.
 
-Reglas que se mantienen del master: muchos formatos (no 3), nivel de consciencia obligatorio (`08`), engenharia reversa Apify de ganadores.
+Reglas que se mantienen del master: **Se EXPLORA un menú amplio (8-15+) internamente; al usuario COMPITEN TRES.** El menú de los 70+ del banco es material de trabajo del agente, nunca el entregable: el paso 2 se cierra con TRES candidatos (uno pensando fuera de la caja), un ganador, el porqué y qué se injerta de los descartados. Nivel de consciencia obligatorio (`08`) y engenharia reversa Apify de ganadores.
 
 ---
 
@@ -38,6 +38,8 @@ Clases núcleo: `.tag` (REEL N), `.fmt`/`.v2` (badge dorado del formato), `.srcb
 ### ⭐ Truco PRO: meter el guion DENTRO del dibujo
 Cuando el formato es lista/escalera/ranking, embeber en cada elemento una línea **`DI →` "lo que dices en ese punto"** (estilo cian) para que el creador **lea directo del dibujo al grabar** (clase `.say`). Pedido y validado por Joseph.
 
+> ⚠️ **Orden de trabajo ≠ orden de documento.** En el DOCUMENTO el dibujo va antes que el guion (sección 5 antes que la 7). En el TRABAJO, el paso 2 solo deja el hueco del `DI →` **MARCADO Y VACÍO** (como mucho el beat en una palabra); el texto literal lo escribe el **PASO 3** (`zenith-audience:reel-architect`) y lo incrusta el **PASO 4** (`zenith-audience:reel-html-builder`). **formato-master no escribe guion nunca.**
+
 ---
 
 ## 2 · LOS 6 GANCHOS (estándar duro)
@@ -56,7 +58,9 @@ Cuando el formato es lista/escalera/ranking, embeber en cada elemento una línea
 
 ---
 
-## 3 · VOZ ZENITH (de `MEMORIA ARCHIVOS MD/tono-y-comunicacion.md`)
+## 3 · VOZ ZENITH
+
+> Busca con Glob en el proyecto del usuario: `**/tono*.md`, `**/voz*.md`, `**/avatar*.md`, `**/nucleo*.md`. Si aparecen, cárgalas y escribe con esa voz. Si no aparecen, usa la voz Zenith por defecto en español de España. **No es una lectura obligatoria: es una búsqueda tolerante.** Lo de abajo es la voz Zenith por defecto.
 
 Claro y humano, **una idea por frase**, disruptivo ≠ chulería. **Psicología del no:** afirmar lo deseado, jamás "no es tu culpa" → apuntar a la causa externa ("te lo enseñaron al revés"). **Prohibida la típica analogía de IA** ("casa sin cimientos", "coche sin gasolina"); sí **analogías humanas españolas**. Palabrota muy dosificada (orgánico). **CTA pequeño:** *"comenta LIGA y te mando los 3 puntos/pasos…"* + *"sígueme si quieres dejar de ser un entrenador 24/7 y operar como la liga del 1%"*. Nunca "el método completo".
 
@@ -119,4 +123,4 @@ Claro y humano, **una idea por frase**, disruptivo ≠ chulería. **Psicología 
 ---
 
 ## Atribución
-Formatos creados en producción con Joseph Moreno (Método Zenith) · 2026. Modelados de virales reales (@nuclimed, @_celiarubio, @sannidhyabaweja, @nathan.perdriau, @thedankoe, @danmartell, @benheathmarketing, @liamottley) + inventados desde cero. Conecta con `00-master-formatos-reels.md`, `08-niveles-consciencia.md` y la memoria `MEMORIA ARCHIVOS MD/`.
+Formatos creados en producción con Joseph Moreno (Método Zenith) · 2026. Modelados de virales reales (@nuclimed, @_celiarubio, @sannidhyabaweja, @nathan.perdriau, @thedankoe, @danmartell, @benheathmarketing, @liamottley) + inventados desde cero. Conecta con `00-master-formatos-reels.md`, `08-niveles-consciencia.md` y la voz/avatar que se encuentre en el proyecto del usuario (búsqueda tolerante con Glob; si no hay, voz Zenith por defecto).

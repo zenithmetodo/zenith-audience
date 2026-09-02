@@ -7,7 +7,7 @@
 #   ./download-reel.sh <URL_IG_REEL> <output-folder>
 #
 # Ejemplo:
-#   ./download-reel.sh "https://www.instagram.com/p/CzXqW8Lpdh/" "/Users/josep/reels/16_CzXqW8Lpdh"
+#   ./download-reel.sh "https://www.instagram.com/p/CzXqW8Lpdh/" "./reels/16_CzXqW8Lpdh"
 
 set -e
 

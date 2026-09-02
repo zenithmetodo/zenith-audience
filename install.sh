@@ -17,29 +17,42 @@ if ! command -v claude &>/dev/null; then
 fi
 echo -e "${GREEN}✓ Verificando entorno...${NC}"
 
-# ── 2. Clonar/actualizar en skills ──
-SKILLS_DIR="$HOME/.claude/skills"
-mkdir -p "$SKILLS_DIR"
-TARGET="$SKILLS_DIR/zenith-audience"
+# ── 2. Instalar como PLUGIN de marketplace ──
+# Zenith Audience es un plugin: solo así se registran los 32 sub-agentes de agents/
+# como lanzables (zenith-audience:reel-architect, …). Instalado como skill suelta,
+# los 32 agentes quedan INERTES (ver README · "¿Por qué marketplace y no skill suelta?").
+PLUGINS_DIR="$HOME/.claude/plugins"
+mkdir -p "$PLUGINS_DIR"
+TARGET="$PLUGINS_DIR/zenith-audience"
 
+INSTALLED_VIA_CLI=0
+if command -v claude &>/dev/null; then
+    echo -e "${CYAN}→ Instalando el plugin vía marketplace...${NC}"
+    if claude plugin marketplace add zenithmetodo/zenith-audience 2>/dev/null \
+       && claude plugin install zenith-audience@zenith-audience-mp 2>/dev/null; then
+        INSTALLED_VIA_CLI=1
+        echo -e "${GREEN}✓ Plugin instalado vía marketplace${NC}"
+    else
+        echo -e "${YELLOW}⚠ El flujo de marketplace no ha ido. Sigo con la copia local.${NC}"
+    fi
+fi
+
+# Copia local (fallback, y de paso deja el repo para requirements.txt / scripts / .env)
 if [ -d "$TARGET/.git" ]; then
-    echo -e "${CYAN}→ Actualizando skill existente...${NC}"
-    cd "$TARGET" && git pull --quiet
+    echo -e "${CYAN}→ Actualizando copia local del plugin...${NC}"
+    git -C "$TARGET" pull --quiet
 else
-    echo -e "${CYAN}→ Clonando skill...${NC}"
+    echo -e "${CYAN}→ Clonando el plugin...${NC}"
     rm -rf "$TARGET"
     git clone --quiet https://github.com/zenithmetodo/zenith-audience.git "$TARGET"
 fi
-echo -e "${GREEN}✓ Skill instalada en $TARGET${NC}"
+echo -e "${GREEN}✓ Plugin en $TARGET${NC}"
 
-# ── 2b. Slash commands (para que aparezcan /zenith-audience:*) ──
-echo ""
-echo -e "${CYAN}▶ Instalando slash commands...${NC}"
-CMD_DIR="$HOME/.claude/commands/zenith-audience"
-mkdir -p "$CMD_DIR"
-cp "$TARGET"/commands/*.md "$CMD_DIR/" 2>/dev/null
-echo -e "${GREEN}✓ $(ls "$CMD_DIR"/*.md 2>/dev/null | wc -l | xargs) slash commands instalados${NC}"
-echo -e "  (aparecen como /zenith-audience:audience-ideas · etc.)"
+if [ "$INSTALLED_VIA_CLI" -eq 0 ]; then
+    echo -e "${YELLOW}   Pégale esto a Claude Code para registrarlo como plugin:${NC}"
+    echo "     /plugin marketplace add zenithmetodo/zenith-audience"
+    echo "     /plugin install zenith-audience@zenith-audience-mp"
+fi
 
 # ── 3. CLIs del pipeline (ffmpeg + yt-dlp) ──
 echo ""

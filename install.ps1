@@ -3,7 +3,7 @@
 $ErrorActionPreference = "Stop"
 
 Write-Host "================================================" -ForegroundColor Magenta
-Write-Host "      Zenith Audience(TM) Installer v1.0.0     " -ForegroundColor Magenta
+Write-Host "         Zenith Audience(TM) Installer         " -ForegroundColor Magenta
 Write-Host "================================================" -ForegroundColor Magenta
 Write-Host ""
 

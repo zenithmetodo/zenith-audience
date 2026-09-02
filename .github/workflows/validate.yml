@@ -21,32 +21,33 @@ jobs:
           python3 -c "import json; json.load(open('.claude-plugin/plugin.json'))"
           echo "✅ plugin.json válido"
 
-      - name: Count agents
+      # Los números NO se hardcodean aquí: se leen de la línea de counts del README
+      # (README.md: "32 agentes · 22 commands · 102 knowledge files · …").
+      # Así el repo y la documentación no pueden divergir sin que el CI se entere.
+      - name: Counts · README vs repo (igualdad exacta)
         run: |
-          count=$(ls agents/*.md | wc -l)
-          echo "📊 Agentes: $count"
-          if [ "$count" -lt 30 ]; then
-            echo "❌ Faltan agentes (esperados: 30+)"
+          line=$(grep -m1 -E '^\*\*[0-9]+ agentes · [0-9]+ commands · [0-9]+ knowledge files' README.md)
+          if [ -z "$line" ]; then
+            echo "❌ No encuentro la línea de counts en README.md"
             exit 1
           fi
+          echo "📄 README: $line"
+          want_agents=$(echo "$line" | sed -E 's/^\*\*([0-9]+) agentes.*/\1/')
+          want_cmds=$(echo "$line" | sed -E 's/.*· ([0-9]+) commands.*/\1/')
+          want_kn=$(echo "$line" | sed -E 's/.*· ([0-9]+) knowledge files.*/\1/')
 
-      - name: Count commands
-        run: |
-          count=$(ls commands/*.md | wc -l)
-          echo "📊 Commands: $count"
-          if [ "$count" -lt 18 ]; then
-            echo "❌ Faltan commands (esperados: 18+)"
-            exit 1
-          fi
+          agents=$(ls agents/*.md | wc -l | xargs)
+          cmds=$(ls commands/*.md | wc -l | xargs)
+          kn=$(find knowledge/ -name "*.md" | wc -l | xargs)
+          echo "📊 repo → agentes:$agents commands:$cmds knowledge:$kn"
+          echo "📊 README → agentes:$want_agents commands:$want_cmds knowledge:$want_kn"
 
-      - name: Count knowledge files
-        run: |
-          count=$(find knowledge/ -name "*.md" | wc -l)
-          echo "📊 Knowledge files: $count"
-          if [ "$count" -lt 44 ]; then
-            echo "❌ Faltan knowledge files (esperados: 44+)"
-            exit 1
-          fi
+          fail=0
+          if [ "$agents" -ne "$want_agents" ]; then echo "❌ agentes: $agents ≠ $want_agents (README)"; fail=1; fi
+          if [ "$cmds"   -ne "$want_cmds"   ]; then echo "❌ commands: $cmds ≠ $want_cmds (README)"; fail=1; fi
+          if [ "$kn"     -ne "$want_kn"     ]; then echo "❌ knowledge: $kn ≠ $want_kn (README)"; fail=1; fi
+          if [ "$fail" -eq 1 ]; then exit 1; fi
+          echo "✅ counts sincronizados"
 
       - name: Validate HTML templates
         run: |

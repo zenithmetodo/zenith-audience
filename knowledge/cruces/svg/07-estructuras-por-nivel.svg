@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 900" font-family="Inter, system-ui, sans-serif">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00E5CF"/>
+      <stop offset="1" stop-color="#B845FF"/>
+    </linearGradient>
+    <linearGradient id="gv" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#00E5CF"/>
+      <stop offset="1" stop-color="#B845FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1400" height="900" fill="#050510"/>
+
+  <text x="60" y="66" fill="#F2F2F7" font-size="36" font-weight="700" font-family="Fraunces, Georgia, serif">Estructuras por nivel de consciencia · el menu completo</text>
+  <text x="60" y="100" fill="#8A8AA3" font-size="17">Todo sirve para todo (anuncio, VSL, webinar, email, llamada). En anuncios: ESTRUCTURA x FORMATO = volumen con criterio. [liga-mensaje]</text>
+
+  <!-- Columna BAJO -->
+  <rect x="60" y="140" width="410" height="560" rx="16" fill="#0B0B17" stroke="#00E5CF" stroke-opacity="0.7"/>
+  <rect x="60" y="140" width="410" height="56" rx="16" fill="#00E5CF" fill-opacity="0.12"/>
+  <text x="265" y="176" fill="#00E5CF" font-size="22" font-weight="700" text-anchor="middle">BAJO (N1-N2)</text>
+  <text x="265" y="222" fill="#F2F2F7" font-size="15" text-anchor="middle" font-weight="600">Vendes el ENTENDIMIENTO del problema</text>
+  <text x="80" y="258" fill="#C9C9DA" font-size="15" font-weight="600">La pregunta abierta</text>
+  <text x="80" y="280" fill="#8A8AA3" font-size="13" font-style="italic">"¿Sabes que tienes el carnet caducado?"</text>
+  <text x="80" y="310" fill="#C9C9DA" font-size="15" font-weight="600">Rotura de patron (x3)</text>
+  <text x="80" y="332" fill="#8A8AA3" font-size="13">visual · argumentativa · por titular</text>
+  <text x="80" y="362" fill="#C9C9DA" font-size="15" font-weight="600">Los 3 motores</text>
+  <text x="80" y="384" fill="#8A8AA3" font-size="13">dolor universal · romper creencias · sintomas</text>
+  <text x="80" y="414" fill="#C9C9DA" font-size="15" font-weight="600">Las 9 puertas de historia</text>
+  <text x="80" y="436" fill="#8A8AA3" font-size="13">escena · mi caso · clienta · bisagra · confesion</text>
+  <text x="80" y="456" fill="#8A8AA3" font-size="13">frase · enemigo · empezar por el final · pregunta</text>
+  <rect x="80" y="480" width="370" height="76" rx="10" fill="#050510" stroke="#00E5CF" stroke-opacity="0.4"/>
+  <text x="94" y="508" fill="#F2F2F7" font-size="14" font-weight="700">REGLA DE VARIEDAD: la historia NO es</text>
+  <text x="94" y="528" fill="#F2F2F7" font-size="14" font-weight="700">la unica puerta. Abrir siempre igual</text>
+  <text x="94" y="548" fill="#F2F2F7" font-size="14" font-weight="700">= sonar a plantilla y saturarte solo.</text>
+  <text x="80" y="592" fill="#E8618C" font-size="14" font-weight="600">PROHIBIDO: producto, precio, bullets,</text>
+  <text x="80" y="612" fill="#E8618C" font-size="14" font-weight="600">oferta (a un inconsciente eso es spam)</text>
+  <text x="80" y="648" fill="#8A8AA3" font-size="14">La historia abre el dolor y PARA AHI.</text>
+  <text x="80" y="678" fill="#00E5CF" font-size="14" font-family="JetBrains Mono, monospace">CTA blando · 3-4 creativos</text>
+
+  <!-- Columna MEDIO -->
+  <rect x="495" y="140" width="410" height="560" rx="16" fill="#0B0B17" stroke="#5BB8E8" stroke-opacity="0.7"/>
+  <rect x="495" y="140" width="410" height="56" rx="16" fill="#5BB8E8" fill-opacity="0.12"/>
+  <text x="700" y="176" fill="#5BB8E8" font-size="22" font-weight="700" text-anchor="middle">MEDIO (N3)</text>
+  <text x="700" y="222" fill="#F2F2F7" font-size="15" text-anchor="middle" font-weight="600">Su unica pregunta: ¿POR QUE TU?</text>
+  <text x="515" y="258" fill="#C9C9DA" font-size="15" font-weight="600">Hard sell (guardatela)</text>
+  <text x="515" y="280" fill="#8A8AA3" font-size="13" font-family="JetBrains Mono, monospace">P · C+M · I · S · S · U · CTA</text>
+  <text x="515" y="310" fill="#C9C9DA" font-size="15" font-weight="600">Demostrativa</text>
+  <text x="515" y="332" fill="#8A8AA3" font-size="13">no prometas: DEMUESTRA (uso real, mecanismo</text>
+  <text x="515" y="352" fill="#8A8AA3" font-size="13">por dentro, estilo de vida, paso a paso)</text>
+  <text x="515" y="382" fill="#C9C9DA" font-size="15" font-weight="600">Comparativa (la mas potente · x6)</text>
+  <text x="515" y="404" fill="#8A8AA3" font-size="13">con/sin · vieja/nueva forma · tu/competencia</text>
+  <text x="515" y="424" fill="#8A8AA3" font-size="13">enemigo comun · semejante · diferencial</text>
+  <rect x="515" y="448" width="370" height="56" rx="10" fill="#050510" stroke="#5BB8E8" stroke-opacity="0.4"/>
+  <text x="529" y="476" fill="#F2F2F7" font-size="14" font-weight="700">Esta comparando: dale TU la</text>
+  <text x="529" y="496" fill="#F2F2F7" font-size="14" font-weight="700">comparacion HECHA.</text>
+  <text x="515" y="540" fill="#C9C9DA" font-size="14">Prueba social: alguien que se PAREZCA</text>
+  <text x="515" y="560" fill="#C9C9DA" font-size="14">a quien mira (no testimonio generico).</text>
+  <text x="515" y="592" fill="#E8618C" font-size="14" font-weight="600">PROHIBIDO: volver al dolor basico,</text>
+  <text x="515" y="612" fill="#E8618C" font-size="14" font-weight="600">explicar lo obvio, tecnicismos</text>
+  <text x="515" y="648" fill="#8A8AA3" font-size="14">Urgencia: cierta y coherente, o nada.</text>
+  <text x="515" y="678" fill="#5BB8E8" font-size="14" font-family="JetBrains Mono, monospace">CTA con razon · 3-4 creativos</text>
+
+  <!-- Columna ALTO -->
+  <rect x="930" y="140" width="410" height="560" rx="16" fill="#0B0B17" stroke="#B845FF" stroke-opacity="0.7"/>
+  <rect x="930" y="140" width="410" height="56" rx="16" fill="#B845FF" fill-opacity="0.12"/>
+  <text x="1135" y="176" fill="#B845FF" font-size="22" font-weight="700" text-anchor="middle">ALTO (N4-N5)</text>
+  <text x="1135" y="222" fill="#F2F2F7" font-size="15" text-anchor="middle" font-weight="600">Lo que queda: ROMPER OBJECIONES</text>
+  <text x="950" y="258" fill="#C9C9DA" font-size="15" font-weight="600">Prueba social definitiva (x4)</text>
+  <text x="950" y="280" fill="#8A8AA3" font-size="13">casos de puntos de partida DISTINTOS</text>
+  <text x="950" y="300" fill="#8A8AA3" font-size="13">la prueba del MECANISMO (casi nadie la hace)</text>
+  <text x="950" y="320" fill="#8A8AA3" font-size="13">datos CON GRAFICA (lo que se ve pesa mas)</text>
+  <text x="950" y="340" fill="#8A8AA3" font-size="13">el reto / proceso en directo</text>
+  <text x="950" y="374" fill="#C9C9DA" font-size="15" font-weight="600">Objeciones, una a una</text>
+  <text x="950" y="396" fill="#8A8AA3" font-size="13">precio: coste de inaccion · lo ya gastado ·</text>
+  <text x="950" y="416" fill="#8A8AA3" font-size="13">merecimiento — tiempo: "el dinero vuelve,</text>
+  <text x="950" y="436" fill="#8A8AA3" font-size="13">el tiempo no" — confianza · ¿podre yo? · ¿ahora?</text>
+  <rect x="950" y="460" width="370" height="56" rx="10" fill="#050510" stroke="#B845FF" stroke-opacity="0.4"/>
+  <text x="964" y="488" fill="#F2F2F7" font-size="14" font-weight="700">CADA OBJECION = UN CREATIVO ENTERO.</text>
+  <text x="964" y="508" fill="#F2F2F7" font-size="14" font-weight="700">Asi descubres cual le frenaba de verdad.</text>
+  <text x="950" y="552" fill="#C9C9DA" font-size="14">Urgencia DE VERDAD + tocar el ego</text>
+  <text x="950" y="572" fill="#C9C9DA" font-size="14">(con cabeza).</text>
+  <text x="950" y="604" fill="#E8618C" font-size="14" font-weight="600">PROHIBIDO: re-educar, repetir bullets,</text>
+  <text x="950" y="624" fill="#E8618C" font-size="14" font-weight="600">tratarle como nuevo (le insulta)</text>
+  <text x="950" y="678" fill="#B845FF" font-size="14" font-family="JetBrains Mono, monospace">CTA directo y acelerado · 2 creativos</text>
+
+  <!-- Barra reparto -->
+  <rect x="60" y="740" width="1280" height="100" rx="16" fill="#0B0B17" stroke="url(#g)" stroke-width="2"/>
+  <text x="700" y="778" fill="#F2F2F7" font-size="20" font-weight="700" text-anchor="middle" font-family="Fraunces, Georgia, serif">EL REPARTO NO ES A PARTES IGUALES: 3-4 abajo · 3-4 en medio · 2 arriba</text>
+  <text x="700" y="812" fill="#8A8AA3" font-size="15" text-anchor="middle">Cargar el alto no sirve si no metes gente nueva por abajo. Formatos que NO se parezcan: el creativo es la segmentacion.</text>
+
+  <text x="60" y="878" fill="#6C6C85" font-size="13" font-family="Fraunces, Georgia, serif" font-style="italic">Hecho con Metodo Zenith™ · zenith-cruces-psicologicos · knowledge/20-estructuras-por-nivel.md</text>
+</svg>

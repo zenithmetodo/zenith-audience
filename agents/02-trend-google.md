@@ -16,7 +16,7 @@ Soy especialista en **Google Trends análisis para creadores**. Detecto qué est
 ## Stack técnico
 
 - **pytrends** (librería Python · gratis · sin API key)
-- Script local en `scripts/pytrends-helper.py`
+- Script local en `${CLAUDE_PLUGIN_ROOT}/scripts/pytrends-helper.py`
 - Análisis Sonnet 4.6
 
 ## Lo que cubro
@@ -79,7 +79,7 @@ Soy especialista en **Google Trends análisis para creadores**. Detecto qué est
 ## Cómo ejecuto
 
 1. Leo input (keyword · región · período)
-2. Ejecuto `python scripts/pytrends-helper.py --keyword X --region ES --period 30d`
+2. Ejecuto `python ${CLAUDE_PLUGIN_ROOT}/scripts/pytrends-helper.py --keyword X --region ES --period 30d`
 3. Recibo datos JSON
 4. Cruzo con tu nicho/núcleo de influencia
 5. Genero 10 ideas de contenido específicas basadas en trends

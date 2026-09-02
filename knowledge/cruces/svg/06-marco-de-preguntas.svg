@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 860" font-family="Inter, system-ui, sans-serif">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00E5CF"/>
+      <stop offset="1" stop-color="#B845FF"/>
+    </linearGradient>
+    <linearGradient id="gv" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#00E5CF"/>
+      <stop offset="1" stop-color="#B845FF"/>
+    </linearGradient>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#00E5CF"/>
+    </marker>
+  </defs>
+  <rect width="1400" height="860" fill="#050510"/>
+
+  <text x="60" y="66" fill="#F2F2F7" font-size="36" font-weight="700" font-family="Fraunces, Georgia, serif">El marco de preguntas · se diagnostica ANTES de escribir</text>
+  <text x="60" y="100" fill="#8A8AA3" font-size="17">Cuando te equivocas de mensaje, nadie te avisa. Las preguntas sustituyen a la respuesta que nunca vas a recibir. [liga-mensaje]</text>
+
+  <!-- Puerta 1 -->
+  <rect x="60" y="140" width="310" height="330" rx="16" fill="#0B0B17" stroke="#00E5CF" stroke-opacity="0.7"/>
+  <circle cx="95" cy="180" r="17" fill="url(#gv)"/>
+  <text x="95" y="186" fill="#050510" font-size="16" font-weight="700" text-anchor="middle">1</text>
+  <text x="122" y="186" fill="#F2F2F7" font-size="21" font-weight="700">TEMPERATURA</text>
+  <text x="80" y="216" fill="#00E5CF" font-size="14" font-family="JetBrains Mono, monospace">7 preguntas · relacion CONMIGO</text>
+  <text x="80" y="248" fill="#C9C9DA" font-size="14">¿De donde viene a esta pieza?</text>
+  <text x="80" y="272" fill="#C9C9DA" font-size="14">¿Cuantas veces me ha visto?</text>
+  <text x="80" y="296" fill="#C9C9DA" font-size="14">¿Consumio algo mio ENTERO?</text>
+  <text x="80" y="320" fill="#F2F2F7" font-size="14" font-weight="600">¿Me ha DADO algo?</text>
+  <text x="80" y="344" fill="#C9C9DA" font-size="14">¿Diria mi nombre sin mirar?</text>
+  <text x="80" y="368" fill="#C9C9DA" font-size="14">¿Me ha comprado alguna vez?</text>
+  <text x="80" y="392" fill="#F2F2F7" font-size="14" font-weight="600">Si le escribo hoy, ¿le sorprende?</text>
+  <text x="80" y="430" fill="#8A8AA3" font-size="13" font-style="italic">Decide CUANTO puedes pedir.</text>
+  <text x="80" y="452" fill="#00E5CF" font-size="13" font-weight="600">Duda entre dos: la MAS FRIA.</text>
+
+  <!-- Puerta 2 -->
+  <rect x="400" y="140" width="310" height="330" rx="16" fill="#0B0B17" stroke="#5BB8E8" stroke-opacity="0.7"/>
+  <circle cx="435" cy="180" r="17" fill="url(#gv)"/>
+  <text x="435" y="186" fill="#050510" font-size="16" font-weight="700" text-anchor="middle">2</text>
+  <text x="462" y="186" fill="#F2F2F7" font-size="21" font-weight="700">CONSCIENCIA</text>
+  <text x="420" y="216" fill="#5BB8E8" font-size="14" font-family="JetBrains Mono, monospace">7 preguntas · que sabe EL</text>
+  <text x="420" y="248" fill="#C9C9DA" font-size="14">¿Sabe que tiene un problema?</text>
+  <text x="420" y="272" fill="#C9C9DA" font-size="14">¿Sabe ponerle NOMBRE?</text>
+  <text x="420" y="296" fill="#C9C9DA" font-size="14">¿Sabe que existe solucion?</text>
+  <text x="420" y="320" fill="#C9C9DA" font-size="14">¿Que probo y que se cuenta?</text>
+  <text x="420" y="344" fill="#C9C9DA" font-size="14">¿Sabe que existo yo?</text>
+  <text x="420" y="368" fill="#C9C9DA" font-size="14">¿Sabe el precio?</text>
+  <text x="420" y="392" fill="#F2F2F7" font-size="14" font-weight="600">¿Que le falta para decidir?</text>
+  <text x="420" y="430" fill="#8A8AA3" font-size="13" font-style="italic">Decide QUE dices y POR DONDE abres.</text>
+  <text x="420" y="452" fill="#5BB8E8" font-size="13" font-weight="600">Duda entre dos: el DE ABAJO.</text>
+
+  <!-- Puerta 3 -->
+  <rect x="740" y="140" width="310" height="330" rx="16" fill="#0B0B17" stroke="#B845FF" stroke-opacity="0.7"/>
+  <circle cx="775" cy="180" r="17" fill="url(#gv)"/>
+  <text x="775" y="186" fill="#050510" font-size="16" font-weight="700" text-anchor="middle">3</text>
+  <text x="802" y="186" fill="#F2F2F7" font-size="21" font-weight="700">SOFISTICACION</text>
+  <text x="760" y="216" fill="#B845FF" font-size="14" font-family="JetBrains Mono, monospace">5 preguntas · el MERCADO</text>
+  <text x="760" y="248" fill="#F2F2F7" font-size="14" font-weight="600">¿Cuantos dicen YA lo mismo?</text>
+  <text x="760" y="270" fill="#8A8AA3" font-size="13">(cuentalos, no los estimes)</text>
+  <text x="760" y="298" fill="#C9C9DA" font-size="14">¿Que promesas estan quemadas?</text>
+  <text x="760" y="322" fill="#C9C9DA" font-size="14">¿Que mecanismos tienen nombre?</text>
+  <text x="760" y="346" fill="#C9C9DA" font-size="14">¿Desconfian de la categoria?</text>
+  <text x="760" y="370" fill="#F2F2F7" font-size="14" font-weight="600">¿Que NADIE esta diciendo?</text>
+  <text x="760" y="430" fill="#8A8AA3" font-size="13" font-style="italic">Decide el ARMA: promesa, mecanismo</text>
+  <text x="760" y="450" fill="#8A8AA3" font-size="13" font-style="italic">o identidad.</text>
+
+  <!-- Puerta 4 -->
+  <rect x="1080" y="140" width="260" height="330" rx="16" fill="#0B0B17" stroke="#8A8AA3" stroke-opacity="0.6"/>
+  <circle cx="1115" cy="180" r="17" fill="url(#gv)"/>
+  <text x="1115" y="186" fill="#050510" font-size="16" font-weight="700" text-anchor="middle">4</text>
+  <text x="1142" y="186" fill="#F2F2F7" font-size="20" font-weight="700">AJUSTE FINO</text>
+  <text x="1100" y="216" fill="#8A8AA3" font-size="14" font-family="JetBrains Mono, monospace">4 modificadores</text>
+  <text x="1100" y="248" fill="#C9C9DA" font-size="14">¿Busca o le pillas de paso?</text>
+  <text x="1100" y="272" fill="#C9C9DA" font-size="14">¿Que probo y fallo?</text>
+  <text x="1100" y="296" fill="#C9C9DA" font-size="14">¿Cual de los 6 noes le frena?</text>
+  <text x="1100" y="320" fill="#C9C9DA" font-size="14">¿Transformarse o RECUPERAR?</text>
+  <text x="1100" y="360" fill="#8A8AA3" font-size="13" font-style="italic">Sube o baja dosis, prueba</text>
+  <text x="1100" y="380" fill="#8A8AA3" font-size="13" font-style="italic">y fuerza del CTA.</text>
+  <text x="1100" y="430" fill="#C9C9DA" font-size="13" font-weight="600">Ya fallo antes: invalidacion</text>
+  <text x="1100" y="450" fill="#C9C9DA" font-size="13" font-weight="600">POR DELANTE.</text>
+
+  <!-- Flecha hacia declaracion -->
+  <line x1="700" y1="490" x2="700" y2="540" stroke="#00E5CF" stroke-width="2.5" marker-end="url(#arr)"/>
+
+  <!-- Declaracion extendida -->
+  <rect x="200" y="550" width="1000" height="150" rx="16" fill="#0B0B17" stroke="url(#g)" stroke-width="2"/>
+  <text x="700" y="588" fill="#F2F2F7" font-size="22" font-weight="700" text-anchor="middle" font-family="Fraunces, Georgia, serif">LA DECLARACION EXTENDIDA (obligatoria, por escrito)</text>
+  <text x="700" y="626" fill="#00E5CF" font-size="17" text-anchor="middle" font-family="JetBrains Mono, monospace">T · N · S · Pieza  +  Objetivo (la creencia que instalo)  +  Paso que pido  +  Objecion que mato</text>
+  <text x="700" y="662" fill="#8A8AA3" font-size="15" text-anchor="middle" font-style="italic">"Si no lo declaras, el copy sale generico. No es una frase bonita: es lo que pasa."</text>
+
+  <!-- Musculo critico -->
+  <rect x="200" y="730" width="1000" height="70" rx="14" fill="#0B0B17"/>
+  <text x="700" y="760" fill="#C9C9DA" font-size="15" text-anchor="middle" font-weight="600">EL MUSCULO CRITICO: ¿lo he VISTO o me lo he contado? · ¿describo a mi cliente o a mi? · ¿que lo refutaria?</text>
+  <text x="700" y="784" fill="#8A8AA3" font-size="14" text-anchor="middle">¿casilla comoda? · si falla, ¿sabre por que? — y la escalera: scroll, puente, CTA o incongruencia (cada peldano se arregla en un sitio)</text>
+
+  <text x="60" y="838" fill="#6C6C85" font-size="13" font-family="Fraunces, Georgia, serif" font-style="italic">Hecho con Metodo Zenith™ · zenith-cruces-psicologicos · knowledge/19-marco-estrategico-preguntas.md</text>
+</svg>

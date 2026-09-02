@@ -15,10 +15,10 @@ Diagnostica a qué **nivel de consciencia** está tu idea/avatar y qué conecta 
 
 ## Lo que hago
 
-Cargo y ejecuto el agente **`consciencia-master`** (`agents/32-consciencia-master.md`), que SIEMPRE lee antes:
+Cargo y ejecuto el agente **`zenith-audience:consciencia-master`** (`agents/32-consciencia-master.md`), que SIEMPRE lee antes:
 1. `${CLAUDE_PLUGIN_ROOT}/knowledge/formatos-reels/08-niveles-consciencia.md` — el mapeo completo.
 2. `${CLAUDE_PLUGIN_ROOT}/knowledge/formatos-reels/10-formatos-zenith-html.md` — qué formato encaja en cada nivel.
-3. `MEMORIA ARCHIVOS MD/avatar-cliente-ideal.md` + `tono-y-comunicacion.md` (si existen).
+3. **El avatar y la voz del usuario.** Busca con Glob en el proyecto del usuario: `**/tono*.md`, `**/voz*.md`, `**/avatar*.md`, `**/nucleo*.md`. Si aparecen, cárgalas y escribe con esa voz. Si no aparecen, usa la voz Zenith por defecto en español de España. **No es una lectura obligatoria: es una búsqueda tolerante.**
 
 ## Output
 
@@ -27,7 +27,7 @@ Cargo y ejecuto el agente **`consciencia-master`** (`agents/32-consciencia-maste
    - 🔵 **BAJO (1-2):** síntomas · creencias erróneas · dolor universal · rotura de patrón · "no hagas esto / haz esto".
    - 🟡 **MEDIO (3-4):** el mecanismo + TODAS las comparaciones (sobre todo **CON vs SIN**, vieja/nueva forma, tú vs competencia) · demostración · prueba social. **Aquí cabe muchísimo.**
    - 🔴 **ALTO (5):** romper objeciones (precio/tiempo/miedo) · prueba social definitiva · mecanismo para tumbar la objeción (también con formatos, ej. ranking de excusas).
-3. **2-3 formatos** del banco que encajan en ese nivel.
+3. **3 formatos** del banco que encajan en ese nivel (los tres que compiten en el paso 2).
 4. **Cómo se MEZCLAN** los niveles en ese reel (ej. abre en BAJO → cierra en MEDIO) y qué badge poner (`BAJO → MEDIO`, `MEDIO-ALTO`…).
 5. (Si lo pides) la **misma idea lateralizada** a los otros niveles, para el plan semanal.
 

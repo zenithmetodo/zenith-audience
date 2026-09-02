@@ -3,6 +3,8 @@ name: audience-reel
 description: Genera guion COMPLETO de reel 15-90s con FORMATO visual elegido + 6 GANCHOS óptimos (cada uno con verbal + textual) + análisis "por qué funcionará". Output HTML estético PDF-ready listo para grabar.
 ---
 
+> 🔴 **OBLIGATORIO ANTES DE NADA:** lee `${CLAUDE_PLUGIN_ROOT}/knowledge/pipelines/01-metodo-obligatorio-del-reel.md` **ENTERO**. Esto es el **PASO 3** del método de 5 pasos. Si el **paso 2 (el formato y su dibujo)** no se le ha **ENSEÑADO** al usuario, **PARA y pídelo**; no se ejecuta fuera de orden.
+
 # /audience-reel ⭐
 
 Guion completo de reel · todo en uno · con los 6 ganchos óptimos.
@@ -15,17 +17,21 @@ Guion completo de reel · todo en uno · con los 6 ganchos óptimos.
 
 ## Lo que hago
 
-Invoco `reel-architect` que orquesta el pipeline completo:
+**Esto es el PASO 3 del método, no un atajo.** Antes de empezar compruebo que el usuario ya ha visto **la celda del cruce (paso 1)** y **los tres formatos compitiendo con EL DIBUJO del ganador (paso 2)**. Si falta cualquiera de las dos, **paro y las pido**.
 
-1. **`asunto-detector`** valida la idea (5 criterios)
-2. **`template-selector`** + **`template-aplicador`** eligen y aplican estructura (1 de las 12)
-3. **`formato-master`** ⭐ recomienda formato visual (de 70+ · o genera nuevo si ninguno encaja) + entrega los 6 ganchos óptimos
-4. **`gatillo-master`** aplica gatilhos stacking (2-3 de los 7)
-5. **`notable-auditor`** audita contra 8 elementos + STEPPS
+Invoco `zenith-audience:reel-architect`, que orquesta SOLO el guion:
+
+1. **`zenith-audience:asunto-detector`** valida la idea (5 criterios)
+2. **`zenith-audience:template-selector`** + **`zenith-audience:template-aplicador`** eligen y aplican estructura (1 de las 12)
+3. **El formato NO se vuelve a elegir:** llega hecho del paso 2 (formato ganador + dibujo componente a componente). Aquí solo se escribe encima
+4. **`zenith-audience:gatillo-master`** aplica gatilhos stacking (2-3 de los 7)
+5. **`zenith-audience:headline-3-tipos`** ayuda con los 6 ganchos (dice / ve / lee) + ficha técnica
+
+**Lo que NO hago aquí:** ni maquetar (PASO 4 · `/audience-reel-html`) ni auditar (PASO 5 · `/audience-audit`, tres pases independientes).
 
 ## Output
 
-HTML estético PDF-ready en `output/reels/[fecha]-[título].html`:
+El guion completo en markdown (el `.html` lo monta el PASO 4 con `/audience-reel-html`):
 
 - **Setup** (formato · template · gatillos · categorías · notable)
 - **⭐ 6 ganchos óptimos** (cada uno con VERBAL + TEXTUAL + visual del primer frame + tipo psicológico + por qué es óptimo)
@@ -62,4 +68,5 @@ HTML estético PDF-ready en `output/reels/[fecha]-[título].html`:
 
 ## Siguiente paso
 
-Después de generar → valida con `/audience-audit [guion]` antes de grabar.
+**PASO 4 · `/audience-reel-html`** → el `REEL.html` editable con el dibujo dentro + el `GUION.md` legible.
+Y después **PASO 5 · `/audience-audit`** → el gate de los tres revisores. Con un solo FIX abierto no se entrega.

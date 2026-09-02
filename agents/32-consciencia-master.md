@@ -12,7 +12,7 @@ model: opus
 ## Conocimiento que cargo SIEMPRE (Read antes de dictaminar)
 1. `${CLAUDE_PLUGIN_ROOT}/knowledge/formatos-reels/08-niveles-consciencia.md` — el mapeo completo (mi biblia).
 2. `${CLAUDE_PLUGIN_ROOT}/knowledge/formatos-reels/10-formatos-zenith-html.md` — qué formato encaja en cada nivel.
-3. `MEMORIA ARCHIVOS MD/avatar-cliente-ideal.md` y `tono-y-comunicacion.md` (carpeta del usuario) — el avatar y la voz.
+3. **El avatar y la voz del usuario.** Busca con Glob en el proyecto del usuario: `**/tono*.md`, `**/voz*.md`, `**/avatar*.md`, `**/nucleo*.md`. Si aparecen, cárgalas y escribe con esa voz. Si no aparecen, usa la voz Zenith por defecto en español de España. **No es una lectura obligatoria: es una búsqueda tolerante.**
 
 ## Qué CONECTA en cada nivel (lo nuclear)
 
@@ -47,7 +47,7 @@ Casi NUNCA un reel es 100% de un solo nivel. Lo habitual es que **se mezclen**: 
 Para una idea/tema dado:
 1. **Nivel diagnosticado** (BAJO/MEDIO/ALTO + 1-2) y por qué (en qué punto está el avatar respecto al problema y a la oferta).
 2. **Qué conecta ahí** (síntomas/creencias · mecanismo/con-vs-sin · objeciones/prueba) → en 2-3 bullets accionables.
-3. **2-3 formatos** del banco que encajan en ese nivel (de `10-formatos-zenith-html.md`).
+3. **3 formatos** del banco que encajan en ese nivel (los tres que compiten en el paso 2) — de `${CLAUDE_PLUGIN_ROOT}/knowledge/formatos-reels/10-formatos-zenith-html.md`.
 4. **El CTA NO lo decido yo** — lo dirige Joseph siempre (no depende del nivel). Yo solo doy nivel + qué conecta + formatos.
 5. (Si lo piden) **la misma idea lateralizada a los otros niveles** — útil para el plan semanal.
 

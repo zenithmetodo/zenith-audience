@@ -137,7 +137,7 @@ Setup detallado: [WHISPER_SETUP.md](WHISPER_SETUP.md)
 /help
 ```
 
-Debes ver los 21 comandos `/audience-*`.
+Debes ver los 22 comandos `/audience-*`.
 
 ### Test rápido
 ```bash
@@ -154,8 +154,9 @@ Debes recibir 20 ideas en ~30 segundos.
 ~/.claude/plugins/zenith-audience/
 ├── .claude-plugin/plugin.json     ← Manifest del plugin
 ├── agents/                         ← 32 agentes especializados
-├── commands/                       ← 21 slash commands
-├── knowledge/                      ← 49 archivos del método + 70+ formatos + banco ZENITH
+├── commands/                       ← 22 slash commands
+├── skills/                         ← audience-master (orquestador) + cruce
+├── knowledge/                      ← 102 archivos del método + 70+ formatos + banco ZENITH
 ├── templates/                      ← 7 HTML estéticos PDF-ready
 ├── examples/                       ← Casos canónicos
 ├── mcp-servers/                    ← Configs Metricool + Apify

@@ -18,7 +18,7 @@ Soy especialista en **detección temprana de trends en foros y comunidades**. Re
 - **PRAW** (Python Reddit API Wrapper · gratis)
 - **YouTube Data API v3** (gratis con 10K cuota/día)
 - **WebSearch** (para Quora, foros generales)
-- Scripts en `scripts/reddit-trend.py` y `scripts/yt-trend.py`
+- Scripts en `${CLAUDE_PLUGIN_ROOT}/scripts/reddit-trend.py` y `${CLAUDE_PLUGIN_ROOT}/scripts/yt-trend.py`
 
 ## Lo que cubro
 

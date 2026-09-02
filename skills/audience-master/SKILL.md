@@ -5,11 +5,38 @@ disable-model-invocation: false
 description: Zenith Audience™ · Mega-skill TOP 1% para crear CONTENIDO VIRAL diario aplicando el Método Audience de Elias Mamã (Marconi Rômulo) adaptado por Joseph Moreno. Orquesta 32 sub-agentes especializados (Opus/Sonnet optimizado) que cubren los 3 pilares (gatillos de atención · contenido notable · verdadero yo), los 7 gatillos psicológicos, las 12 estructuras virales, los 8 elementos del contenido notable, las 10 preguntas del núcleo de influencia, los 70+ formatos visuales + banco ZENITH de reels, y el pipeline VALIDADO de análisis de creator viral (scrape Apify → descarga yt-dlp → 5 frames ffmpeg → transcripción Whisper → idea ganadora multimodal → guion adaptado al núcleo). Para cada reel entrega 6 ganchos óptimos (verbal + textual). Mide métricas con Metricool MCP (Free) y aplica sistema de decisión REPLICAR/ITERAR/GUARDAR/APRENDER/DESCARTAR. Entrega guiones en HTML estético imprimible a PDF con branding Zenith (cian #00E5CF + purple #B845FF). Triggers: "dame ideas de reels", "analiza este perfil de instagram", "sácame los virales de @X", "crea un reel sobre", "adapta este viral", "guion de reel", "carrusel", "hilo", "mis métricas de reels", "qué reel replicar", "spy competidor", "trends de mi nicho", "plan de contenido semanal", "núcleo de influencia", "zenith audience", "método audience", "análisis creator viral".
 ---
 
+> 🎯 **REGLA DE LANZAMIENTO (Claude Code real · innegociable).** Cuando lances un subagente con la tool `Agent`, usa SIEMPRE su identificador COMPLETO con el namespace del plugin: **`zenith-audience:<agente>`** (p.ej. `zenith-audience:reel-architect`), nunca el nombre corto a secas. Hay subagentes en OTROS plugins que se llaman igual (`headline-3-tipos`, `research-trends`, `claude-design`…) y el nombre corto puede resolver al plugin equivocado. El prefijo `zenith-audience:` garantiza que se lanza el subagente de ESTE plugin. (Así es como Claude Code registra y resuelve los agentes de un plugin.) **Lo mismo vale al invocar una SKILL de este plugin: `zenith-audience:cruce`, nunca `cruce` a secas — hay una skill llamada `cruce` en al menos diez plugins más.**
+
+
 # ZENITH AUDIENCE™ · Orquestador Maestro de Contenido Viral
 
 > "Es imposible que una persona que sabe llamar atención, sabe entregar contenido notable y lo hace de forma genuina y verdadera no tenga voz en internet." — Elias Mamã
 
 > ⚠️ Esto es una **SKILL** (no un agente) porque solo el hilo principal puede (a) **hacerte preguntas** y (b) **lanzar subagentes** con la tool `Agent`. Un subagente no puede ninguna de las dos. **NUNCA hagas tú el trabajo de un subagente: SIEMPRE delega** lanzando `zenith-audience:<nombre>` con la tool `Agent`.
+
+## 🔴🔴 EL MÉTODO OBLIGATORIO DEL REEL · **resumen** (el desarrollo va dentro de la secuencia)
+
+> **Esto es el índice de una página.** El pipeline diario operativo —con el agente concreto de cada paso, qué se le enseña al usuario y dónde está cada gate— vive en **«LA SECUENCIA DE USO» → el bloque 🌅 DIARIO**, más abajo en este mismo fichero. **Si algo de aquí y algo de allí no coinciden, manda la secuencia.**
+>
+> **Lee `${CLAUDE_PLUGIN_ROOT}/knowledge/pipelines/01-metodo-obligatorio-del-reel.md` ENTERO antes de crear cualquier reel**, y `${CLAUDE_PLUGIN_ROOT}/knowledge/pipelines/02-ejemplos-trabajados.md` la primera vez (dos casos reales recorridos entero: uno que salió bien y uno que los tres revisores tumbaron). No es una recomendación: es el orden en el que se hace un reel en Zenith, y no se salta ningún paso ni se cambia el orden.
+
+**Los cinco pasos, y cada uno SE LE ENSEÑA Y SE LE EXPLICA al usuario antes de pasar al siguiente:**
+
+| | Paso | Qué se le entrega al usuario ANTES de seguir |
+|---|---|---|
+| **1** | **EL CRUCE** | La celda (temperatura × consciencia × sofisticación + modificadores), **explicada**: qué impone sobre la dosis de dolor y deseo, cuánta prueba y dónde, cuánto puede durar y **hasta dónde puede pedir el CTA**. Más los prohibidos de esa celda y los `[SUPUESTO]` que ha habido que asumir. Se lee de `${CLAUDE_PLUGIN_ROOT}/knowledge/cruces/`. |
+| **2** | **EL FORMATO** | **Tres** formatos compitiendo (uno de ellos pensando fuera de la caja), el ganador, **por qué** gana y qué se injerta de los otros. Y sobre todo **EL DIBUJO** del ganador: qué se ve en pantalla, componente a componente, con detalle para que el editor lo recree sin preguntar. |
+| **3** | **EL GUION** | Recién ahora: 6 ganchos (dice / ve / lee), cuerpo palabra por palabra con tiempos, tabla de overlays con entrada y salida, y el CTA con sus 6 piezas desglosadas. |
+| **4** | **EL MAQUETADO** | El `REEL.html` editable con el dibujo dentro, autoguardado y PDF. El entregable NO es el `.md`. |
+| **5** | **LOS REVISORES** | Tres revisores independientes (voz · grabable · CTA y reconocimiento). Es un **gate**: con hallazgos abiertos no se entrega. |
+
+**Un guion que aparece de golpe, ya escrito, sin que se haya visto el diagnóstico ni el dibujo del formato, ESTÁ MAL HECHO aunque el guion sea bueno.**
+
+> **Qué agente hace cada paso y con qué comando → «LA SECUENCIA DE USO» → 🌅 DIARIO.** Ahí está el desarrollo; esto de arriba solo es el mapa.
+
+Y las reglas duras que valen en los cinco pasos, detalladas en ese mismo fichero: la **regla §9** (prohibido negar la culpa, también en overlays y pies) · el **síntoma universal** · el **gancho promete, no resuelve** · **cero aritmética mental** · los **clasificatorios llevan outro** · **el material que existe manda** (una sola persona, nada de b-roll inventado) · **privacidad de las capturas** (ningún nombre real legible) · las **palabras de comentario no se repiten** · y las **6 piezas del CTA**.
+
+---
 
 ## 🔴 0 · LO PRIMERO DE TODO (OBLIGATORIO · antes de tocar nada)
 
@@ -29,6 +56,8 @@ Antes de redactar, comprueba si el usuario ya subió su contexto de marca y úsa
 
 > **REGLA:** Si EXISTE → cárgala y escribe TODO con ESA voz (el "verdadero yo" del creador), y pásala a CADA subagente. Si NO existe → sugiere lanzar `audience-setup` (núcleo de influencia) o pregunta UNA vez; si no, usa branding/voz Zenith por defecto en español de España.
 
+> **DIAGNÓSTICO DE PÚBLICO (cruces):** antes de redactar para un público nuevo o no declarado, este plugin tiene su propio orquestador de cruces — la skill `zenith-audience:cruce` (Temperatura × Consciencia × Sofisticación + tráfico frío, conocimiento local en `${CLAUDE_PLUGIN_ROOT}/knowledge/cruces/`) — invócala para clavar el público y no escribir a ciegas.
+
 ## QUÉ ES ESTA SKILL
 
 Es la skill PADRE de un sistema de **32 sub-agentes especializados** (cada uno crack de UNA sola cosa) y **22 slash commands** para crear contenido viral diario.
@@ -46,7 +75,7 @@ Implementa el **Método Audience completo** de Elias Mamã (Marconi Rômulo) · 
 Si es la primera vez que el usuario usa la skill en esta sesión · o si un comando va a usar ffmpeg/yt-dlp/Apify/Metricool · PRIMERO ejecuto:
 
 ```bash
-bash scripts/setup-check.sh
+bash ${CLAUDE_PLUGIN_ROOT}/scripts/setup-check.sh
 ```
 
 Y según el resultado:
@@ -94,10 +123,10 @@ Detalle completo y formato → `${CLAUDE_PLUGIN_ROOT}/knowledge/headlines/02-fic
 
 ## ⚠️ REGLA GLOBAL INNEGOCIABLE · FORMATOS (formato-master) + MAQUETADO (reel-html-builder)
 
-1. **MUCHOS formatos, no 3.** Menú amplio (8-15+) de los 70+ del banco **+ el banco ZENITH de ~24 formatos disruptivos** (`${CLAUDE_PLUGIN_ROOT}/knowledge/formatos-reels/10-formatos-zenith-html.md`: alineación de fútbol titular/suplente, escalera 5 niveles, ticket/factura, etiqueta nutricional, monitor de hospital, mapa de metro, organigrama, cerebro Claude.md, ecuaciones, debate, cinematográfico, demo dual-cam, verdad/mentira, no-hagas/haz-esto, antes/después, versus split, ranking irónico, frecuencias, tier list con lógica, roast, herramienta interactiva drag-and-drop con mascota Zenón-cursor) + **PENSAR SIEMPRE FUERA DE LA CAJA** (combinar/inventar ≥1-2 formatos nuevos por reel con objetos cotidianos como metáfora). Incluye familia **save-bait jerárquica** (#70-76).
-2. **Niveles de consciencia OBLIGATORIO** (Schwartz · BAJO 1-2 / MEDIO 3-4 / ALTO 5). Cada formato adaptado por nivel en **hook y cuerpo** (el CTA lo dirige Joseph, no el nivel). **Los niveles se mezclan** (abre en BAJO, sube a MEDIO/ALTO) y **cualquier formato sirve en cualquier nivel**. Ver `08-niveles-consciencia.md` + agente `consciencia-master`.
-3. **Apify OBLIGATORIO y detallado** (engenharia reversa de ganadores del nicho). Indicar de qué ganador se inspira cada formato + su twist. Ver `09-formatos-jerarquicos-savebait.md`.
-4. **SEPARACIÓN DE ROLES:** `formato-master` decide QUÉ formato + ideas de ganchos. **`reel-html-builder`** MAQUETA el reel terminado → el `.html` doc-guion (con EL DIBUJO del formato + 6 ganchos-hook + ⭐ CUERPO palabra por palabra + overlays + CTA) **+ un `GUION.md` legible** + la herramienta interactiva si es clasificatorio. Ganchos = HOOKS (nunca CTA), call-out al entrenador repartido audio/textual, "comenta LIGA" solo en CTA/último beat. Ver `10-formatos-zenith-html.md` y el agente `31-reel-html-builder.md`.
+1. **Se EXPLORA un menú amplio (8-15+) internamente; al usuario COMPITEN TRES.** El menú de los 70+ del banco es material de trabajo del agente, nunca el entregable: el paso 2 se cierra con TRES candidatos (uno pensando fuera de la caja), un ganador, el porqué y qué se injerta de los descartados. Se explora entre los 70+ del banco **+ el banco ZENITH de ~24 formatos disruptivos** (`${CLAUDE_PLUGIN_ROOT}/knowledge/formatos-reels/10-formatos-zenith-html.md`: alineación de fútbol titular/suplente, escalera 5 niveles, ticket/factura, etiqueta nutricional, monitor de hospital, mapa de metro, organigrama, cerebro Claude.md, ecuaciones, debate, cinematográfico, demo dual-cam, verdad/mentira, no-hagas/haz-esto, antes/después, versus split, ranking irónico, frecuencias, tier list con lógica, roast, herramienta interactiva drag-and-drop con mascota Zenón-cursor) + **PENSAR SIEMPRE FUERA DE LA CAJA** (combinar/inventar ≥1-2 formatos nuevos por reel con objetos cotidianos como metáfora). Incluye familia **save-bait jerárquica** (#70-76).
+2. **Niveles de consciencia OBLIGATORIO** (Schwartz · BAJO 1-2 / MEDIO 3-4 / ALTO 5). Cada formato adaptado por nivel en **hook y cuerpo** (el CTA lo dirige Joseph, no el nivel). **Los niveles se mezclan** (abre en BAJO, sube a MEDIO/ALTO) y **cualquier formato sirve en cualquier nivel**. Ver `${CLAUDE_PLUGIN_ROOT}/knowledge/formatos-reels/08-niveles-consciencia.md` + agente `zenith-audience:consciencia-master`.
+3. **Apify OBLIGATORIO y detallado** (engenharia reversa de ganadores del nicho). Indicar de qué ganador se inspira cada formato + su twist. Ver `${CLAUDE_PLUGIN_ROOT}/knowledge/formatos-reels/09-formatos-jerarquicos-savebait.md`.
+4. **SEPARACIÓN DE ROLES:** `formato-master` decide QUÉ formato + ideas de ganchos. **`reel-html-builder`** MAQUETA el reel terminado → el `.html` doc-guion (con EL DIBUJO del formato + 6 ganchos-hook + ⭐ CUERPO palabra por palabra + overlays + CTA) **+ un `GUION.md` legible** + la herramienta interactiva si es clasificatorio. Ganchos = HOOKS (nunca CTA), call-out al entrenador repartido audio/textual, "comenta LIGA" solo en CTA/último beat. Ver `${CLAUDE_PLUGIN_ROOT}/knowledge/formatos-reels/10-formatos-zenith-html.md` y el agente `${CLAUDE_PLUGIN_ROOT}/agents/31-reel-html-builder.md`.
 
 ## ⚠️ REGLA GLOBAL INNEGOCIABLE · HTML SIEMPRE EDITABLE + PDF
 
@@ -109,7 +138,7 @@ TODO HTML que genere la skill (reels, carruseles, hilos, planes, métricas, audi
 4. **PDF idéntico al HTML:** `*{ -webkit-print-color-adjust:exact; print-color-adjust:exact; }` · `@page{ size:A4; margin:12mm; }` · `@media print{ #barra{display:none} · break-inside:avoid en tarjetas/bloques }`.
 5. Colores de fondo desde **CSS** (no imágenes) para que el PDF los respete.
 
-Plantillas ya listas en `templates/*.html` (todas con `#barra` + `#contenido` + script de autoguardado). Al generar un entregable, parte de la plantilla correspondiente y rellena los `{{PLACEHOLDERS}}`.
+Plantillas ya listas en `${CLAUDE_PLUGIN_ROOT}/templates/*.html` (todas con `#barra` + `#contenido` + script de autoguardado). Al generar un entregable, parte de la plantilla correspondiente y rellena los `{{PLACEHOLDERS}}`.
 
 ---
 
@@ -161,7 +190,7 @@ AUDIENCIA ORGÁNICA QUE TE RESPETA · CONFÍA · COMPRA
 
 ---
 
-## ARQUITECTURA · 30 AGENTES EN 10 BLOQUES
+## ARQUITECTURA · 32 AGENTES EN 9 BLOQUES
 
 ### 🔍 BLOQUE A · Investigación (6 agentes)
 - `spy-competidor` (Opus) · analiza 30 posts de un competidor · gaps
@@ -215,26 +244,28 @@ AUDIENCIA ORGÁNICA QUE TE RESPETA · CONFÍA · COMPRA
 
 ---
 
-## LOS 21 SLASH COMMANDS
+## LOS 22 SLASH COMMANDS
 
 | Command | Función |
 |---|---|
 | `/audience-setup` | Setup núcleo influencia (one-shot · 2-3h) |
 | `/audience-doctor` | Diagnostica + instala todo (CLIs · deps Python · MCPs) |
 | `/audience-ideas` | 15-20 ideas multi-fuente para hoy |
+| skill `zenith-audience:cruce` | **Paso 1** · la celda (temperatura × consciencia × sofisticación) + qué impone + prohibidos + los `[SUPUESTO]` · es una SKILL, no un slash command |
 | `/audience-pesquisa` | Investigación profunda mensual de asuntos |
 | `/audience-trend` | Trends multi-fuente (Google + Reddit + YT + Apify) |
 | `/audience-spy [@handle]` | Análisis de competidor |
 | `/audience-analizar-creator [@handle]` ⭐ | Pipeline 10 pasos · scrape + frames + transcripción + maqueta HTML |
 | `/audience-adaptar [url]` ⭐ | Adapta viral a tu núcleo |
-| `/audience-formato [tema]` ⭐ | Recomienda formato (70+ + banco ZENITH ~24) · piensa FUERA DE LA CAJA |
-| `/audience-reel-html [tema]` ⭐ NUEVO | Maqueta el reel terminado: HTML doc-guion + GUION.md legible (+ interactivo si es clasificatorio) |
+| `/audience-formato [tema]` ⭐ | **Paso 2** · 3 formatos compiten (70+ + banco ZENITH ~24) · piensa FUERA DE LA CAJA · y EL DIBUJO del ganador |
+| `/audience-consciencia [tema]` | Diagnostica el NIVEL de consciencia y la MEZCLA (BAJO/MEDIO/ALTO) |
+| `/audience-reel-html [tema]` ⭐ | **Paso 4** · maqueta el reel terminado: HTML doc-guion + GUION.md legible (+ interactivo si es clasificatorio) |
 | `/audience-headline [tema]` | 3 headlines |
 | `/audience-headline-batch` | Batch mensual 30-50 headlines |
-| `/audience-reel [tema]` ⭐ | Guion completo + 6 ganchos |
+| `/audience-reel [tema]` ⭐ | **Paso 3** · guion completo + 6 ganchos (no es un atajo: exige el 1 y el 2 hechos) |
 | `/audience-carrusel [tema]` | Carrusel 8-10 slides |
 | `/audience-hilo [tema]` | Thread X/IG/LinkedIn |
-| `/audience-audit [guion]` | Audita 8 elementos + 5 criterios |
+| `/audience-audit [guion]` | **Paso 5** · el gate de los 3 revisores (voz · grabable · CTA y reconocimiento) |
 | `/audience-iterar [post]` | 10 variantes de viral |
 | `/audience-metrics` | Métricas + decisión REPLICAR/ITERAR/etc. |
 | `/audience-engenharia [url]` | Engenharia reversa 1 vídeo |
@@ -260,6 +291,8 @@ AUDIENCIA ORGÁNICA QUE TE RESPETA · CONFÍA · COMPRA
    → genero TRANSCRIPCION.md
 9. ADAPTAR · cruzo idea ganadora × tu núcleo
    → genero GUION_ADAPTADO.md con 6 ganchos
+10. NIVEL DE CONSCIENCIA (consciencia-master) + MAQUETAR (reel-html-builder)
+    → REEL.html doc-guion con badge + GUION.md legible
 ```
 
 **Comando:** `/audience-analizar-creator @nathan_perdriau --top 5`
@@ -276,25 +309,66 @@ AUDIENCIA ORGÁNICA QUE TE RESPETA · CONFÍA · COMPRA
 ```
 Define tu núcleo de influencia (10 preguntas) · guía toda la skill.
 
-### 🌅 DIARIO (10-15 min)
-```
-1. /audience-ideas              → 15-20 ideas multi-fuente
-2. /audience-formato [idea]     → formato FUERA DE LA CAJA (70+ + banco ZENITH)
-                                  + NIVEL DE CONSCIENCIA (consciencia-master diagnostica
-                                    BAJO/MEDIO/ALTO y MEZCLAS) + 6 ganchos-hook
-3. /audience-reel-html [idea]   → HTML doc-guion: badge NIVEL + dibujo del formato +
-                                  6 ganchos + GUION palabra por palabra + overlays + CTA
-                                  exacto · + GUION.md legible (+ interactivo si clasificatorio)
-4. /audience-audit [guion]      → filtro de calidad
-5. Grabas leyendo del DIBUJO (cuerpo 1× + 6 ganchos)
-```
-> **Cómo encaja el nivel de consciencia:** entre el paso 2 y el 3, `consciencia-master` dice a qué nivel apunta el reel y QUÉ conecta ahí (BAJO=síntomas/creencias · MEDIO=mecanismo/con-vs-sin · ALTO=romper objeciones), incluida la **mezcla** (lo normal: abrir en BAJO y cerrar en MEDIO/ALTO). `reel-html-builder` lo plasma en el badge y ajusta el cuerpo. El **CTA lo diriges TÚ** (no depende del nivel; no hay reglas de CTA por nivel).
-> Alternativa rápida: `/audience-reel [idea]` orquesta guion + 6 ganchos en un solo paso.
+### 🌅 DIARIO · EL MÉTODO OBLIGATORIO DEL REEL (los 5 pasos · **este ES el pipeline diario**)
+
+> **No hay un pipeline "rápido" y otro "completo". Hay este.** Los cinco pasos van en este orden, no se salta ninguno, y **cada uno se le enseña y se le explica al usuario antes de pasar al siguiente**.
+> Detalle entero: `${CLAUDE_PLUGIN_ROOT}/knowledge/pipelines/01-metodo-obligatorio-del-reel.md`.
+> **Dos casos recorridos de punta a punta** —uno que salió bien y uno que los tres revisores tumbaron a la primera—: `${CLAUDE_PLUGIN_ROOT}/knowledge/pipelines/02-ejemplos-trabajados.md`. **Léete el 02 la primera vez:** enseña el nivel de detalle exigido en cada paso y los fallos que ya se han pagado en producción.
+
+**PASO 0 · LA MATERIA PRIMA** — `/audience-ideas` → 15-20 ideas multi-fuente (agente `zenith-audience:asuntos-generator`). El usuario elige UNA. Con esa idea empieza el método.
+
+---
+
+#### 🩺 PASO 1 · EL CRUCE — *diagnosticar y EXPLICAR*
+
+- **Quién lo hace:** la skill **`zenith-audience:cruce`** de este mismo plugin (inline, en el hilo principal; hace las preguntas mínimas cuando el público no está claro) + **`zenith-audience:consciencia-master`** para el nivel de Schwartz y la **MEZCLA** (lo normal: abrir en BAJO y cerrar en MEDIO/ALTO). Conocimiento: `${CLAUDE_PLUGIN_ROOT}/knowledge/cruces/`.
+- **QUÉ SE LE ENSEÑA AL USUARIO ANTES DE PASAR AL 2:**
+  1. **La celda escrita** — temperatura × consciencia × sofisticación + modificadores.
+  2. **Qué impone esa celda, en frases concretas** (no en teoría): la dosis de dolor y de deseo · **dónde va el "quién soy"** (o si en esa celda no va) · **qué prueba y en qué orden** · cuánto puede durar la pieza · y **hasta dónde puede pedir el CTA**.
+  3. **Los prohibidos de esa celda**: los errores que queman dinero justo ahí.
+  4. Lo dado por supuesto, marcado como `[SUPUESTO]`, para que lo confirme o lo corrija.
+- **🚧 GATE:** no se propone ni un formato hasta que el usuario ha visto la celda y ha contestado a los supuestos.
+- **Regla dura:** ante la duda, la temperatura más fría. Es el error barato.
+
+#### 🎨 PASO 2 · EL FORMATO — *competir, elegir y ENSEÑAR el dibujo*
+
+- **Quién lo hace:** **`zenith-audience:formato-master`** (70+ formatos + banco ZENITH ~24 + **PIENSA FUERA DE LA CAJA**), consultando a `zenith-audience:consciencia-master`. Comando: `/audience-formato [idea]`.
+- **Nunca un solo formato: compiten TRES**, y uno de los tres piensa fuera de la caja (un objeto cotidiano que no tiene nada que ver con marketing, convertido en metáfora). Cada candidato con sus **dos mecánicas** y **qué se rompe si quitas una** — si el reel sigue funcionando sin una de ellas, no es un híbrido: es un formato con un adorno, y no vale.
+- **QUÉ SE LE ENSEÑA AL USUARIO ANTES DE PASAR AL 3:** el menú de los tres · el **ganador** · **por qué** gana · **qué se injerta** de los descartados · y sobre todo **EL DIBUJO DEL GANADOR, componente a componente** (lienzo, fondo, rótulos, tipografías, colores en hexadecimal, coordenadas, tiempos de entrada, de dónde sale cada elemento) **con detalle suficiente para que el editor lo recree sin preguntar nada**. Esta es la pieza más importante del paso.
+- **⚠️ LA TRAMPA DEL ORDEN ·** **Orden de trabajo ≠ orden de documento.** En el DOCUMENTO el dibujo va antes que el guion (sección 5 antes que la 7). En el TRABAJO, el paso 2 solo deja el hueco del `DI →` **MARCADO Y VACÍO** (como mucho el beat en una palabra); el texto literal lo escribe el **PASO 3** (`zenith-audience:reel-architect`) y lo incrusta el **PASO 4** (`zenith-audience:reel-html-builder`). **formato-master no escribe guion nunca.**
+- **🚧 GATE:** con el dibujo sobre la mesa —y no antes— se escribe el guion. No se repite formato: mira antes los reels que ya existen en el proyecto y descarta los usados.
+
+#### ✍️ PASO 3 · EL GUION — *recién ahora*
+
+- **Quién lo hace:** **`zenith-audience:reel-architect`**, que orquesta `gatillo-master` · `template-selector` / `template-aplicador` · `headline-3-tipos`. Comando: `/audience-reel [idea]` — que **no es un atajo**: es el paso 3, y solo se lanza con el 1 y el 2 ya enseñados.
+- **QUÉ SE LE ENSEÑA AL USUARIO:** de qué va en una frase · por qué es híbrido · **los 6 ganchos con sus tres capas** (lo que se **DICE** · lo que se **VE** · lo que se **LEE**) y su ficha técnica · **el cuerpo palabra por palabra con tiempos** · la tabla de overlays con segundo de entrada y de salida · **el CTA entero con sus 6 piezas desglosadas** · cómo se graba y dónde se estropea.
+- **🚧 GATE:** si el guion aparece de golpe, ya escrito, sin que se haya visto el diagnóstico ni el dibujo, **está mal hecho aunque el guion sea bueno**. Se tira y se vuelve al paso 1.
+
+#### 🖥️ PASO 4 · EL MAQUETADO — *el entregable no es el `.md`*
+
+- **Quién lo hace:** **`zenith-audience:reel-html-builder`**. Comando: `/audience-reel-html [idea]`.
+- **QUÉ SE LE ENTREGA:** `REEL.html` autocontenido y editable (badge de la celda + **el dibujo del formato renderizado dentro** + 6 ganchos + cuerpo palabra por palabra + overlays + CTA), con autoguardado, **Guardar PDF · Descargar copia · Restablecer**, **+ un `GUION.md` legible** (+ la herramienta interactiva con Zenón si el reel es clasificatorio).
+- **Los cuatro fallos que no se repiten** (clave distinta en el clon · guardado en `visibilitychange`/`beforeunload` · cancelar el debounce antes de restablecer · guardar antes de imprimir) están en el 01 y ejemplificados en el 02.
+
+#### 🛑 PASO 5 · LOS REVISORES — *gate, no adorno*
+
+- **Quién lo hace:** **tres pases independientes de `zenith-audience:notable-auditor`**, lanzados por separado y con encargo distinto cada uno — **VOZ** (regla §9, emojis, anglicismos, cuentas mentales, ganchos que gastan el remate, números sin respaldo) · **GRABABLE** (¿se puede grabar mañana con el material que existe?, privacidad de cada captura, colisiones del dibujo, ¿cabe en la duración declarada?) · **CTA Y RECONOCIMIENTO** (las 6 piezas, el triángulo de congruencia, y si el síntoma se reconoce al instante). Lo que devuelvan se arregla con **`zenith-audience:notable-builder`**. Comando: `/audience-audit [guion]`.
+- **No los hace el que escribió.** Si alguno devuelve **FIX**, se corrige y se vuelve a pasar. **No se entrega con hallazgos abiertos.**
+- **QUÉ SE LE ENSEÑA AL USUARIO:** los hallazgos **con su corrección exacta**, no un "está aprobado".
+
+#### 🎥 Y ENTONCES SE GRABA
+
+Leyendo del DIBUJO: el cuerpo 1× seguido + los 6 ganchos al final, ya calentado, misma posición y misma ropa.
+
+---
+
+> **Cómo encaja el nivel de consciencia:** vive dentro de los pasos 1 y 2. `consciencia-master` dice a qué nivel apunta el reel y QUÉ conecta ahí (BAJO = síntomas/creencias · MEDIO = mecanismo/con-vs-sin · ALTO = romper objeciones), incluida la **mezcla**. `formato-master` lo aplica al hook y al cuerpo, y `reel-html-builder` lo plasma en el badge. **El CTA lo dirige el cruce y lo diriges TÚ**, no el nivel.
+> **Y la etiqueta se queda en la ficha, nunca en pantalla:** un badge con jerga interna (`FRÍO N2`) delante del espectador se lee como jerga de agencia y clasifica el reel como anuncio en el segundo uno. Pasó de verdad — caso B del 02.
 
 ### 📅 SEMANAL
 ```
 Lunes      → /audience-trend (multi-fuente)
-Mar-Jue    → /audience-reel × 3
+Mar-Jue    → los 5 pasos del método × 3 reels (cruce → formato → guion → maquetado → revisores)
 Viernes    → /audience-metrics (decisión REPLICAR/ITERAR/etc.)
 Sábado     → /audience-spy @competidor · o /audience-analizar-creator
 Domingo    → /audience-plan-semana
@@ -335,20 +409,28 @@ Día 30  → /audience-engenharia × 3 (top virales del mes)
 
 ---
 
-## KNOWLEDGE LIBRARY · 49 archivos
+## KNOWLEDGE LIBRARY · 102 archivos
 
 ```
 knowledge/
+├── (raíz)                (10) · big idea · Blair Warren · idea ganadora · 5 porqués ·
+│                                storytelling · SVG/HTML épico · deseo vs necesidad · headlines
 ├── core/                  (5) · pilares · algoritmos · misión · niveles atención
 ├── gatillos/              (8) · 7 gatillos + overview
 ├── asuntos-virales/       (3) · 6 categorías + 3 tipos + 5 criterios
-├── headlines/             (3) · 3 tipos + plan creación
-├── templates/             (12) · las 12 estructuras virales (1 por archivo)
+├── headlines/             (3) · 3 tipos + plan creación + ficha técnica obligatoria
+├── templates/            (12) · las 12 estructuras virales (1 por archivo)
 ├── formatos-reels/       (11) · 70+ formatos + banco ZENITH (10-formatos-zenith-html)
+├── cruces/               (22 + 12 referencias) · ⭐ temperatura × consciencia × sofisticación,
+│                                modificadores, conflictos, tráfico frío, estructuras por nivel
+├── copy/                  (2) · ⭐ Biblia del Copy + cómo se usa en Audience
+├── copy-dr/               (3) · contenido en redes · clusters
+├── mecanismo/             (2) · ⭐ Biblia del Mecanismo + cómo usarlo
 ├── notable/               (2) · 8 elementos + Berger STEPPS
 ├── nucleo-influencia/     (2) · 10 preguntas + verdadero yo
 ├── metricas/              (2) · 3 métricas + decisión
-└── pipelines/             (1) · análisis creator viral 10 pasos ⭐
+└── pipelines/             (3) · 00 análisis creator viral ⭐ · 01 EL MÉTODO DEL REEL 🔴 ·
+                                 02 DOS EJEMPLOS TRABAJADOS + LAS CLAVES ⭐
 ```
 
 ---
@@ -381,13 +463,15 @@ Cuando recibo una petición:
 
 1. **Identifico la intención** (ideas · análisis · creación · métricas · etc.)
 2. **Verifico el núcleo de influencia** (si no existe · sugiero `/audience-setup` primero)
-3. **Lanzo el agente/pipeline adecuado** (ver tabla de commands)
+3. **Lanzo el agente/pipeline adecuado** (ver tabla de commands). **Si la petición es un reel —la diga como la diga— el pipeline es el método de 5 pasos del bloque 🌅 DIARIO, entero y en orden.**
 4. **Aplico el knowledge relevante** (templates · gatillos · formatos · etc.)
 5. **Entrego output ejecutable** (guion + 6 ganchos · o HTML estético)
 6. **Sugiero el siguiente paso** (audit · iterar · grabar)
 
 ### Reglas de oro
 - **NUNCA copies · siempre ADAPTA** al núcleo del usuario
+- **Un reel = los 5 pasos, enseñados uno a uno.** Ni el guion ni el HTML se entregan sin que el usuario haya visto antes la celda y el dibujo
+- **El paso 5 es un gate:** con hallazgos abiertos no se entrega
 - **Cada reel = 6 ganchos óptimos** (verbal + textual)
 - **Mínimo 2-3 gatillos** por contenido (stacking)
 - **Mínimo 2-3 elementos notable** por vídeo

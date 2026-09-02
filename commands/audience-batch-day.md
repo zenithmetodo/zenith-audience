@@ -11,7 +11,7 @@ Plan completo para día de grabación batch.
 
 Invoco:
 1. `asuntos-generator` (si necesitas ideas)
-2. `reel-architect` × N (genera guiones)
+2. `zenith-audience:reel-architect` × N (genera guiones)
 3. `batch-content-day` (organiza el día)
 
 ## Output

@@ -1,0 +1,154 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="grad" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#00E5CF"/><stop offset="1" stop-color="#B845FF"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="620" fill="#050510"/>
+  <path d="M20 66 L34 40 L42 53 L48 45 L60 66 Z" fill="url(#grad)"/>
+  <text x="74" y="52" fill="#F4F4FA" font-size="26" font-weight="bold" font-family="Georgia, serif">La matriz núcleo · Temperatura × Consciencia</text>
+  <text x="74" y="74" fill="#6A6A85" font-size="13" font-family="monospace">LAS 15 CELDAS QUE FIJAN CONTENIDO + DOSIS · knowledge/cruces/07</text>
+  <rect x="20" y="88" width="220" height="3" fill="url(#grad)" rx="2"/>
+
+  <!-- Column headers N1..N5 -->
+  <text x="285" y="132" fill="#C972FF" font-size="13" font-family="monospace" font-weight="bold" text-anchor="middle">N1 · INCONSCIENTE</text>
+  <text x="485" y="132" fill="#C972FF" font-size="13" font-family="monospace" font-weight="bold" text-anchor="middle">N2 · PROBLEMA</text>
+  <text x="685" y="132" fill="#C972FF" font-size="13" font-family="monospace" font-weight="bold" text-anchor="middle">N3 · SOLUCIÓN</text>
+  <text x="885" y="132" fill="#C972FF" font-size="13" font-family="monospace" font-weight="bold" text-anchor="middle">N4 · PRODUCTO</text>
+  <text x="1085" y="132" fill="#C972FF" font-size="13" font-family="monospace" font-weight="bold" text-anchor="middle">N5 · LISTO</text>
+
+  <!-- Row FRIO -->
+  <text x="95" y="205" fill="#5CC8FF" font-size="14" font-family="monospace" font-weight="bold" text-anchor="middle">FRÍO</text>
+  <text x="95" y="223" fill="#6A6A85" font-size="10.5" text-anchor="middle">no te conoce</text>
+  <g>
+    <rect x="190" y="150" width="190" height="120" rx="10" fill="#0B0B17" stroke="#1E5578"/>
+    <text x="200" y="172" fill="#F4F4FA" font-size="12" font-weight="bold">El clásico DR frío</text>
+    <text x="200" y="192" fill="#A8A8C0" font-size="11">Historia/Proclamación</text>
+    <text x="200" y="208" fill="#A8A8C0" font-size="11">dolor ALTO · mecanismo teaser</text>
+    <text x="200" y="224" fill="#A8A8C0" font-size="11">pieza larga · CTA indirecto</text>
+    <text x="200" y="240" fill="#A8A8C0" font-size="11">el "quién soy" va DENTRO</text>
+  </g>
+  <g>
+    <rect x="390" y="150" width="190" height="120" rx="10" fill="#0E2B26" stroke="#00E5CF"/>
+    <text x="400" y="172" fill="#00E5CF" font-size="12" font-weight="bold">EL MEJOR PÚBLICO DR</text>
+    <text x="400" y="192" fill="#F4F4FA" font-size="11">Gran Secreto (el rey)</text>
+    <text x="400" y="208" fill="#A8A8C0" font-size="11">describe su dolor mejor que él</text>
+    <text x="400" y="224" fill="#A8A8C0" font-size="11">= autoridad instantánea</text>
+    <text x="400" y="240" fill="#A8A8C0" font-size="11">prueba PRESTADA · villano</text>
+  </g>
+  <g>
+    <rect x="590" y="150" width="190" height="120" rx="10" fill="#170A10" stroke="#FF4D6E"/>
+    <text x="600" y="172" fill="#FF7A95" font-size="12" font-weight="bold">⚠ LA CELDA TRAMPA</text>
+    <text x="600" y="192" fill="#F4F4FA" font-size="11">sabe comparar y NO te conoce</text>
+    <text x="600" y="208" fill="#A8A8C0" font-size="11">mecanismo + PRESENTARTE</text>
+    <text x="600" y="224" fill="#A8A8C0" font-size="11">prueba máxima · página larga</text>
+    <text x="600" y="240" fill="#A8A8C0" font-size="11">paso pequeño, no compra</text>
+  </g>
+  <g>
+    <rect x="790" y="150" width="190" height="120" rx="10" fill="#0B0B17" stroke="#1E5578"/>
+    <text x="800" y="172" fill="#F4F4FA" font-size="12" font-weight="bold">Conoce, no confía</text>
+    <text x="800" y="192" fill="#A8A8C0" font-size="11">"si ya te engañaron, lo entiendo"</text>
+    <text x="800" y="208" fill="#A8A8C0" font-size="11">demo + garantía audaz</text>
+    <text x="800" y="224" fill="#A8A8C0" font-size="11">romper miedo a fallar OTRA vez</text>
+    <text x="800" y="240" fill="#A8A8C0" font-size="11">quién eres CON prueba</text>
+  </g>
+  <g>
+    <rect x="990" y="150" width="190" height="120" rx="10" fill="#0B0B17" stroke="#1C1C2E"/>
+    <text x="1000" y="172" fill="#F4F4FA" font-size="12" font-weight="bold">Casi no existe</text>
+    <text x="1000" y="192" fill="#A8A8C0" font-size="11">viene de hype ajeno</text>
+    <text x="1000" y="208" fill="#A8A8C0" font-size="11">oferta + credibilidad prestada</text>
+    <text x="1000" y="224" fill="#A8A8C0" font-size="11">garantía protagonista</text>
+    <text x="1000" y="240" fill="#A8A8C0" font-size="11">en la duda → tratar como N4</text>
+  </g>
+
+  <!-- Row TEMPLADO -->
+  <text x="95" y="345" fill="#FFB845" font-size="14" font-family="monospace" font-weight="bold" text-anchor="middle">TEMPLADO</text>
+  <text x="95" y="363" fill="#6A6A85" font-size="10.5" text-anchor="middle">te vio, duda</text>
+  <g>
+    <rect x="190" y="290" width="190" height="120" rx="10" fill="#0B0B17" stroke="#7A5F24"/>
+    <text x="200" y="312" fill="#F4F4FA" font-size="12" font-weight="bold">Despertar con autoridad</text>
+    <text x="200" y="332" fill="#A8A8C0" font-size="11">la pregunta que le hace</text>
+    <text x="200" y="348" fill="#A8A8C0" font-size="11">darse cuenta [sf-19]</text>
+    <text x="200" y="364" fill="#A8A8C0" font-size="11">indicadores de consciencia</text>
+    <text x="200" y="380" fill="#A8A8C0" font-size="11">goteados [sf-23]</text>
+  </g>
+  <g>
+    <rect x="390" y="290" width="190" height="120" rx="10" fill="#0B0B17" stroke="#7A5F24"/>
+    <text x="400" y="312" fill="#F4F4FA" font-size="12" font-weight="bold">Agitar + categoría</text>
+    <text x="400" y="332" fill="#A8A8C0" font-size="11">empieza el core influence</text>
+    <text x="400" y="348" fill="#A8A8C0" font-size="11">validar el sentimiento</text>
+    <text x="400" y="364" fill="#A8A8C0" font-size="11">quitar la culpa</text>
+    <text x="400" y="380" fill="#A8A8C0" font-size="11">recordar la DOR [sf-24]</text>
+  </g>
+  <g>
+    <rect x="590" y="290" width="190" height="120" rx="10" fill="#1A1508" stroke="#FFB845"/>
+    <text x="600" y="312" fill="#FFB845" font-size="12" font-weight="bold">EL CORAZÓN DEL</text>
+    <text x="600" y="328" fill="#FFB845" font-size="12" font-weight="bold">AQUECIMIENTO</text>
+    <text x="600" y="348" fill="#A8A8C0" font-size="11">mecanismo + CON vs SIN</text>
+    <text x="600" y="364" fill="#A8A8C0" font-size="11">vieja/nueva forma</text>
+    <text x="600" y="380" fill="#A8A8C0" font-size="11">CPL1: oportunidad [sf-25]</text>
+  </g>
+  <g>
+    <rect x="790" y="290" width="190" height="120" rx="10" fill="#0B0B17" stroke="#7A5F24"/>
+    <text x="800" y="312" fill="#F4F4FA" font-size="12" font-weight="bold">Saturar de prueba</text>
+    <text x="800" y="332" fill="#A8A8C0" font-size="11">CPL2: testimonios en masa</text>
+    <text x="800" y="348" fill="#A8A8C0" font-size="11">perfiles variados: "si hasta</text>
+    <text x="800" y="364" fill="#A8A8C0" font-size="11">esa persona pudo…"</text>
+    <text x="800" y="380" fill="#A8A8C0" font-size="11">módulo = headline + testimonio</text>
+  </g>
+  <g>
+    <rect x="990" y="290" width="190" height="120" rx="10" fill="#0B0B17" stroke="#7A5F24"/>
+    <text x="1000" y="312" fill="#F4F4FA" font-size="12" font-weight="bold">Anticipar el carrito</text>
+    <text x="1000" y="332" fill="#A8A8C0" font-size="11">"puedes anticipar que</text>
+    <text x="1000" y="348" fill="#A8A8C0" font-size="11">abrirás el carrito" [sf-25]</text>
+    <text x="1000" y="364" fill="#A8A8C0" font-size="11">oferta con razón</text>
+    <text x="1000" y="380" fill="#A8A8C0" font-size="11">apilar presión [sf-26]</text>
+  </g>
+
+  <!-- Row CALIENTE -->
+  <text x="95" y="485" fill="#FF7A95" font-size="14" font-family="monospace" font-weight="bold" text-anchor="middle">CALIENTE</text>
+  <text x="95" y="503" fill="#6A6A85" font-size="10.5" text-anchor="middle">te cree</text>
+  <g>
+    <rect x="190" y="430" width="190" height="120" rx="10" fill="#0B0B17" stroke="#7A2438"/>
+    <text x="200" y="452" fill="#F4F4FA" font-size="12" font-weight="bold">El carnet caducado</text>
+    <text x="200" y="472" fill="#A8A8C0" font-size="11">despertar con la confianza</text>
+    <text x="200" y="488" fill="#A8A8C0" font-size="11">YA ganada · autoridad de guía</text>
+    <text x="200" y="504" fill="#A8A8C0" font-size="11">poco dolor</text>
+    <text x="200" y="520" fill="#A8A8C0" font-size="11">mucha revelación</text>
+  </g>
+  <g>
+    <rect x="390" y="430" width="190" height="120" rx="10" fill="#0B0B17" stroke="#7A2438"/>
+    <text x="400" y="452" fill="#F4F4FA" font-size="12" font-weight="bold">Venta suave</text>
+    <text x="400" y="472" fill="#A8A8C0" font-size="11">nombrar el dolor + camino</text>
+    <text x="400" y="488" fill="#A8A8C0" font-size="11">sin biografía</text>
+    <text x="400" y="504" fill="#A8A8C0" font-size="11">RESTAURACIÓN &gt;</text>
+    <text x="400" y="520" fill="#A8A8C0" font-size="11">transformación [clase-02]</text>
+  </g>
+  <g>
+    <rect x="590" y="430" width="190" height="120" rx="10" fill="#0B0B17" stroke="#7A2438"/>
+    <text x="600" y="452" fill="#F4F4FA" font-size="12" font-weight="bold">Comparar contra lo suyo</text>
+    <text x="600" y="472" fill="#A8A8C0" font-size="11">tu mecanismo gana contra</text>
+    <text x="600" y="488" fill="#A8A8C0" font-size="11">lo que YA probó</text>
+    <text x="600" y="504" fill="#A8A8C0" font-size="11">"por qué esta vez sí"</text>
+    <text x="600" y="520" fill="#A8A8C0" font-size="11">con tu voz de siempre</text>
+  </g>
+  <g>
+    <rect x="790" y="430" width="190" height="120" rx="10" fill="#0B0B17" stroke="#7A2438"/>
+    <text x="800" y="452" fill="#F4F4FA" font-size="12" font-weight="bold">Cerrar</text>
+    <text x="800" y="472" fill="#A8A8C0" font-size="11">oferta + bonus + urgencia real</text>
+    <text x="800" y="488" fill="#A8A8C0" font-size="11">cada módulo, una venta</text>
+    <text x="800" y="504" fill="#A8A8C0" font-size="11">CTA acelerado:</text>
+    <text x="800" y="520" fill="#A8A8C0" font-size="11">"acceso inmediato" [sf-20]</text>
+  </g>
+  <g>
+    <rect x="990" y="430" width="190" height="120" rx="10" fill="#2B0E17" stroke="#FF4D6E"/>
+    <text x="1000" y="452" fill="#FF7A95" font-size="12" font-weight="bold">HARD SELL · METEÓRICO</text>
+    <text x="1000" y="472" fill="#A8A8C0" font-size="11">CPL única [sf-27]</text>
+    <text x="1000" y="488" fill="#A8A8C0" font-size="11">bono priceless + sorpresa</text>
+    <text x="1000" y="504" fill="#A8A8C0" font-size="11">urgencia/escasez REALES</text>
+    <text x="1000" y="520" fill="#A8A8C0" font-size="11">educar más = perderlo</text>
+  </g>
+
+  <text x="600" y="590" fill="#6A6A85" font-size="12" text-anchor="middle" font-family="monospace">La sofisticación (S1–S5) ajusta la palanca sobre esta celda · los modificadores afinan dosis, prueba y CTA · detalle completo: knowledge/cruces/07</text>
+</svg>

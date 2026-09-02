@@ -102,7 +102,7 @@ Selecciona **TOP 5-10**. Guarda lista con sus IDs extraídos del URL.
 
 Por cada reel TOP:
 ```
-/Users/[usuario]/TRANSCRIPCION REELS/🆕<N>_<ID_REEL>/
+./TRANSCRIPCION-REELS/🆕<N>_<ID_REEL>/
 ```
 
 Donde:
@@ -112,9 +112,9 @@ Donde:
 
 Ejemplo real:
 ```
-/Users/josep/TRANSCRIPCION REELS/🆕16_CzXqW8Lpdh/
-/Users/josep/TRANSCRIPCION REELS/🆕17_CzABCdefGh/
-/Users/josep/TRANSCRIPCION REELS/🆕18_CzMnoPqRst/
+./TRANSCRIPCION-REELS/🆕16_CzXqW8Lpdh/
+./TRANSCRIPCION-REELS/🆕17_CzABCdefGh/
+./TRANSCRIPCION-REELS/🆕18_CzMnoPqRst/
 ```
 
 ---
@@ -382,7 +382,7 @@ Entrega 2 archivos en la misma carpeta del reel:
 Estructura completa tras ejecutar:
 
 ```
-/Users/[usuario]/TRANSCRIPCION REELS/
+./TRANSCRIPCION-REELS/
 ├── 🆕16_CzXqW8Lpdh/
 │   ├── video.mp4
 │   ├── video.txt                  (Whisper)
