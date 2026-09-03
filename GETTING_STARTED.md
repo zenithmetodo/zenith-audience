@@ -224,19 +224,26 @@ El agente `metrics-analyst` ejecuta:
 
 ## RUTINAS POST-DÍA 7 (workflow diario establecido)
 
-### 🌅 Rutina diaria AM (10 min)
+### 🌅 Rutina diaria AM · EL MÉTODO DE 5 PASOS (20-25 min)
+
+> **No hay atajo.** Los cinco pasos van en orden y **cada uno se te enseña antes de pasar al siguiente**.
+> Método: `knowledge/pipelines/01-metodo-obligatorio-del-reel.md` · **dos casos reales recorridos enteros** (uno bueno y uno que los revisores tumbaron): `knowledge/pipelines/02-ejemplos-trabajados.md`.
+
 ```bash
-07:00 → /audience-ideas              # 15-20 ideas (Apify + IA + trends)
-07:05 → /audience-reel [idea elegida] # Guion completo HTML
-07:08 → /audience-audit [guion]       # Checklist final
-07:10 → Grabas y publicas
+07:00 → /audience-ideas               # PASO 0 · 15-20 ideas · eliges UNA
+07:03 → skill `zenith-audience:cruce`  # PASO 1 · la celda + qué impone + prohibidos + [SUPUESTO]
+07:08 → /audience-formato [idea]      # PASO 2 · 3 formatos compiten + EL DIBUJO del ganador
+07:13 → /audience-reel [idea]         # PASO 3 · 6 ganchos + cuerpo con tiempos + overlays + CTA
+07:18 → /audience-reel-html [idea]    # PASO 4 · REEL.html editable + GUION.md
+07:22 → /audience-audit [guion]       # PASO 5 · GATE de 3 revisores · con FIX abierto no se entrega
+07:25 → Grabas leyendo del DIBUJO
 ```
 
 ### 📅 Rutina semanal
 | Día | Acción | Tiempo |
 |---|---|---|
 | **Lunes** | `/audience-trend` (validar trends) | 10 min |
-| **Mar-Jue** | 3 reels (rutina diaria AM) | 30 min/día |
+| **Mar-Jue** | 3 reels con los 5 pasos enteros (rutina diaria AM) | 25-30 min/día |
 | **Viernes** | `/audience-metrics` + iterar ganadores | 20 min |
 | **Sábado** | `/audience-spy @competidor-top` | 15 min |
 | **Domingo** | `/audience-plan-semana` siguiente | 20 min |
@@ -320,12 +327,15 @@ El agente `metrics-analyst` ejecuta:
 
 ---
 
-### 🎬 BLOQUE F · Creación de Contenido (3 agentes)
-**Qué hace:** guion completo del vídeo · listo para grabar.
+### 🎬 BLOQUE F · Creación + Formato (6 agentes)
+**Qué hace:** los pasos 2, 3 y 4 del método · del formato al documento-guion listo para grabar.
 
 | Agente | Función |
 |---|---|
-| `reel-architect` | Reel 15-60s · guion HTML |
+| `formato-master` ⭐ | **Paso 2** · 70+ formatos + banco ZENITH · 3 compiten · EL DIBUJO del ganador |
+| `consciencia-master` 🧠 | Nivel de consciencia (Schwartz) y las MEZCLAS · lo consultan formato-master y reel-html-builder |
+| `reel-architect` ⭐ | **Paso 3** · guion completo · 6 ganchos (dice / ve / lee) + cuerpo con tiempos + CTA |
+| `reel-html-builder` ⭐ | **Paso 4** · `REEL.html` editable con el dibujo dentro + `GUION.md` legible |
 | `carrusel-architect` | Carrusel 8-10 slides · HTML |
 | `hilo-architect` | Thread X/IG/LinkedIn |
 

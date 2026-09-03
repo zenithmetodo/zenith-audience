@@ -1,11 +1,13 @@
 ---
 name: audience-formato
-description: ⭐ Recomienda formatos óptimos para tu tema (de 70+ disponibles + el banco ZENITH de ~24 formatos disruptivos creados con Joseph · o INVENTA formato nuevo pensando fuera de la caja). PIENSA SIEMPRE FUERA DE LA CAJA. Para el elegido · estructura PRO + 6 ganchos-hook (call-out al entrenador) + cuerpo palabra por palabra, y lo construye en HTML + un GUION.md legible.
+description: ⭐ PASO 2 del método · hace competir TRES formatos para tu tema (barajando los 70+ del banco + el banco ZENITH de ~24 disruptivos creados con Joseph · uno de los tres INVENTADO pensando fuera de la caja). PIENSA SIEMPRE FUERA DE LA CAJA. Entrega el ganador, por qué gana, qué se injerta de los descartados y EL DIBUJO del ganador componente a componente. No escribe guion (PASO 3) ni maqueta HTML (PASO 4).
 ---
+
+> 🔴 **OBLIGATORIO ANTES DE NADA:** lee `${CLAUDE_PLUGIN_ROOT}/knowledge/pipelines/01-metodo-obligatorio-del-reel.md` **ENTERO**. Esto es el **PASO 2** del método de 5 pasos. Si el **paso 1 (el cruce)** no se le ha **ENSEÑADO** al usuario, **PARA y pídelo**; no se ejecuta fuera de orden.
 
 # /audience-formato ⭐
 
-Recomienda el formato visual óptimo para tu reel y, si quieres, lo CONSTRUYE (HTML doc-guion + GUION.md legible).
+**PASO 2 del método.** Hace competir TRES formatos, elige uno y te enseña **EL DIBUJO del ganador**. No construye el HTML: eso es el PASO 4 (`/audience-reel-html`).
 
 > ⭐ **ACTUALIZADO 2026:** `formato-master` ahora incluye el banco **`10-formatos-zenith-html.md`** (alineación de fútbol, escalera 5 niveles, ticket/factura, etiqueta nutricional, monitor de hospital, mapa de metro, organigrama, cerebro Claude.md, ecuaciones, debate, cinematográfico, demo dual-cam, verdad/mentira, no-hagas/haz-esto, antes/después, versus split, ranking irónico, frecuencias, herramienta interactiva con mascota-cursor…) + el método para montar el reel en HTML como Joseph. **Siempre piensa fuera de la caja e inventa al menos 1-2 formatos nuevos.**
 
@@ -17,13 +19,13 @@ Recomienda el formato visual óptimo para tu reel y, si quieres, lo CONSTRUYE (H
 
 ## Lo que hago
 
-Invoco `formato-master` que ejecuta:
+Invoco `zenith-audience:formato-master` que ejecuta:
 
-1. **Analiza tu tema** + núcleo de influencia
-2. **Identifica formatos candidatos** entre los 70+
-3. **Si ninguno encaja perfectamente** → GENERA formato nuevo combinando elementos
-4. **Recomienda top 3 formatos** (existentes o generados)
-5. **Para cada uno entrega** estructura timestamps PRO + 6 ganchos óptimos
+1. **Analiza tu tema** + la celda del paso 1 + núcleo de influencia
+2. **Baraja muchos candidatos** entre los 70+ del banco (8-15+, en su mesa de trabajo)
+3. **Si ninguno encaja perfectamente** → INVENTA formato nuevo pensando fuera de la caja (uno de los tres lo hace siempre)
+4. **Saca a competir TRES** — con sus **dos mecánicas** cada uno y **qué se rompe si quitas una**
+5. **Elige el ganador** y dibuja EL DIBUJO componente a componente
 
 ## Los 70+ formatos categorizados
 
@@ -40,19 +42,9 @@ Invoco `formato-master` que ejecuta:
 
 ## Output
 
-```
-Top 3 formatos recomendados:
-1. Formato #XX · [nombre] · Por qué encaja
-2. Formato #YY · [nombre] · Por qué encaja
-3. Formato GENERADO · [nombre nuevo] · Cómo se compone
+Los **TRES candidatos** (uno fuera de la caja) con sus **dos mecánicas** y **qué se rompe si quitas una** · el **GANADOR** · **POR QUÉ** gana · **QUÉ SE INJERTA** de los descartados · y **EL DIBUJO DEL GANADOR componente a componente** (lienzo, fondo, rótulos, tipografías, colores en hexadecimal, coordenadas, tiempos de entrada, de dónde sale cada elemento), con detalle suficiente para que el editor lo recree sin preguntar nada.
 
-Para el ELEGIDO entrega:
-- Estructura timestamps PRO (segundo a segundo)
-- VISUAL · AUDIO · TEXTO OVERLAY · ICONOS
-- 6 ganchos ÓPTIMOS para ese reel (cada uno con verbal + textual)
-- Notas de producción (b-roll · música · iluminación)
-- Tiempo estimado de grabación
-```
+> ⚠️ **Orden de trabajo ≠ orden de documento.** Aquí el hueco del `DI →` se deja **marcado y vacío** (como mucho el beat en una palabra). El texto literal es del PASO 3. **Este paso no escribe guion.**
 
 ## Tiempo
 ~2 min
@@ -69,4 +61,4 @@ Para el ELEGIDO entrega:
 
 ## Siguiente paso
 
-Tras elegir formato → invoca `/audience-reel [tema]` para guion completo con ese formato + 6 ganchos completos.
+**Con el dibujo sobre la mesa —y no antes— pasa al PASO 3 con `/audience-reel`.** No se repite formato: mira antes los reels que ya existen en el proyecto y descarta los usados.

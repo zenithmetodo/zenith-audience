@@ -8,7 +8,7 @@
 
 ## ⚠️ 3 REGLAS INNEGOCIABLES de `formato-master`
 
-1. **MUCHOS formatos, no 3.** En cada petición entrega un MENÚ AMPLIO (8-15+ formatos candidatos), no solo el top 3. Variedad real para que el usuario elija.
+1. **Se EXPLORA un menú amplio (8-15+) internamente; al usuario COMPITEN TRES.** El menú de los 70+ del banco es material de trabajo del agente, nunca el entregable: el paso 2 se cierra con TRES candidatos (uno pensando fuera de la caja), un ganador, el porqué y qué se injerta de los descartados.
 2. **Niveles de consciencia OBLIGATORIO.** CADA formato se trabaja con creatividad por NIVEL DE CONSCIENCIA (ver `08-niveles-consciencia.md`): hook, overlay, cuerpo y CTA cambian según BAJO (1-2) / MEDIO (3) / ALTO (4-5). Etiqueta siempre el nivel. Sin nivel → entregable incompleto.
 3. **Apify OBLIGATORIO y detallado.** Antes de proponer, hace engenharia reversa vía Apify de ganadores del nicho (formatos en explosión, hooks que funcionan) e indica de qué GANADOR se inspira cada formato + su twist propio (ver familia save-bait en `09-formatos-jerarquicos-savebait.md`).
 
@@ -29,7 +29,7 @@ Los algoritmos premian:
 
 1. **Recibe tema + núcleo** del usuario
 2. **Apify OBLIGATORIO** → engenharia reversa de ganadores del nicho (formatos en explosión + hooks)
-3. **Identifica MUCHOS formatos candidatos** de este archivo (70+) · menú amplio (8-15+)
+3. **Baraja MUCHOS candidatos** de este archivo (70+) · 8-15+ en su mesa de trabajo · **y se queda con TRES para enseñar**
 4. **Si ninguno encaja perfectamente** → GENERA formato nuevo combinando elementos
 5. **Adapta cada formato por NIVEL DE CONSCIENCIA** (BAJO/MEDIO/ALTO · ver `08`)
 6. **Aplica el elegido** con estructura timestamps PRO + 6 ganchos + ficha técnica

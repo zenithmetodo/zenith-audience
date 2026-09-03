@@ -1,5 +1,37 @@
 # Changelog · Zenith Audience™
 
+## v1.11.0 · 2026-09-02
+
+### 🔴 El método del reel, cosido DENTRO del pipeline diario + dos ejemplos trabajados
+
+- ✅ **`SKILL.md` · la sección "LA SECUENCIA DE USO" reescrita.** El bloque **🌅 DIARIO** ya no es una lista de comandos: **es el método obligatorio de 5 pasos** (cruce → formato → guion → maquetado → revisores), con **el agente concreto de cada paso**, **qué se le enseña al usuario antes de pasar al siguiente** y **el gate de cada uno**. Ahí es donde mira un agente cuando va a trabajar, y ahí es donde ahora está el método.
+  - Paso 1 · skill `cruce` + `consciencia-master` · Paso 2 · `formato-master` · Paso 3 · `reel-architect` · Paso 4 · `reel-html-builder` · Paso 5 · **tres pases independientes de `notable-auditor`** (voz · grabable · CTA y reconocimiento) + `notable-builder`.
+- ✅ **El bloque del principio pasa a ser RESUMEN** y cede el mando: *"si algo de aquí y algo de allí no coinciden, manda la secuencia"*.
+- ✅ **Eliminada la contradicción del atajo:** `/audience-reel` ya no es "alternativa rápida en un solo paso" — es **el paso 3**, y solo se lanza con el 1 y el 2 ya enseñados. El bloque SEMANAL también se corrigió.
+- ✅ **Nuevo knowledge `knowledge/pipelines/02-ejemplos-trabajados.md`** — **dos casos reales recorridos de punta a punta**, enseñando **literalmente lo que el agente le escribe al usuario en cada paso**:
+  - **EJEMPLO A · EL HOMBRE DEL TIEMPO** — el que salió bien. El ejemplo del **formato-objeto**: un objeto cotidiano que informa sin explicar.
+  - **EJEMPLO B · LA ONDA (el no-show)** — el que **suspendió**: diagnóstico de cruce excelente (frío por RELACIÓN y no por ignorancia · S4-S5 con los mecanismos quemados · el hueco en el carril del DIAGNÓSTICO) y **los tres revisores lo tumbaron a la primera**. Sin maquillar: síntoma que no se reconocía en 3 s · ganchos abriendo con la pantalla vacía · **un dato inventado con fuente falsa** · un remate que culpaba al que mira · jerga interna en pantalla de principio a fin · y un guion que no cabía en la duración que declaraba. Su **DIBUJO es el modélico** (coordenadas, píxeles, tiempos).
+  - Cierra con **LAS CLAVES · 12 reglas** sacadas de lo que falló en producción, no de la teoría.
+- ✅ `01-metodo-obligatorio-del-reel.md` enlaza al 02 y concreta **quién hace cada uno de los tres pases de revisión**.
+- ✅ **Versión y recuentos:** `plugin.json` y `marketplace.json` a **1.11.0** y coincidiendo entre sí · README y SKILL suman los 2 ficheros nuevos del método (55→57 y 49→51) · badge del README a v1.11.0.
+
+### 🔧 El método, propagado a los EJECUTORES (antes moría en la frontera del SKILL.md)
+
+- ✅ **Gate del método en los 8 ficheros que hacen el trabajo.** Los 4 comandos (`/audience-formato` · `/audience-reel` · `/audience-reel-html` · `/audience-audit`) y los 4 agentes (`formato-master` · `reel-architect` · `reel-html-builder` · `notable-auditor`) abren ahora ordenando **leer `01-metodo-obligatorio-del-reel.md` entero**, declarando **qué paso son** y **parando si el paso anterior no se le ha enseñado al usuario**. Antes, quien escribía `/audience-reel` directamente no pasaba por el método en ningún momento.
+- ✅ **`/audience-reel` deja de colapsar los pasos 2-3-4-5 en una llamada.** `reel-architect` ya **no lanza `formato-master`** (recibe el formato ganador y su dibujo del paso 2), y se le han quitado los bloques de auditoría (paso 5) y de maquetado HTML (paso 4), que son de otros agentes.
+- ✅ **`/audience-audit` pasa a ser el gate de verdad:** **tres pases independientes** de `notable-auditor` (VOZ · GRABABLE · CTA Y RECONOCIMIENTO), veredicto **OK/FIX** con la corrección exacta en vez del `SCORE X/100`, y *"con un solo FIX abierto no se entrega"*. `notable-auditor` estrena la sección **MODO DE PASE** con el checklist de cada uno.
+- ✅ **Resuelta la contradicción TRES formatos vs 8-15+** (estaba en el mismo SKILL.md, y la versión 8-15+ era la propagada a los ejecutores): **se explora un menú amplio internamente y al usuario COMPITEN TRES**. Aplicado, palabra por palabra, en SKILL · `formato-master` · `00-master-formatos-reels` · `10-formatos-zenith-html`; y `consciencia-master` pasa de "2-3 formatos" a "3".
+- ✅ **LA TRAMPA DEL ORDEN, escrita:** *"orden de trabajo ≠ orden de documento"* — el paso 2 deja el hueco del `DI →` **marcado y vacío**; el texto literal es del paso 3. **`formato-master` no escribe guion nunca.**
+- ✅ **`zenith-audience:` en las invocaciones de los ficheros del método** (3 agentes y 5 comandos; antes: cero en todo `agents/` y `commands/`). Y la skill del paso 1 pasa a citarse como **`zenith-audience:cruce`** — hay una skill llamada `cruce` en al menos diez plugins más.
+- ✅ **`/audience-formato` describe por fin el paso 2** (los tres, las dos mecánicas, el ganador y **EL DIBUJO**) y deja de invadir el paso 4 en su `description`.
+- ✅ **Las reglas del HTML editable** (`#barra` fuera de `#contenido` · clave única en la copia · volcado en `visibilitychange`/`beforeunload` · cancelar el debounce antes de restablecer · guardar antes de imprimir · pegado a texto plano) escritas en `reel-html-builder` y en `/audience-reel-html`, que es donde se evitan.
+- ✅ **Datos inventados fuera de `02-ejemplos-trabajados.md`** (verificados uno a uno contra los guiones reales): el gancho A del ejemplo A era un Frankenstein que además abría nombrando el formato —lo que el propio reel prohíbe—; el badge `FRÍO N1→N2` con pastilla, color y píxeles no existía y contradecía la CLAVE 7; los "52 segundos" y el "cuatro de los seis" no se pueden señalar en la fuente; la duración "70-85 s" son 81 (76 con cortes); "están grabados" son "listos para grabar"; y el documento se equivocaba contando sus propios hallazgos (seis y doce, no cuatro y trece).
+
+#### Stats actuales
+- **32 agentes** · **22 commands** · **+2 knowledge files del método** (`pipelines/01` y `pipelines/02`) · 70+ formatos + banco ZENITH (~24) · 6 ganchos-hook por reel · 7 HTML templates
+
+---
+
 ## v1.8.0 · 2026-06-05
 
 ### 🧠 Niveles de consciencia + entrega HTML obligatoria

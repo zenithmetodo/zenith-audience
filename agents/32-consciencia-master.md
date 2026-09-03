@@ -47,7 +47,7 @@ Casi NUNCA un reel es 100% de un solo nivel. Lo habitual es que **se mezclen**: 
 Para una idea/tema dado:
 1. **Nivel diagnosticado** (BAJO/MEDIO/ALTO + 1-2) y por qué (en qué punto está el avatar respecto al problema y a la oferta).
 2. **Qué conecta ahí** (síntomas/creencias · mecanismo/con-vs-sin · objeciones/prueba) → en 2-3 bullets accionables.
-3. **2-3 formatos** del banco que encajan en ese nivel (de `10-formatos-zenith-html.md`).
+3. **3 formatos** del banco que encajan en ese nivel (los tres que compiten en el paso 2) — de `${CLAUDE_PLUGIN_ROOT}/knowledge/formatos-reels/10-formatos-zenith-html.md`.
 4. **El CTA NO lo decido yo** — lo dirige Joseph siempre (no depende del nivel). Yo solo doy nivel + qué conecta + formatos.
 5. (Si lo piden) **la misma idea lateralizada a los otros niveles** — útil para el plan semanal.
 

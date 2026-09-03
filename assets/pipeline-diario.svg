@@ -15,71 +15,83 @@
 
   <rect width="1400" height="1000" fill="url(#bgD)"/>
 
-  <text x="700" y="50" font-family="Georgia, serif" font-size="34" font-weight="700" fill="url(#brandD)" text-anchor="middle">Pipeline de Uso Diario · Zenith Audience™ v1.8.0</text>
+  <text x="700" y="50" font-family="Georgia, serif" font-size="34" font-weight="700" fill="url(#brandD)" text-anchor="middle">Pipeline de Uso Diario · Zenith Audience™ v1.11.0</text>
   <text x="700" y="80" font-family="Inter, sans-serif" font-size="14" fill="#8089a0" text-anchor="middle">Workflows reales · 6 ganchos óptimos por reel · 70+ formatos visuales</text>
 
   <g transform="translate(80,120)">
-    <text x="0" y="0" font-family="Georgia, serif" font-size="22" fill="#00E5CF" font-weight="700">🌅 Workflow Diario · 10-15 min · Incluido en plan Claude</text>
+    <text x="0" y="0" font-family="Georgia, serif" font-size="22" fill="#00E5CF" font-weight="700">🌅 Workflow Diario · EL MÉTODO OBLIGATORIO DEL REEL · 5 pasos, en orden, y cada uno se le ENSEÑA al usuario</text>
+    <text x="0" y="20" font-family="Inter, sans-serif" font-size="11" fill="#8089a0">PASO 0 · materia prima: /audience-ideas → 15-20 ideas · el usuario elige UNA · con esa idea empieza el método</text>
     <g transform="translate(0,30)">
-      <rect width="280" height="80" rx="14" fill="rgba(0,229,207,0.08)" stroke="#00E5CF" stroke-width="2"/>
-      <text x="140" y="28" font-family="Inter, sans-serif" font-size="12" fill="#00E5CF" text-anchor="middle" font-weight="700">07:00 · AM</text>
-      <text x="140" y="50" font-family="Georgia, serif" font-size="16" fill="#fff" text-anchor="middle">/audience-ideas</text>
-      <text x="140" y="68" font-family="Inter, sans-serif" font-size="11" fill="#8089a0" text-anchor="middle">15-20 ideas multi-fuente</text>
+      <rect width="190" height="90" rx="14" fill="rgba(0,229,207,0.08)" stroke="#00E5CF" stroke-width="2"/>
+      <text x="95.0" y="26" font-family="Inter, sans-serif" font-size="11" fill="#00E5CF" text-anchor="middle" font-weight="700">PASO 1 · EL CRUCE</text>
+      <text x="95.0" y="52" font-family="Georgia, serif" font-size="13" fill="#fff" text-anchor="middle">skill cruce</text>
+      <text x="95.0" y="74" font-family="Inter, sans-serif" font-size="10" fill="#8089a0" text-anchor="middle">celda + prohibidos + [SUPUESTO]</text>
     </g>
-    <line x1="280" y1="70" x2="350" y2="70" stroke="#00E5CF" stroke-width="2" marker-end="url(#arrowD)"/>
-    <g transform="translate(360,30)">
-      <rect width="280" height="80" rx="14" fill="rgba(184,69,255,0.1)" stroke="#B845FF" stroke-width="3"/>
-      <text x="140" y="28" font-family="Inter, sans-serif" font-size="12" fill="#B845FF" text-anchor="middle" font-weight="700">07:05 ⭐ NUEVO v1.2</text>
-      <text x="140" y="50" font-family="Georgia, serif" font-size="16" fill="#fff" text-anchor="middle">/audience-reel [idea]</text>
-      <text x="140" y="68" font-family="Inter, sans-serif" font-size="11" fill="#8089a0" text-anchor="middle">Formato + 6 ganchos óptimos</text>
+    <g transform="translate(210,30)">
+      <rect width="190" height="90" rx="14" fill="rgba(184,69,255,0.10)" stroke="#B845FF" stroke-width="2.5"/>
+      <text x="95.0" y="26" font-family="Inter, sans-serif" font-size="11" fill="#B845FF" text-anchor="middle" font-weight="700">PASO 2 · EL FORMATO</text>
+      <text x="95.0" y="52" font-family="Georgia, serif" font-size="13" fill="#fff" text-anchor="middle">formato-master</text>
+      <text x="95.0" y="74" font-family="Inter, sans-serif" font-size="10" fill="#8089a0" text-anchor="middle">3 compiten · gana 1 · EL DIBUJO</text>
     </g>
-    <line x1="640" y1="70" x2="710" y2="70" stroke="#00E5CF" stroke-width="2" marker-end="url(#arrowD)"/>
-    <g transform="translate(720,30)">
-      <rect width="280" height="80" rx="14" fill="rgba(0,229,207,0.08)" stroke="#00E5CF" stroke-width="2"/>
-      <text x="140" y="28" font-family="Inter, sans-serif" font-size="12" fill="#00E5CF" text-anchor="middle" font-weight="700">07:10</text>
-      <text x="140" y="50" font-family="Georgia, serif" font-size="16" fill="#fff" text-anchor="middle">/audience-audit</text>
-      <text x="140" y="68" font-family="Inter, sans-serif" font-size="11" fill="#8089a0" text-anchor="middle">8 elementos + STEPPS</text>
+    <g transform="translate(420,30)">
+      <rect width="190" height="90" rx="14" fill="rgba(0,229,207,0.08)" stroke="#00E5CF" stroke-width="2"/>
+      <text x="95.0" y="26" font-family="Inter, sans-serif" font-size="11" fill="#00E5CF" text-anchor="middle" font-weight="700">PASO 3 · EL GUION</text>
+      <text x="95.0" y="52" font-family="Georgia, serif" font-size="13" fill="#fff" text-anchor="middle">reel-architect</text>
+      <text x="95.0" y="74" font-family="Inter, sans-serif" font-size="10" fill="#8089a0" text-anchor="middle">6 ganchos + cuerpo + CTA</text>
     </g>
-    <line x1="1000" y1="70" x2="1070" y2="70" stroke="#00E5CF" stroke-width="2" marker-end="url(#arrowD)"/>
-    <g transform="translate(1080,30)">
-      <rect width="180" height="80" rx="14" fill="url(#brandD)" />
-      <text x="90" y="48" font-family="Georgia, serif" font-size="18" fill="#050510" text-anchor="middle" font-weight="700">🎬 Grabas</text>
-      <text x="90" y="68" font-family="Inter, sans-serif" font-size="10" fill="#050510" text-anchor="middle">6 ganchos + cuerpo 1×</text>
+    <g transform="translate(630,30)">
+      <rect width="190" height="90" rx="14" fill="rgba(184,69,255,0.10)" stroke="#B845FF" stroke-width="2"/>
+      <text x="95.0" y="26" font-family="Inter, sans-serif" font-size="11" fill="#B845FF" text-anchor="middle" font-weight="700">PASO 4 · MAQUETADO</text>
+      <text x="95.0" y="52" font-family="Georgia, serif" font-size="13" fill="#fff" text-anchor="middle">reel-html-builder</text>
+      <text x="95.0" y="74" font-family="Inter, sans-serif" font-size="10" fill="#8089a0" text-anchor="middle">REEL.html + GUION.md</text>
     </g>
+    <g transform="translate(840,30)">
+      <rect width="190" height="90" rx="14" fill="rgba(184,69,255,0.10)" stroke="#B845FF" stroke-width="2.5"/>
+      <text x="95.0" y="26" font-family="Inter, sans-serif" font-size="11" fill="#B845FF" text-anchor="middle" font-weight="700">PASO 5 · REVISORES</text>
+      <text x="95.0" y="52" font-family="Georgia, serif" font-size="13" fill="#fff" text-anchor="middle">notable-auditor ×3</text>
+      <text x="95.0" y="74" font-family="Inter, sans-serif" font-size="10" fill="#8089a0" text-anchor="middle">GATE · voz · grabable · CTA</text>
+    </g>
+    <g transform="translate(1050,30)">
+      <rect width="190" height="90" rx="14" fill="url(#brandD)"/>
+      <text x="95" y="48" font-family="Georgia, serif" font-size="18" fill="#050510" text-anchor="middle" font-weight="700">🎬 Grabas</text>
+      <text x="95" y="70" font-family="Inter, sans-serif" font-size="10" fill="#050510" text-anchor="middle">leyendo del DIBUJO</text>
+    </g>
+    <line x1="192" y1="75" x2="206" y2="75" stroke="#00E5CF" stroke-width="2" marker-end="url(#arrowD)"/>
+    <line x1="402" y1="75" x2="416" y2="75" stroke="#00E5CF" stroke-width="2" marker-end="url(#arrowD)"/>
+    <line x1="612" y1="75" x2="626" y2="75" stroke="#00E5CF" stroke-width="2" marker-end="url(#arrowD)"/>
+    <line x1="822" y1="75" x2="836" y2="75" stroke="#00E5CF" stroke-width="2" marker-end="url(#arrowD)"/>
+    <line x1="1032" y1="75" x2="1046" y2="75" stroke="#00E5CF" stroke-width="2" marker-end="url(#arrowD)"/>
   </g>
 
   <g transform="translate(80,260)">
-    <text x="0" y="0" font-family="Georgia, serif" font-size="22" fill="#B845FF" font-weight="700">⭐ Detalle · Cómo trabaja /audience-reel (formato-master integrado)</text>
+    <text x="0" y="0" font-family="Georgia, serif" font-size="22" fill="#B845FF" font-weight="700">🚧 Los gates · qué se le ENSEÑA al usuario antes de dejarle pasar al paso siguiente</text>
     <g transform="translate(0,30)">
-      <rect width="280" height="100" rx="12" fill="rgba(0,229,207,0.06)" stroke="#00E5CF" stroke-width="1.5"/>
-      <text x="140" y="28" font-family="Inter, sans-serif" font-size="11" fill="#00E5CF" text-anchor="middle" font-weight="700">PASO 1 · TEMPLATE</text>
-      <text x="140" y="52" font-family="Georgia, serif" font-size="13" fill="#fff" text-anchor="middle">template-aplicador</text>
-      <text x="140" y="72" font-family="Inter, sans-serif" font-size="10" fill="#8089a0" text-anchor="middle">1 de 12 estructuras virales</text>
-      <text x="140" y="88" font-family="Inter, sans-serif" font-size="10" fill="#cfd4e3" text-anchor="middle">Familia 1·2·3</text>
+      <rect width="280" height="100" rx="12" fill="rgba(0,229,207,0.06)" stroke="#00E5CF" stroke-width="2"/>
+      <text x="140" y="26" font-family="Inter, sans-serif" font-size="11" fill="#00E5CF" text-anchor="middle" font-weight="700">ANTES DEL PASO 2</text>
+      <text x="140" y="50" font-family="Inter, sans-serif" font-size="10" fill="#fff" text-anchor="middle">la celda escrita y QUÉ IMPONE:</text>
+      <text x="140" y="68" font-family="Inter, sans-serif" font-size="10" fill="#cfd4e3" text-anchor="middle">dónde va el «quién soy» · qué prueba</text>
+      <text x="140" y="88" font-family="Inter, sans-serif" font-size="10" fill="#8089a0" text-anchor="middle">y en qué orden · hasta dónde pide el CTA</text>
     </g>
-    <line x1="280" y1="80" x2="320" y2="80" stroke="#00E5CF" stroke-width="2" marker-end="url(#arrowD)"/>
     <g transform="translate(330,30)">
-      <rect width="280" height="100" rx="12" fill="rgba(184,69,255,0.1)" stroke="#B845FF" stroke-width="2.5"/>
-      <text x="140" y="28" font-family="Inter, sans-serif" font-size="11" fill="#B845FF" text-anchor="middle" font-weight="700">PASO 2 ⭐ FORMATO</text>
-      <text x="140" y="52" font-family="Georgia, serif" font-size="13" fill="#fff" text-anchor="middle">formato-master</text>
-      <text x="140" y="72" font-family="Inter, sans-serif" font-size="10" fill="#8089a0" text-anchor="middle">70+ formatos visuales</text>
-      <text x="140" y="88" font-family="Inter, sans-serif" font-size="10" fill="#cfd4e3" text-anchor="middle">+ genera nuevos dinámico</text>
+      <rect width="280" height="100" rx="12" fill="rgba(184,69,255,0.10)" stroke="#B845FF" stroke-width="2"/>
+      <text x="140" y="26" font-family="Inter, sans-serif" font-size="11" fill="#B845FF" text-anchor="middle" font-weight="700">ANTES DEL PASO 3</text>
+      <text x="140" y="50" font-family="Inter, sans-serif" font-size="10" fill="#fff" text-anchor="middle">3 formatos, el ganador y por qué,</text>
+      <text x="140" y="68" font-family="Inter, sans-serif" font-size="10" fill="#cfd4e3" text-anchor="middle">y EL DIBUJO componente a componente</text>
+      <text x="140" y="88" font-family="Inter, sans-serif" font-size="10" fill="#8089a0" text-anchor="middle">para que el editor lo recree sin preguntar</text>
     </g>
-    <line x1="610" y1="80" x2="650" y2="80" stroke="#00E5CF" stroke-width="2" marker-end="url(#arrowD)"/>
     <g transform="translate(660,30)">
-      <rect width="280" height="100" rx="12" fill="rgba(0,229,207,0.06)" stroke="#00E5CF" stroke-width="1.5"/>
-      <text x="140" y="28" font-family="Inter, sans-serif" font-size="11" fill="#00E5CF" text-anchor="middle" font-weight="700">PASO 3 · GATILLOS</text>
-      <text x="140" y="52" font-family="Georgia, serif" font-size="13" fill="#fff" text-anchor="middle">gatillo-master</text>
-      <text x="140" y="72" font-family="Inter, sans-serif" font-size="10" fill="#8089a0" text-anchor="middle">7 gatillos · stacking 2-3</text>
-      <text x="140" y="88" font-family="Inter, sans-serif" font-size="10" fill="#cfd4e3" text-anchor="middle">Psicológicos científicos</text>
+      <rect width="280" height="100" rx="12" fill="rgba(0,229,207,0.06)" stroke="#00E5CF" stroke-width="2"/>
+      <text x="140" y="26" font-family="Inter, sans-serif" font-size="11" fill="#00E5CF" text-anchor="middle" font-weight="700">ANTES DEL PASO 4</text>
+      <text x="140" y="50" font-family="Inter, sans-serif" font-size="10" fill="#fff" text-anchor="middle">6 ganchos (dice / ve / lee) ·</text>
+      <text x="140" y="68" font-family="Inter, sans-serif" font-size="10" fill="#cfd4e3" text-anchor="middle">cuerpo palabra por palabra con tiempos</text>
+      <text x="140" y="88" font-family="Inter, sans-serif" font-size="10" fill="#8089a0" text-anchor="middle">overlays · CTA con sus 6 piezas</text>
     </g>
-    <line x1="940" y1="80" x2="980" y2="80" stroke="#00E5CF" stroke-width="2" marker-end="url(#arrowD)"/>
     <g transform="translate(990,30)">
-      <rect width="280" height="100" rx="12" fill="rgba(184,69,255,0.1)" stroke="#B845FF" stroke-width="2.5"/>
-      <text x="140" y="28" font-family="Inter, sans-serif" font-size="11" fill="#B845FF" text-anchor="middle" font-weight="700">PASO 4 ⭐ 6 GANCHOS</text>
-      <text x="140" y="52" font-family="Georgia, serif" font-size="13" fill="#fff" text-anchor="middle">los mejores para el reel</text>
-      <text x="140" y="72" font-family="Inter, sans-serif" font-size="10" fill="#8089a0" text-anchor="middle">cada uno: verbal + textual</text>
-      <text x="140" y="88" font-family="Inter, sans-serif" font-size="10" fill="#cfd4e3" text-anchor="middle">A/B testing secuencial · 6 hooks</text>
+      <rect width="280" height="100" rx="12" fill="rgba(184,69,255,0.10)" stroke="#B845FF" stroke-width="2"/>
+      <text x="140" y="26" font-family="Inter, sans-serif" font-size="11" fill="#B845FF" text-anchor="middle" font-weight="700">ANTES DE GRABAR</text>
+      <text x="140" y="50" font-family="Inter, sans-serif" font-size="10" fill="#fff" text-anchor="middle">hallazgos de los 3 revisores</text>
+      <text x="140" y="68" font-family="Inter, sans-serif" font-size="10" fill="#cfd4e3" text-anchor="middle">con su corrección exacta</text>
+      <text x="140" y="88" font-family="Inter, sans-serif" font-size="10" fill="#8089a0" text-anchor="middle">con hallazgos abiertos NO se entrega</text>
     </g>
   </g>
 
@@ -117,8 +129,8 @@
     <g transform="translate(220,30)">
       <rect width="200" height="70" rx="12" fill="rgba(0,229,207,0.06)" stroke="#00E5CF" stroke-width="1.5"/>
       <text x="100" y="26" font-family="Inter, sans-serif" font-size="11" fill="#00E5CF" text-anchor="middle" font-weight="700">MAR-JUE</text>
-      <text x="100" y="48" font-family="Georgia, serif" font-size="14" fill="#fff" text-anchor="middle">/audience-reel × 3</text>
-      <text x="100" y="62" font-family="Inter, sans-serif" font-size="10" fill="#8089a0" text-anchor="middle">con 6 ganchos</text>
+      <text x="100" y="48" font-family="Georgia, serif" font-size="13" fill="#fff" text-anchor="middle">el método × 3 reels</text>
+      <text x="100" y="62" font-family="Inter, sans-serif" font-size="10" fill="#8089a0" text-anchor="middle">los 5 pasos, enteros</text>
     </g>
     <g transform="translate(440,30)">
       <rect width="200" height="70" rx="12" fill="rgba(184,69,255,0.06)" stroke="#B845FF" stroke-width="1.5"/>
@@ -200,5 +212,5 @@
     </g>
   </g>
 
-  <text x="700" y="980" font-family="Inter, sans-serif" font-size="11" fill="#6b7588" text-anchor="middle">JOSEPH MORENO · ZENITH · v1.8.0 · 32 AGENTES · 70+ FORMATOS · 6 GANCHOS-HOOK POR REEL</text>
+  <text x="700" y="980" font-family="Inter, sans-serif" font-size="11" fill="#6b7588" text-anchor="middle">JOSEPH MORENO · ZENITH · v1.11.0 · 32 AGENTES · 22 COMMANDS · 102 KNOWLEDGE · 6 GANCHOS-HOOK POR REEL</text>
 </svg>

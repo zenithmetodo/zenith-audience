@@ -6,11 +6,11 @@
 
 ### Sistema diario para crear contenido viral con identidad incopiable
 
-**32 agentes · 22 commands · 55 knowledge files · 70+ formatos + banco ZENITH (~24) · 6 ganchos-hook por reel · 7 HTML templates · 100% gratis**
+**32 agentes · 22 commands · 57 knowledge files · 70+ formatos + banco ZENITH (~24) · 6 ganchos-hook por reel · 7 HTML templates · 100% gratis**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-cyan.svg)](https://opensource.org/licenses/MIT)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Plugin-purple.svg)](https://claude.com/claude-code)
-[![Status](https://img.shields.io/badge/Status-v1.9.5-00E5CF.svg)](https://github.com/zenithmetodo/zenith-audience/releases)
+[![Status](https://img.shields.io/badge/Status-v1.11.0-00E5CF.svg)](https://github.com/zenithmetodo/zenith-audience/releases)
 [![Free](https://img.shields.io/badge/Métricas-100%25%20Gratis-00E5CF.svg)](#stack-100-gratis)
 
 **[INSTALAR](#instalación) · [USO DIARIO](#uso-diario) · [LOS 12 TEMPLATES](#los-12-templates-virales) · [METRICOOL](#métricas-metricool-free) · [APIFY](#apify-research-free)**
@@ -110,25 +110,31 @@ Mira el [knowledge file completo de métricas](knowledge/metricas/00-las-3-metri
 <img src="assets/pipeline-diario.svg" alt="Pipeline Diario" width="900"/>
 </div>
 
-### 🌅 Día tipo · 10-15 min
+### 🌅 Día tipo · EL MÉTODO DE 5 PASOS (20-25 min)
+
+> **No hay atajo.** Los cinco pasos van en orden y **cada uno se te enseña antes de pasar al siguiente**.
+> Un guion que aparece de golpe, sin que hayas visto el diagnóstico ni el dibujo del formato, **está mal hecho aunque el guion sea bueno**.
 
 ```bash
-07:00 → /audience-ideas         → 15-20 ideas hoy (multi-fuente)
-07:04 → /audience-formato [idea] → formato fuera de la caja (70+ + banco ZENITH)
-                                   + NIVEL DE CONSCIENCIA (consciencia-master) + 6 ganchos
-07:08 → /audience-reel-html [idea] → HTML doc-guion: badge NIVEL + dibujo del formato +
-                                   6 ganchos + GUION palabra por palabra + overlays + CTA
-07:11 → /audience-audit         → checklist final
-07:13 → Grabas leyendo del DIBUJO y publicas
+07:00 → /audience-ideas            → PASO 0 · 15-20 ideas multi-fuente · eliges UNA
+07:03 → skill `zenith-audience:cruce` → PASO 1 · la celda + QUÉ IMPONE + prohibidos + [SUPUESTO]
+07:08 → /audience-formato [idea]   → PASO 2 · 3 formatos compiten (uno fuera de la caja),
+                                     gana 1, y EL DIBUJO del ganador componente a componente
+07:13 → /audience-reel [idea]      → PASO 3 · 6 ganchos (dice/ve/lee) + cuerpo con tiempos
+                                     + overlays + CTA con sus 6 piezas
+07:18 → /audience-reel-html [idea] → PASO 4 · REEL.html editable con el dibujo dentro + GUION.md
+07:22 → /audience-audit [guion]    → PASO 5 · GATE de 3 revisores (voz · grabable · CTA)
+                                     con hallazgos abiertos NO se entrega
+07:25 → Grabas leyendo del DIBUJO y publicas
 ```
-> **El nivel de consciencia manda el contenido:** BAJO=síntomas/creencias · MEDIO=mecanismo/con-vs-sin · ALTO=romper objeciones. Los niveles **se mezclan** (abre en BAJO, cierra en MEDIO/ALTO). El **CTA siempre existe** y lleva al destino que tú decidas.
-> ⚡ Atajo: `/audience-reel [idea]` orquesta guion + ganchos en un solo paso.
+> **El nivel de consciencia manda el contenido:** BAJO=síntomas/creencias · MEDIO=mecanismo/con-vs-sin · ALTO=romper objeciones. Los niveles **se mezclan** (abre en BAJO, cierra en MEDIO/ALTO). El **CTA lo dirige el cruce y lo diriges tú**. Y la etiqueta del método **se queda en la ficha, nunca en pantalla**.
+> 📖 El método entero: `knowledge/pipelines/01-metodo-obligatorio-del-reel.md` · **dos casos recorridos de punta a punta** (uno que salió bien y uno que los tres revisores tumbaron) + **LAS CLAVES**: `knowledge/pipelines/02-ejemplos-trabajados.md`.
 
 ### 📅 Semana tipo
 
 ```
 Lunes      → /audience-trend (multi-fuente)
-Mar-Jue    → /audience-reel × 3
+Mar-Jue    → los 5 pasos × 3 reels
 Viernes    → /audience-metrics + iterar ganadores
 Sábado     → /audience-spy @competidor
 Domingo    → /audience-plan-semana
@@ -301,7 +307,7 @@ Setup ONE-SHOT al inicio (2-3h):
 
 ---
 
-## Knowledge Library · 55 archivos
+## Knowledge Library · 57 archivos
 
 ```
 knowledge/
@@ -314,10 +320,16 @@ knowledge/
 ├── notable/                        (2) · 8 elementos + Berger STEPPS
 ├── nucleo-influencia/              (2) · 10 preguntas + verdadero yo
 ├── metricas/                       (2) · 3 métricas + decisión
-├── pipelines/                      (1) · análisis creator viral ⭐
+├── pipelines/                      (3) · análisis creator viral ⭐ · EL MÉTODO DEL REEL 🔴 ·
+│                                         DOS EJEMPLOS TRABAJADOS + LAS CLAVES ⭐
 ├── mecanismo/                      (2) · ⭐ Biblia del Mecanismo + cómo usarlo en Audience
 └── copy/                           (2) · ⭐ Biblia del Copy + cómo usarlo en Audience
 ```
+
+> 🔴 **El método obligatorio del reel** (`knowledge/pipelines/01`) y **los dos ejemplos trabajados**
+> (`knowledge/pipelines/02` — uno que salió bien y uno que los tres revisores tumbaron, con LAS CLAVES)
+> son de lectura obligatoria antes de crear cualquier reel. El pipeline operativo, con el agente
+> concreto de cada uno de los 5 pasos, está en la skill `audience-master` → **LA SECUENCIA DE USO · DIARIO**.
 
 Cada knowledge internalizado en system prompt de los agentes (estilo Custom GPT). Cero re-lectura en runtime = cero tokens desperdiciados.
 
