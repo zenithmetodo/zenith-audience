@@ -5,7 +5,7 @@ disable-model-invocation: false
 description: Zenith Audience™ · Mega-skill TOP 1% para crear CONTENIDO VIRAL diario aplicando el Método Audience de Elias Mamã (Marconi Rômulo) adaptado por Joseph Moreno. Orquesta 32 sub-agentes especializados (Opus/Sonnet optimizado) que cubren los 3 pilares (gatillos de atención · contenido notable · verdadero yo), los 7 gatillos psicológicos, las 12 estructuras virales, los 8 elementos del contenido notable, las 10 preguntas del núcleo de influencia, los 70+ formatos visuales + banco ZENITH de reels, y el pipeline VALIDADO de análisis de creator viral (scrape Apify → descarga yt-dlp → 5 frames ffmpeg → transcripción Whisper → idea ganadora multimodal → guion adaptado al núcleo). Para cada reel entrega 6 ganchos óptimos (verbal + textual). Mide métricas con Metricool MCP (Free) y aplica sistema de decisión REPLICAR/ITERAR/GUARDAR/APRENDER/DESCARTAR. Entrega guiones en HTML estético imprimible a PDF con branding Zenith (cian #00E5CF + purple #B845FF). Triggers: "dame ideas de reels", "analiza este perfil de instagram", "sácame los virales de @X", "crea un reel sobre", "adapta este viral", "guion de reel", "carrusel", "hilo", "mis métricas de reels", "qué reel replicar", "spy competidor", "trends de mi nicho", "plan de contenido semanal", "núcleo de influencia", "zenith audience", "método audience", "análisis creator viral".
 ---
 
-> 🎯 **REGLA DE LANZAMIENTO (Claude Code real · innegociable).** Cuando lances un subagente con la tool `Agent`, usa SIEMPRE su identificador COMPLETO con el namespace del plugin: **`zenith-audience:<agente>`** (p.ej. `zenith-audience:reel-architect`), nunca el nombre corto a secas. Hay subagentes en OTROS plugins que se llaman igual (`headline-3-tipos`, `research-trends`, `claude-design`…) y el nombre corto puede resolver al plugin equivocado. El prefijo `zenith-audience:` garantiza que se lanza el subagente de ESTE plugin. (Así es como Claude Code registra y resuelve los agentes de un plugin.) **Lo mismo vale al invocar una SKILL de este plugin: `zenith-audience:cruce`, nunca `cruce` a secas — hay una skill llamada `cruce` en al menos diez plugins más.**
+> 🎯 **REGLA DE LANZAMIENTO (Claude Code real · innegociable).** Cuando lances un subagente con la tool `Agent`, usa SIEMPRE su identificador COMPLETO con el namespace del plugin: **`zenith-audience:<agente>`** (p.ej. `zenith-audience:reel-architect`), nunca el nombre corto a secas. Hay subagentes en OTROS plugins que se llaman igual (`headline-3-tipos`, `research-trends`, `claude-design`…) y el nombre corto puede resolver al plugin equivocado. El prefijo `zenith-audience:` garantiza que se lanza el subagente de ESTE plugin. (Así es como Claude Code registra y resuelve los agentes de un plugin.)
 
 
 # ZENITH AUDIENCE™ · Orquestador Maestro de Contenido Viral
@@ -58,6 +58,8 @@ Antes de redactar, comprueba si el usuario ya subió su contexto de marca y úsa
 
 > **DIAGNÓSTICO DE PÚBLICO (cruces):** antes de redactar para un público nuevo o no declarado, este plugin tiene su propio orquestador de cruces — la skill `zenith-audience:cruce` (Temperatura × Consciencia × Sofisticación + tráfico frío, conocimiento local en `${CLAUDE_PLUGIN_ROOT}/knowledge/cruces/`) — invócala para clavar el público y no escribir a ciegas.
 
+> **DIAGNÓSTICO DE PÚBLICO (cruces):** antes de redactar para un público nuevo o no declarado, este plugin tiene su propio orquestador de cruces — la skill `cruce` (Temperatura × Consciencia × Sofisticación + tráfico frío, conocimiento local en `${CLAUDE_PLUGIN_ROOT}/knowledge/cruces/`) — invócala para clavar el público y no escribir a ciegas.
+
 ## QUÉ ES ESTA SKILL
 
 Es la skill PADRE de un sistema de **32 sub-agentes especializados** (cada uno crack de UNA sola cosa) y **22 slash commands** para crear contenido viral diario.
@@ -75,7 +77,7 @@ Implementa el **Método Audience completo** de Elias Mamã (Marconi Rômulo) · 
 Si es la primera vez que el usuario usa la skill en esta sesión · o si un comando va a usar ffmpeg/yt-dlp/Apify/Metricool · PRIMERO ejecuto:
 
 ```bash
-bash ${CLAUDE_PLUGIN_ROOT}/scripts/setup-check.sh
+bash scripts/setup-check.sh
 ```
 
 Y según el resultado:
@@ -123,10 +125,10 @@ Detalle completo y formato → `${CLAUDE_PLUGIN_ROOT}/knowledge/headlines/02-fic
 
 ## ⚠️ REGLA GLOBAL INNEGOCIABLE · FORMATOS (formato-master) + MAQUETADO (reel-html-builder)
 
-1. **Se EXPLORA un menú amplio (8-15+) internamente; al usuario COMPITEN TRES.** El menú de los 70+ del banco es material de trabajo del agente, nunca el entregable: el paso 2 se cierra con TRES candidatos (uno pensando fuera de la caja), un ganador, el porqué y qué se injerta de los descartados. Se explora entre los 70+ del banco **+ el banco ZENITH de ~24 formatos disruptivos** (`${CLAUDE_PLUGIN_ROOT}/knowledge/formatos-reels/10-formatos-zenith-html.md`: alineación de fútbol titular/suplente, escalera 5 niveles, ticket/factura, etiqueta nutricional, monitor de hospital, mapa de metro, organigrama, cerebro Claude.md, ecuaciones, debate, cinematográfico, demo dual-cam, verdad/mentira, no-hagas/haz-esto, antes/después, versus split, ranking irónico, frecuencias, tier list con lógica, roast, herramienta interactiva drag-and-drop con mascota Zenón-cursor) + **PENSAR SIEMPRE FUERA DE LA CAJA** (combinar/inventar ≥1-2 formatos nuevos por reel con objetos cotidianos como metáfora). Incluye familia **save-bait jerárquica** (#70-76).
-2. **Niveles de consciencia OBLIGATORIO** (Schwartz · BAJO 1-2 / MEDIO 3-4 / ALTO 5). Cada formato adaptado por nivel en **hook y cuerpo** (el CTA lo dirige Joseph, no el nivel). **Los niveles se mezclan** (abre en BAJO, sube a MEDIO/ALTO) y **cualquier formato sirve en cualquier nivel**. Ver `${CLAUDE_PLUGIN_ROOT}/knowledge/formatos-reels/08-niveles-consciencia.md` + agente `zenith-audience:consciencia-master`.
-3. **Apify OBLIGATORIO y detallado** (engenharia reversa de ganadores del nicho). Indicar de qué ganador se inspira cada formato + su twist. Ver `${CLAUDE_PLUGIN_ROOT}/knowledge/formatos-reels/09-formatos-jerarquicos-savebait.md`.
-4. **SEPARACIÓN DE ROLES:** `formato-master` decide QUÉ formato + ideas de ganchos. **`reel-html-builder`** MAQUETA el reel terminado → el `.html` doc-guion (con EL DIBUJO del formato + 6 ganchos-hook + ⭐ CUERPO palabra por palabra + overlays + CTA) **+ un `GUION.md` legible** + la herramienta interactiva si es clasificatorio. Ganchos = HOOKS (nunca CTA), call-out al entrenador repartido audio/textual, "comenta LIGA" solo en CTA/último beat. Ver `${CLAUDE_PLUGIN_ROOT}/knowledge/formatos-reels/10-formatos-zenith-html.md` y el agente `${CLAUDE_PLUGIN_ROOT}/agents/31-reel-html-builder.md`.
+1. **MUCHOS formatos, no 3.** Menú amplio (8-15+) de los 70+ del banco **+ el banco ZENITH de ~24 formatos disruptivos** (`${CLAUDE_PLUGIN_ROOT}/knowledge/formatos-reels/10-formatos-zenith-html.md`: alineación de fútbol titular/suplente, escalera 5 niveles, ticket/factura, etiqueta nutricional, monitor de hospital, mapa de metro, organigrama, cerebro Claude.md, ecuaciones, debate, cinematográfico, demo dual-cam, verdad/mentira, no-hagas/haz-esto, antes/después, versus split, ranking irónico, frecuencias, tier list con lógica, roast, herramienta interactiva drag-and-drop con mascota Zenón-cursor) + **PENSAR SIEMPRE FUERA DE LA CAJA** (combinar/inventar ≥1-2 formatos nuevos por reel con objetos cotidianos como metáfora). Incluye familia **save-bait jerárquica** (#70-76).
+2. **Niveles de consciencia OBLIGATORIO** (Schwartz · BAJO 1-2 / MEDIO 3-4 / ALTO 5). Cada formato adaptado por nivel en **hook y cuerpo** (el CTA lo dirige Joseph, no el nivel). **Los niveles se mezclan** (abre en BAJO, sube a MEDIO/ALTO) y **cualquier formato sirve en cualquier nivel**. Ver `08-niveles-consciencia.md` + agente `consciencia-master`.
+3. **Apify OBLIGATORIO y detallado** (engenharia reversa de ganadores del nicho). Indicar de qué ganador se inspira cada formato + su twist. Ver `09-formatos-jerarquicos-savebait.md`.
+4. **SEPARACIÓN DE ROLES:** `formato-master` decide QUÉ formato + ideas de ganchos. **`reel-html-builder`** MAQUETA el reel terminado → el `.html` doc-guion (con EL DIBUJO del formato + 6 ganchos-hook + ⭐ CUERPO palabra por palabra + overlays + CTA) **+ un `GUION.md` legible** + la herramienta interactiva si es clasificatorio. Ganchos = HOOKS (nunca CTA), call-out al entrenador repartido audio/textual, "comenta LIGA" solo en CTA/último beat. Ver `10-formatos-zenith-html.md` y el agente `31-reel-html-builder.md`.
 
 ## ⚠️ REGLA GLOBAL INNEGOCIABLE · HTML SIEMPRE EDITABLE + PDF
 
@@ -138,7 +140,7 @@ TODO HTML que genere la skill (reels, carruseles, hilos, planes, métricas, audi
 4. **PDF idéntico al HTML:** `*{ -webkit-print-color-adjust:exact; print-color-adjust:exact; }` · `@page{ size:A4; margin:12mm; }` · `@media print{ #barra{display:none} · break-inside:avoid en tarjetas/bloques }`.
 5. Colores de fondo desde **CSS** (no imágenes) para que el PDF los respete.
 
-Plantillas ya listas en `${CLAUDE_PLUGIN_ROOT}/templates/*.html` (todas con `#barra` + `#contenido` + script de autoguardado). Al generar un entregable, parte de la plantilla correspondiente y rellena los `{{PLACEHOLDERS}}`.
+Plantillas ya listas en `templates/*.html` (todas con `#barra` + `#contenido` + script de autoguardado). Al generar un entregable, parte de la plantilla correspondiente y rellena los `{{PLACEHOLDERS}}`.
 
 ---
 
@@ -190,7 +192,7 @@ AUDIENCIA ORGÁNICA QUE TE RESPETA · CONFÍA · COMPRA
 
 ---
 
-## ARQUITECTURA · 32 AGENTES EN 9 BLOQUES
+## ARQUITECTURA · 30 AGENTES EN 10 BLOQUES
 
 ### 🔍 BLOQUE A · Investigación (6 agentes)
 - `spy-competidor` (Opus) · analiza 30 posts de un competidor · gaps
@@ -244,21 +246,20 @@ AUDIENCIA ORGÁNICA QUE TE RESPETA · CONFÍA · COMPRA
 
 ---
 
-## LOS 22 SLASH COMMANDS
+## LOS 21 SLASH COMMANDS
 
 | Command | Función |
 |---|---|
 | `/audience-setup` | Setup núcleo influencia (one-shot · 2-3h) |
 | `/audience-doctor` | Diagnostica + instala todo (CLIs · deps Python · MCPs) |
 | `/audience-ideas` | 15-20 ideas multi-fuente para hoy |
-| skill `zenith-audience:cruce` | **Paso 1** · la celda (temperatura × consciencia × sofisticación) + qué impone + prohibidos + los `[SUPUESTO]` · es una SKILL, no un slash command |
 | `/audience-pesquisa` | Investigación profunda mensual de asuntos |
 | `/audience-trend` | Trends multi-fuente (Google + Reddit + YT + Apify) |
 | `/audience-spy [@handle]` | Análisis de competidor |
 | `/audience-analizar-creator [@handle]` ⭐ | Pipeline 10 pasos · scrape + frames + transcripción + maqueta HTML |
 | `/audience-adaptar [url]` ⭐ | Adapta viral a tu núcleo |
+| skill `zenith-audience:cruce` | **Paso 1** · la celda (temperatura × consciencia × sofisticación) + qué impone + prohibidos + los `[SUPUESTO]` · es una SKILL, no un slash command |
 | `/audience-formato [tema]` ⭐ | **Paso 2** · 3 formatos compiten (70+ + banco ZENITH ~24) · piensa FUERA DE LA CAJA · y EL DIBUJO del ganador |
-| `/audience-consciencia [tema]` | Diagnostica el NIVEL de consciencia y la MEZCLA (BAJO/MEDIO/ALTO) |
 | `/audience-reel-html [tema]` ⭐ | **Paso 4** · maqueta el reel terminado: HTML doc-guion + GUION.md legible (+ interactivo si es clasificatorio) |
 | `/audience-headline [tema]` | 3 headlines |
 | `/audience-headline-batch` | Batch mensual 30-50 headlines |
@@ -291,8 +292,6 @@ AUDIENCIA ORGÁNICA QUE TE RESPETA · CONFÍA · COMPRA
    → genero TRANSCRIPCION.md
 9. ADAPTAR · cruzo idea ganadora × tu núcleo
    → genero GUION_ADAPTADO.md con 6 ganchos
-10. NIVEL DE CONSCIENCIA (consciencia-master) + MAQUETAR (reel-html-builder)
-    → REEL.html doc-guion con badge + GUION.md legible
 ```
 
 **Comando:** `/audience-analizar-creator @nathan_perdriau --top 5`
@@ -409,23 +408,16 @@ Día 30  → /audience-engenharia × 3 (top virales del mes)
 
 ---
 
-## KNOWLEDGE LIBRARY · 102 archivos
+## KNOWLEDGE LIBRARY · 51 archivos
 
 ```
 knowledge/
-├── (raíz)                (10) · big idea · Blair Warren · idea ganadora · 5 porqués ·
-│                                storytelling · SVG/HTML épico · deseo vs necesidad · headlines
 ├── core/                  (5) · pilares · algoritmos · misión · niveles atención
 ├── gatillos/              (8) · 7 gatillos + overview
 ├── asuntos-virales/       (3) · 6 categorías + 3 tipos + 5 criterios
-├── headlines/             (3) · 3 tipos + plan creación + ficha técnica obligatoria
-├── templates/            (12) · las 12 estructuras virales (1 por archivo)
+├── headlines/             (3) · 3 tipos + plan creación
+├── templates/             (12) · las 12 estructuras virales (1 por archivo)
 ├── formatos-reels/       (11) · 70+ formatos + banco ZENITH (10-formatos-zenith-html)
-├── cruces/               (22 + 12 referencias) · ⭐ temperatura × consciencia × sofisticación,
-│                                modificadores, conflictos, tráfico frío, estructuras por nivel
-├── copy/                  (2) · ⭐ Biblia del Copy + cómo se usa en Audience
-├── copy-dr/               (3) · contenido en redes · clusters
-├── mecanismo/             (2) · ⭐ Biblia del Mecanismo + cómo usarlo
 ├── notable/               (2) · 8 elementos + Berger STEPPS
 ├── nucleo-influencia/     (2) · 10 preguntas + verdadero yo
 ├── metricas/              (2) · 3 métricas + decisión

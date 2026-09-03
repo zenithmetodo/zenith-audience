@@ -18,7 +18,7 @@ Diagnóstico + auto-instalación completa de Zenith Audience.
 
 ### 1 · Verifico CLIs críticos
 ```bash
-bash ${CLAUDE_PLUGIN_ROOT}/scripts/setup-check.sh
+bash scripts/setup-check.sh
 ```
 
 Comprueba e **instala automáticamente** si faltan:
@@ -63,7 +63,7 @@ Te digo exactamente qué funciona y qué no:
 
 Cuando ejecutas `/audience-doctor`, yo (Claude):
 
-1. Ejecuto `${CLAUDE_PLUGIN_ROOT}/scripts/setup-check.sh`
+1. Ejecuto `scripts/setup-check.sh`
 2. Leo el output
 3. **Instalo lo que falte** (CLIs vía brew/apt · Python vía pip)
 4. Te **guío para configurar los MCPs** (Apify · Metricool) con comandos copy-paste

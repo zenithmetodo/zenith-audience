@@ -81,7 +81,7 @@ SIEMPRE · debajo de la PORTADA (Slide 0 · el headline del carrusel) · añado 
 
 ## Output que entrego
 
-**FORMATO:** HTML estético PDF-ready en `${CLAUDE_PLUGIN_ROOT}/templates/carrusel-guion.html`
+**FORMATO:** HTML estético PDF-ready en `templates/carrusel-guion.html`
 
 ```markdown
 # CARRUSEL · "[título]"

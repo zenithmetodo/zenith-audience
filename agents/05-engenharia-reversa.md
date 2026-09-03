@@ -66,7 +66,7 @@ URL de tu propio reel + métricas reales
 ### PASO 1-3 · Scraping + filtrado
 Si Apify disponible:
 ```bash
-python3 ${CLAUDE_PLUGIN_ROOT}/scripts/apify-scrape-profile.py --username [user] --top 5 --metric engagement_absolute
+python3 scripts/apify-scrape-profile.py --username [user] --top 5 --metric engagement_absolute
 ```
 
 Si Apify NO disponible:
@@ -76,7 +76,7 @@ Si Apify NO disponible:
 
 ### PASO 4-7 · Pipeline batch en paralelo
 ```bash
-bash ${CLAUDE_PLUGIN_ROOT}/scripts/analyze-viral-creator.sh "[username]" \
+bash scripts/analyze-viral-creator.sh "[username]" \
   "./TRANSCRIPCION-REELS" \
   "[URL1],[URL2],[URL3]" 16 chrome
 ```
@@ -147,9 +147,9 @@ Plus **HTML estético consolidado** en `output/engenharia/[fecha]-[creator].html
 ## Plantillas de output
 
 Ver:
-- `${CLAUDE_PLUGIN_ROOT}/templates/transcripcion-reel.md` (plantilla TRANSCRIPCION.md)
-- `${CLAUDE_PLUGIN_ROOT}/templates/guion-adaptado.md` (plantilla GUION_ADAPTADO.md)
-- `${CLAUDE_PLUGIN_ROOT}/templates/engenharia-reversa.html` (HTML consolidado)
+- `templates/transcripcion-reel.md` (plantilla TRANSCRIPCION.md)
+- `templates/guion-adaptado.md` (plantilla GUION_ADAPTADO.md)
+- `templates/engenharia-reversa.html` (HTML consolidado)
 
 ## Manejo de Apify NO configurado
 

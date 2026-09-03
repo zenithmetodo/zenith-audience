@@ -6,9 +6,9 @@
 
 ### Sistema diario para crear contenido viral con identidad incopiable
 
-**32 agentes · 22 commands · 102 knowledge files · 70+ formatos + banco ZENITH (~24) · 6 ganchos-hook por reel · 7 HTML templates · 100% gratis**
+**32 agentes · 22 commands · 57 knowledge files · 70+ formatos + banco ZENITH (~24) · 6 ganchos-hook por reel · 7 HTML templates · 100% gratis**
 
-[![Licencia](https://img.shields.io/badge/Licencia-Propietaria-B845FF.svg)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-cyan.svg)](https://opensource.org/licenses/MIT)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Plugin-purple.svg)](https://claude.com/claude-code)
 [![Status](https://img.shields.io/badge/Status-v1.11.0-00E5CF.svg)](https://github.com/zenithmetodo/zenith-audience/releases)
 [![Free](https://img.shields.io/badge/Métricas-100%25%20Gratis-00E5CF.svg)](#stack-100-gratis)
@@ -307,28 +307,23 @@ Setup ONE-SHOT al inicio (2-3h):
 
 ---
 
-## Knowledge Library · 102 archivos
+## Knowledge Library · 57 archivos
 
 ```
 knowledge/
-├── (raíz)                         (10) · big idea · Blair Warren · idea ganadora · 5 porqués ·
-│                                         storytelling · SVG/HTML épico · deseo vs necesidad
 ├── core/                           (5) · pilares · algoritmos · misión
 ├── gatillos/                       (8) · 7 gatillos + overview
 ├── asuntos-virales/                (3) · 6 categorías + 3 tipos + 5 criterios
-├── headlines/                      (3) · 3 tipos + plan creación + ficha técnica
+├── headlines/                      (3) · 3 tipos + plan creación
 ├── templates/                      (12) · 1 archivo por estructura
 ├── formatos-reels/                 (11) · 70+ formatos + banco ZENITH
-├── cruces/                         (22) · ⭐ temperatura × consciencia × sofisticación,
-│   └── referencias/                (12)   modificadores, conflictos, tráfico frío, estructuras
 ├── notable/                        (2) · 8 elementos + Berger STEPPS
 ├── nucleo-influencia/              (2) · 10 preguntas + verdadero yo
 ├── metricas/                       (2) · 3 métricas + decisión
 ├── pipelines/                      (3) · análisis creator viral ⭐ · EL MÉTODO DEL REEL 🔴 ·
 │                                         DOS EJEMPLOS TRABAJADOS + LAS CLAVES ⭐
 ├── mecanismo/                      (2) · ⭐ Biblia del Mecanismo + cómo usarlo en Audience
-├── copy/                           (2) · ⭐ Biblia del Copy + cómo usarlo en Audience
-└── copy-dr/                        (3) · contenido en redes · clusters
+└── copy/                           (2) · ⭐ Biblia del Copy + cómo usarlo en Audience
 ```
 
 > 🔴 **El método obligatorio del reel** (`knowledge/pipelines/01`) y **los dos ejemplos trabajados**
@@ -342,7 +337,7 @@ Cada knowledge internalizado en system prompt de los agentes (estilo Custom GPT)
 
 ## Instalación
 
-### Opción 1 · Auto-install
+### Opción 1 · Auto-install (recomendado)
 
 ```bash
 # macOS / Linux
@@ -528,7 +523,7 @@ El **Método Audience** original es de **Elias Mamã (Marconi Rômulo)** y su eq
 
 ## License
 
-Licencia de uso propietaria · ver [LICENSE](LICENSE).
+MIT License · ver [LICENSE](LICENSE).
 
 ---
 

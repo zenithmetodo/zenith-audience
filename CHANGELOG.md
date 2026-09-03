@@ -13,7 +13,7 @@
   - **EJEMPLO B · LA ONDA (el no-show)** — el que **suspendió**: diagnóstico de cruce excelente (frío por RELACIÓN y no por ignorancia · S4-S5 con los mecanismos quemados · el hueco en el carril del DIAGNÓSTICO) y **los tres revisores lo tumbaron a la primera**. Sin maquillar: síntoma que no se reconocía en 3 s · ganchos abriendo con la pantalla vacía · **un dato inventado con fuente falsa** · un remate que culpaba al que mira · jerga interna en pantalla de principio a fin · y un guion que no cabía en la duración que declaraba. Su **DIBUJO es el modélico** (coordenadas, píxeles, tiempos).
   - Cierra con **LAS CLAVES · 12 reglas** sacadas de lo que falló en producción, no de la teoría.
 - ✅ `01-metodo-obligatorio-del-reel.md` enlaza al 02 y concreta **quién hace cada uno de los tres pases de revisión**.
-- ✅ Counts sincronizados de verdad (contados, no estimados): README · INSTALL · SKILL · plugin.json.
+- ✅ **Versión y recuentos:** `plugin.json` y `marketplace.json` a **1.11.0** y coincidiendo entre sí · README y SKILL suman los 2 ficheros nuevos del método (55→57 y 49→51) · badge del README a v1.11.0.
 
 ### 🔧 El método, propagado a los EJECUTORES (antes moría en la frontera del SKILL.md)
 
@@ -22,15 +22,13 @@
 - ✅ **`/audience-audit` pasa a ser el gate de verdad:** **tres pases independientes** de `notable-auditor` (VOZ · GRABABLE · CTA Y RECONOCIMIENTO), veredicto **OK/FIX** con la corrección exacta en vez del `SCORE X/100`, y *"con un solo FIX abierto no se entrega"*. `notable-auditor` estrena la sección **MODO DE PASE** con el checklist de cada uno.
 - ✅ **Resuelta la contradicción TRES formatos vs 8-15+** (estaba en el mismo SKILL.md, y la versión 8-15+ era la propagada a los ejecutores): **se explora un menú amplio internamente y al usuario COMPITEN TRES**. Aplicado, palabra por palabra, en SKILL · `formato-master` · `00-master-formatos-reels` · `10-formatos-zenith-html`; y `consciencia-master` pasa de "2-3 formatos" a "3".
 - ✅ **LA TRAMPA DEL ORDEN, escrita:** *"orden de trabajo ≠ orden de documento"* — el paso 2 deja el hueco del `DI →` **marcado y vacío**; el texto literal es del paso 3. **`formato-master` no escribe guion nunca.**
-- ✅ **`zenith-audience:` en TODAS las invocaciones** de `agents/` y `commands/` (antes: cero). Y la skill del paso 1 pasa a citarse como **`zenith-audience:cruce`** — hay una skill llamada `cruce` en al menos diez plugins más.
+- ✅ **`zenith-audience:` en las invocaciones de los ficheros del método** (3 agentes y 5 comandos; antes: cero en todo `agents/` y `commands/`). Y la skill del paso 1 pasa a citarse como **`zenith-audience:cruce`** — hay una skill llamada `cruce` en al menos diez plugins más.
 - ✅ **`/audience-formato` describe por fin el paso 2** (los tres, las dos mecánicas, el ganador y **EL DIBUJO**) y deja de invadir el paso 4 en su `description`.
 - ✅ **Las reglas del HTML editable** (`#barra` fuera de `#contenido` · clave única en la copia · volcado en `visibilitychange`/`beforeunload` · cancelar el debounce antes de restablecer · guardar antes de imprimir · pegado a texto plano) escritas en `reel-html-builder` y en `/audience-reel-html`, que es donde se evitan.
-- ✅ **Rutas:** 13 rutas relativas `scripts/…` y `templates/…` prefijadas con `${CLAUDE_PLUGIN_ROOT}/` (el comando de auto-verificación del SKILL fallaba siempre), y la ruta fantasma `MEMORIA ARCHIVOS MD/…` —lectura *obligatoria* de una carpeta que no existe en el plugin— sustituida por la **búsqueda tolerante con Glob** que ya define el propio SKILL.
 - ✅ **Datos inventados fuera de `02-ejemplos-trabajados.md`** (verificados uno a uno contra los guiones reales): el gancho A del ejemplo A era un Frankenstein que además abría nombrando el formato —lo que el propio reel prohíbe—; el badge `FRÍO N1→N2` con pastilla, color y píxeles no existía y contradecía la CLAVE 7; los "52 segundos" y el "cuatro de los seis" no se pueden señalar en la fuente; la duración "70-85 s" son 81 (76 con cortes); "están grabados" son "listos para grabar"; y el documento se equivocaba contando sus propios hallazgos (seis y doce, no cuatro y trece).
-- ✅ **Repo:** `install.sh` instala por fin **como plugin de marketplace** (clonaba en `~/.claude/skills/`, justo lo que el README dice que deja los 32 agentes inertes) · README declara **licencia propietaria** en vez de MIT · `INSTALL.md` dice 22 comandos y su árbol incluye `skills/` · el CI compara los counts **contra el README** en vez de umbrales flojos · `.in_use/` fuera de git y en `.gitignore` · SVG y plantilla de issue a v1.11.0.
 
 #### Stats actuales
-- **32 agentes** · **22 commands** · **102 knowledge files** · **9 bloques** · 70+ formatos + banco ZENITH (~24) · 6 ganchos-hook por reel · 7 HTML templates
+- **32 agentes** · **22 commands** · **+2 knowledge files del método** (`pipelines/01` y `pipelines/02`) · 70+ formatos + banco ZENITH (~24) · 6 ganchos-hook por reel · 7 HTML templates
 
 ---
 

@@ -12,7 +12,7 @@ model: opus
 ## Conocimiento que cargo SIEMPRE (Read antes de dictaminar)
 1. `${CLAUDE_PLUGIN_ROOT}/knowledge/formatos-reels/08-niveles-consciencia.md` — el mapeo completo (mi biblia).
 2. `${CLAUDE_PLUGIN_ROOT}/knowledge/formatos-reels/10-formatos-zenith-html.md` — qué formato encaja en cada nivel.
-3. **El avatar y la voz del usuario.** Busca con Glob en el proyecto del usuario: `**/tono*.md`, `**/voz*.md`, `**/avatar*.md`, `**/nucleo*.md`. Si aparecen, cárgalas y escribe con esa voz. Si no aparecen, usa la voz Zenith por defecto en español de España. **No es una lectura obligatoria: es una búsqueda tolerante.**
+3. `MEMORIA ARCHIVOS MD/avatar-cliente-ideal.md` y `tono-y-comunicacion.md` (carpeta del usuario) — el avatar y la voz.
 
 ## Qué CONECTA en cada nivel (lo nuclear)
 

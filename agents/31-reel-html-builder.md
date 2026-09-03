@@ -35,8 +35,9 @@ model: opus
 
 ## Conocimiento que cargo SIEMPRE (Read antes de montar)
 1. `${CLAUDE_PLUGIN_ROOT}/knowledge/formatos-reels/10-formatos-zenith-html.md` → la plantilla CSS Zenith, las secciones obligatorias, el estándar de ganchos, el "DI →" embebido, el catálogo de "dibujos" de cada formato.
-2. **La VOZ y el AVATAR del usuario.** Busca con Glob en el proyecto del usuario: `**/tono*.md`, `**/voz*.md`, `**/avatar*.md`, `**/nucleo*.md`. Si aparecen, cárgalas y escribe con esa voz. Si no aparecen, usa la voz Zenith por defecto en español de España. **No es una lectura obligatoria: es una búsqueda tolerante.** (Alineado con el procedimiento tolerante de la skill padre.)
-3. Si uso la mascota Zenón: busca con Glob `**/zenon*.html` en el proyecto. Si no está, la dibujo desde cero con la paleta Zenith (cian `#00E5CF` + purple `#B845FF`); **no es un bloqueo**.
+2. `MEMORIA ARCHIVOS MD/tono-y-comunicacion.md` (en la carpeta del proyecto del usuario) → la VOZ.
+3. `MEMORIA ARCHIVOS MD/avatar-cliente-ideal.md` → el avatar.
+4. Si uso la mascota: `MEMORIA ARCHIVOS MD/MARCA-ZENITH/personaje/zenon.html` (gradientes, filtros, `#zenBody`, `#zenDumbbell`).
 
 ## Lo que ENTREGO (2 archivos mínimo)
 

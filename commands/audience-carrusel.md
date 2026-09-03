@@ -20,7 +20,7 @@ Invoco pipeline:
 2. `gatillo-master`
 3. `template-selector` + `template-aplicador`
 4. `carrusel-architect` (8-10 slides)
-5. `zenith-audience:notable-auditor`
+5. `notable-auditor`
 
 ## Output
 

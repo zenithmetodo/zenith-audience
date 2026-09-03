@@ -16,10 +16,10 @@ Thread estructurado completo.
 ## Lo que hago
 
 Invoco pipeline:
-1. `zenith-audience:gatillo-master`
-2. `zenith-audience:template-aplicador`
-3. `zenith-audience:hilo-architect` (genera 8-15 tweets)
-4. `zenith-audience:notable-auditor`
+1. `gatillo-master`
+2. `template-aplicador`
+3. `hilo-architect` (genera 8-15 tweets)
+4. `notable-auditor`
 
 ## Output
 

@@ -58,9 +58,7 @@ Cuando el formato es lista/escalera/ranking, embeber en cada elemento una línea
 
 ---
 
-## 3 · VOZ ZENITH
-
-> Busca con Glob en el proyecto del usuario: `**/tono*.md`, `**/voz*.md`, `**/avatar*.md`, `**/nucleo*.md`. Si aparecen, cárgalas y escribe con esa voz. Si no aparecen, usa la voz Zenith por defecto en español de España. **No es una lectura obligatoria: es una búsqueda tolerante.** Lo de abajo es la voz Zenith por defecto.
+## 3 · VOZ ZENITH (de `MEMORIA ARCHIVOS MD/tono-y-comunicacion.md`)
 
 Claro y humano, **una idea por frase**, disruptivo ≠ chulería. **Psicología del no:** afirmar lo deseado, jamás "no es tu culpa" → apuntar a la causa externa ("te lo enseñaron al revés"). **Prohibida la típica analogía de IA** ("casa sin cimientos", "coche sin gasolina"); sí **analogías humanas españolas**. Palabrota muy dosificada (orgánico). **CTA pequeño:** *"comenta LIGA y te mando los 3 puntos/pasos…"* + *"sígueme si quieres dejar de ser un entrenador 24/7 y operar como la liga del 1%"*. Nunca "el método completo".
 
@@ -123,4 +121,4 @@ Claro y humano, **una idea por frase**, disruptivo ≠ chulería. **Psicología 
 ---
 
 ## Atribución
-Formatos creados en producción con Joseph Moreno (Método Zenith) · 2026. Modelados de virales reales (@nuclimed, @_celiarubio, @sannidhyabaweja, @nathan.perdriau, @thedankoe, @danmartell, @benheathmarketing, @liamottley) + inventados desde cero. Conecta con `00-master-formatos-reels.md`, `08-niveles-consciencia.md` y la voz/avatar que se encuentre en el proyecto del usuario (búsqueda tolerante con Glob; si no hay, voz Zenith por defecto).
+Formatos creados en producción con Joseph Moreno (Método Zenith) · 2026. Modelados de virales reales (@nuclimed, @_celiarubio, @sannidhyabaweja, @nathan.perdriau, @thedankoe, @danmartell, @benheathmarketing, @liamottley) + inventados desde cero. Conecta con `00-master-formatos-reels.md`, `08-niveles-consciencia.md` y la memoria `MEMORIA ARCHIVOS MD/`.
